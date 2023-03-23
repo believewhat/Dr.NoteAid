@@ -1,0 +1,30 @@
+dialogue:
+Doctor: What brings you back into the clinic today?
+Patient: I have been having some severe bruising. I have been taking Coumadin for three months now. Am I taking to much Coumadin? 
+Doctor: You are taking a normal start dose. Some people do not metabolize the medication as well as others. I would like to get you tested for hypersensitivity. After we get the test results back, we will be able to adjust your dosage accordingly.  
+Patient: Okay.
+
+Generate chief complaint section of the medical note from dialogue.Probable Coumadin hypersensitivity.
+* Another example below *
+ dialogue:
+Guest_clinician: She was in a car crash, correct? 
+Doctor: Correct. About two days ago. I believe it was a head on collision.
+
+Generate chief complaint section of the medical note from dialogue.Motor vehicle accident.
+* Given example above, solve this below *
+dialogue:
+Doctor: Have you been checking your blood sugar regularly? 
+Patient: Yes, I check it twice a day and I make sure to record the readings each time. 
+Doctor: That's great to hear. Do you mind if I take a look at the readings you brought with you today? 
+Patient: No, it's not a problem. Here, let me get my bag. 
+Doctor: Have you been experiencing any dizziness, excessive urination, fatigue, weight loss, or any other symptoms? 
+Patient: No. 
+Doctor: I have a copy of your blood work right here and it looks like your cholesterol is still pretty high. I'd like you to continue taking the cholesterol medication I prescribed and monitoring your cholesterol intake. 
+Patient: I need to do a better job of watching my cholesterol. 
+Doctor: For this reason, I'd like to schedule another follow up appointment and get you in in a few weeks after another blood draw. 
+Patient: I'll make an appointment today before I leave. 
+Doctor: Great, good. And how are your sinus symptoms since starting the Z Pak? 
+Patient: Much better. I feel almost as good as new. 
+Doctor: Wonderful. Okay then. Let me have a look at your sinuses and you'll be on your way.
+
+Generate chief complaint section of the medical note from dialogue.Followup on diabetes mellitus, hypercholesterolemia, and sinusitis.

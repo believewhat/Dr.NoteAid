@@ -1,0 +1,35 @@
+dialogue:
+Doctor: Good afternoon, ma'am. 
+Patient: Good afternoon, doctor. 
+Doctor: Before we begin, how old are you?
+Patient: I'm fifty seven years old. 
+Doctor: Very well, and what seems to be the problem today? 
+Patient: So, I had surgery on these feet, um, like thirteen years ago to remove bunions, but they're back now. 
+Doctor: I see, are these bunions present on both feet? 
+Patient: Yeah, they are. 
+Doctor: Is one foot worse than the other? 
+Patient: Yeah, my right foot is worse than the left. 
+Doctor: Is the pain getting worse?
+Patient: Yes, and I'm so uncomfortable. 
+Doctor: On the right foot, do you have any other pain? Or is it just because of the bunion? 
+Patient: Well, I have some pain here, and here. 
+Doctor: Okay, just so you know, these are the second toe, and M T P joint. This is where you're feeling the pain, right?
+Patient: Yes, it hurts so bad there. 
+Doctor: There's some deformity here at the second toe as well. 
+Patient: Yes, I see what you're talking about. 
+Doctor: Going back to that surgery thirteen years ago, did you heal up well?
+Patient: Since that surgery this bunion has slowly been coming back. 
+Doctor: I see. 
+Patient: Please, look at my left foot, do those toes look strange to you?
+Doctor: Yes, you have that deformity in the second and third toes of the left foot as well. 
+Patient: What does that mean?
+Doctor: It means you have some arthritis in these toes. What do you do for a living?
+Patient: I see. I work in the hospital.
+Doctor: Can I assume you're on your feet all day for work?
+Patient: Yes, I have to stand all day every day. 
+Doctor: Do you wear supports, or any kind of orthotics? 
+Patient: Yes, I wear orthotics. 
+Doctor: Do those provide any relief? 
+Patient: They definitely give me some relief, but I'm still in so much pain.
+
+Generate history of present illness section of the medical note from dialogue.The patient is a 57-year-old female who previously underwent surgery for bunions on her feet about 15 years ago.  The patient states that the right foot is worse than the left, with some pain there.  The patient has some pain here on the second toe as well, with some deformity at the second toe as well.  The patient has some arthritis in the second and third toes of the left foot as well, as well as some arthritis in the toes of the left foot.  She is currently working in the hospital and has been in so much pain.  She has been wearing a wheelchair all day and has been in so much pain that she has been unable to work.  She has been in so much pain that she has been unable to work.  She has been in so much pain that she has been unable to sleep.  She has been in so much pain that she has been unable to work.  She has been in so much pain that she has been unable to walk.  She has been in so much pain that she has been unable to stand.  She has been in so much pain that she has been unable to work.  She has been in so much pain that she has been unable to work.  She has been in so much pain that she has been unable to work.  She has been in so much pain that she has been unable to work.  She has been in so much pain that she has been unable to work.  She has been in so much pain that she has been unable to work.  She has been in so much pain that she has been unable to work.  She has been in so much pain that she has been unable to work.  She has been in so much pain that she has been unable to work.  She has been in so much pain that she has been unable to work.  She has been in so much pain that she has been unable to work.  She has been in so much pain that she has been

@@ -1,0 +1,35 @@
+dialogue:
+Doctor: How old are you, sir? 
+Patient: I am sixty two year old African American. 
+Doctor: Do you have any relevant past medical history? 
+Patient: I do have diabetes, high blood pressure and I had a stroke in the year two thousand and two. I do have weakness on my right side after that. I also had two heart attacks. Ah. 
+Doctor: Any history of surgery? 
+Patient: I have a pacemaker. 
+Doctor: It shows here that you came to us in two thousand and one for weakness and numbness in your legs. How is that now? 
+Patient: Oh, it was never gone. Instead, it has also moved to my hands and areas above my knees. 
+Doctor: What are your symptoms now? 
+Patient: It's mostly like something is burning and numbness is still there. 
+Doctor: Is that your main concern? 
+Patient: Yeah, it is. That is my main problem. I do have pain, but it is not that much of a concern. 
+Patient: For the last six months, I cannot feel anything hot in my hands. Things slip out of my hand. I don't have any weakness as such, but it's just like that feeling of clumsiness and it's just lots of sensation. 
+Patient: Sometimes I feel, like, these jerks in my body, mainly my shoulders and both hands. 
+Doctor: Has it been for some time? 
+Patient: It has been like forever but now I am noticing it more than before. 
+Doctor: Do you get any kind of tremors? 
+Patient: No. 
+Doctor: Any neck pain? 
+Patient: No, but as you might have noticed I am using this walker because I do not feel safe walking. 
+Doctor: Have you used anything for your pain? 
+Patient: Yeah, they tried different medicines but only oxycodone helped a little. It does give me sometimes around three hours of relief. Gabapentin did not work at all. 
+Doctor: How is your sleep?
+Patient: I cannot sleep properly because of the pain. It has been for many years. I haven't had a proper sleep. 
+Doctor: When did you get your pacemaker? 
+Patient: It was around six months ago after the heart attack and pacemaker I was transferred to a nursing home. There they stopped my insulin and since then, I'm taking tablets for that. 
+Doctor: Do you have any back pain?
+Patient: Nope. 
+Doctor: Any change in bathroom routine? 
+Patient: No. 
+Doctor: Did you ever have any accidents or any injury before all this started? 
+Patient: No, nothing like that.
+
+Generate history of present illness section of the medical note from dialogue.The patient is a 62-year-old African-American female with a history of coronary artery disease, diabetes mellitus, hypertension, and stroke.  She presents now with a six-month history of numbness, tingling, and pain in her right hand and legs.  She also reports that she has been having some numbness in her hands and arms.  She denies any hot or cold intolerance.  She denies any weakness.  She denies any other complaints.  She was recently admitted to a nursing home and was treated with Oxycodone for pain control.  She has had no relief with Oxycodone and has been taking it for several hours without any relief.  She denies any back pain.  She denies any neck pain.  She has been using a walker for the last six months.  She denies any other back pain.  She denies any bowel or bladder difficulties.  She denies any history of back surgery.  She denies any other significant past medical history.

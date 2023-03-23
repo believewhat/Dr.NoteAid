@@ -1,0 +1,47 @@
+dialogue:
+Doctor: Are you taking any medications for your pain?
+Patient: Yeah, occasionally.
+Doctor: Which one?
+Patient: Just a regular pain medicine.
+
+Generate medications section of the medical note from dialogue.Occasional acetaminophen.
+* Another example below *
+ dialogue:
+Doctor: What medications are you currently taking? 
+Patient: Augmentin, Detroal LA and lisinopril.
+
+Generate medications section of the medical note from dialogue.Augmentin; Detrol LA; lisinopril.
+* Another example below *
+ dialogue:
+Doctor: Are you on any medications at this time? 
+Patient: None whatsoever. 
+Doctor: Got it.
+
+Generate medications section of the medical note from dialogue.None.
+* Another example below *
+ dialogue:
+Doctor: Do you take any daily medications or supplements? 
+Patient: Nope.
+
+Generate medications section of the medical note from dialogue.None.
+* Another example below *
+ dialogue:
+Doctor: I can see your medication list here.
+Doctor: Do you take Accutane and Ovcon?
+Patient: Yes, I do.
+Doctor: Okay.
+Patient: Okay.
+
+Generate medications section of the medical note from dialogue.Accutane and Ovcon.
+* Given example above, solve this below *
+dialogue:
+Doctor: Are you on any meds?
+Patient: No why?
+Doctor: I am asking for the EHR.
+Patient: Oh ok. Nurse already asked me that.
+Doctor: Ok, let me update it here.
+Patient: Sure. Take your time.
+Doctor: Thanks.
+Patient: Anytime.
+
+Generate medications section of the medical note from dialogue.He is on no medications.

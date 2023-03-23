@@ -1,0 +1,43 @@
+dialogue:
+Doctor: Hello! What brings you into the office today?
+Patient: Hi! I have not been able to go pee, and I have had this sharp pain in my left side. 
+Doctor: Have you recently had any surgical procedures?
+Patient: No. 
+Doctor: Do you have a history of an enlarged prostate or kidney stones? 
+Patient: No. 
+Doctor: I would like to get some imaging done. 
+Patient: Okay.
+
+Generate chief complaint section of the medical note from dialogue.Left flank pain and unable to urinate.
+* Another example below *
+ dialogue:
+Doctor: What brings you back into the clinic today?
+Patient: I have been having some severe bruising. I have been taking Coumadin for three months now. Am I taking to much Coumadin? 
+Doctor: You are taking a normal start dose. Some people do not metabolize the medication as well as others. I would like to get you tested for hypersensitivity. After we get the test results back, we will be able to adjust your dosage accordingly.  
+Patient: Okay.
+
+Generate chief complaint section of the medical note from dialogue.Probable Coumadin hypersensitivity.
+* Another example below *
+ dialogue:
+Guest_clinician: She was in a car crash, correct? 
+Doctor: Correct. About two days ago. I believe it was a head on collision.
+
+Generate chief complaint section of the medical note from dialogue.Motor vehicle accident.
+* Given example above, solve this below *
+dialogue:
+Doctor: Hi, I'm the doctor that'll be treating you today. 
+Patient: Hiya. Sounds good. 
+Doctor: What's bringing you in? 
+Patient: A big ol lump in my chest. 
+Doctor: How long since you first noticed it? 
+Patient: It's been there for at least a year. 
+Doctor: Where on your chest? 
+Patient: On the left side.
+Doctor: Is it causing you pain? 
+Patient: Um kind of it. It's gotten a lot more tender, and it hurts when I take deep breaths.
+Doctor: Has it grown in size? 
+Patient: It has. 
+Doctor: And just to confirm what is in your chart, can you confirm your age, race, and gender.
+Patient: Sure, I am a 56-year-old white man.
+
+Generate chief complaint section of the medical note from dialogue.Lump in the chest wall.

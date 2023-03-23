@@ -1,0 +1,22 @@
+dialogue:
+Doctor: Mister Sunil, your blood pressure is high, and I am noticing this from past two-three times you have been here. It's been constantly high, you are not taking it seriously. 
+Patient: No, nothing like that Doctor! It's been well under control. I have been monitoring at home.
+Doctor: Are you noting your readings? Did you bring it with you?
+Patient: No. I did not get the readings with me but I assure you I am taking care and my B P is normal.
+Doctor: Well, it's up and I am little bothered by it.
+
+Generate history of present illness section of the medical note from dialogue.His blood pressure up.  The last two to three times he has been in here, it has been up.  He has assured me before that his blood pressure is under good control at home, but he does not bring any blood pressures in with him this time, which bothers me.
+* Given example above, solve this below *
+dialogue:
+Doctor: Good afternoon, ma'am. 
+Patient: Good afternoon, doctor. 
+Doctor: Before we get started, I just need some background information. How old are you?
+Patient: I'm fifty six, doctor. 
+Doctor: Good, what's a young lady like you doing in my office? I hear you got hurt, what happened? 
+Patient: I don't remember exactly what happened, but my foot twisted and there was so much pain right away. 
+Doctor: When did this happen? 
+Patient: Um, it was on November twenty sixth two thousand seven. I think it was around eleven thirty in the morning. 
+Doctor: Okay, do you have any other injuries I should know about?
+Patient: No, just this one right now.
+
+Generate history of present illness section of the medical note from dialogue.The patient is a 56-year-old female who had her foot twisted on 10/26/2007.  The patient states that she did not report any injury.  She states that on 11/30/2007, she had pain in her foot.  She states that she did not remember what happened, but she does state that she does have some other injuries.

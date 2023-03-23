@@ -1,0 +1,32 @@
+dialogue:
+Doctor: Mister Sunil, your blood pressure is high, and I am noticing this from past two-three times you have been here. It's been constantly high, you are not taking it seriously. 
+Patient: No, nothing like that Doctor! It's been well under control. I have been monitoring at home.
+Doctor: Are you noting your readings? Did you bring it with you?
+Patient: No. I did not get the readings with me but I assure you I am taking care and my B P is normal.
+Doctor: Well, it's up and I am little bothered by it.
+
+Generate history of present illness section of the medical note from dialogue.His blood pressure up.  The last two to three times he has been in here, it has been up.  He has assured me before that his blood pressure is under good control at home, but he does not bring any blood pressures in with him this time, which bothers me.
+* Given example above, solve this below *
+dialogue:
+Doctor: When did your pain begin? 
+Patient: I've had low back pain for about eight years now.
+Doctor: Is there any injury? 
+ Patient: Yeah, it started when I fell in an A B C store.
+Doctor: How old are you now?
+Patient: I'm twenty six.  
+Doctor: What kind of treatments have you had for this low back pain? 
+Patient: Yeah, I got referred to P T, and I went, but only once or twice, um, and if I remember right, they only did the electrical stimulation, and heat. 
+Doctor: I see, how has your pain progressed over the last eight years? 
+Patient: It's been pretty continuous, but it's been at varying degrees, sometimes are better than others. 
+Doctor: Do you have any children? 
+Patient: Yes, I had my son in August of two thousand eight, and I've had back pain since giving birth. 
+Doctor: Have you had any falls since the initial one? 
+Patient: Yes, I fell four or five days ago while I was mopping the floor. 
+Doctor: Did you land on your lower back again?
+Patient: Yes, right onto my tailbone. 
+Doctor: Did that make the low back pain worse? 
+Patient: Yes. 
+Doctor: Have you seen any other doctors for this issue? 
+Patient: Yes, I saw Doctor X on January tenth two thousand nine, and I have a follow up appointment scheduled for February tenth two thousand nine.
+
+Generate history of present illness section of the medical note from dialogue.The patient is a 26-year-old female who has chronic low back pain.  The patient was referred to Physical Therapy, but only once or twice and was only treated with electric stimulation and heat.  The patient states that her low back pain has been constant, but is much improved over the last eight years.  The patient has had a history of low back pain for about eight years.  The patient states that she fell in an ABS store.  She fell four to five days ago while mopping the floor and had low back pain.  She has a follow-up appointment with Dr. X on 01/10/09.  The patient has not been seen by any other physician for this problem.

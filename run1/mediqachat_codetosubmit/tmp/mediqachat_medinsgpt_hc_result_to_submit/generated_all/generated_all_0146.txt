@@ -1,0 +1,27 @@
+dialogue:
+Doctor: Mister Sunil, your blood pressure is high, and I am noticing this from past two-three times you have been here. It's been constantly high, you are not taking it seriously. 
+Patient: No, nothing like that Doctor! It's been well under control. I have been monitoring at home.
+Doctor: Are you noting your readings? Did you bring it with you?
+Patient: No. I did not get the readings with me but I assure you I am taking care and my B P is normal.
+Doctor: Well, it's up and I am little bothered by it.
+
+Generate history of present illness section of the medical note from dialogue.His blood pressure up.  The last two to three times he has been in here, it has been up.  He has assured me before that his blood pressure is under good control at home, but he does not bring any blood pressures in with him this time, which bothers me.
+* Given example above, solve this below *
+dialogue:
+Doctor: Good morning, young man. Is this your mother?
+Patient: Yes, doctor.
+Doctor: Good, nice to mee you. Can you tell me more about your son, please? 
+Guest_family: Good morning to you too, doctor. Well, he's about five and a half now, and he broke both the bones in his forearm in September of two thousand seven. 
+Doctor: How did the fracture heal? Generally, children heal very well. 
+Guest_family: Well, yes, until he also rebroke it about a month ago. 
+Doctor: Yes, I see now, there's an ulnar nail pretty prominently visible under the skin, did he have surgery for this? 
+Guest_family: Yes, about a month ago now. Should we remove the nail?
+Doctor: We'll have to, even though its early.
+Guest_family: What will we do after the nail is removed? 
+Doctor: After that, we'll put him back in a cast for about another three weeks. We'll evaluate him and see how he's doing.  
+Guest_family: Okay. What are the risks of infection for this surgery?
+Doctor: The risk of infection is overall very low, honestly its less than one percent. We use antibiotics to control for infection the entire time. Other risks include bleeding, changes in sensation in most of the extremity, or need for longer casting. I would not worry too much about these risks. I have not seen anything bad happen before.
+Guest_family_1: Will he be asleep for the surgery?
+Doctor: Yes, he won't feel a thing.
+
+Generate history of present illness section of the medical note from dialogue.The patient is a 5-year, 8-month-old male who presented to the emergency room with bilateral ulnar nail fractures.  The patient had been seen in the past for this.  The patient had broken both the bones of the ulnar bones in September 2007.  The fracture has healed up to the level of the ulnar nail, and the patient has had an ulnar nail removal about a month ago.  The patient and his family agreed to proceed with the surgery.  Risks and benefits of the surgery were discussed.  The risks of surgery include risk of anesthesia, infection, bleeding, changes in sensation and motion extremity, need for longer hardware, and need for longer hardware.  All questions were answered and parents agreed to the above plan.

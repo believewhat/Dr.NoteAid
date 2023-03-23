@@ -1,0 +1,21 @@
+dialogue:
+Doctor: Mister Sunil, your blood pressure is high, and I am noticing this from past two-three times you have been here. It's been constantly high, you are not taking it seriously. 
+Patient: No, nothing like that Doctor! It's been well under control. I have been monitoring at home.
+Doctor: Are you noting your readings? Did you bring it with you?
+Patient: No. I did not get the readings with me but I assure you I am taking care and my B P is normal.
+Doctor: Well, it's up and I am little bothered by it.
+
+Generate history of present illness section of the medical note from dialogue.His blood pressure up.  The last two to three times he has been in here, it has been up.  He has assured me before that his blood pressure is under good control at home, but he does not bring any blood pressures in with him this time, which bothers me.
+* Given example above, solve this below *
+dialogue:
+Doctor: How old are you young man?
+Patient: I am nineteen. 
+Doctor: What happened? How did you get hurt?
+Patient: I was in a fight. Some people are just rude. 
+Doctor: Oh, that's bad! How did you hurt your right hand?
+Patient: Ah, I punched that other guy in face or maybe his mouth, I don't remember exactly but he got a good one. Later, in anger I punched in a glass. It broke the glass and spilled all the drink. I think I got a cut as it was bleeding badly. 
+Doctor: I see three cuts in your right hand. 
+Doctor: When you came here in Emergency your wound was clean and looked like somebody tried to fix your cut. Do you remember any details about it?
+Patient: Yeah, I remember there was a navy corpsman. He was very helpful; he cleaned my cut with the tap water. He also tried to close it up with gauze and superglue. He said it will stop bleeding, but nothing helped. They called for help and here I am in emergency.
+
+Generate history of present illness section of the medical note from dialogue.This is a 13-year-old male who was involved in a fight with some other guy who punched his face or mouth, but he did not remember exactly what he got hurt.  He got hurt by a glass of water and had three open wounds in his right hand.  He was seen in the emergency room and had three open wounds in his right hand.  He was found to have a cut in his right hand, which was cleaned and looked like somebody was trying to fix it.  He was also found to have three open wounds in his left hand, which were cleaned and looked like somebody was trying to fix it.  He was also found to have three open wounds in his right hand, which were cleaned and looked like somebody was trying to fix it.

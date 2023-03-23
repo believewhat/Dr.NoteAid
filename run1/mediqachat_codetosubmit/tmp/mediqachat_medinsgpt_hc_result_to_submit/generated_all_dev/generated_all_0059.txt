@@ -1,0 +1,29 @@
+dialogue:
+Doctor: Hi sir, let me start by getting your age.
+Guest_family: He is fifty three!
+Doctor: So, tell me what's going on?
+Guest_family: He is complaining of so many things but-
+Patient: But I have a lot of pain from my hernia. That's the number one complaint, but I am also having pain in my lower legs.
+Guest_family: He has so many issues going on with him, that is why I got him to emergency.
+Patient: My wife freaks out easily. 
+Doctor: Don't worry, let me take a look. So, any nausea and or vomiting? 
+Patient: Yes both. And I am not sure, but I think I noticed some blood in my stool.
+Doctor: Oh, but you are not sure?
+Patient: It is questionable!
+Doctor: I see. And on the scale of one to ten, ten being severe, how will you rate your lower extremity pain?
+Patient: Actually, my leg pain has improved considerably. I did have more significant tingling and numbness in the past but now it has improved a great deal.
+Doctor: Hm.
+Guest_family: He has so many medical issues. Here, I have gotten his reports. You can look at them Doctor. 
+Doctor: Oh, that's great, thank you for getting these, let me go through them quickly. So, I see you have a history of multiple-
+Guest_family: Strokes?
+Doctor: Yeah, also called as C V A. Peripheral vascular disease. Oh, and heart failure too. 
+Guest_family: Yes.
+Patient: Yeah.
+Doctor: And you also have a history of multiple bowel ischemia. 
+Patient: Well, yeah.
+Doctor: There is a reason why your wife is worried. So, are you taking any medicines currently?
+Guest_family: He is taking Coumadin for his atrial fibrillation. Also, they mentioned it's not optimal for his condition but-
+Doctor: Oh, I see its subtherapeutic. 
+Patient: Yeah, but I am still taking it.
+
+Generate history of present illness section of the medical note from dialogue.The patient is a 59-year-old male with a history of multiple medical problems.  He complains of multiple medical problems, for which he is being treated in the emergency room.  He reports that he has had multiple medical problems including heart failure, atrial fibrillation, peripheral vascular disease, and multiple vascular strokes.  He also has a history of chronic atrial fibrillation with a history of Coumadin use.  However, he states that he is now being treated for his leg pain and tingling of his lower extremities.  His wife reports that he has noticed some blood in his stool as well as his leg pain has improved significantly.  He also states that his leg pain has improved significantly.  He also reports that his pain in his lower extremities has improved significantly.  His wife reports that he has had multiple medical problems including heart failure, peripheral vascular disease, and multiple vascular strokes.  He also states that he is still on Coumadin for his atrial fibrillation, but he is not comfortable with the medication because of its side effects.

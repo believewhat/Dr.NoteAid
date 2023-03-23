@@ -1,0 +1,16 @@
+dialogue:
+Doctor: So, what's going on with your hand, miss? Is it right or left? 
+Patient: It's the right one. It's been on and off and it's been happening for the last several weeks. 
+Doctor: Can you elaborate what's happening? 
+Patient: Sometimes I feel like a lot of pins and needles are hurting my hand while other times it is totally numb. 
+Doctor: Did anything change in your daily routine? 
+Patient: I don't think there have been any big changes. But after I started having these episodes of numbness and tingling, I moved my keyboard down at work. I just hope that it will help. I was just worried if I had carpal tunnel. 
+Doctor: What does a normal day look like? What is it like at work? 
+Patient: I have a typical office job. I sit in front of the computer for eight hours and mostly work on a keyboard. I hardly take two coffee breaks in between and a lunch break. It is the same kind of thing I'm doing again and again every day. 
+Doctor: Is it the same day or night? 
+Patient: Oh, it is bad at night, how I'm sleeping. If I sleep in a certain way, then I will wake up with a lot of tingling. Then I must literally shake my hands out to get rid of this tingling. It's just-- it's all so much an it irritates me that it's affecting my mental health.
+Doctor: Is it in your whole hand or some specific fingers? 
+Patient: It is mostly in my middle finger, but sometimes I also get this on the first or the second finger of my right hand. Sometimes I have pain in my thumb as well. Do you think it is arthritis? 
+Doctor: I don't think so. But we can get a test done to confirm it if you want.
+
+Generate history of present illness section of the medical note from dialogue.This patient presents to the office today because of some numbness and tingling in his right hand at work.  He does not think there has been any significant change in his daily routine.  He was just worried if he had carpal tunnel.  He was just worried if he had carpal tunnel.  He states that, if he sleeps in a certain way, he will wake up with a lot of tingling and shaking of his hands.  This is mostly in his middle finger, sometimes he also has pain in his thumb as well.  He does not think it is arthritis related.  He is going to have a test done.

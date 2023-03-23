@@ -1,0 +1,19 @@
+dialogue:
+Doctor: Hi, how are you? 
+Patient: I am okay, but I have this pain on my right side of the chest which is troubling me. 
+Doctor: Where exactly do you have pain?
+Patient: Ah, um it's kind of on the upper right side of my chest.
+Doctor: Hm, do you have any nausea vomiting? 
+Patient: Yeah, I have nausea sometimes but no vomiting.
+Doctor: How is your appetite are you having a proper diet?
+Patient: No not really. I don't feel hungry that much, my appetite has reduced a lot.
+Doctor: Okay.
+Doctor: Any fever, diarrhea headache or joint pain? 
+Patient: No sir.
+Doctor: Did you ever have any seizure or have loss consciousness or any stroke like symptoms?
+Patient: Nothing of that sort.
+Doctor: So, I just reviewed your past medical and surgical history. Tell me something, does anyone else in your family have this kind of chest pain? 
+Patient: No, it's just me!
+Doctor: Hm, okay.
+
+Generate review of systems section of the medical note from dialogue.1.  Right upper quadrant pain. 2.  Nausea and vomiting. 3.  Right-sided chest pain. 4.  decreased appetite. 5.  No fever, diarrhea, headache, joint pain or seizure.

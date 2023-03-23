@@ -1,0 +1,41 @@
+dialogue:
+Patient: In the past I was very very fat! Actually, I was morbidly obese. I also had high blood pressure, but after my surgery it got resolved. 
+Doctor: So, everything is okay now?
+Patient: Yeah.
+
+Generate past medical history section of the medical note from dialogue.Significant for hypertension and morbid obesity, now resolved.
+* Another example below *
+ dialogue:
+Doctor: Have you had any illnesses in the past? 
+Patient: Nope.
+Doctor: Anything that is worth mentioning?
+Patient: Nope.
+Doctor: Sure?
+Patient: Yes.
+
+Generate past medical history section of the medical note from dialogue.Noncontributory.
+* Another example below *
+ dialogue:
+Doctor: Do you have any past medical problems that I should know about? 
+Patient: Well, what exactly do you mean by that, doctor? 
+Doctor: Well, it could be anything from A D H D to depression to epilepsy. 
+Patient: Oh, no. I don't have anything like that.
+
+Generate past medical history section of the medical note from dialogue.No significant past medical problems.
+* Another example below *
+ dialogue:
+Doctor: Have you seen your lab results? 
+Patient: No, do you have those in today? 
+Doctor: Yes, I have them right here. They're essentially negative, except it appears that you had C difficile in the past. Do you remember that?
+Patient: Yes, I got it when I worked at a hospital after graduating. 
+Doctor: Yeah, its unfortunately more common there.
+
+Generate past medical history section of the medical note from dialogue.Essentially negative other than he has had C. difficile in the recent past.
+* Given example above, solve this below *
+dialogue:
+Doctor: What type of cancer again? 
+Patient: I had prostate cancer.
+Doctor: Did it travel anywhere in your body?
+Patient: Yes, it was metastatic.
+
+Generate past medical history section of the medical note from dialogue.Prostate cancer metastasis to the prostate.

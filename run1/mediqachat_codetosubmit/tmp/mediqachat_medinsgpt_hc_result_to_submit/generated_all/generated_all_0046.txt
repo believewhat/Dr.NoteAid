@@ -1,0 +1,40 @@
+dialogue:
+Doctor: Hello! What brings you into the office today?
+Patient: Hi! I have not been able to go pee, and I have had this sharp pain in my left side. 
+Doctor: Have you recently had any surgical procedures?
+Patient: No. 
+Doctor: Do you have a history of an enlarged prostate or kidney stones? 
+Patient: No. 
+Doctor: I would like to get some imaging done. 
+Patient: Okay.
+
+Generate chief complaint section of the medical note from dialogue.Left flank pain and unable to urinate.
+* Another example below *
+ dialogue:
+Doctor: What brings you back into the clinic today?
+Patient: I have been having some severe bruising. I have been taking Coumadin for three months now. Am I taking to much Coumadin? 
+Doctor: You are taking a normal start dose. Some people do not metabolize the medication as well as others. I would like to get you tested for hypersensitivity. After we get the test results back, we will be able to adjust your dosage accordingly.  
+Patient: Okay.
+
+Generate chief complaint section of the medical note from dialogue.Probable Coumadin hypersensitivity.
+* Another example below *
+ dialogue:
+Guest_clinician: She was in a car crash, correct? 
+Doctor: Correct. About two days ago. I believe it was a head on collision.
+
+Generate chief complaint section of the medical note from dialogue.Motor vehicle accident.
+* Given example above, solve this below *
+dialogue:
+Doctor: Any medical problems? 
+Patient: Yeah, I've been suffering from congestion for a few years now.
+Doctor: Have you seen an ENT for this? 
+Patient: I did a year or so ago. They think it could be due to enlarged adenoids or just my anatomy.  
+Doctor: Do you have plans to see the ENT in the near future? 
+Patient: No, not as of right now. 
+Doctor: If it's causing you discomfort, then I recommend scheduling another follow-up visit. Is there anything else that's bothering you today? 
+Patient: Um my toenail has been bothering me a lot. 
+Doctor: Mind if I take a look?  
+Patient: I don't mind. 
+Doctor: It looks like you have an ingrown nail. It seems to be improving on its own.
+
+Generate chief complaint section of the medical note from dialogue.I have been suffering from congestion for a few years.  She has been to the ENT several times but has not had any improvement.  She has had to be on Coumadin because of the risk of bleeding.  She has had a toenail, which has been bothering her.

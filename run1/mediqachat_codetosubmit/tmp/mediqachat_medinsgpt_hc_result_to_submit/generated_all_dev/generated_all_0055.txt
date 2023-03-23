@@ -1,0 +1,21 @@
+dialogue:
+Doctor: Mister Sunil, your blood pressure is high, and I am noticing this from past two-three times you have been here. It's been constantly high, you are not taking it seriously. 
+Patient: No, nothing like that Doctor! It's been well under control. I have been monitoring at home.
+Doctor: Are you noting your readings? Did you bring it with you?
+Patient: No. I did not get the readings with me but I assure you I am taking care and my B P is normal.
+Doctor: Well, it's up and I am little bothered by it.
+
+Generate history of present illness section of the medical note from dialogue.His blood pressure up.  The last two to three times he has been in here, it has been up.  He has assured me before that his blood pressure is under good control at home, but he does not bring any blood pressures in with him this time, which bothers me.
+* Given example above, solve this below *
+dialogue:
+Doctor: How are you today? 
+Patient: I am doing okay. 
+Doctor: Just to confirm, you are fifty seven years old? 
+Patient: Yes. 
+Doctor: What brings you to see me today? 
+Patient: I have been having these headaches every day for the last six months. 
+Doctor: That is a long time. I am sorry that you have been experiencing that. 
+Patient: Well, I am hoping you can make them stop. 
+Doctor: I will do my very best to help.
+
+Generate history of present illness section of the medical note from dialogue.The patient is a 57-year-old female who presents with headaches every day for the last six months.

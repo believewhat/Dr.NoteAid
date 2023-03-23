@@ -1,0 +1,13 @@
+dialogue:
+Doctor: Any fever, chills?
+Patient: No.
+Doctor: How about cough cold symptoms?
+Patient: Nope no problems like that.
+Doctor: Okay. Any chest pain or breathlessness?
+Patient: No, I don't have chest issues.
+Doctor: Any problems with bowel or bladder?
+Patient: No.
+Doctor: Pain in neck or head or hand, feet or anywhere?
+Patient: No everything is fine.
+
+Generate review of systems section of the medical note from dialogue.Chest pain, negative shortness of breath, negative cough, negative neck, negative head, and negative hands.

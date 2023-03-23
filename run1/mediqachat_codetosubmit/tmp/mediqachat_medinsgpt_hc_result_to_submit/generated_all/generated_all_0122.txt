@@ -1,0 +1,16 @@
+dialogue:
+Guest_family: They just changed his P bag, that's why there is no pee in it.
+Doctor: Okay. Yes, it looks empty. I think they did a straight cath.
+Guest_family: Yeah, and they took out the urine to send it to the lab.
+Doctor: Okay. Yes, there were no leukocyte seen. That means no infection.
+Guest_family: But they said there was blood?
+Doctor: Yes, during catheterization but the urine is normal.
+Guest_family: Okay.
+Doctor: In your x ray there was stool seen in the colon.
+Guest_family: Okay.
+Guest_family_2: He is fine?
+Doctor: Yeah, he is fine. I can see that he is very active. Jumping up and down.
+Doctor: Hi champ!
+Patient: Hi.
+
+Generate review of systems section of the medical note from dialogue.The patient is active, alert, and in no apparent distress.  No dysarthria is noted.  He has had his catheter removed.  He has had no hematuria, and his urinalysis has been normal.  He has had some blood in his stool that has been sent to the lab.

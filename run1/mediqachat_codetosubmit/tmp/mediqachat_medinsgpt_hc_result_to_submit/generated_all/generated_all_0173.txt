@@ -1,0 +1,11 @@
+dialogue:
+Doctor: Any chest pain or shortness of breath?
+Patient: No chest pain, but I tend to have shortness of breath after any type of exertion.
+Doctor: How about bladder and bowel issues?
+Patient: No, that is fine.
+Doctor: Any excessive or unstoppable bleeding issues?
+Patient: No, I do not have any bleeding issues.
+Doctor: Oh.
+Patient: Yeah.
+
+Generate review of systems section of the medical note from dialogue.GENERAL: Negative chest pain, negative dyspnea on exertion.  No dysuria, frequency, urgency, dysuria, incontinence.  No bleeding disorders.

@@ -1,0 +1,22 @@
+dialogue:
+Patient: In the past I was very very fat! Actually, I was morbidly obese. I also had high blood pressure, but after my surgery it got resolved. 
+Doctor: So, everything is okay now?
+Patient: Yeah.
+
+Generate past medical history section of the medical note from dialogue.Significant for hypertension and morbid obesity, now resolved.
+* Another example below *
+ dialogue:
+Doctor: Do you have any past medical problems that I should know about? 
+Patient: Well, what exactly do you mean by that, doctor? 
+Doctor: Well, it could be anything from A D H D to depression to epilepsy. 
+Patient: Oh, no. I don't have anything like that.
+
+Generate past medical history section of the medical note from dialogue.No significant past medical problems.
+* Given example above, solve this below *
+dialogue:
+Doctor: Hello, how are you doing today? Before we get started, I am going to do a basic review of your medical and social history. 
+Patient: Sounds good. Nothing has changed from last visit. 
+Doctor: On your chart we have that you are a non smoker, non drinker, and do not use drugs. We also have written that you do not have any past surgeries or medical conditions. Does that check out?
+Patient: Yes. That's all the same as last time.
+
+Generate past medical history section of the medical note from dialogue.Otherwise reviewed and noted.  There is no history of surgical procedures or past medical history.

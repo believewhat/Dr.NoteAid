@@ -1,0 +1,22 @@
+dialogue:
+Doctor: How old are you? 
+Patient: Fifty six. 
+Doctor: Are you right handed or left handed? 
+Patient: I'm right handed.
+Doctor: So, you have this long standing on and off lower back pain on your right side. And it all happened after your motor vehicle accident in September of two thousand and five. 
+Patient: That's right. Right after accident. At that time, I did not feel anything, but five days later I started getting this abnormal like pain in the lower side of my back, especially on the right side. It kind of like moved from there to my buttocks on the posterior side on my thigh and on outside of my calf. 
+Doctor: Does anything elevate your pain or decreases it? 
+Patient: It gets worse when I'm sitting for a longer period, such as like driving or if I'm walking for a long period of time. It is a little less bad when walking, but still, it is there. Lying down relieves the pain for a bit and also standing helps. 
+Doctor: Is there any symptom like weakness or pain in your left leg or your right leg? 
+Patient: Nope. 
+Doctor: Any change in your bowel movement or your urine function?
+Patient: Nope. 
+Doctor: Were your symptoms sudden or were they increasing gradually? 
+Patient: They increased slowly. I had the pain killers, Medrol but, it has not been very effective. I also had that big injection in my back. It helped me for a few hours but then next day it was all same for me. 
+Doctor: When did this happen? When did you get the injection? 
+Patient: This was done four and a half weeks ago. 
+Doctor: Okay, let me just quickly check your legs. They look full in strength, and they also seem symmetric to me. Can you raise your leg? Like straight up? 
+Patient: Yeah sure. 
+Doctor: Yeah, yes. Straight leg raising is also normal.
+
+Generate history of present illness section of the medical note from dialogue.The patient is a 56-year-old right-handed gentleman, who was complaining of chronic low back pain.  The patient was involved in a motor vehicle accident in September 2005, and at that time, he did not feel anything.  After the accident, he began having low back pain on his right side.  At that time, he did not feel anything, but 5 days later he began having low back pain on his right side.  At this time, he did not feel anything, but 5 days later he began having low back pain on his right side.  At this time, he did not feel anything, but 5 days later he began having low back pain on his left side.  At this time, he did not feel anything, but when he was sitting for a longer period of time, it became worse.  He did not feel anything, but when he was walking for a long period of time, it became worse.  He did not feel any weakness or pain in his left leg or right leg.  He did not have any bowel or bladder dysfunction.  He did not have any weakness or numbness.  He did not have any change in his bowel or urinary habits.  He did not have any change in his leg or urinary habits.  He did have a long-standing injection in his back.  He did not get any relief with Medrol.  He did not get any relief with the injection.  He did not have any improvement with the injection.  He did not have any improvement with the leg elevation.  He did not have any change in his lower extremity strength.

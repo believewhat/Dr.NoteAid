@@ -1,0 +1,45 @@
+dialogue:
+Guest_clinician: How's the patient? 
+Doctor: He's stable. Heart rate sixty five. Normal rhythm. Oxygen ninety seven percent on room air.
+
+Generate disposition section of the medical note from dialogue.Stable.
+* Another example below *
+ dialogue:
+Doctor: Your condition is improved, and you look pretty stable. 
+Patient: Yeah, I feel much better.
+
+Generate disposition section of the medical note from dialogue.Improved and stable.
+* Another example below *
+ dialogue:
+Doctor: How is your foot feeling? 
+Patient: It feels good.  
+Doctor: Any pain or discomfort when you walk around on it? 
+Patient: No. I am good doc.
+
+Generate disposition section of the medical note from dialogue.Stable.
+* Another example below *
+ dialogue:
+Guest_family: How's my husband doing? Sorry, I had to take a call outside. 
+Doctor: He's doing much better. He'll be going home today with a prescription for Zithromax. 
+Guest_family: I'm glad he's able go home and get some rest. 
+Doctor: However, I'd like to still see him in the office next week for a reevaluation.
+Guest_family: Great. Can we make the appointment right now? 
+Doctor: Yes, the front desk will be able to help you with that.
+
+Generate disposition section of the medical note from dialogue.The patient was in stable condition and good condition on exam at the time and was discharged home on Zithromax to be followed up in the office within a week.
+* Another example below *
+ dialogue:
+Guest_clinician: How is the patient's condition now? 
+Doctor: Well, he has improved clinically but would require acute care.
+Guest_clinician: Oh, I see.
+
+Generate disposition section of the medical note from dialogue.Clinically improved, however, requiring acute care.
+* Given example above, solve this below *
+dialogue:
+Doctor: We have placed this nasogastric tube for decompression.
+Guest_family: Okay.
+Doctor: How are you feeling now?
+Patient: Um.
+Guest_family: She said that she feels better now.
+
+Generate disposition section of the medical note from dialogue.Stable.

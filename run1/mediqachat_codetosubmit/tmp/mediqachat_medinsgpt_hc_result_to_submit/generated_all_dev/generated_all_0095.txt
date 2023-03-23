@@ -1,0 +1,36 @@
+dialogue:
+Doctor: I don't think we need to do any major procedure right now.
+Patient: Okay.
+
+Generate procedures section of the medical note from dialogue.None.
+* Another example below *
+ dialogue:
+Doctor: Any surgical history? 
+Patient: I had my thyroids taken out. 
+Doctor: When did you have them taken out? 
+Patient: Hm three years ago. Man, time flies. 
+Doctor: Did you experience any complications post surgery? 
+Patient: Nothing out of the ordinary. 
+Doctor: Who was the surgeon who did your thyroidectomy? 
+Patient: Doctor X. 
+Doctor: What was the final diagnosis? 
+Patient: I had a growth on my thyroids. 
+Doctor: Was the growth cancerous? 
+Patient: It was. I was initially reluctant to get them out, but I realized it was necessary. I didn't have much of a choice if I wanted to live ya know.  
+Doctor: That's understandable. I'm sorry you had to go through that. Surgery is daunting, let alone surgery to remove cancer.
+
+Generate procedures section of the medical note from dialogue.Total thyroidectomy.
+* Another example below *
+ dialogue:
+Doctor: Have you had any procedures in the past?
+Patient: No.
+
+Generate procedures section of the medical note from dialogue.None.
+* Given example above, solve this below *
+dialogue:
+Doctor: How are you feeling?  
+Patient: I am well.
+Doctor: So, we have placed a permanent pacemaker and removed your temporary internal pacemaker.
+Patient: Yes.
+
+Generate procedures section of the medical note from dialogue.Pacemaker and temporary pacemaker.

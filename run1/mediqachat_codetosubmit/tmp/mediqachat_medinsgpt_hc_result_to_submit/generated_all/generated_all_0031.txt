@@ -1,0 +1,32 @@
+dialogue:
+Doctor: Hi there! I am Doctor Jones, sir. 
+Patient: Hello! It is nice to meet you. 
+Doctor: What brings you into see me today? 
+Patient: I have had this weakness in my right leg for quite some time now.
+Doctor: How long has this been going on and do you know how you injured yourself?
+Patient: I think that it was about six months ago that the weakness in my leg started. I don't really remember how it happened. 
+Doctor: Can you tell me what you do remember? 
+Patient: I was reaching to get something from a cabinet, and I noticed that I was unable to stand on my right toe. Ever since then I have had difficulty pushing off when walking.  My toes were tingling and numb.
+Doctor: Was the numbness and tingling mild, moderate, or severe? 
+Patient: It was a mild feeling, but this has been an ongoing problem that has been the same since the weakness started. 
+Doctor: Have you had any other pain any where else in your body? 
+Patient: I have had back pain, but this has been going on for many years and has not changed.  
+Doctor: Is the back pain been mild, moderate, or severe? 
+Patient: I would say mild. I have also been having cramping in both calves. 
+Doctor: How long has that been going on? 
+Patient: For the past year but it stopped about two months ago.  
+Doctor: Have you had any weakness in the left leg? 
+Patient: No. I don't think so. 
+Doctor: Have you had any pain around right leg and the area of numbness and tingling? 
+Patient: No. Everything that is going on with my right leg has pretty much been the same since it started six months ago. I have not gotten worse or better. 
+Doctor: Have you had any bowel or bladder incontinence? Any radicular pain?
+Patient: No.
+Doctor: When did you first see a doctor for the issue? I remember that you told me you saw a different provider prior to coming to see me.
+Patient:  I saw the other doctor in October. That was a couple of months before I came to see you. 
+Doctor: I see in your chart that we did a CT scan that shows degenerative changes, but nothing obviously abnormal. Remind me why we did not do a MRI of your spine? 
+Patient: I cannot have an MRI because of my ear implant.  
+Doctor: That is unfortunate. It looks like we were able to do an EMG and nerve conduction studies. What medications are you taking currently? 
+Patient: I had an elevated CK before I started taking stat medications.
+Doctor: What medications are those? 
+Patient: I am not taking Lipitor anymore. I think I took it for about fifteen months. 
+1.  History of weakness in the right lower extremity for some time now. 2.  He has had difficulty walking. 3.  He has had a tingling and numbness of the toes and toes, but not severe. 4.  He has had chronic back pain. 5.  He has had bilateral knee pain for many years. 6.  He has had cramping in both knees for the past year. 7.  He denies any pain in the right leg. 8.  He has not had any weakness in the left leg. 9.  He is on Lipitor for about 15 months. 10.  He has not had an MRI of his spine. 11.  He has had EMG and NCV studies. 12.  He has not had MRI of his spine. 13.  He has had EMG and NCV studies. 14.  He has had a elevated CK before, but not recently. 15.  He has had a CT scan of his abdomen and pelvis. 16.  He has not had an MRI of his abdomen and pelvis.  18.  He has had a colonoscopy.  19.  He has had a colonoscopy. 20.  He has had a colonoscopy. 20.  He has had a colonoscopy. 20.  He has had a biopsy of the colon. 20.  He has had a biopsy of the skin on his right leg. 20.  He has had a biopsy

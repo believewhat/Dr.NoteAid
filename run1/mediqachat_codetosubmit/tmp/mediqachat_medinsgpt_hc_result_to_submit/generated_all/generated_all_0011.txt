@@ -1,0 +1,15 @@
+dialogue:
+Doctor: Did he get his B C G vaccine?
+Guest_family: Yes, he did back in the Philippines before starting his elementary school. 
+Doctor: Okay, did you have his immunization records?
+Guest_family_2: Yes, we submitted it at the front desk.
+Doctor: Okay, how long has he been complaining of uneasiness in his stomach?
+Guest_family_2: For a few days.
+Doctor: Any history of liver problems or gallbladder stones?
+Guest_family: No, he had his physical and blood tests and everything came out normal.
+Doctor: Okay, good. Any fever or chills?
+Guest_family: No.
+Doctor: Any history of ulcers?
+Guest_family_2: No.
+
+Generate review of systems section of the medical note from dialogue.Back in the Philippines.  He was a student at the front desk.  He denied any history of liver disease, gallbladder stones, or ulcers.  He did have a few days of uneasiness to his stomach, but he denied any fever or chills.

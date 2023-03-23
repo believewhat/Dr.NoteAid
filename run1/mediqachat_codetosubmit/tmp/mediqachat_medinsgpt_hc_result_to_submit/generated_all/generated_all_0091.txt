@@ -1,0 +1,15 @@
+dialogue:
+Doctor: How old are you madam?
+Patient: I am seventy-five. I have been feeling very weak and shaky.
+Doctor: Can you tell me how this all started?
+Patient: I cannot catch a breath when I walk. It is getting harder to move around.
+Doctor: Hm, how about chest pain or palpitations?
+Patient: No, I am not having any.
+Doctor: Do you have any cough, bloody sputum or any wheezing sensation?
+Patient: No, I do not haveany of that.
+Doctor: How about any fainting spells, feeling like you are going to pass out?
+Patient: Nope.
+Doctor: How long have you been feeling like this?
+Patient: Oh, it's been a while now but it is getting worse lately.
+
+Generate review of systems section of the medical note from dialogue.This is a 76-year-old female who has been feeling weak and shaky for a while.  She denies any chest pain or palpitations.  She denies any cough, hemoptysis, wheezing, or fainting.

@@ -1,0 +1,22 @@
+dialogue:
+Doctor: Mister Sunil, your blood pressure is high, and I am noticing this from past two-three times you have been here. It's been constantly high, you are not taking it seriously. 
+Patient: No, nothing like that Doctor! It's been well under control. I have been monitoring at home.
+Doctor: Are you noting your readings? Did you bring it with you?
+Patient: No. I did not get the readings with me but I assure you I am taking care and my B P is normal.
+Doctor: Well, it's up and I am little bothered by it.
+
+Generate history of present illness section of the medical note from dialogue.His blood pressure up.  The last two to three times he has been in here, it has been up.  He has assured me before that his blood pressure is under good control at home, but he does not bring any blood pressures in with him this time, which bothers me.
+* Given example above, solve this below *
+dialogue:
+Doctor: I hear she hasn't been doing so well. 
+Guest_family: My poor two-month-old baby girl has been congested for a whole week. I'm so worried about her. 
+Doctor: I completely understand. It's never easy to see your baby sick. Have you taken her temperature recently? 
+Guest_family: Yes, I've been using an anal thermometer. She's been running a fever for the past two days. 
+Doctor: I'm glad you brought her in today. I'll go ahead and take her temperature again. Is she experiencing any other symptoms, such as difficulty breathing or wheezing at all? 
+Guest_family: Not that we've noticed. 
+Doctor: Is she taking down milk? 
+Guest_family: Barely. Not as much as she used to the week before she started to feel bad. 
+Doctor: How often have you been changing her diapers? 
+Guest_family: Hm three or four times. I should've kept better track.
+
+Generate history of present illness section of the medical note from dialogue.The patient is a two-month-old child who has been congested for a whole week.  Fevers have been present for the past two days.  She has not had any wheezing.  She has not been taking her milk as well as her breast milk.  She has been changing her diapers three to four times a day.

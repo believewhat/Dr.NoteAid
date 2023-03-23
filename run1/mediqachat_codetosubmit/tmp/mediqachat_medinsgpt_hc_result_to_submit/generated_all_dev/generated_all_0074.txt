@@ -1,0 +1,26 @@
+dialogue:
+Doctor: Is this baby number two? 
+Patient: Yes, this is baby number two. 
+Doctor: How many times have you been pregnant, including miscarriages or abortions if any? 
+Patient: I've been pregnant two times in total. No miscarriages or abortions. 
+Doctor: When was your last period? 
+Patient: About a month ago. 
+Doctor: And how would you describe your periods? Light, normal, heavy? 
+Patient: Pretty normal. 
+Doctor: Any abnormal pap smears? 
+Patient: No, fortunately they've all been normal. 
+Doctor: That's wonderful to hear. And my last question for you is if you've ever gotten a mammogram? 
+Patient: I haven't gotten one before. Do I need to get one? I just turned thirty nine. What's the recommended age again? 
+Doctor: It depends. For example, the recommended age would be younger for someone who has a family history of breast cancer. Given that you don't have a positive family history of breast cancer, I'd advise getting one in a few years at the age of forty five.
+
+Generate gynecologic history section of the medical note from dialogue.Gravida 2, Para 2, Ab 0. Menstrual periods have been regular, last menstrual period almost 1 month ago. No menorrhagia. Never had a mammogram. Has yearly Pap smears which have all been normal.
+* Given example above, solve this below *
+dialogue:
+Doctor: Hello, miss. What brings you into the practice today?
+Patient: I have been missing a lot of periods and I am not sexually active. I do not bleed. Is something wrong with me? 
+Doctor: What is your history with your reproductive parts? Have you had any surgeries?
+Patient: I have everything still. I have both ovaries, I have a uterus, and I have a cervix still. 
+Doctor: Are you on any type of hormonal therapies?
+Patient: I am not taking anything. This is the first time I have brought this up to the doctor.
+
+Generate gynecologic history section of the medical note from dialogue.She is not sexually active.  She has missing periods.  She has ovaries, uterus, and cervix.  She is not on any kind of potassium.  She has no history of surgeries.

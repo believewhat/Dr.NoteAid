@@ -1,0 +1,39 @@
+dialogue:
+Doctor: Hello! What brings you into the office today?
+Patient: Hi! I have not been able to go pee, and I have had this sharp pain in my left side. 
+Doctor: Have you recently had any surgical procedures?
+Patient: No. 
+Doctor: Do you have a history of an enlarged prostate or kidney stones? 
+Patient: No. 
+Doctor: I would like to get some imaging done. 
+Patient: Okay.
+
+Generate chief complaint section of the medical note from dialogue.Left flank pain and unable to urinate.
+* Another example below *
+ dialogue:
+Doctor: What brings you back into the clinic today?
+Patient: I have been having some severe bruising. I have been taking Coumadin for three months now. Am I taking to much Coumadin? 
+Doctor: You are taking a normal start dose. Some people do not metabolize the medication as well as others. I would like to get you tested for hypersensitivity. After we get the test results back, we will be able to adjust your dosage accordingly.  
+Patient: Okay.
+
+Generate chief complaint section of the medical note from dialogue.Probable Coumadin hypersensitivity.
+* Another example below *
+ dialogue:
+Guest_clinician: She was in a car crash, correct? 
+Doctor: Correct. About two days ago. I believe it was a head on collision.
+
+Generate chief complaint section of the medical note from dialogue.Motor vehicle accident.
+* Given example above, solve this below *
+dialogue:
+Doctor: What brings you into the office today?  
+Patient: I have been feeling strange lately.  
+Doctor: Strange, in what way?  
+Patient: Well, the other day I was driving and suddenly, I didn't know where I was or where I was driving to.    
+Doctor: That must have been very scary for you. How long did you feel disoriented?  
+Patient: It seemed to last about ten or fifteen minutes.  
+Doctor: Has anything like this happened before?  
+Patient: It has happened two times before this, but I was not driving.  
+Doctor: I would like to send you to a specialist to get some cognitive tests done.   
+Patient: Okay.
+
+Generate chief complaint section of the medical note from dialogue.Denies any previous surgeries.

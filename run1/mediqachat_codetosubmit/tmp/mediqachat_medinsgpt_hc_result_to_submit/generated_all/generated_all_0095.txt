@@ -1,0 +1,45 @@
+dialogue:
+Doctor: Hello there!
+Patient: Hi, how are you? 
+Doctor: I am good. Do ypu mind stating your age and waht brings you in today? 
+Patient: Oh, yes, I am 85 years old and I am having this weird muscle pain in my rightbuttocks region that I think it's radiating from my lower back or spine area I am not sure.
+Doctor: Hm, what kind of pain is it? Like sharp pain or dull? 
+Patient: It's kind of difficult to explain, but it's very irritating. 
+Doctor: Okay! So, it's on the right side?
+Patient: Yes.
+Doctor: And when was your last visit to renal clinic? 
+Patient: About four months back.
+Doctor: Hm and you mentioned you are doing much better than before in terms of managing your high blood pressure with the current medication? 
+Patient: Oh yes, absolutely I am doing so much better. I think earlier the nurse mentioned she has never seen my blood pressure this good. 
+Doctor: Yes, it is much better than any of your previous visits. And no side effects, right?
+Patient: No.
+Doctor: Hm, and any other problem or any uneasiness?
+Patient: Not really.
+Doctor: Any nausea, vomiting or diarrhea?
+Patient: No.
+Doctor: Any weakness, dizziness or lightheadedness?
+Patient: Nope.
+Doctor: Any constipation or stomach pain?
+Patient: No, I think just the hip pain.
+Doctor: Any shortness of breath, chest pain or difficulty breathing?
+Patient: I am fine no issues there.
+Doctor: How bout any breathing issues while you sleep or when you lay down?
+Patient: No.
+Doctor: And do you exercise?
+Patient: It is same as before not much difference.
+Doctor: Okay.
+Patient: Right now, it is just this hip pain which is bothering me.
+Doctor: And you mention it is kind of radiating from your lower back.
+Patient: Yeah, kind of like from my spine maybe, I am not sure.
+Doctor: And no pain in your toes or lower legs?
+Patient: No.
+Doctor: Okay, did you try any medicines?
+Patient: Yes, I did try some Tylenol but that's it. It does help a bit.
+Doctor: Okay, let's try something stronger, I will write you a prescription for it. You can take it for a week and if your pain does not improve, we will take some x rays.
+Doctor: How old are you again eighty-five? 
+Patient: Yes.
+Doctor: Okay. Overall, you do look better today and these medicines should take care of the pain. 
+Patient: Thank you!
+Doctor: Take care.
+
+GenThe patient is an 85-year-old female who presents to the renal clinic for evaluation of right buttock pain.  The patient states that she is doing much better.  Her last visit to the renal clinic was about 4 months ago.  At that time, the patient was doing much better.  At that time, the nurse noted that the patient was doing much better.  At that time, the nurse noted that the patient was doing much better.  At that time, the nurse noted that the patient was doing much better.  At this time, the patient states that the pain is bothering her.  The patient denies any nausea, vomiting, or diarrhea.  She denies any weakness, dizziness, or lightheadedness.  She does not have any constipation or abdominal pain.  She does just have some hip pain.  The patient denies any shortness of breath, chest pain, or difficulty breathing.  She does not exercise much.  She does take Tylenol as needed for pain.  She does not have any leg pain.  She does not have any problems with her legs.

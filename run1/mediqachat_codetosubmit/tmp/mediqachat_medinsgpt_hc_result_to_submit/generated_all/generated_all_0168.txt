@@ -1,0 +1,34 @@
+dialogue:
+Doctor: Mister Sunil, your blood pressure is high, and I am noticing this from past two-three times you have been here. It's been constantly high, you are not taking it seriously. 
+Patient: No, nothing like that Doctor! It's been well under control. I have been monitoring at home.
+Doctor: Are you noting your readings? Did you bring it with you?
+Patient: No. I did not get the readings with me but I assure you I am taking care and my B P is normal.
+Doctor: Well, it's up and I am little bothered by it.
+
+Generate history of present illness section of the medical note from dialogue.His blood pressure up.  The last two to three times he has been in here, it has been up.  He has assured me before that his blood pressure is under good control at home, but he does not bring any blood pressures in with him this time, which bothers me.
+* Given example above, solve this below *
+dialogue:
+Doctor: Has your E coli improved since your last visit, ma'am?
+Patient: Yes, but I had some complications with the medicine.
+Doctor: You were taking the Macrobid, correct?
+Patient: Yes, I took it once a day at night for about seven days. 
+Doctor: What complications did you have?
+Patient: Well, I had a skin rash and hives, so I discontinued the medicine.
+Doctor: Since stopping the medicine, have these symptoms gone away?
+Patient: Yes, since I stopped taking the medicine.
+Doctor: Do you have any pain with urination or blood in your urine?
+Patient: No, nothing to report there.
+Doctor: What about fever or chills?
+Patient: No, nothing there either.
+Doctor: Good, how many times a day do you urinate?
+Patient: Well, it's about every two or three hours, and then maybe once at night.
+Doctor: Are you controlling your urine well?
+Patient: Yes, I'm having no problems there. It's getting better under stress too, with the pelvic exercises and rehab.
+Doctor: Are you familiar with the results of this renal ultrasound from August fifth two thousand eight?
+Patient: It was normal, right?
+Doctor: Basically, yes. There's nohydronephrosis, masses, or stones.
+Patient: That's good to hear. 
+Doctor: I hear that you've had E coli few times, once in November of two thousand seven, and then in May and July of two thousand eight.
+Patient: Yes, that sounds familiar.
+
+Generate history of present illness section of the medical note from dialogue.The patient returns to the office today for followup.  She has had some complications with her Macrobid which include:  Skin rash ;  hives ;  pain  with urination ;  frequency  urination ;  pain  with pelvic exercises    related  to  the  last  visit  of  the  the  8  November  of  2008  and  05/08/2008.  The  patient  has  had  no  dehydration  or  masses  or  stones  noted  on  her  ultrasound  of  the  abdomen  or  the  pelvis  and  the  lower  extremities  and  the  lower  extremities  and  the  lower  extremities  and  the  upper  extremities  and  the  lower  extremities  and  the  upper  extremities  and  the  lower  extremities  and  the  lower  extremities  and  the  upper  extremities  and  the  lower  extremities  and  the  lower  extremities  and  the  lower  extremities  and  the  upper  extremities  and  the  lower  extremities  and  the  lower  extremities  and  the  lower  extremities  and  the  upper  extremities  and  the  lower  extremities  and  the  lower  extremities  the  lower  extremities  and  the  upper  extremities  and  the  lower  extremities  the  lower  extremities  and  the  lower  extremities  the  upper  extremities  the  lower  extremities  and  the  lower  extremities  the  lower  extremities  the  upper  extremities  the  lower  extremities

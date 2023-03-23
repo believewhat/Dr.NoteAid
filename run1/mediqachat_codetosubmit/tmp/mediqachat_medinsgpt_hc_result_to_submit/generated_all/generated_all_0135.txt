@@ -1,0 +1,23 @@
+dialogue:
+Doctor: Mister Sunil, your blood pressure is high, and I am noticing this from past two-three times you have been here. It's been constantly high, you are not taking it seriously. 
+Patient: No, nothing like that Doctor! It's been well under control. I have been monitoring at home.
+Doctor: Are you noting your readings? Did you bring it with you?
+Patient: No. I did not get the readings with me but I assure you I am taking care and my B P is normal.
+Doctor: Well, it's up and I am little bothered by it.
+
+Generate history of present illness section of the medical note from dialogue.His blood pressure up.  The last two to three times he has been in here, it has been up.  He has assured me before that his blood pressure is under good control at home, but he does not bring any blood pressures in with him this time, which bothers me.
+* Given example above, solve this below *
+dialogue:
+Doctor: Good afternoon, sir, before we begin, how old are you?
+Patient: I'm twenty-six years old, sir. 
+Doctor: Good, and what race do you identify with?
+Patient: I'm an African American, sir. 
+Doctor: Great, so how did you get hurt?
+Patient: I stepped off a hilo at work, and I felt this pop in my left leg. 
+Doctor: Where did you feel the pop? 
+Patient: It was in the back of the leg.
+Doctor: What treatments have you had for this knee so far? 
+Patient: I got put in a splint, and they recommended I follow up with you at ABC orthopedics. 
+Doctor: Good, thank you, and welcome.
+
+Generate history of present illness section of the medical note from dialogue.The patient is a 24-year-old African-American male who was stepped off a hilo at work and felt a pop in his left lower extremity.  The patient was followed by an orthopedist who recommended him to follow-up with an orthopedist at ABCopedics.

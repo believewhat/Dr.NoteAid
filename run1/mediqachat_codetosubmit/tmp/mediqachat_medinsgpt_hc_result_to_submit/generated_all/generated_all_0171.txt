@@ -1,0 +1,23 @@
+dialogue:
+Doctor: Good morning, ma'am. Are you married? 
+Patient: Good morning, doctor. Yes, my husband and I have been married for a while now. 
+Doctor: That's great, do you have stairs in your home?
+Patient: No, we don't. It's a single level home. 
+Doctor: Great, well, how are you feeling today? 
+Patient: I'm feeling well, doctor. I'm in good health.
+Doctor: What about your husband? 
+Patient: He's doing well too, he helps me around the house and with things I need help with. 
+Doctor: That's great, do you smoke? 
+Patient: Absolutely not. 
+Doctor: What about alcohol, do you drink?
+Patient: Yeah, I have the occasional glass of wine with dinner. 
+Doctor: Do you exercise? 
+Patient: I used to daily and for an hour or an hour and a half.
+Doctor: Why aren't you still doing this? 
+Patient: Well, I haven't been able to do this since about June of two thousand eight, because of this back pain. 
+Doctor: I see. What do you do for a living? 
+Patient: Right now, I work full time as a project manager. 
+Doctor: What does this entail?
+Patient: I have to walk a lot for long periods of time throughout the day.
+
+Generate family history/social history section of the medical note from dialogue.The patient is married.  She lives at a single level home.  She does not smoke cigarettes, abuse alcohol, or use any illicit drugs.  She works full time as a project manager.  She has been having chronic back pain for about two years.  She had been working full time, but had been unable to do so for the last two years because of this back pain.

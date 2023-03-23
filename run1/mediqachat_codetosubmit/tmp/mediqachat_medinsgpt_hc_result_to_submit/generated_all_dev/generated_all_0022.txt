@@ -1,0 +1,29 @@
+dialogue:
+Doctor: Hi!
+Patient: Hello!
+Doctor: How are you feeling now?
+Patient: I am feeling okay.
+Doctor: Yeah, looks like your condition is improving.
+Patient: Yes, I think so too.
+
+Generate emergency department course section of the medical note from dialogue.PROGNOSIS: Improved.
+* Another example below *
+ dialogue:
+Doctor: Well, I don't think you need any restraints as you are doing fine. I do want to make sure you have a chair and bed monitor since you have a history of multiple falls. They can help detect fall. 
+Patient: I don't want that, I will manage. 
+Doctor: Are you sure?
+Patient: Yes!
+
+Generate emergency department course section of the medical note from dialogue.RESTRAINTS: None.  The patient has declined use of chair check and bed check.
+* Given example above, solve this below *
+dialogue:
+Doctor: I looked over your report from urgent care. 
+Patient: They didn't do much other than tell me to follow up with you.  
+Doctor: Given that you're sensitive to light and feel nauseated, I believe a migraine is highly likely. 
+Patient: Can I take anything for it? 
+Doctor: I'm going to prescribe you Tylenol with codeine to help your pain. 
+Patient: Can I get a doctor's note, too? 
+Doctor: Yes. In fact, I'd like you to take a day off from school and rest until you start to feel better. 
+Patient: Okay. Thank you.
+
+Generate emergency department course section of the medical note from dialogue.Followup evaluation and treatment of migraine.

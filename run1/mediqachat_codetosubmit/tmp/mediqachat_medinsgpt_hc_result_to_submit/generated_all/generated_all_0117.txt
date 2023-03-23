@@ -1,0 +1,51 @@
+dialogue:
+Doctor: Hi there, what's going on with you? 
+Patient: Well, I am having this weird jerky movement in my arm and leg. 
+Doctor: Oh okay, let me take a look.
+
+Generate chief complaint section of the medical note from dialogue.Arm and leg jerking.
+* Another example below *
+ dialogue:
+Doctor: Is everything fine?
+Guest_family: My mom is not well.
+Doctor: When did this start?
+Guest_family: I don't know but she is not in her correct state of mind.
+Doctor: Okay let's see what we can do, how old is she?
+Guest_family: She is around seventy four years old.
+Doctor: Okay. Don't worry, we will see what we can do.
+Guest_family: Thanks!
+Doctor: Of Course.
+
+Generate chief complaint section of the medical note from dialogue.A 74-year-old female patient admitted here with altered mental status.
+* Another example below *
+ dialogue:
+Doctor: Hello! What brings you into the office today?
+Patient: Hi! I have not been able to go pee, and I have had this sharp pain in my left side. 
+Doctor: Have you recently had any surgical procedures?
+Patient: No. 
+Doctor: Do you have a history of an enlarged prostate or kidney stones? 
+Patient: No. 
+Doctor: I would like to get some imaging done. 
+Patient: Okay.
+
+Generate chief complaint section of the medical note from dialogue.Left flank pain and unable to urinate.
+* Another example below *
+ dialogue:
+Doctor: What brings you back into the clinic today?
+Patient: I have been having some severe bruising. I have been taking Coumadin for three months now. Am I taking to much Coumadin? 
+Doctor: You are taking a normal start dose. Some people do not metabolize the medication as well as others. I would like to get you tested for hypersensitivity. After we get the test results back, we will be able to adjust your dosage accordingly.  
+Patient: Okay.
+
+Generate chief complaint section of the medical note from dialogue.Probable Coumadin hypersensitivity.
+* Another example below *
+ dialogue:
+Guest_clinician: She was in a car crash, correct? 
+Doctor: Correct. About two days ago. I believe it was a head on collision.
+
+Generate chief complaint section of the medical note from dialogue.Motor vehicle accident.
+* Given example above, solve this below *
+dialogue:
+Doctor: Is this your first pregnancy? 
+Patient: Yes. I'm so excited for the baby to arrive!
+
+Generate chief complaint section of the medical note from dialogue.Pregnancy.

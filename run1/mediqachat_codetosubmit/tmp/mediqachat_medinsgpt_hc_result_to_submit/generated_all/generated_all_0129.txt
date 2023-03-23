@@ -1,0 +1,48 @@
+dialogue:
+Patient: In the past I was very very fat! Actually, I was morbidly obese. I also had high blood pressure, but after my surgery it got resolved. 
+Doctor: So, everything is okay now?
+Patient: Yeah.
+
+Generate past medical history section of the medical note from dialogue.Significant for hypertension and morbid obesity, now resolved.
+* Another example below *
+ dialogue:
+Doctor: Have you had any illnesses in the past? 
+Patient: Nope.
+Doctor: Anything that is worth mentioning?
+Patient: Nope.
+Doctor: Sure?
+Patient: Yes.
+
+Generate past medical history section of the medical note from dialogue.Noncontributory.
+* Another example below *
+ dialogue:
+Doctor: Do you have any past medical problems that I should know about? 
+Patient: Well, what exactly do you mean by that, doctor? 
+Doctor: Well, it could be anything from A D H D to depression to epilepsy. 
+Patient: Oh, no. I don't have anything like that.
+
+Generate past medical history section of the medical note from dialogue.No significant past medical problems.
+* Another example below *
+ dialogue:
+Doctor: Have you seen your lab results? 
+Patient: No, do you have those in today? 
+Doctor: Yes, I have them right here. They're essentially negative, except it appears that you had C difficile in the past. Do you remember that?
+Patient: Yes, I got it when I worked at a hospital after graduating. 
+Doctor: Yeah, its unfortunately more common there.
+
+Generate past medical history section of the medical note from dialogue.Essentially negative other than he has had C. difficile in the recent past.
+* Given example above, solve this below *
+dialogue:
+Doctor: Hello. I see you're here for a follow up. 
+Patient: Yeah, I am. I've been having some problems on my right side under my ribs. 
+Doctor: I see. Is it fine if I go over your medical history? 
+Patient: Yeah, that's fine. 
+Doctor: Great. I see you had a history of hives before, right? 
+Patient: Yeah, that's correct. 
+Doctor: I see you had dialysis as well. How many times have you had that? 
+Patient: I think I had that for two years.  
+Doctor: I see. You also have high blood pressure, right? 
+Patient: Yeah, I do. 
+Doctor: Hm. They might associate your kidney problems with high blood pressure. Let's take a closer look.
+
+Generate past medical history section of the medical note from dialogue.The patient has a history of dialysis x 2.  He also has hypertension.

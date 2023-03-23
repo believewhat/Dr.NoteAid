@@ -1,0 +1,21 @@
+dialogue:
+Doctor: How many days has it been since your headaches started? 
+Patient: About two days now. 
+Doctor: How long do they normally last? 
+Patient: A couple hours. 
+Doctor: Any nausea or vomiting with the headaches? Any vision changes?
+Patient: Yeah, it's been pretty consistent. No vision changes.
+Doctor: Have you tried to take anything for it? 
+Patient: No, nothing. Oh and I have some dizziness with the headaches, too. 
+Doctor: How would you describe the dizziness? Room spinning? 
+Patient: Um kind of. 
+Doctor: Is this new for you? 
+Patient: Yeah. I've never had headaches like this before. 
+Doctor: Do you have any chest pains or an irregular heart beat?
+Patient: No.
+Doctor: Any numbness or tingling on any part of your body?
+Patient: No. 
+Doctor: Okay. How is your urine and feces? Any blood? Any diarrhea?
+Patient: None, thankfully.
+
+Generate review of systems section of the medical note from dialogue.Headache 2 days ago.  Headaches have been constant but worse over the past 2 days.  He has some nausea and vomiting.  He has some dizziness as well.  No vision changes.  No chest pains or irregular heart beat.  No numbness or tingling.  No diarrhea or incontinence.

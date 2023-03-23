@@ -1,0 +1,28 @@
+dialogue:
+Doctor: Good afternoon, and who is this with you today? 
+Patient: This is my power of attorney, doctor. 
+Doctor: Do you have any major medical conditions that I should know about, ma'am? 
+Patient: Well, I'm fifty five, and I've had a stroke. 
+Doctor: Okay, thank you. So, what brings you in for a visit today?
+Patient: I have the urge to use the bathroom all the time. 
+Doctor: Do you ever pee on yourself because of this? 
+Patient: I have. 
+Doctor: Has this problem been getting worse? 
+Patient: Yes, it has been recently. 
+Doctor: What medications have you taken for this? 
+Patient: I've had VESIcare, but it hasn't improved yet. I'm taking Enablex right now. 
+Doctor: Have you had any improvement with that? 
+Patient: No, not yet. 
+Doctor: Has the nursing home done a voiding diary? 
+Patient: No, they haven't done that either. 
+Doctor: Are you having any blood in the urine, or pain with urination? 
+Patient: No, thankfully I'm not. 
+Doctor: How about fever or chills?
+Patient: No, none of that either? 
+Doctor: What about bowel issues? 
+Patient: No, but I go through several pairs of Depends a day. 
+Doctor: Okay, and I'm looking at the results of your urodynamics from April of two thousand eight, which we did in the office. 
+Patient: What does that show, doctor? 
+Doctor: Well, it shows significant detrusor instability with involuntary urinary incontinence and low bladder volumes, and the cystoscopy was unremarkable, which is good.
+
+Generate history of present illness section of the medical note from dialogue.The patient is a 55-year-old gentleman, a nonsmoker, nondrinker, who presents with the chief complaint of incontinence, urinary incontinence, and urinary incontinence.  The patient was recently diagnosed with a stroke.  He has been having urinary incontinence since he has been to the hospital.  He has been on Ventilcare, which has not been helping him.  He has been on enablex.  He has not had any improvement with that.  The nursing home has not had a pertussisometer.  The patient denies any fever or chills.  No hematuria, dysuria, dysuria, dysuria, dysuria, dysuria, or dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with urgency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.  No dysuria with frequency.

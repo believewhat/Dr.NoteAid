@@ -1,0 +1,17 @@
+dialogue:
+Doctor: How's everything going on? 
+Patient: I'm having this weird feeling where I feel that my face is going to twitch and I start doing these grimacing actions on my face, mouth, and then it kind of suppresses it, but I'm not sure what's happening. I'm still having a fear of feeling of pressure in the backside of my head and it comes approximately like once each week. 
+Doctor: What exactly does this pressure feels like? 
+Patient: It feels like pins and needles in my head and a lot of pressure and often it feels like water is running down my hair. 
+Doctor: How frequent are these feelings? Is anything helping you? Are you taking any medications or anything else for it? 
+Patient: It is like I said before, like once a week maybe. It has decreased from before. I am taking Aleve and it is kind of helping me. 
+Doctor: Is anything else going on? 
+Patient: Oh yeah, I'm still suffering from that problem of daydreaming at work and have noticed that I fall asleep when I'm sitting in front of my desk or in front of my television. I just fall asleep in non stimulating environments. It seems like I'm always tired and I cannot get enough amount of sleep no matter what I do. 
+Doctor: It feels like insomnia to me, but what are your working hours? 
+Patient: I work from four to midnight, and then after getting home I just, I cannot sleep. It takes me around two hours and then I wake up at nine each morning. So, it's just like I'm not getting to sleep more than five to six hours ever. Usually, it is like five hours of sleep for me.
+Doctor: How is the quality of your sleep? Do you wake up many times or have sound sleep for those five hours?
+Patient: It is good, I just need to get up and go to the bathroom. I think I snore, but I do not know exactly. 
+Doctor: Have you ever lost your sleep to catch your breath? 
+Patient: Not that I remember.
+
+Generate history of present illness section of the medical note from dialogue.This patient presents to the office complaining of feeling pressure in the back of his head.  He states that he feels pins and needles sensation in his head.  He also states that he is having a lot of pressure in his face, mouth, and then it seems like he is trying to pertussis it, but is not sure what is going on.  He states that he is still taking Aleve for his day time headache.  He states that he is still experiencing a lot of daydreaming at work and that he falls asleep at night when he is sitting in front of a desk or in front of his desk.  He states that he just sleeps for two hours at a time and then he wakes up at 9 a.m.  He states that he just needs to get up and go to the bathroom and does not sleep much more than five to six hours.  He states that he just wants to get up and go to the bathroom and does not snore.  He states that he has no sleep to catch his breath.

@@ -1,0 +1,19 @@
+dialogue:
+Doctor: Good morning. So, you are here for your follow up today. 
+Patient: Yes, sir. 
+Doctor: Update me what happened, why were you in the hospital? 
+Patient: I had a lot of back pain and less of urine output. I always had burning sensation whenever I used to go to the bathroom. So, I went to the doctor, and they said it is kidney stones. I knew something was wrong, but then I started having fever. So, I went to the hospital and they said that it was infection. It all began with my kidney stones. 
+Doctor: I see. So how are you feeling now? 
+Patient: I'm feeling better. The burning sensation is gone. Pain has subsided. 
+Doctor: It says that they put a stent in your ureter. Are you feeling any discomfort with it? Who was your doctor there? 
+Patient: No discomfort, I'm just here for my follow up. Doctor X Y Z did operate on me to remove all those stones, the kidney stones. She is a good doctor. She did take care of me. I feel all new now. 
+Doctor: That's nice to hear. I'm glad you are feeling okay. You remember I wrote down all the medications with their doses on your progress note, a sheet that we gave to you. Your nephew called me and he said that the prescription was lost and instructions were lost. What happened there? 
+Patient: I don't know. I remember you gave me a paper saying it has all the medicines. It's everything related to them and all the things that I have to do. But I don't know what happened between the hospital and the home. I completely lost it. And I don't know where did it go. 
+Doctor: It had instructions to follow up here and also to follow up with Doctor F. Do you have an appointment with Doctor F? You never did call me after the day you were dismissed from the hospital saying that you might have lost the paper that we gave to you. 
+Patient: No, unfortunately I don't have any appointment with Doctor F. I was not even aware about that, that I have to take an appointment because maybe it was only there in the paper. It completely got out of my mind. Somehow, I did find the prescription paper where all the medicines were and I was able to get them filled and I was taking all my antibiotics and everything else which was there. 
+Doctor: I think it was Levaquin. Do you have any more to take? 
+Patient: I do have one more to take. 
+Doctor: So, when are you seeing Doctor X Y Z? 
+Patient: Do I have to see her? I haven't set up anything. 
+Doctor: You do. Any other issues? 
+Patient: Yeah, I'm not still feeling very well. I still feel that I'The patient returns to the hospital today for followup.  She is well-known to me.  She is having some problems with her urinary tract.  She is having some burning and pain with urination.  She has some difficulty with her bladder.  She is not feeling well.  She is seeing Dr. XYZ for evaluation and treatment of her urinary tract infection.  She was given a stent to the kidney stones.  She is doing well with that.  She has lost all the paperwork that they had to send her to me.  She was given a prescription for Levaquin.  She is not feeling very well.  She is seeing Dr. XYZ for evaluation and treatment of her urinary tract infection.  She is not still feeling very well.

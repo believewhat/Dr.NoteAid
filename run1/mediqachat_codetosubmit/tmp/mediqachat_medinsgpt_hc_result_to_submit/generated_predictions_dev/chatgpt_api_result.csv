@@ -1,0 +1,745 @@
+TestID,SystemOutput1_header,SystemOutput1,SystemOutput2_header,SystemOutput2
+0,GENHX,"The patient is a 26-year-old female, referred to Physical Therapy for low back pain.  The patient has a history of traumatic injury to low back.  The patient stated initial injury occurred eight years ago, when she fell at a ABC Store.  The patient stated she received physical therapy, one to two visits and received modality treatment only, specifically electrical stimulation and heat pack per patient recollection.  The patient stated that she has had continuous low-back pain at varying degrees for the past eight years since that fall.  The patient gave birth in August 2008 and since the childbirth, has experienced low back pain.  The patient also states that she fell four to five days ago, while mopping her floor.  The patient stated that she landed on her tailbone and symptoms have increased since that fall.  The patient stated that her initial physician examination with Dr. X was on 01/10/09, and has a followup appointment on 02/10/09.",PASTMEDICALHX,"
+
+Notes:
+The patient is a 26-year-old female who has been experiencing low back pain for the past eight years since falling in an ABC store. She has received physical therapy with only electrical stimulation and heat treatment. The pain has been continuous but varies in intensity, and she has had a recent fall on her tailbone that exacerbated the pain. The patient also reports having low back pain since giving birth in August of 2008. She has seen Doctor X for this issue and has a follow-up appointment scheduled for February 10, 2009. Further evaluation and imaging may be necessary to determine the cause and appropriate management of the patient's chronic low back pain."
+1,ROS,"As mentioned denies any oropharyngeal swelling.  No lip or tongue swelling.  No wheezing or shortness of breath.  No headache.  No nausea.  Notes itchy rash, especially on his torso and upper arms.",ALLERGY,"
+
+Notes:
+The patient is a young male who came to the clinic complaining of a rash on his upper arms and torso that started about two days ago. He reports that the area is quite itchy, but denies any other symptoms such as shortness of breath, wheezing, swelling of the lips, tongue or throat, nausea, or headaches. The patient has not applied anything to the affected area. Upon examination, the rash appears to be an erythematous, papular eruption that is scattered throughout the upper extremities and trunk. Differential diagnosis may include contact dermatitis, drug eruption, viral exanthem, among others. A treatment plan will be developed based on further evaluation of the patient's history and physical exam findings."
+2,PASTMEDICALHX,Essentially unchanged from her visit of 04/15/2005.,PASTMEDICALHX,"
+
+Doctor: Okay, good to hear. How about your current symptoms? Can you tell me more about them?
+Patient: Well, I've been feeling really tired lately, and I've been having some trouble sleeping at night. My appetite has also decreased a lot.
+Doctor: I see. Any other symptoms?
+Patient: Yeah, actually. I've been having some chest pain and shortness of breath too.
+Doctor: That's concerning. Let's run some tests and do a physical exam to see what might be causing these symptoms. Based on what you've told me, it's possible that we need to check your heart function or screen for any lung issues. Have you experienced any recent stress or anxiety that could be contributing to these symptoms?
+Patient: Not really. Nothing out of the ordinary, at least.
+Doctor: Alright. Well, let's get started with some initial testing and take it from there. We'll order an EKG and some blood work to start, and depending on those results, we may need to do further imaging studies as well.
+Patient: Sounds good. Thanks, doctor."
+3,MEDICATIONS,Accutane.,MEDICATIONS,"
+
+My skin isn't as oily anymore and the pimples aren't as inflamed, but I'm still getting some breakouts. 
+Doctor: Okay, we'll keep monitoring it. Any side effects from the Accutane? 
+Patient: Yeah, my lips are really dry and cracked all the time.  And my skin is super sensitive and easily irritated.  
+Doctor: Those are common side effects of Accutane. How about your mood or energy levels? 
+Patient: My mood has been okay, but I have been feeling pretty tired lately. 
+Doctor: Alright, I'll make a note of that. Let's schedule a follow-up appointment in another three months to see how things are progressing with the Accutane. In the meantime, continue using gentle skincare products and avoid excessive sun exposure. 
+Patient: Sounds good, thank you. 
+
+Notes:
+The patient is a young adult who has been on Accutane for three months to treat acne. There has been some improvement, with reduced oiliness and inflammation of pimples, but continued breakouts. The patient reports dry and cracked lips, sensitivity and irritation of the skin, and increased fatigue. Mood is reported as stable. Follow-up in three months recommended to assess progress and monitor side effects."
+4,CC,Confusion and hallucinations.,ROS,"
+
+Doctor: That's good to hear. How about any physical symptoms such as weakness or numbness in your arms or legs? 
+Patient: No, I haven't noticed anything like that. 
+Doctor: Okay, and have you been experiencing any pain anywhere else in your body? 
+Patient: Not really, just this constant dull ache in my lower back. It's been bothering me for a few weeks now. 
+Doctor: I see. Have you noticed any changes in your bowel or bladder habits recently? 
+Patient: Yeah, actually. I've been having trouble with constipation lately, and it feels like I can't completely empty my bladder. 
+Doctor: Alright, I'll make a note of that. Based on your symptoms, I'm going to order some blood tests and imaging studies to help us figure out what's going on. We'll also refer you to a specialist who can take a closer look at your back pain. 
+Patient: Thank you, doctor. I appreciate it. 
+
+Notes:
+The patient denies any mental difficulties or hallucinations but reports a constant dull ache in the lower back for the past few weeks. The patient also has reported difficulty with constipation and incomplete bladder emptying. Further evaluation will include blood tests and imaging studies. Patient will be referred to a specialist to address the back pain. Follow-up appointment scheduled for two weeks."
+5,GENHX,"32 weeks gestation to a G4 mother and weighed 4#11oz. He was placed in an incubator for 3 weeks. He was jaundiced, but there was no report that he required treatment.",OTHER_HISTORY,"
+
+Notes:
+The patient's family reports a premature birth at thirty-two weeks with a birth weight of four pounds and eleven ounces. The patient was the mother's fourth pregnancy. The patient spent three weeks in an incubator and developed jaundice, but did not receive any treatment for it. Further information regarding the patient's medical history is needed to determine if there have been any long-term effects of the premature birth and jaundice. A thorough physical examination and testing may be necessary to evaluate any potential complications."
+6,PASTSURGICAL,He has not had any previous surgery.,PASTSURGICAL,"
+
+Notes:
+The patient denied any prior surgical history. No significant past medical or surgical history was noted during this encounter."
+7,GENHX,Back pain after a fall.,PLANPROCEDURES,"
+
+Notes:
+The patient is a (age, gender, race) who presented to the clinic with complaints of severe back pain. The pain started after they fell down on their back. Further investigation revealed that patient has tenderness and discomfort in the thoracic region on palpation. They also have difficulty standing or sitting for long periods without experiencing significant pain. X-rays and CT scans were ordered to determine if there are any fractures or other injuries present. Follow-up appointments will be scheduled as needed to monitor the patient's progress. Pain relief medications were prescribed to manage the symptoms until further evaluation can be conducted."
+8,FAM/SOCHX,The patient has a history of inhalation on intravenous drug abuse.  She is currently on methadone maintenance.  She is being followed in Psychiatry for depression and substance abuse issues.  She lives with a room-mate.,SUBSTANCEABUSE,"
+
+Doctor's notes:
+Patient is a middle-aged male on methadone maintenance for drug addiction. During our consultation, the patient mentioned being followed up for depression issues but did not provide further details. The doctor inquired about the patient's living situation and was informed that he shares an apartment with a roommate. The patient has been receiving IV and inhalation drugs, and the doctor expressed concern about his continued use of these substances. Further monitoring and follow-up will be required to determine the patient's progress towards recovery."
+9,GENHX,"The patient is a 57-year-old female being seen today for evaluation of pain and symptoms related to a recurrent bunion deformity in bilateral feet, right greater than left.  The patient states she is having increasing symptoms of pain and discomfort associated with recurrence of bunion deformity on the right foot and pain localized to the second toe and MTP joint of the right foot as well.  The patient had prior surgery performed approximately 13 years ago.  She states that since the time of the original surgery the deformity has slowly recurred, and she has noticed progressive deformity in the lesser toes at the second and third toes of the left foot and involving the second toe of the right foot.  The patient is employed on her feet as a hospital employee and states that she does wear a functional orthotic which does provide some relief of forefoot pain although not complete.",PASTSURGICAL,"
+
+Notes:
+The patient is a 57-year-old female with bilateral bunions, worse on the right side. She experiences pain in the MTP joint and second toe of the right foot, as well as deformity in the same area. The left foot also has a similar deformity in the second and third toes, indicating arthritis. She works in a hospital and stands for extended periods of time every day. She wears orthotics that provide some relief but still experiences significant pain. Further examination and treatment may be necessary to address her condition."
+10,GENHX,"She was born, normal spontaneous vaginal delivery at Woman's weighing 7 pounds 3 ounces.  No complications.  Prevented, she passed her hearing screen at birth.",ASSESSMENT,"
+
+Notes:
+The patient is a newborn female who was delivered vaginally at Women's hospital with a birth weight of 7 pounds and 3 ounces. The family reported no complications during the delivery or afterwards. The patient also passed all her screening tests, including hearing test. Further details on the medical history will be obtained during future visits."
+11,FAM/SOCHX,He denies tobacco or alcohol.  He has what sounds like a data entry computer job.,OTHER_HISTORY,"
+
+Doctor: That's good to hear. How about your sleep? Are you getting enough rest? 
+Patient: Not really. I have been having trouble falling asleep lately. 
+Doctor: Can you describe what happens when you try to sleep? 
+Patient: It takes me a while to fall asleep, and then I wake up in the middle of the night and have trouble going back to sleep. 
+Doctor: Do you feel tired during the day because of this? 
+Patient: Yes, definitely. I feel like my energy levels are very low. 
+Doctor: Have you noticed any other symptoms besides fatigue? 
+Patient: Well, sometimes I get headaches and feel a bit irritable. 
+Doctor: I see. We may need to do some tests to rule out any underlying conditions, but for now let's focus on improving your sleep. Have you tried anything to help you sleep better? 
+Patient: I've tried over-the-counter sleep aids but they don't seem to work for me. 
+Doctor: Alright. I'll prescribe something stronger that should help you fall asleep and stay asleep. Let's also talk about good sleep hygiene practices that can improve your overall sleep quality."
+12,DISPOSITION,To home with his son.,DISPOSITION,"
+
+Doctor: That's great to hear. Do you feel comfortable going home with him? 
+Patient: Yes, he lives close by and will take good care of me. 
+Doctor: Alright, do you have any other family members or friends nearby in case of an emergency? 
+Patient: My daughter lives a few blocks away and I have a neighbor who is always willing to help. 
+Doctor: Perfect. Now before we discharge you, let me go over some instructions with you. First, make sure to take all your medications as directed. Secondly, avoid strenuous activities for the next few days until you feel better. And finally, if you experience any severe chest pain, shortness of breath, or any other concerning symptoms, please come back to the hospital right away. 
+Patient: Thank you, doctor. I will follow your instructions carefully. 
+Doctor: You're welcome. It was a pleasure taking care of you. 
+
+Notes:
+The patient is a [age]-year-old [gender] who was discharged home with her son after being treated in the hospital. She reports feeling comfortable staying with her son, who lives nearby. The patient also has a daughter living a few blocks away and a helpful neighbor in case of an emergency. Discharge instructions were reviewed with the patient and she agreed to follow them closely. For full details on the history of present illness, please see the previous history and physical."
+13,FAM/SOCHX,"He immigrated to this country in 1984, although he lists himself as having a green card still at this time.  He states he lives on his own.  He is a single male with no history of marriage or children and that he had high school education.  His recreational drug use in the chart indicates that he has had a history of methamphetamines.  The patient denies this at this time.  He also denies current alcohol use.  He does smoke.  He is unable to tell me of any PCP.  He is in counseling service with his case manager being XYZ.",OTHER_HISTORY,"
+
+Notes:
+The patient is a Filipino male who moved to the United States in 1984 and currently holds a green card. He lives alone and reports never being married or having children. The patient completed high school and works but does smoke cigarettes and has a history of methamphetamine use. The patient does not have a primary care physician but has a case manager who is making him attend counseling. The doctor requested for the notes from his case manager to be sent over."
+14,GENHX,"The patient is a 62-year-old African-American male with a significant past medical history of diabetes, hypertension, previous stroke in 2002 with minimal residual right-sided weakness as well as two MIs, status post pacemaker insertion who first presented with numbness in his lower extremities in 2001.  He states that since that time these symptoms have been progressive and now involving his legs above his knees as well as his hands.  More recently, he describes a burning sensation along with numbness.  This has become a particular problem and of all the problems he has he feels that pain is his primary concern.  Over the last six months, he has noticed that he cannot feel hot objects in his hands and that objects slip out of his hands.  He denies any weakness per se, just clumsiness and decreased sensation.  He has also been complaining of brief muscle jerks, which occur in both hands and his shoulders.  This has been a fairly longstanding problem, and again has become more prevalent recently.  He does not have any tremor.  He denies any neck pain.  He walks with the aid of a walker because of unsteadiness with gait. Recently, he has tried gabapentin, but this was not effective for pain control.  Oxycodone helps somewhat and gives him at least three hours pain relief.  Because of the pain, he has significant problems with fractured sleep.  He states he has not had a good night's sleep in many years.  About six months ago, after an MI and pacemaker insertion, he was transferred to a nursing facility.  At that facility, his insulin was stopped.  Since then he has only been on oral medication for his diabetes.  He denies any back pain, neck pain, change in bowel or bladder function, or specific injury pre-dating these symptoms.",PASTMEDICALHX,"
+
+Notes:
+The patient is a 62-year-old African American male with a past medical history significant for diabetes, hypertension, stroke in 2002 with residual weakness on the right side, and two heart attacks. He has a pacemaker for his cardiac issues. The patient reports a long-standing complaint of burning sensation and numbness in his legs that has now progressed to involve his hands and areas above his knees. He also reports clumsiness and loss of sensation in his hands, jerks in his body mainly involving shoulders and both hands. The patient notes pain but states that it is not the main issue. The only medication that provides any relief is oxycodone. Gabapentin did not work. The patient reports poor sleep due to pain. He denies any back pain, changes in bathroom routine or accidents/injuries."
+15,CC,The patient does not have any chief complaint.,ROS,"
+
+Notes:
+The patient is a follow-up with no new complaints. No further evaluation or treatment was necessary at this time. Patient advised to return if any new symptoms arise."
+16,ROS,"Patient is hard of hearing.  She also has vision problems.  Denies headache syndrome.  Presently, denies chest pain or shortness of breath.  She denies abdominal pain.  Presently, she has left hip pain and left shoulder pain.  No urinary frequency or dysuria.  No skin lesions.  She does have swelling to both lower extremities for the last several weeks.  She denies endocrinopathies.  Psychiatric issues include chronic depression.",OTHER_HISTORY,"
+
+Patient: Yes, I have hypothyroidism and take medication for it."
+17,FAM/SOCHX,lives with parents and attends mainstream 5th grade classes.,ASSESSMENT,"
+
+Notes:
+The patient is a young male in fifth grade who lives with both parents. The patient is enrolled in regular mainstream classes at a public school and is not currently receiving any special education services. No significant medical concerns were reported during the brief encounter with Doctor Frankland."
+18,GENHX,"The patient comes in today because of feeling lightheaded and difficulty keeping his balance.  He denies this as a spinning sensation that he had had in the past with vertigo.  He just describes as feeling very lightheaded.  It usually occurs with position changes such as when he stands up from the sitting position or stands up from a lying position.  It tends to ease when he sits down again, but does not totally resolve for another 15 to 30 minutes and he feels shaky and weak all over.  Lorazepam did not help this sensation.  His blood pressure has been up lately and his dose of metoprolol was increased.  They feel these symptoms have gotten worse since metoprolol was increased.",SYMPTOMS,"
+
+Notes:
+The patient is a middle-aged male who presents with complaints of lightheadedness and loss of balance. He reports that he does not experience any spinning sensation, but the symptoms occur when he changes positions from sitting to standing or lying down. The patient also reports feeling shaky and weak during these episodes, which last for approximately 15-30 minutes at a time. The patient was previously taking lorazepam for his symptoms, but it did not help. The patient's blood pressure is elevated, and he has been prescribed an increased dose of metoprolol. It is suspected that the patient's symptoms may be related to the medication change, but further evaluation is necessary. A thorough examination will be conducted to rule out any other underlying causes."
+19,MEDICATIONS,No medications other than recent amoxicillin.,MEDICATIONS,"
+
+Doctor: Are you experiencing any side effects from the medication?
+Guest_family: Well, I think it's giving me some stomach upset and nausea.
+Doctor: Okay, we can switch to a different antibiotic if needed. How many days has it been since you started taking it?
+Guest_family: About five days now.
+Doctor: And how long are you supposed to take it for?
+Guest_family: Ten days according to my primary care doctor.
+Doctor: Alright, let's monitor your symptoms closely and see if they improve. In the meantime, try taking the medication with food and make sure to stay hydrated. If the symptoms persist or worsen, please contact your primary care doctor immediately.
+
+Notes:
+The patient is a guest family member who reports currently taking amoxicillin for an unknown infection. They report experiencing stomach upset and nausea after approximately five days of treatment out of a ten day course prescribed by their primary care doctor. The physician advised monitoring symptoms while continuing medication with food and adequate hydration. A change in antibiotics may be necessary depending on clinical efficacy and tolerability."
+20,DIAGNOSIS,1.  Bipolar disorder. 2.  Iron deficiency anemia. 3.  Anxiety disorder. 4.  History of tubal ligation.,PASTMEDICALHX,"
+
+Guest_clinician: Okay, and what brought her in yesterday? 
+Doctor: She was complaining of increased anxiety and insomnia. She said she's been having trouble sleeping for the past week and feels like her mind is racing all the time. 
+Guest_clinician: Did you perform any evaluations or tests? 
+Doctor: Yes, we did a thorough physical exam and also ordered some blood work. Her CBC showed that her hemoglobin levels were very low, which could be contributing to her fatigue and sleeplessness. We also referred her to a psychiatrist for further evaluation and treatment of her bipolar disorder. 
+Guest_clinician: Has she followed up with the psychiatrist yet? 
+Doctor: I'm not sure, let me check her chart. It looks like she has an appointment scheduled for next week. 
+Guest_clinician: Alright, thanks for the update. Let's make sure to continue monitoring her hemoglobin levels and consider starting her on iron supplements as well. 
+Doctor: Agreed, I will make a note of that in her chart."
+21,FAM/SOCHX,"He is a non-cigarette smoker and non-ETOH user.  He is single and he has no children.  He works as a payroll representative and previously did lot of work in jewelry business, working he states with chemical.",OTHER_HISTORY,"
+
+Notes:
+The patient is a single, non-smoking and non-drinking individual who works as a payroll representative. The patient reports previous work with chemicals in the jewelry business but did not disclose any current exposure to chemicals. No family history was discussed during this encounter. Further evaluation regarding chemical exposure should be considered if symptoms or concerns arise in the future."
+22,EDCOURSE,"The patient was seen in the urgent care and examined.  At this time, her photophobia and nausea make migraine highly likely.  She is well appearing and we'll try Tylenol with codeine for her pain.  One day off school and follow up with her primary doctor.",DIAGNOSIS,"
+
+Notes:
+The patient is a 22-year-old female who presented with symptoms of headache, sensitivity to light, and nausea. The patient reports visiting urgent care where she was advised to follow up with primary care physician. The diagnosis of migraine was made based on the patient's symptoms. Tylenol with codeine was prescribed for pain relief. Doctor also advised the patient to take a day off from school and rest until feeling better. A doctor's note was provided upon request. Follow-up appointment scheduled in one week to monitor progress."
+23,MEDICATIONS,Include Cipro and Flagyl.,MEDICATIONS,"
+
+Doctor: Can you tell me why you are here today? 
+Patient: I've been having diarrhea and abdominal cramps for the past few days. 
+Doctor: How often are you having bowel movements? 
+Patient: About 4-5 times a day. 
+Doctor: Is there any blood or mucus in your stool? 
+Patient: No, it's mostly just loose and watery. 
+Doctor: Have you traveled anywhere recently? 
+Patient: Yes, I was in South America about a month ago. 
+Doctor: Okay, we'll need to do some tests to rule out any infections. In the meantime, I'm going to prescribe you Cipro and Flagyl. Make sure you stay hydrated and avoid dairy products. 
+Patient: Thank you, doctor. 
+Doctor: You're welcome. If you experience any worsening symptoms, come back to see us immediately. 
+
+Notes:
+The patient presented with diarrhea and abdominal cramps that started a few days ago after traveling to South America a month prior. The patient reports having loose and watery stools without any visible blood or mucus. A diagnosis of infectious diarrhea is suspected and the patient was prescribed antibiotics, Cipro and Flagyl. Patient was advised to stay hydrated and avoid dairy products until the test results are available. Further follow-up with the physician will be necessary depending on test results."
+24,GENHX,This is a 51-year-old right hand dominant female with a longstanding history of pain as well as locking sensation to her right thumb.  She was actually able to spontaneously trigger the thumb.  She was diagnosed with stenosing tendinosis and wishes to proceed with release of A1 pulley.  All risks and benefits of the surgery was discussed with her at length.  She was in agreement with the above treatment plan.,"
+
+PLANPROCEDURES","
+
+Notes:
+The patient is a 51-year-old female who complains of pain in her right hand, particularly in the thumb. Upon examination, it was observed that the patient's right thumb had locking episodes, which would come on unexpectedly. The patient had previously been diagnosed with stenosing tendinosis or trigger finger. The doctor discussed the option of releasing the A1 pulley and went over the risks and benefits of the surgical procedure. The patient expressed interest in the surgery and requested further information, which the doctor provided both verbally and in writing. Further documentation will be available after the surgery."
+25,GENHX,"The patient is keeping a food journal that she brought in.  She is counting calorie points, which ranged 26 to 30 per day.  She is exercising pretty regularly.  She attends Overeaters Anonymous and her sponsor is helping her and told her to get some ideas on how to plan snacks to prevent hypoglycemia.  The patient requests information on diabetic exchanges.  She said she is feeling better since she has lost weight.",PLANPROCEDURES,"
+
+Notes:
+The patient is a 40-year-old female who has been keeping up with her food journal and using calorie points ranging from 26 to 30. She reports regular exercise and attendance at Overeaters Anonymous, where she has been receiving support from her sponsor. The patient's current concern is related to high blood sugar levels and wanting more information on diabetic exchanges. Further education will be provided to help the patient better manage her diabetes."
+26,FAM/SOCHX,Noncontributory.,GENHX,"
+
+Guest_clinician: Okay, good to know. And how about your personal medical history? 
+Doctor: Well, I had an appendectomy when I was 15 and have been diagnosed with hypertension in the past. Other than that, nothing significant. 
+Guest_clinician: Have you noticed any changes in your blood pressure lately? 
+Doctor: I haven't checked it recently, but I've been feeling more stressed than usual at work. 
+Guest_clinician: That could certainly be a factor. Are you experiencing any symptoms related to your hypertension, such as headaches or vision changes? 
+Doctor: No, thankfully. I've been monitoring my diet and exercising regularly to try and keep it under control. 
+Guest_clinician: That's great to hear. Let me take a look at your latest lab results and we'll go from there. 
+
+Notes:
+The doctor is a middle-aged individual with a past surgical history of appendectomy and diagnosis of hypertension. The family history does not appear to be significant for any major diseases. The patient reports feeling more stressed than usual at work but denies any current symptoms related to hypertension such as headaches or vision changes. Lab results will be reviewed for further evaluation and management."
+27,PASTSURGICAL,"Partial colon resection of colon carcinoma in 1961 with no recurrence, cholecystectomy 10 years ago, appendectomy, and glaucoma surgery.",PASTSURGICAL,"
+
+Doctor's notes:
+
+The patient is a middle-aged woman who reports having undergone several surgical procedures, including an appendectomy and glaucoma surgery most recently. She also had her gallbladder removed ten years ago and underwent partial colon resection in 1961 due to colon cancer. There is no history of recurring episodes of colon cancer. Further evaluation and follow-up may be required based on the patient's medical history."
+28,PASTSURGICAL,"The patient's only surgery is the aforementioned left knee arthroplasty and bilateral cataract surgery, otherwise negative.",PASTSURGICAL,"
+
+Doctor: Okay, and when did you have those surgeries done? 
+
+Patient: The cataract surgeries were done two years ago, and the knee replacement surgery was done six months ago. 
+
+Doctor: How did you do after those surgeries? Any complications or issues?
+
+Patient: The cataract surgeries went smoothly, but I did have some pain and swelling in my left knee after the knee replacement surgery. It's been slowly improving with physical therapy though.
+
+Doctor: That's good to hear. Have you had any other surgeries or medical procedures in the past?
+
+Patient: No, just those two."
+29,FAM/SOCHX,"Family history is remarkable for heart disease, cerebrovascular disease, diabetes, and hypertension.",GENHX,"
+
+Can you give me some more information about your symptoms? When did they start?
+Patient: I've been feeling tired all the time, even when I get a good night's rest. And my vision has been blurry lately.
+Doctor: How long have you had these symptoms?
+Patient: About a month or so now.
+Doctor: Have you noticed any chest pain or shortness of breath?
+Patient: No, not really. Just some occasional dizziness.
+Doctor: Okay, let's do some tests to see what might be causing these symptoms. We'll start with some blood work and an EKG to check your heart function. Then we can move on to a brain scan depending on the results. 
+
+Notes:
+The patient is a middle-aged individual who presented with general feelings of fatigue and blurred vision over the past month, as well as a family history of cerebrovascular disease, high blood pressure, and high blood sugar. The patient denies experiencing any chest pain or shortness of breath but reports some occasional dizziness. The doctor ordered blood work and an EKG to assess the patient's heart function and will potentially order further testing, such as a brain scan, pending the results."
+30,GENHX,"This is a 52-year-old gentleman with a long history of heroin abuse, who keeps relapsing, presents once again, trying to get off the heroin, last use shortly prior to arrival including cocaine.  The patient does have a history of alcohol abuse, but mostly he is concerned about the heroin abuse.",MEDICATIONS,"
+
+Notes:
+The patient is a 52-year-old male who presented to the emergency department with complaints of body pain and feeling cold. The patient has a history of drug abuse, specifically heroin and cocaine. The patient reported that he needs help kicking his heroin addiction as it is causing him significant harm. There is no current use of alcohol, but there is a history of alcohol abuse in the past. Further assessment and management are required for this patient's substance abuse disorder."
+31,FAM/SOCHX,Noncontributory.,GENHX,"
+
+Doctor: Great to hear that. What brings you in today?
+Patient: I've been feeling extremely tired lately, even though I've been getting a lot of sleep. And I've been experiencing shortness of breath.
+Doctor: Alright, let's delve into this a bit deeper. When did you start feeling fatigued?
+Patient: It's been going on for about three weeks now.
+Doctor: Three weeks? Has it been getting worse over time or has it stayed the same?
+Patient: It's definitely gotten worse.
+Doctor: Okay, and can you describe the shortness of breath? Is it constant or does it come and go?
+Patient: It comes and goes. But when it hits, it can be pretty bad.
+Doctor: Are there any other symptoms such as coughing or chest pain?
+Patient: No, just the fatigue and shortness of breath.
+Doctor: Based on your symptoms, we'll need to do some further testing. For now, I'm going to order a blood test and a chest x-ray. 
+Patient: Okay, thank you.
+Doctor: You're welcome. We'll take care of you here.
+
+Notes:
+The patient is a 36-year-old African American female who presented to the clinic with complaints of fatigue and shortness of breath for the last three weeks. The symptoms have been worsening over time. There are no known illnesses in the family. The patient denies any other symptoms besides the fatigue and shortness of breath. The doctor ordered a blood test and chest x-ray to rule out any underlying conditions. Further evaluation and management will depend on the results."
+32,FAM/SOCHX,"His father died of colon and thyroid cancers at age 52. One brother died of stomach cancer at age 53 and one brother committed suicide. Five other siblings are all healthy. Negative for coronary heart disease, hypertension, diabetes, or kidney disease.",GENHX,"
+
+Notes:
+The patient is a male who provided information about his family history during the medical interview. He reported that his father passed away several years ago from colorectal cancer and thyroid cancer at age 52. In addition, he had two brothers who died prematurely, one from stomach cancer at age 53 and the other by suicide. The patient's remaining siblings are reportedly healthy. There was no indication of any underlying health conditions such as heart disease, high blood pressure, diabetes or kidney disease reported by the patient. Further evaluation may reveal additional risk factors for the patient based on his family history."
+33,PLAN,"1. Take medications regularly. 2. PT, OT, speech therapist to evaluate and treat at Siskin Rehab Hospital. 3. Continue Cipro for an additional two days for his UTI.",PLANPROCEDURES,"
+
+Notes:
+The patient is a [age]-year-old [gender] who presented to [location] with a urinary tract infection. The patient was prescribed Cipro for treatment, with additional instructions to take the medication regularly and complete the course as directed. The doctor has referred the patient for physical therapy, occupational therapy, and speech therapy at Siskin Rehab Hospital. The patient coordinator will contact the patient within two days to set up the appointments. No further questions were asked by the patient during this appointment."
+34,FAM/SOCHX,Mother died at the age of 59 due to stomach cancer and father died at the age of 91 years old.,GENHX,"
+
+Do you have any siblings and have they been diagnosed with cancer?
+Patient: Yes, I have a sister who was diagnosed with breast cancer at the age of forty.
+Doctor: Have you yourself ever had any form of cancer or undergone any cancer treatment?
+Patient: No, I haven't.
+Doctor: Alright. Based on your family history, we may need to monitor you more closely for certain types of cancer. It's important that you stay up to date with regular screenings and check-ups. Do you have any questions or concerns about this?
+Patient: No, I understand. Thank you for letting me know."
+35,PASTMEDICALHX,Negative.  Generally very healthy.,PASTMEDICALHX,"
+
+Doctor: Great. And can you tell me what symptoms she's been experiencing? 
+Guest_family: She has a fever of 101.5 degrees Fahrenheit, and she's been complaining of a sore throat for the past two days. She also has swollen glands in her neck. 
+Doctor: Okay, it sounds like she might have a viral infection. I'm going to take a look at her throat and check her lymph nodes. 
+Guest_family: Sure, go ahead. 
+Doctor: Alright, I see that her tonsils are red and swollen with some white spots on them. Her lymph nodes are also enlarged. Based on these findings, I think she may have strep throat. 
+Guest_family: Oh no, is that serious? 
+Doctor: It can be if left untreated, but we caught it early. I'm going to order a rapid strep test to confirm the diagnosis. In the meantime, I'll prescribe her antibiotics to start right away. 
+Guest_family: Thank you so much, doctor. 
+Doctor: You're welcome. Let's make sure she gets plenty of rest and fluids too. 
+
+Notes:
+The patient is a young child with no significant past medical history or health problems reported by her family. She presented to the clinic with a fever of 101.5 degrees Fahrenheit, sore throat for two days, and swollen glands in her neck. Upon examination, the doctor noted red and swollen tonsils with white spots and enlarged lymph nodes. A rapid strep test was ordered to confirm the diagnosis of strep throat. Antibiotics were prescribed, and the family was advised to ensure the patient got adequate rest and fluids. Follow-up appointment scheduled in three days for reassessment."
+36,LABS,"All labs within normal limits with the exception of Sodium 133, Creatinine 0.2, TSH 0.004, Free T4 19.3 EKG showed sinus tachycardia with a rate of 122.  Urine pregnancy test was negative.",LABS,"
+
+Notes:
+The patient is a 35-year-old female who came to the clinic for routine lab work and an EKG. The labs revealed abnormal levels of Sodium and Creatinine, which indicate possible kidney dysfunction. Thyroid levels were also noted to be off. Further evaluation will be needed to determine the extent of these issues. The EKG showed a heart rate of 122 beats per minute, which is elevated. The patient had a negative pregnancy test. Additional testing and monitoring will be required to fully assess the patient's condition."
+37,GENHX,"The patient returns today for a followup.  She was recently in the hospital and was found to be septic from nephrolithiasis.  This was all treated.  She did require a stent in the left ureter.  Dr. XYZ took care of this.  She had a stone, which was treated with lithotripsy.  She is now back here for followup.  I had written out all of her medications with their dose and schedule on a progress sheet.  I had given her instructions regarding follow up here and follow with Dr. F.  Unfortunately, that piece of paper was lost.  Somehow between the hospital and home she lost it and has not been able to find it.  She has no followup appointment with Dr. F.  The day after she was dismissed, her nephew called me stating that the prescriptions were lost, instructions were lost, etc.  Later she apparently found the prescriptions and they were filled.  She tells me she is taking the antibiotic, which I believe was Levaquin and she has one more to take.  She had no clue as to seeing Dr. XYZ again.  She says she is still not feeling very well and feels somewhat sick like.  She has no clue as to still having a ureteral stent.  I explained this to she and her husband again today.",DIAGNOSIS,"
+
+Notes:
+The patient is a female who presented with back pain, reduced urinary output, and a burning sensation while urinating. She was diagnosed with kidney stones and later developed an infection. A stent was placed in her ureter to allow urine to flow around the kidney stone. The patient reports feeling better with no discomfort related to the stent. However, she has lost the paper with medication instructions and appointment details. She was able to get her prescription filled but has not made an appointment with Doctor F or followed up with Doctor X Y Z. The patient also reports still feeling sick and unaware of the stent placement. The doctor explained the purpose of the stent and advised the patient and her husband to make necessary appointments and follow-up visits. The patient expresses gratitude for the guidance provided."
+38,FAM/SOCHX,"Father died at age 85 of ""old age,"" mother died at age 89 of ""old age.""  Brother died at age 92 of old age, 2 brothers died in their 70s of Parkinson disease.  Son is at age 58 and has a history of hypertension, hypercholesterolemia, rheumatoid arthritis, and glaucoma.",GENHX,"
+
+Notes:
+The patient is a 65-year-old Caucasian female who presented to the clinic and discussed her family history with the doctor. Her son, aged 58 years old, suffers from various chronic conditions including glaucoma, high cholesterol, high blood pressure, and rheumatoid arthritis. The patient's eldest brother passed away at age 92 due to natural causes, while her two younger brothers both battled Parkinson's disease and passed away in their seventies. Her parents lived into their mid-eighties with her father passing at 85 and her mother passing at 89. No significant family history of cancer or other major illnesses reported."
+39,GENHX,"This is a Workers' Compensation injury.  This patient, a 41 year-old male, was at a coffee shop, where he works as a cook, and hot oil splashed onto his arm, burning from the elbow to the wrist on the medial aspect.  He has had it cooled, and presents with his friend to the Emergency Department for care.",PLANPROCEDURES,"
+
+Notes:
+The patient is a 41-year-old male who presented to the emergency department accompanied by his friend from work. He sustained a burn injury on his left arm while cooking in the coffee shop kitchen, with hot oil splashing onto his arm. The patient reported immediate unbearable pain and sought medical attention. The patient's friend confirmed that this will be a worker's compensation case for injury. Upon examination, the burn was identified to have affected the patient's medial arm from elbow to wrist. The medical team reassured the patient that they would provide the necessary care and treatment for the burn injury."
+40,DISPOSITION,To home.,DISPOSITION,"
+
+Doctor's Note:
+The patient is a [age] [gender] who was discharged from the hospital and deemed ready for home. The patient reported that their family will be providing assistance at home, which is satisfactory. Further follow-up appointments were scheduled as well as medication instructions given to the patient. The patient was educated on what symptoms warrant a call to their healthcare provider or return to the hospital. They left the facility without any concerns."
+41,ASSESSMENT,"1.  Multiple problems including left leg swelling. 2.  History of leukocytosis. 3.  Joint pain involving the left shoulder, probably impingement syndrome. 4.  Low back pain, chronic with obesity. 5.  Obesity. 6.  Frequency with urination. 7.  Tobacco abuse.",LABS,"
+
+Notes: 
+The patient is a 42-year-old male with a history of high white blood cell count. The most recent lab results showed the white blood cell count to be within normal range. However, the patient reports experiencing pain in his left shoulder and lower back, which he has been managing by smoking cigarettes. The doctor advised the patient to wean off smoking and consider nicotine patches for pain management. The patient also reported peeing more frequently but denied any other urinary symptoms. A urine sample was ordered to check for infection. The patient also mentioned having one swollen leg, which the doctor will examine during the visit. Further evaluation and follow up may be necessary depending on the results of these tests."
+42,PLAN,Activity is as tolerated.  Diet is as tolerated.,PLANPROCEDURES,"
+
+Notes:
+The patient reports feeling good and is making progress in their recovery. The doctor advises the patient to continue with their exercises at home but to take it slow, and also to follow the recommended diet for at least a month. No further concerns or questions were raised by the patient during this visit. Follow-up appointment scheduled for four weeks from today."
+43,GENHX,"He is a 29-year-old white male who is a patient of Dr. XYZ and he comes in today complaining that he was stung by a Yellow Jacket Wasp yesterday and now has a lot of swelling in his right hand and right arm.  He says that he has been stung by wasps before and had similar reactions.  He just said that he wanted to catch it early before he has too bad of a severe reaction like he has had in the past.  He has had a lot of swelling, but no anaphylaxis-type reactions in the past; no shortness of breath or difficultly with his throat feeling like it is going to close up or anything like that in the past; no racing heart beat or anxiety feeling, just a lot of localized swelling where the sting occurs.",ALLERGY,"
+
+Notes:
+
+The patient is a 29-year-old white male who presented to the clinic due to swelling on his right hand and arm after being stung by a Yellow Jacket Wasp. He has been experiencing similar symptoms since his early twenties, but never had any anaphylaxis or severe reactions before. The patient denies feeling shortness of breath or closing of the throat as well as anxiety and fast heart beat after getting stung. Further examination showed that the patient's vital signs were within normal limits and there were no signs of infection or other allergic reactions on the swollen area. Treatment was prescribed for pain management and anti-inflammatory medication. Follow-up appointment was scheduled in one week to monitor the progress of the swelling."
+44,EDCOURSE,The patient did request a pain shot and the patient was given Dilaudid of 4 mg IM without any adverse reaction.,MEDICATIONS,"
+
+Notes:
+The patient came into the emergency department complaining of pain and specifically requested a strong medication. The patient received an intramuscular injection of Dilaudid 4mg, which resulted in significant improvement of symptoms without any adverse effects. Further evaluation was done to determine the cause of the initial pain complaint."
+45,FAM/SOCHX,The patient denies smoking cigarettes.  The patient does drink alcohol and also uses illicit drugs.,OTHER_HISTORY,"
+
+Doctor: Okay, thank you for being honest. Can you tell me how often you drink and how much? 
+Patient: I probably have a few drinks once or twice a week. And with weed, it's maybe once every couple of months. 
+Doctor: Alright. Are you experiencing any symptoms currently? 
+Patient: Yeah, I've been having trouble sleeping lately. I wake up in the middle of the night and can't fall back asleep. And during the day, I'm feeling pretty tired and unmotivated. 
+Doctor: How long has this been going on? 
+Patient: About two weeks now. 
+Doctor: Have you noticed any changes in your appetite? 
+Patient: Not really, although I have been craving more sugar than usual. 
+Doctor: Alright, thank you for letting me know. Based on what you've told me, we'll need to do some further testing to see if there are any underlying issues causing your symptoms. I'll order some blood work and a sleep study to start. 
+Patient: Okay, sounds good. 
+Doctor: You can expect a call within the next few days to schedule those tests. In the meantime, try to maintain a healthy diet and exercise regularly. 
+Notes:
+The patient is a [age], [gender], who reports drinking alcohol once or twice a week and smoking marijuana occasionally. The patient presents with a chief complaint of difficulty sleeping and fatigue for the past two weeks. No changes in appetite were reported, but the patient admits to an increased craving for sugar. Further testing will be ordered, including bloodwork and a sleep study. Follow-up will be scheduled to discuss results and further management of symptoms."
+46,FAM/SOCHX,"The patient has been a smoker since the age of 10.  So, he was smoking 2-3 packs per day.  Since being started on Chantix, he says he has cut it down to half a pack per day.  He does not abuse alcohol.","
+
+PASTMEDICALHX","
+
+Notes:
+The patient is a smoker who started taking Chantix and has decreased their smoking to half a pack a day. Prior to starting Chantix, the patient smoked two to three packs per day and had been smoking since age 10. Patient does not consume alcohol. Smoking history suggests high risk for complications due to smoking. Further evaluation of smoking history and cessation strategies recommended."
+47,MEDICATIONS,Include those on admission combined with IV Flagyl 500 mg every 8 hours and Levaquin 500 mg daily.,MEDICATIONS,"
+
+Doctor: Can you tell me more about the symptoms you've been experiencing? 
+Patient: I've had a fever for three days now and my stomach has been cramping. I also have diarrhea and it's been pretty watery. 
+Doctor: Okay, thank you for letting me know. Have you noticed any blood in your stool? 
+Patient: No, there hasn't been any blood. Just a lot of mucus. 
+Doctor: Alright, I'll make sure to note that down. And have you been experiencing any nausea or vomiting? 
+Patient: Yeah, I've thrown up a few times. 
+Doctor: Understood. We'll make sure to give you something for that as well. How is your pain level? 
+Patient: It's pretty bad, especially in my lower abdomen. 
+Doctor: I'm sorry to hear that. We'll do everything we can to help manage your pain. Is there anything else you think might be important for me to know? 
+Patient: No, I think that covers everything. 
+Doctor: Great, thank you. We'll get started on these treatments right away and continue to monitor your symptoms closely."
+48,ROS,"No headaches. No visual, hearing, or swallowing difficulties. No changes in bowel or urinary habits.",ROS,"
+
+Notes:
+The patient denies any difficulty in hearing or swallowing, double vision, blurred vision, or changes in bowel movements. The patient also denies experiencing headaches or migraines. There is no pain during urination or change in frequency reported by the patient. No abnormalities detected during physical examination. Monitoring to continue for any changes in symptoms."
+49,ROS,The remaining ROS is unremarkable.,ROS,"
+
+Doctor notes: The guest clinician reviewed the patient's systems and found them to be normal except for the reported symptoms. No further issues were noted by the guest clinician, and they were thanked for their assistance."
+50,PLAN,"Daily applications of Acticoat, pressure relief, at least getting out of the chair for half of the time, at least eight hours out of the chair, and we will see her in one week.",PLAN/PROCEDURES,"
+
+Notes: 
+The patient is a male in his late 50s with a history of pressure ulcers. During today's visit, the doctor discussed the treatment plan which includes applying Acticoat dressing daily and spending at least eight hours out of the chair for pressure relief. The patient expressed understanding and agreement with the plan. Additionally, the doctor scheduled a follow-up appointment for one week from today. Instructions were given to the receptionist to schedule the appointment. A copy of the treatment plan was provided to the patient for reference."
+51,ASSESSMENT,Substance abuse.,PLANPROCEDURES,"
+
+Notes:
+The patient is a 34-year-old male who was seen in clinic for substance abuse. The patient reported that he always plans to quit but has not been able to do so. The doctor referred the patient to a substance abuse clinic and emphasized the importance of stopping substance abuse. Follow-up will be scheduled to assess progress and continued treatment."
+52,FAM/SOCHX,Denies history of Tobacco/ETOH/illicit drug use.,OTHER_HISTORY,"
+
+Doctor: That's good to hear. How about any medical conditions? Are you currently taking any medication for any chronic illnesses? 
+Patient: I have asthma and I take an inhaler for it, but that's it. 
+Doctor: Okay, thank you for letting me know. Have you noticed any changes in your breathing or any increased difficulty with your asthma lately? 
+Patient: No, my asthma has been pretty well controlled. 
+Doctor: Great. And how about your overall health? Have you experienced any unexplained weight loss, fevers, fatigue, or other symptoms recently? 
+Patient: No, I've actually been feeling pretty good lately. 
+Doctor: Excellent. It's important to keep up with regular check-ups and preventative care, especially with a history of asthma. Do you have a primary care physician that you see regularly? 
+Patient: Yes, I do. 
+Doctor: That's great. Make sure to keep up with your appointments and let your doctor know if you ever experience any new symptoms or changes in your health."
+53,GENHX,"A 49-year-old female with history of atopic dermatitis comes to the clinic with complaint of left otalgia and headache.  Symptoms started approximately three weeks ago and she was having difficulty hearing, although that has greatly improved.  She is having some left-sided sinus pressure and actually went to the dentist because her teeth were hurting; however, the teeth were okay.  She continues to have some left-sided jaw pain.  Denies any headache, fever, cough, or sore throat.  She had used Cutivate cream in the past for the atopic dermatitis with good results and is needing a refill of that.  She has also had problems with sinusitis in the past and chronic left-sided headache.",ASSESSMENT,"
+
+Notes:
+
+The patient is a 49-year-old female with a chief complaint of ear pain and headache for the past three weeks. She also reports difficulty hearing, pressure on the left side of her sinus causing tooth pain, and jaw pain on the left side. She denies fever, cough, sore throat, or any cold-like symptoms at this time. The patient has a history of chronic left-sided headache and sinus problems. She reports using Cutivate for eczema, which has been helpful. A prescription refill was requested by the patient during the visit. Further evaluation and management are needed to determine the cause of the patient's symptoms."
+54,ROS,PSYCHIATRIC: See psychiatric evaluation.,MENTALHEALTH,"
+
+Doctor: Yes, he notes that you have been consistently attending your therapy sessions and following the prescribed medication regimen. He also mentions that you have shown significant improvement in managing your symptoms of anxiety and depression.
+Patient: That's great to hear!
+Doctor: Additionally, the psychiatrist recommends continuing with the current treatment plan but suggests adding a mindfulness-based therapy to further enhance your coping skills. Are you open to trying that?
+Patient: Yeah, I'm willing to give it a shot.
+Doctor: Alright, I'll make a referral to a therapist who specializes in mindfulness-based therapies. In the meantime, keep up the good work!
+Patient: Will do. Thank you for your help.
+Doctor: You're welcome. We will schedule a follow-up appointment in a few weeks to check on your progress.
+
+Notes:
+The patient has been consistently attending therapy sessions and following prescribed medication regimen which has resulted in significant improvement in managing symptoms of anxiety and depression according to the evaluation report from the psychiatrist. The psychiatrist recommends adding mindfulness-based therapy to further enhance coping skills. The patient agrees to try this new approach and a referral is made to a specialist in this area. Follow-up appointment scheduled in a few weeks to monitor progress."
+55,GENHX,Daily headaches for 6 months in a 57-year-old.,CC,"
+
+Can you describe the headaches for me? 
+Patient: They are usually located in the front of my head, right behind my eyes. It feels like a constant pressure that sometimes turns into a throbbing pain. 
+Doctor: Have you noticed any triggers for these headaches? 
+Patient: Not really. They just seem to happen randomly throughout the day. 
+Doctor: Do you have any other symptoms with the headaches, such as nausea or sensitivity to light? 
+Patient: Sometimes I feel nauseous, but I haven't noticed any issues with light sensitivity. 
+Doctor: Okay. Have you tried taking anything for the headaches, like over-the-counter pain medication? 
+Patient: Yes, but they don't seem to help much. 
+Doctor: Alright. Based on your symptoms, we may want to do some further testing. I'm going to order a CT scan and blood work to make sure there's nothing concerning going on. In the meantime, I'll prescribe you a medication to see if it helps relieve the headaches. 
+Patient: Thank you, doctor. I appreciate your help. 
+
+Notes:
+The patient is a 57-year-old male who presents with a history of daily headaches for the past six months. The headaches are described as frontal pressure with occasional throbbing pain behind the eyes. The patient also reports occasional nausea but no issues with light sensitivity. Over-the-counter pain medications have been ineffective. A CT scan and blood work were ordered to rule out any underlying conditions. In the meantime, the patient was prescribed a medication to manage the headaches. Follow-up scheduled for review of test results and medication efficacy."
+56,FAM/SOCHX,"Ms. A had difficulty providing information on familial medical history.  She reported that her mother died three to four years ago from lung cancer.  Her father has gout and blood clots.  Siblings have reportedly been treated for asthma and GI tumors.  She was unsure of familial history of other conditions such as hypertension, high cholesterol, stroke, etc.",GENHX,"
+
+The patient, Miss A, is a 35-year-old female who presented to the office for a routine checkup. During the visit, the physician took a detailed family medical history. The patient reported that her mother had passed away from lung cancer about three or four years ago and she did not know of any other health conditions her mother had. Her father has gout and had blood clots before, while her brother has asthma and her sister had tumors removed from her stomach. There was also a possible history of hypertension, hyperlipidemia, and stroke on her mother's side of the family, although the patient was unsure about the specifics. No additional medical problems were reported by the patient during this visit."
+57,MEDICATIONS,None.,MEDICATIONS,"
+
+Based on the conversation, there is not much information to generate detailed clinical notes. However, it can be noted that the patient denies taking any medications or over-the-counter drugs. No further information about the patient's medical history or current condition was provided in the conversation. Further examination and evaluation may be necessary to obtain a complete patient history and develop an appropriate treatment plan."
+58,FAM/SOCHX,Non-contributory,GENHX,"
+
+Let's move on to your current symptoms. What brings you in today? 
+Patient: I've been having chest pain for the past few days. It comes and goes but it's been pretty persistent. 
+Doctor: Okay, can you describe the pain? Is it sharp or dull? Does it radiate anywhere? 
+Patient: It's a dull ache and sometimes feels like a pressure in my chest. It doesn't really radiate anywhere else. 
+Doctor: Have you noticed any shortness of breath or difficulty breathing? 
+Patient: Yeah, actually. Sometimes it's hard to catch my breath and I feel like I'm not getting enough air. 
+Doctor: Any coughing or wheezing? 
+Patient: No, just the shortness of breath. 
+Doctor: Alright, we'll need to do some tests to rule out anything serious. I'm going to order an EKG and some blood work. In the meantime, let's start you on some aspirin and nitroglycerin to help with the chest pain. 
+Patient: Thank you, doctor. When will the nurse be in? 
+Doctor: She should be in shortly to administer the medication. If you need anything else in the meantime, please don't hesitate to call for assistance. 
+
+Notes:
+The patient presents with chest pain that has been persistent for the past few days. The pain is described as a dull ache and pressure in the chest, without radiation to other areas. Shortness of breath and difficulty catching their breath are also reported. The patient denies coughing or wheezing. An EKG and blood work have been ordered to assess for any underlying cardiovascular issues. Aspirin and nitroglycerin were administered to manage the chest pain. Further assessment is needed to determine the cause of the patient's symptoms."
+59,GENHX,"This is a 53-year-old man, who presented to emergency room with multiple complaints including pain from his hernia, some question of blood in his stool, nausea, and vomiting, and also left lower extremity pain.  At the time of my exam, he states that his left lower extremity pain has improved considerably.  He apparently had more significant paresthesias in the past and now he feels that the paresthesias have improved considerably.  He does have a history of multiple medical problems including atrial fibrillation, he is on Coumadin, which is currently subtherapeutic, multiple CVAs in the past, peripheral vascular disease, and congestive heart failure.  He has multiple chronic history of previous ischemia of his large bowel in the past.",PASTMEDICALHX,"
+
+Notes:
+
+The patient is a 53-year-old male with a history of multiple medical conditions including peripheral vascular disease, heart failure, and multiple bowel ischemia. The patient presented to the emergency department with complaints of pain from his hernia, nausea, vomiting, and possible blood in the stool. He also reported improvement in his lower extremity pain but had a past history of tingling and numbness. The patient currently takes Coumadin for atrial fibrillation, though it is noted that it is subtherapeutic. The patient's wife provided medical reports detailing his medical history. A thorough examination was conducted, and further tests were ordered to evaluate his current symptoms."
+60,PASTSURGICAL,"Back surgery, shoulder surgery, and appendicectomy.",PASTSURGICAL,"
+
+Doctor: Thank you for letting me know. Have you had any complications since those surgeries? 
+Patient: No, everything has been fine. 
+Doctor: That's great to hear. Any allergies or adverse reactions to medications in the past? 
+Patient: Not that I can think of. 
+Doctor: Okay, we'll make sure to document that just in case. How about your current medications? Are you taking anything regularly? 
+Patient: Just birth control and a daily vitamin. 
+Doctor: Alright, thank you. And finally, have you noticed any changes in your weight or appetite recently? 
+Patient: Actually, yes. I've been losing weight without trying and my appetite has been pretty low. 
+Doctor: Okay, noted. We'll definitely look into that further during your physical exam. Is there anything else you'd like me to know before we get started? 
+Patient: No, I think that covers it."
+61,ALLERGY,"She has hay fever, eczema, sinus, and hives.  She has no melanoma or skin cancers or psoriasis.  Her mother had oral cancer.  The patient is a nonsmoker.  No blood tests.  Had some sunburn in the past.  She is on benzoyl peroxide and Daypro.","
+
+ALLERGY","
+
+Notes:
+The patient, a female in her mid-thirties, presented to the clinic with complaints of hay fever, eczema, sinus problems, and hives. She denied any history of melanoma or psoriasis but reported that her mother had mouth cancer. She also denied smoking tobacco but admitted to having been sunburned before. The patient is currently taking benzoyl peroxide and Daypro. Further evaluation will be needed once the blood test results are available."
+62,GENHX,"Ms. ABC returns today for followup regarding her cervical spinal stenosis.  I have last seen her on 06/19/07.  Her symptoms of right greater than left upper extremity pain, weakness, paresthesias had been worsening after an incident on 06/04/07, when she thought she had exacerbated her conditions while lifting several objects. I referred her to obtain a cervical spine MRI. She returns today stating that she continues to have right upper extremity pain, paresthesias, weakness, which she believes radiates from her neck.  She had some physical therapy, which has been helping with the neck pain.  The right hand weakness continues.  She states she has a difficult time opening jars, and doors, and often drops items from her right greater than left upper extremity.  She states she have several occasions when she is sleeping at night, she has had sharp shooting radicular pain and weakness down her left upper extremity and she feels that these symptoms somewhat scare her. She has been undergoing nonoperative management by Dr. X and feels this has been helping her neck pain, but not the upper extremity symptoms. She denies any bowel and bladder dysfunction.  No lower back pain, no lower extremity pain, and no instability with ambulation.",CC,"
+
+Notes: 
+Miss A B C is a 45-year-old female with cervical spinal stenosis. She complains of paresthesia, weakness, and pain in her upper extremities on the right side more than the left since an incident on June 4th where she lifted many objects. The patient underwent physical therapy which helped her neck pain but did not help with her right hand weakness. The patient also experiences sharp shooting pain and weakness down her left side at night while sleeping. The patient is being treated by Doctor X for non-surgical methods that are helping with her neck pain but not her hand weakness. No issues with bowel movements or lower back pain/leg problems were noted."
+63,ROS,"Focal lateral and posterior shoulder pain without a suggestion of any cervical radiculopathies.  He denies any chronic cardiac, pulmonary, GI, GU, neurologic, musculoskeletal, endocrine abnormalities.",DIAGNOSIS,"
+
+Notes:
+The patient reported having a shoulder issue during the encounter. No other issues were reported or found during the examination. The doctor suspected that the patient had radiculopathy, specifically involving the lateral and backside cervical nerves. Further diagnostic tests may be needed to confirm the diagnosis. For full details on the history of present illness, please see previous notes and medical records."
+64,PASTSURGICAL,Significant for his trauma surgery.,PASTSURGICAL,"
+
+Doctor: Can you describe the surgery and when it was performed? 
+Patient: It was a few years ago after I got hit by a car while crossing the street. I had some internal injuries and a broken leg that required surgery. 
+Doctor: Okay, thank you for letting me know. Have you experienced any complications or issues related to the surgery since then? 
+Patient: No, not really. My leg healed fine and I don't have any pain or discomfort from it anymore. 
+Doctor: That's good to hear. Are you currently taking any medications or have any allergies we should be aware of? 
+Patient: Yes, I am taking blood pressure medication and I'm allergic to penicillin. 
+Doctor: Okay, noted. And how would you describe your overall health and any other medical conditions you may have? 
+Patient: I have high blood pressure and mild arthritis, but other than that I'm in pretty good health. 
+Doctor: Alright, thank you for the information. We'll make sure to take everything into consideration as we develop a treatment plan for you today."
+65,GENHX,"The patient is a 19-year-old male who was involved in a fight approximately an hour prior to his ED presentation.  He punched a guy few times on the face, might be the mouth and then punched a drinking glass, breaking it and lacerating his right hand.  He has three lacerations on his right hand.  His wound was cleaned out thoroughly with tap water, and one of the navy corpsman tried to use Superglue and gauze to repair it.  However, it continues to bleed and he is here for evaluation.",ROS,"
+
+Notes:
+The patient is a 19-year-old male who presented to the emergency department with multiple cuts in his right hand. The patient reported that he got into a fight and injured his hand while punching someone's face or mouth. Later, he punched a glass causing another cut in his hand, resulting in heavy bleeding. Upon examination, three cuts were observed on his right hand. The wound appeared clean and had been treated before coming to the Emergency Department by a navy corpsman who tried to close it up with gauze and superglue but was ineffective. The patient required further medical attention in the Emergency Department for proper treatment of his wounds. A detailed history of present illness is available in the previous history and physical records."
+66,ALLERGY,"She has hay fever, eczema, sinus, and hives.  She has no melanoma or skin cancers or psoriasis.  Her mother had oral cancer.  The patient is a nonsmoker.  No blood tests.  Had some sunburn in the past.  She is on benzoyl peroxide and Daypro.",ALLERGY,"
+
+Notes:
+
+The patient is a female in her mid-twenties who reports experiencing skin issues such as hives, eczema, and allergies. She provides a report from her local doctor that confirms these conditions. The patient denies any family history of these conditions, but mentions that her mother has had cancer. The patient presents a previous report indicating she has been screened for cancer and the results were negative. During the examination, the doctor notes sunburn on the patient's skin and asks about current medication use, which includes benzoyl peroxide and Daypro. The patient denies smoking. Further evaluation and testing will be conducted to determine the underlying cause of the skin issues."
+67,PASTSURGICAL,Unknown.,PASTSURGICAL,"
+
+Notes:
+The patient's surgical history remains unknown due to lack of information from the family. The doctor attempted to gather more information on any previous surgeries, but the guest family member was unable to provide any details. The doctor suggested contacting the patient's daughter for further information but was informed that she is currently out of town. Further attempts will be made to gather the necessary information in order to properly assess and treat the patient."
+68,PASTSURGICAL,Cholecystectomy without complication,PASTSURGICAL,"
+
+Doctor: That's good to hear. When was the surgery performed? 
+Patient: It was about five years ago. 
+Doctor: And how did you feel after the surgery? 
+Patient: I felt okay, just a little sore for a few days. 
+Doctor: Have you experienced any pain or discomfort in the area where your gallbladder used to be since the surgery? 
+Patient: No, not really. Sometimes I get a slight ache but it goes away pretty quickly. 
+Doctor: Alright, we'll make note of that in your medical records. Is there anything else you want to mention about your surgical history? 
+Patient: No, that's pretty much it."
+69,ROS,"The patient denies fever, chills, sweats, ear pain, URI symptoms, cough, dyspnea, chest pain, vomiting, diarrhea, abdominal pain, melena, hematochezia, urinary symptoms, headache, neck pain, back pain, weakness or paresthesias in extremities.",ROS,"
+
+Notes:
+The patient denied having fever, chills, cough cold symptoms, chest pain, breathlessness, bowel or bladder issues, as well as pain in the neck, head, hands, feet or anywhere else."
+70,ALLERGY,None.,ALLERGY,"
+
+Doctor: Okay, that's good to know. Have you been experiencing any symptoms recently? 
+Patient: Yes, I have been feeling very fatigued and have had a persistent cough for the past two weeks. 
+Doctor: I see. Are you coughing up any phlegm or mucus? 
+Patient: Yes, it's been yellowish-green in color. 
+Doctor: Alright. Are you experiencing any shortness of breath or chest pain? 
+Patient: No, just the cough and fatigue. 
+Doctor: I'm going to order a chest X-ray and blood work to check for any underlying respiratory infections. In the meantime, I'll also prescribe some antibiotics to help with the cough. 
+Patient: Thank you, doctor. 
+
+Notes:
+The patient has reported feeling fatigued and having a persistent cough for the past two weeks. There is also the presence of yellowish-green phlegm/mucus. The patient denies experiencing any shortness of breath or chest pain. The doctor ordered a chest X-ray and blood work to rule out any underlying respiratory infections. The patient was prescribed antibiotics to alleviate the cough. Follow-up is recommended as needed."
+71,ROS,"HEENT: See has had headaches, and some dizziness. She denies any vision changes. CARDIAC: She denies any chest pain or palpitations. RESPIRATORY: She denies any shortness of breath. GI: She has had persistent nausea and vomiting. She denies diarrhea, melena or hematemesis. NEUROLOGICAL: She denies any neurological deficits. All other systems were reviewed and were negative unless otherwise mentioned in HPI.",ASSESSMENT,"
+
+Notes:
+The patient is a [age]-year-old [gender] who presented to the clinic with a two-day history of consistent headaches lasting for a couple of hours each time. The patient reports no nausea or vomiting but does experience dizziness with the headaches, which they describe as similar to room spinning. There are no vision changes or chest pains, and the patient denies numbness or tingling in any part of their body. The patient reports normal urinary and bowel movements with no signs of blood or diarrhea. No previous medical history was provided during this visit. A comprehensive examination and evaluation will be performed before recommending any treatment plan."
+72,PASTMEDICALHX,"Hypertension, depression, and osteoporosis.",PASTMEDICALHX,"
+
+Doctor: Thank you for letting me know. Do you take any medications for your high blood pressure and depression? 
+Patient: Yes, I take Lisinopril and Escitalopram. 
+Doctor: Okay, good to know. For your osteoporosis, have you been taking calcium and vitamin D supplements or any other treatment? 
+Patient: Yes, I'm taking Calcium Citrate and Vitamin D3 supplements, and I also received a prescription for Boniva from my previous doctor. 
+Doctor: Excellent. Are you experiencing any pain or discomfort related to your osteoporosis? 
+Patient: Well, I do feel some stiffness in my joints and muscles, especially when I wake up in the morning. And sometimes my lower back hurts a bit. 
+Doctor: I see. Have you had any fractures or bone injuries in the past year? 
+Patient: No, thankfully not. 
+Doctor: Alright, I'll make a note of all this information in your medical records. We may need to run some tests and imaging to monitor your condition and adjust your treatment plan accordingly. 
+Patient: Okay, thank you."
+73,FAM/SOCHX,She lives with her husband.  She is a nonsmoker and no history of drug or alcohol abuse.  She does drink two to three drinks daily.  She completed 12th grade.,OTHER_HISTORY,"
+
+Notes:
+
+The patient is a married female who lives with her husband. She has completed up to the twelfth grade but did not pursue any college education. The patient denies any history of illicit drug use and reports consuming 2-3 alcoholic drinks per day but denies being an alcoholic. No further details regarding medical history, current symptoms or physical examination were documented during this visit."
+74,GYNHX,"She does not bleed.  She has both ovaries, as well as her uterus and cervix.  She is on no hormonal therapy.",GYNHX,"
+
+Notes:
+The patient is a female with no sexual activity and has been missing periods. She reports having both ovaries, uterus and cervix still intact and has not had any surgeries. The patient denies being on any hormonal therapies. Further investigations will be needed to determine the cause of her missed periods. A pelvic exam and ultrasound may be warranted to rule out possible underlying medical conditions such as PCOS, thyroid dysfunction or other hormonal imbalances. Follow-up appointment recommended."
+75,ASSESSMENT,1.  Serous otitis. 2.  Atopic dermatitis.,DIAGNOSIS,"
+
+Doctor: Okay, let's take a look. It seems like you are experiencing flare-ups on your arms and legs. Have you been using any new products or detergents lately?
+Patient: No, I haven't changed anything.
+Doctor: Alright, it could be triggered by stress or weather changes. I will prescribe you some steroid cream to apply topically and recommend using fragrance-free soap and moisturizer. Also, try to avoid scratching as much as possible.
+Patient: Thank you so much, doctor.
+Doctor: You're welcome. Let's schedule a follow-up in two weeks to see how you're doing with the medication."
+76,FAM/SOCHX,"There was no history of hypertension, coronary artery disease, stroke, cancer or diabetes.",GENHX,"
+
+Notes:
+The patient is a middle-aged male diagnosed with type two diabetes approximately two years ago. The patient denies any family history of diabetes, heart disease, stroke, cancer, or high blood pressure. Further evaluation and management of the patient's diabetes will be discussed during his follow-up visit."
+77,FAM/SOCHX,Not obtainable.,GENHX,"
+
+Notes:
+The patient was unable to provide any information regarding family medical history of illnesses. Further investigation into this aspect of the patient's medical history is necessary, as it may play a significant role in their current and future health outcomes. Recommendations for further evaluation and testing will be made accordingly."
+78,FAM/SOCHX,"ETOH abuse (quit '92), 30pk-yr Cigarettes (quit '92)",OTHER_HISTORY,"
+
+Doctor's notes:
+The patient reported smoking and drinking in the past but quit years ago, around 1992. The patient is unsure of how many cigarettes they were smoking at that time but estimated it to be around 30 packs per year. No current use of tobacco, alcohol or illicit drugs was reported."
+79,MEDICATIONS,loratadine beclomethasone nasal fluticasone/salmeterol inhaled Montelukast cephalexin hydrocodone,"
+
+MEDICATIONS","
+
+Guest_clinician: Can you describe the nature of her symptoms? 
+Doctor: She's been experiencing coughing, wheezing, shortness of breath, and chest tightness. 
+Guest_clinician: When did these symptoms start? 
+Doctor: These symptoms started about a week ago. 
+Guest_clinician: Has she had any recent respiratory infections or allergies? 
+Doctor: She does have a history of seasonal allergies but hasn't had any recent respiratory infections. 
+Guest_clinician: Okay, let's do a physical exam and look at her lung function. 
+Doctor: Sounds good. We'll also discuss possible treatment options based on the results of the exam. 
+
+Notes:
+
+The patient is a female with a history of seasonal allergies who presented to the clinic with symptoms of coughing, wheezing, shortness of breath, and chest tightness that started about a week ago. She has tried Loratadine Beclomethasone Nasal Fluticasone and Salmeterol Inhaled Montelukast Cephalexin Hydrocode with some relief. The guest clinician performed a physical examination and assessed the patient's lung function to determine further treatment options. Further management will be discussed based on the results of the exam."
+80,PASTSURGICAL,None.,PASTSURGICAL,"
+
+Doctor: Alright. Can you tell me about any medical conditions you have or are currently being treated for? 
+Patient: I have asthma and allergies. I take an inhaler and antihistamines for them. 
+Doctor: Okay, good to know. Have you experienced any recent breathing difficulties or allergic reactions? 
+Patient: No, not really. My allergies have been acting up a bit lately though. 
+Doctor: Got it. And any medications besides the ones you mentioned that you're currently taking? 
+Patient: Just birth control pills. 
+Doctor: Alright, thank you. Let's move on to your reason for coming in today. What seems to be the problem? 
+Patient: I'm having some pain in my abdomen. It started a few days ago and it's been getting worse. 
+Doctor: How would you describe the pain? Is it sharp or dull? 
+Patient: It's definitely sharp. And it's mostly on my right side. 
+Doctor: Have you noticed any changes in bowel movements or appetite? 
+Patient: Yeah, actually. I've been feeling more constipated than usual, and I haven't had much of an appetite either. 
+Doctor: Hmm, okay. We'll need to do some further tests to figure out what's going on. For now, let's get you scheduled for an abdominal ultrasound and some blood work. In the meantime, I'm going to prescribe you some pain medication. 
+Patient: Thank you so much, doctor. 
+
+Notes:
+The patient is a young adult female presenting with sharp abdominal pain located primarily on the right side. She reports experiencing some constipation and decreased appetite as well. The patient has a history of asthma and allergies, for which she takes inhalers and antihistamines. She also takes birth control pills. Further testing will include an abdominal ultrasound and blood work. Pain medication was prescribed in the interim. For full details on the patient's medical history and current symptoms, please see the history and physical."
+81,GENHX,"This is a 58-year-old white female suffering increasing right knee pain for number of years prior to surgical intervention.  She was completely refractory to conservative outpatient therapy.  She had undergone two knee arthroscopies in the years preceding this.  They were performed by myself.  She ultimately failed this treatment and developed a collapsing-type valgus degenerative osteoarthritis with complete collapse and ware of the lateral compartment and degenerative changes noted to the femoral sulcus that were proved live.  Medial compartment had minor changes present.  There was no contracture of the lateral collateral ligament, but instead mild laxity on both sides.  There was no significant flexion contracture preoperatively.",IMAGING,"
+
+Notes:
+The patient is a 58-year-old white female with a history of bilateral knee pain. The right knee has been bothering her for years despite conservative treatment, including antiinflammatories and rest. The doctor notes that the patient has had two previous arthroscopies on her right knee. Upon examining images of the knee, there are significant findings of collapsing type valgus degenerative osteoarthritis with complete collapse and wear in the lateral compartment and degenerative changes noted to the femoral sulcus. The medial compartment shows some arthritis but appears comparatively better. The patient is able to flex and extend the knee but there is some laxity on both sides of the knee upon stability testing."
+82,ROS,Otherwise negative.,ROS,"
+
+Doctor: So, what brings you in today? 
+Patient: I have been feeling very fatigued lately. No matter how much I sleep, I still feel tired all the time. 
+Doctor: Have you noticed any other symptoms? 
+Patient: Yeah, I've been experiencing some joint pain and muscle aches as well. 
+Doctor: Where is the pain located? 
+Patient: Mostly in my back and shoulders. It's been bothering me for about two weeks now. 
+Doctor: Have you had any fever, chills, or night sweats? 
+Patient: No, none of those. But I've also been having some trouble with my memory and concentration. My mind feels foggy most of the time. 
+Doctor: Okay. Have you been under any stress lately? 
+Patient: Not really, just the normal stuff. Work has been busy but nothing too out of the ordinary. 
+Doctor: Alright. Based on your symptoms, I would like to order some blood tests to see if there are any underlying issues we need to address. We'll check your thyroid function, vitamin D levels, and some inflammatory markers. 
+Patient: Sounds good. 
+Doctor: Also, try to get plenty of rest and hydration until we figure out what's going on. And if your symptoms worsen or you develop any new ones, don't hesitate to come back in. 
+Patient: Thank you, doctor. 
+
+Notes:
+The patient is a 35-year-old female who presents with fatigue, joint pain, muscle aches, and difficulty concentrating. There are no signs of fever or night sweats. The patient denies recent significant stressors. Physical exam was unremarkable. Blood tests were ordered to evaluate thyroid function, vitamin D levels, and inflammatory markers. Patient advised to maintain adequate rest and hydration and return if symptoms worsen or new symptoms develop."
+83,EDCOURSE,"The patient was given IV Norflex 60 mg, Zofran 4 mg, and morphine sulfate 4 mg and with that has significant improvement in her discomfort.",MEDICATIONS,"
+
+Notes: 
+The patient is a middle-aged male who presented with symptoms of severe nausea and vomiting. The physician administered Norflex, Zofran, and morphine sulfate via IV to alleviate the patient's discomfort. The patient reported feeling better after a few hours post-administration of medication. Further evaluation and monitoring are recommended to ensure full recovery."
+84,CC,"Diarrhea, vomiting, and abdominal pain.",ROS,"
+
+Doctor's notes: 
+
+The patient presented to the clinic with complaints of diarrhea and abdominal pain. The patient reported vomiting in the morning. The duration of symptoms has been for the past 24 hours. No fever or chills were reported. Further assessment revealed diffuse tenderness in the abdomen without any specific guarding, rebound, or rigidity. A stool sample was collected and sent for culture and sensitivity testing. The patient was advised to maintain good hydration and follow up after the test results are available."
+85,FAM/SOCHX,unknown.,GENHX,"
+
+Doctor: Okay, that's understandable. Have you ever had any medical problems yourself? 
+Patient: Well, I have high blood pressure and sometimes get really bad headaches. 
+Doctor: How long have you been dealing with high blood pressure? 
+Patient: A few years now. I take medication for it but it doesn't always help. 
+Doctor: I see. And can you describe the headaches? 
+Patient: They're usually on one side of my head and feel like a pounding pain. Sometimes I also get nauseous and sensitive to light. 
+Doctor: How often do they occur? 
+Patient: It varies, but probably at least once a week. 
+Doctor: That's definitely something we'll need to monitor. We may want to do some imaging to rule out any underlying causes, such as aneurysms or tumors. 
+Patient: Oh gosh, that sounds scary. 
+Doctor: It's just a precautionary measure. We want to make sure we explore all possibilities so we can provide you with the best care possible."
+86,ROS,"Please see history of present illness. Psychiatric:  She has had some suicidal thoughts, but no plans.  She denies being suicidal at the current time. Cardiopulmonary:  She has not had any chest pain or shortness of breath. GI:  Denies any nausea or vomiting. Neurological:  No numbness, weakness or tingling.",MENTAL_HEALTH,"
+
+Notes:
+The patient is a 32-year-old male who reported having thoughts of not wanting to be alive but no plans of actually hurting himself. The patient denied any desire or intention to harm others. The patient also denied experiencing chest pain, shortness of breath, nausea, vomiting, numbness, weakness, or tingling. The patient has not seen a therapist or psychiatrist for the aforementioned symptoms. The patient will be further evaluated and treated by the psychiatric team. It was discussed with the patient how he can reach out to someone when he feels overwhelmed with these emotions. Further discussion regarding the trigger factors for these emotions needs to be explored in future sessions."
+87,CC,Non-healing surgical wound to the left posterior thigh.,ASSESSMENT,"
+
+Doctor: Alright, let me take a look. How long has it been since your surgery?
+Patient: It's been about three weeks now.
+Doctor: And have you been changing the dressing regularly?
+Patient: Yes, I change it every day as instructed by my surgeon.
+Doctor: Have you noticed any signs of infection such as redness or pus?
+Patient: No, not really. It just seems like it's taking longer than expected to heal.
+Doctor: I see. It looks like there is some delayed healing and mild inflammation around the wound. I am going to prescribe an antibiotic cream for you to apply twice a day and recommend that you come back in a week for a follow-up visit.
+Patient: Okay, thank you doctor.
+Doctor: You're welcome. Let me know if you have any other concerns.
+
+Notes:
+The patient presented with a non-healing surgical wound on the back of their left thigh three weeks after surgery. The wound showed signs of delayed healing and mild inflammation. There were no signs of infection present. The doctor prescribed an antibiotic cream for the patient to apply twice a day and scheduled a follow-up visit in one week."
+88,ALLERGY,There is no known drug intolerance in the past.,ALLERGY,"
+
+Doctor: Alright, good to know. What brings you in today? 
+Patient: I've been having a lot of trouble sleeping lately. It's been going on for a couple of weeks now and it's really starting to affect my daily life. 
+Doctor: I'm sorry to hear that. Have you tried anything to help with the sleeplessness? 
+Patient: Yeah, I've tried some over-the-counter sleep aids but they don't seem to be working. 
+Doctor: Okay, let's talk about your symptoms in more detail. Do you have trouble falling asleep or staying asleep? 
+Patient: Both actually. It takes me forever to fall asleep and then I often wake up in the middle of the night and can't get back to sleep. 
+Doctor: Are you experiencing any other symptoms such as fatigue, irritability, or difficulty concentrating during the day? 
+Patient: Yes, all of those things. It's getting hard to focus at work and I just feel exhausted all the time. 
+Doctor: I understand. Let's do a full physical exam to rule out any underlying medical conditions that could be contributing to your sleep issues. In the meantime, I'll prescribe you a short-term course of medication to help you sleep better. 
+Patient: Thank you so much, doctor."
+89,GENHX,"This 17-year-old male was fighting with some other kids in Juvenile Hall when he felt some pain in his left elbow, causing sudden pain.  He also has pain in his left ankle, but he is able to walk normally.  He has had previous pain in his left knee.  He denies any passing out, any neck pain at this time even though he did get hit in the head. He has no chest or abdominal pain.  Apparently, no knives or guns were involved.",EXAMFAM/SOCHX,"
+
+Notes: 
+The patient is a 17-year-old male who presented to the clinic with left elbow and ankle pain after being involved in a physical altercation at juvenile detention center. He also reported head trauma but denied any other pain or symptoms, including chest or abdominal pain. He denied any weapon use during the altercation. The patient's gait was normal, and he did not report any neck pain. A full examination of the affected areas will be conducted to assess for any possible fractures, dislocations or soft tissue injuries. Further testing may be required depending on the results of the examination."
+90,FAM/SOCHX,Denies the use of alcohol or tobacco.,OTHER_HISTORY,"
+
+Doctor: Okay, thank you for your honesty. I just have to ask these questions as they are important for your health assessment. Have you noticed any changes in your appetite or weight recently?
+Patient: Yes, actually. I've been losing weight unintentionally and I don't really feel like eating much.
+Doctor: How long has this been going on?
+Patient: For a few weeks now.
+Doctor: Have you noticed any other symptoms such as fatigue, weakness, or fever?
+Patient: Yeah, I have been feeling very tired lately and sometimes my muscles feel weak. But no fever that I know of.
+Doctor: Alright, we'll need to do some tests to check for any underlying conditions that could be causing these symptoms. But first, tell me about your medical history. Do you have any chronic illnesses or take any medications regularly?
+Patient: I have asthma and I use an inhaler when needed. Other than that, I'm pretty healthy.
+Doctor: Great, thanks for letting me know. We'll go ahead and run some blood work and imaging tests to get a better idea of what's causing your symptoms. In the meantime, try to rest and drink plenty of fluids.
+Patient: Thanks, doctor."
+91,EXAM,CHEST: The chest examination is unremarkable.,EXAMFAM/SOCHX,"
+
+Notes:
+The patient had a chest examination done by the doctor who did not find any abnormalities. No further follow-up was needed at this time."
+92,PASTMEDICALHX,History of migraine.,OTHER_HISTORY,"
+
+Doctor: Can you describe your migraines? How often do they occur and how long do they last for?
+Patient: I usually get them about once a month, sometimes more frequently. They can last anywhere from a few hours to a couple of days.
+Doctor: Do you notice any triggers that may bring on the migraines?
+Patient: Yes, bright lights and loud noises tend to trigger them. Also, stress and lack of sleep.
+Doctor: Have you tried any medications or treatments for your migraines in the past?
+Patient: Yes, I've tried several over-the-counter pain relievers like acetaminophen and ibuprofen, but they don't seem to work well. I've also tried prescription medications like sumatriptan and rizatriptan which help but make me feel very drowsy.
+Doctor: Okay, based on your history, it sounds like you have a typical presentation for migraine headaches. We can discuss some additional treatment options such as preventive medications or alternative therapies at your next appointment. For today, we can try a migraine cocktail and some Toradol to help alleviate your symptoms. Sound good?
+Patient: Yes, that sounds great. Thank you."
+93,MEDICATIONS,His only medications are Ziac and Remeron.,MEDICATIONS,"
+
+Doctor: Okay, thank you for letting me know. Have you noticed any side effects from either medication? 
+Patient: No, not really. The Remeron helps me sleep better at night and the Ziac seems to be keeping my blood pressure under control. 
+Doctor: That's great to hear. Do you have any allergies to medications? 
+Patient: Yes, I'm allergic to penicillin. 
+Doctor: Okay, we'll make sure to avoid that. Are you experiencing any new symptoms or concerns since your last visit? 
+Patient: Well, I've been having some chest pain and shortness of breath lately. It comes and goes throughout the day. 
+Doctor: I see. Does it happen with activity or at rest? 
+Patient: Sometimes when I'm walking around, but other times when I'm just sitting still. 
+Doctor: Alright, we will need to do some further tests to determine the cause of your chest pain and shortness of breath. I'm going to order an EKG and a chest X-ray for you. 
+Patient: Okay, thank you. 
+Doctor: In the meantime, please avoid any strenuous activities and take it easy. If your symptoms become worse, come back to the clinic or go to the emergency room right away. 
+Patient: Got it, thanks for your help. 
+
+Notes:
+The patient is a [age] [gender] who is currently taking Remeron for depression and Ziac for high blood pressure without any reported adverse effects. The patient has a documented allergy to penicillin. The patient reports new onset of chest pain and shortness of breath that occurs both at rest and with exertion. An EKG and chest X-ray were ordered for further evaluation. Patient advised to avoid strenuous activities and instructed to return or seek emergency care if symptoms worsen."
+94,OTHER_HISTORY,"Reviewed.  There are no changes, otherwise.",PASTMEDICALHX,"
+
+Notes:
+The patient is a male named Mister Jay, whose medical history and family and social history have been previously reviewed by the primary physician and confirmed by the patient during the current visit with a guest clinician. No changes were reported by the patient. Further evaluations and examinations may be necessary based on the patient's condition and symptoms."
+95,PROCEDURES,Permanent pacemaker placement after temporary internal pacemaker.,PLANPROCEDURES,"
+
+Doctor: Excellent. How have you been feeling since the procedure? 
+Patient: I've been doing well, thank you.
+Doctor: That's great to hear. Have you experienced any symptoms such as dizziness, shortness of breath, chest pain, or palpitations? 
+Patient: No, not at all actually. 
+Doctor: Wonderful. Just a few more questions - are you taking any blood thinners or medication for your heart? 
+Patient: Yes, I'm taking aspirin and metoprolol. 
+Doctor: Okay, good. And have you noticed any changes in your heart rate or rhythm since the pacemaker was placed? 
+Patient: No, everything seems normal so far. 
+Doctor: Perfect. It looks like you're recovering very well. We will schedule a follow-up appointment in a few weeks to make sure everything is still working properly. If you experience any unusual symptoms before then, don't hesitate to contact us. 
+Patient: Thank you, doctor."
+96,ROS,"The patient prior to today has been very well without any signs or symptoms of viral illness, but yesterday he began to experience symptoms of nausea, had an episode of vomiting last night. Has low appetite. There were no fevers, chills, or malaise. No headache. No congestion or cold. No coughing. He had no sore throat. There was no chest pain or troubled breathing. He did have abdominal symptoms as described above but no abdominal pain. There were no urinary symptoms. No darkening of the skin or eyes. He had no yellowing or darkening of the urine. He had no rash to the skin. There was no local infection at the side of the fingerstick. All other systems were negative.",CC,"
+
+Notes:
+The patient is a young boy who presented with nausea and vomiting that started the night before. The family reports that he has not had any stomach issues prior to this episode, but his appetite has decreased. He denies having fever, chills, weakness, coughing, sore throat, chest pain, or trouble breathing. There have been no changes in his urination or skin color. Further evaluation is needed to determine the cause of his symptoms."
+97,IMAGING,"EKG shows sinus tachycardia, no acute ST changes.",EDCOURSE,"
+
+Doctor: So that's good news. It means there are no signs of ischemia or damage to the heart muscle. However, we do need to investigate further to determine what is causing your sinus tachycardia. Have you been experiencing any symptoms lately?
+Patient: Yes, I've been feeling very short of breath and light-headed.
+Doctor: Okay, I'm going to order some blood tests and a chest X-ray to start with. We'll also monitor your heart rate and rhythm to see if there are any changes. In the meantime, try to avoid any strenuous activity until we figure out what's going on.
+Patient: Thank you, doctor.
+
+Notes:
+The patient presented with rapid heartbeat and was diagnosed with sinus tachycardia based on EKG report. No ST changes were seen on the report, indicating no signs of ischemia or damage to the heart muscle. However, the patient reported experiencing shortness of breath and lightheadedness, indicating a need for further investigation. Blood tests and a chest X-ray were ordered, and the patient was advised to avoid strenuous activity until further notice. Follow-up appointments will be scheduled to monitor the patient's condition."
+98,IMMUNIZATIONS,Up-to-date.,IMMUNIZATIONS,"
+
+Doctor: I understand. It's always tough to see your little one in discomfort. Can you remind me when he last had his immunizations? 
+Guest_family: About a year ago at his last check-up. 
+Doctor: Great. And how has he been feeling overall since then? 
+Guest_family: He's been pretty healthy, just some minor colds and ear infections here and there. 
+Doctor: Okay, that sounds good. Let's schedule his next check-up for six months from now and we'll make sure he stays up to date on all his vaccines. 
+Guest_family: Sounds good to us. Thank you, Doctor. 
+
+Notes:
+The patient is a young child who presented for a routine check-up with his family. His immunization records were reviewed and it was confirmed that he is up to date on all recommended vaccinations. The family reported no significant health concerns since the last visit, with only minor illnesses such as colds and ear infections. A follow-up appointment was scheduled for six months from now to ensure continued monitoring of the child's health and vaccination status."
+99,ASSESSMENT,"Chronic atrial fibrillation, the patient has been restarted back on aspirin 81 mg at the time of discharge.  Aspirin should be continued with Nexium 40 mg once daily in order to prevent any future occurrence of upper GI bleed.  If the patient has any occurrence of upper GI bleed such as coffee-ground emesis or melena then aspirin should be discontinued.",MEDICATIONS,"
+
+Notes:
+
+The patient is a 65-year-old male with a history of Afib, which is currently under control. The doctor has advised the patient to continue taking Nexium forty M G once a day along with baby aspirin in order to reduce the risk of an upper G I bleed. The patient has been instructed to call the doctor immediately if he notices coffee like grounds in his vomit or bloody stool. If such symptoms are present, then the patient will be advised to discontinue the use of aspirin."

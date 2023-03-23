@@ -1,0 +1,26 @@
+dialogue:
+Doctor: Do you know about any medical traits in your family? 
+Patient: No, everyone in my family is quite healthy. I'm not aware of any medical problems. 
+Doctor: Are you sexually active? 
+Patient: Yes, I am with my boyfriend. 
+Doctor: Do you take any drugs or alcohol or smoke? 
+Patient: No, none of them.
+
+Generate other_history section of the medical note from dialogue.completely unremarkable FHx. Has boyfriend and is sexually active. Denied drug/ETOH/Tobacco use.
+* Another example below *
+ dialogue:
+Doctor: Hello, how are you?
+Patient: I am doing well. Just here for a follow up visit. 
+Doctor: Are there any changes from the last visit in your social history or medical history?
+Patient: No. Whatever you wrote last time should be correct. I was here just three months ago. I was here December third of two thousand and three.
+
+Generate other_history section of the medical note from dialogue.Reviewed and unchanged from the dictation on 12/03/2003.
+* Given example above, solve this below *
+dialogue:
+Guest_clinician: Did you get a chance to review patient's chart? 
+Doctor: Yes, I reviewed his past medical history and family and social history. 
+Doctor: There are no changes, right Mister Jay?
+Patient: Yes, nothing changed. 
+Guest_clinician: Okay, sounds good.
+
+Generate other_history section of the medical note from dialogue.Reviewed and unchanged from the chart.

@@ -1,0 +1,26 @@
+dialogue:
+Doctor: Mister Sunil, your blood pressure is high, and I am noticing this from past two-three times you have been here. It's been constantly high, you are not taking it seriously. 
+Patient: No, nothing like that Doctor! It's been well under control. I have been monitoring at home.
+Doctor: Are you noting your readings? Did you bring it with you?
+Patient: No. I did not get the readings with me but I assure you I am taking care and my B P is normal.
+Doctor: Well, it's up and I am little bothered by it.
+
+Generate history of present illness section of the medical note from dialogue.His blood pressure up.  The last two to three times he has been in here, it has been up.  He has assured me before that his blood pressure is under good control at home, but he does not bring any blood pressures in with him this time, which bothers me.
+* Given example above, solve this below *
+dialogue:
+Patient: So, as you remember I was working with a patient and I accidently jammed that needle inside me.   
+Patient: I am coming for regular screening.
+Doctor: Yes, thank you for that, sir. Did they screen patient?
+Patient: Yes, he got negative H I V but positive hep C, they said he is a carrier only, never will show disease symptoms. 
+Doctor: Okay.
+Patient: I am scared. 
+Doctor: Don't worry, we will do what we can okay. Firstly, let me check if they did some hepatitis B shots on you. Okay looks like you had three shots of hep B and Tetanus is up to date with all others. Antibodies are showing, which is good. 
+Patient: They did the tests on February seven two thousand and five. Have you seen my liver test results? And maybe some other?
+Doctor: Yes, I can see that your liver function test were normal at eighteen and hepatitis C and H I V, both were negative. We took these labs on February seventh. You do not have any local signs of infection, right?  Except acute intestinal problem?
+Patient: Nothing local, but I do have intestinal squeakiness and vomiting.
+Doctor: Let me look at your exam.
+Patient: Okay.
+Doctor: Abdomen is fine, no fever and no swellings. That's great.
+Patient: Okay.
+
+Generate history of present illness section of the medical note from dialogue.The patient was worked with a patient who was negative for hepatitis B and C, but was positive for hepatitis C.  The patient was negative for hepatitis B and C, but was positive for hepatitis C.  The patient had three shots of Hep B and tetanus vaccines on 02/07/2005, 02/07/2005, and 02/07/2005.  The patient has no local signs of infection, except for a mild intestinal squeakiness and vomiting.  His liver function tests were reviewed and were normal at eighteen and hepatitis C was negative.

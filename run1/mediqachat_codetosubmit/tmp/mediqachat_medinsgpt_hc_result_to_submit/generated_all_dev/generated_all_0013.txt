@@ -1,0 +1,43 @@
+dialogue:
+Doctor: Hello, I am Doctor Rez. I will ask you a few questions about your personal and family history, okay?
+Patient: Yes, that's okay.
+Doctor: Did any one in your family get diagnosed with any medical conditions? 
+Patient: My mom has lumps in her breast but it is benign, however my granny on my father side had cancer. 
+Doctor: What kind of cancer, do you know?
+Patient: Well, it was breast cancer don't know if there are types for it. 
+Doctor: No, that's fine. Did you ever have palpitations?
+Patient: What do you mean by that?
+Doctor: Um, Palpitations means the sensation when you feel that your heart is racing or pounding really fast even without doing any strenuous exercise or anything. 
+Patient: Oh, got it. No, I never had that. 
+Doctor: What about any uncontrolled urine leakage? Any accidents?
+Patient: No.
+Doctor: What about any recent sudden hair loss or any other concerns?
+Patient: No, nothing like that. 
+Doctor: Any other treatments in the past?
+Patient: Yeah, I recently got treatment for my sinus.
+
+Generate family history/social history section of the medical note from dialogue.Benign breast lump in her mother; however, her paternal grandmother had breast cancer.  The patient denies any palpitations, urinary incontinence, hair loss, or other concerns.  She was recently treated for sinusitis.
+* Given example above, solve this below *
+dialogue:
+Doctor: When did you move here from Philippines, sir?
+Patient: I think somewhere around nineteen eighty four.
+Doctor: Oh wow, it's been a while, do you have a green card?
+Patient: Yes I do have G C. My apartment is not too far from there.
+Doctor: Do you live by yourself? Or you married?
+Patient: No, I live by myself. Never been married or widowed or kids.
+Doctor: Okay what have you studied?
+Patient: I finished high school. But I do work.
+Doctor: Okay. Do you drink alcohol or smoke?
+Patient: I do smoke but no alcohol.
+Doctor: How about drugs?
+Patient: I used to but not anymore.
+Doctor: Which one?
+Patient: Meth.
+Doctor: Okay. Do you have a P C P?
+Patient: No. But I have a case manager, Mister X Y Z. He is making me go to counselling
+Doctor: Okay. Can I get the notes?
+Patient: Yes, I can ask them to send you.
+Doctor: Okay that will be good.
+Patient: Awesome!
+
+Generate family history/social history section of the medical note from dialogue.The patient is from Philippines. He is from the age of 16. He lives alone. He is a nonsmoker, nondrinker. He graduated high school. He is employed as a case of case manager, Mister XYZ and has done so for some time. He has a case of illicit drug abuse. He has no history of illicit drug use.

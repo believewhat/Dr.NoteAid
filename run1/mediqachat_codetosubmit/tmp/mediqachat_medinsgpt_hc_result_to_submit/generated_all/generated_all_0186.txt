@@ -1,0 +1,43 @@
+dialogue:
+Patient: In the past I was very very fat! Actually, I was morbidly obese. I also had high blood pressure, but after my surgery it got resolved. 
+Doctor: So, everything is okay now?
+Patient: Yeah.
+
+Generate past medical history section of the medical note from dialogue.Significant for hypertension and morbid obesity, now resolved.
+* Another example below *
+ dialogue:
+Doctor: Have you had any illnesses in the past? 
+Patient: Nope.
+Doctor: Anything that is worth mentioning?
+Patient: Nope.
+Doctor: Sure?
+Patient: Yes.
+
+Generate past medical history section of the medical note from dialogue.Noncontributory.
+* Another example below *
+ dialogue:
+Doctor: Do you have any past medical problems that I should know about? 
+Patient: Well, what exactly do you mean by that, doctor? 
+Doctor: Well, it could be anything from A D H D to depression to epilepsy. 
+Patient: Oh, no. I don't have anything like that.
+
+Generate past medical history section of the medical note from dialogue.No significant past medical problems.
+* Another example below *
+ dialogue:
+Doctor: Have you seen your lab results? 
+Patient: No, do you have those in today? 
+Doctor: Yes, I have them right here. They're essentially negative, except it appears that you had C difficile in the past. Do you remember that?
+Patient: Yes, I got it when I worked at a hospital after graduating. 
+Doctor: Yeah, its unfortunately more common there.
+
+Generate past medical history section of the medical note from dialogue.Essentially negative other than he has had C. difficile in the recent past.
+* Given example above, solve this below *
+dialogue:
+Doctor: Hello ma'am. How are you doing today? Can you state your age please?
+Patient: I was born in nineteen forty three and am seventy eight years young. I am doing well other than the hypertension issue. 
+Doctor: Luckily, all of the intercranial lab work has come back negative. Are you still on the hydrochlorothiazide and the potassium chloride?
+Patient: Yes, I take twenty five M G of the hydrochlorothiazide once a day. I also take the potassium once a day as well. Both control my blood pressure fine. 
+Doctor: Any chest pain, shortness of breath, dizzy spells, ankle swelling, or trouble breathing when sleeping?
+Patient: I have none of that so far.
+
+Generate past medical history section of the medical note from dialogue.The patient was born in 2003, was a nonsmoker, nondrinker, and did not use any illicit drugs.  She has had no prior cardiac procedures.  She has hypertension, which is well controlled and well controlled with Sulfothiazide and potassium chloride.  She denies any chest pain, shortness of breath, dizziness, edema, or trouble breathing when sleeping.

@@ -1,0 +1,40 @@
+dialogue:
+Doctor: And who are we seeing today?
+Guest_family: Hi Doctor, this my son J and that's my wife. 
+Guest_family_2: Hi there 
+Doctor: Well, hello young man how are you feeling today?
+Guest_family_2: He has been complaining of severe tummy pain and was crying the whole time. We are worried as he is a special child. He has autism. 
+Doctor: For how long now?
+Guest_family_2: Autism?
+Doctor: No, I mean when did he start complaining of stomach pain?
+Guest_family_2: It started last night.
+Doctor: Oh okay, let me check him. Did he have any nausea or vomiting?
+Guest_family: Yes, he threw up a lot and is refusing to eat or drink anything.
+Doctor: And then he is complaining of tummy pain?
+Guest_family_2: Yes.
+Doctor: Well, the good part is he is not dehydrated. 
+Doctor: Any diarrhea?
+Guest_family_2: Yes, he went three to four times.
+Doctor: Hm, but no blood or anything in the stools or vomit?
+Guest_family: No, nothing like that, we did not notice anything.
+Doctor: Okay good. 
+Doctor: Well, let me run some tests but the signs and symptoms sound like he might have a stomach flu, also called as gastroenteritis in medical terms. I will start him on some medicines and hopefully that should help.
+
+Generate diagnosis section of the medical note from dialogue.1.  Gastroenteritis. 2.  Autism.
+* Another example below *
+ dialogue:
+Doctor: I'd like her to come see you for a consult tomorrow. 
+Guest_clinician: How long has she been suffering from migraines with aura? 
+Doctor: About five years now. 
+Guest_clinician: Does she have a neurologist she sees regularly? 
+Doctor: Not since moving here.
+
+Generate diagnosis section of the medical note from dialogue.Migraine with aura.
+* Given example above, solve this below *
+dialogue:
+Guest_clinician: I see that the patient was in yesterday. 
+Doctor: Yes, she's a frequent flyer. 
+Guest_clinician: What's her medical history? 
+Doctor: She suffers from bipolar disorder and anxiety. She's also anemic and not on any iron supplements. As for surgeries, she's had her tubes ligated.
+
+Generate diagnosis section of the medical note from dialogue.Flying in yesterday.  The patient is a frequency flyer with history of bipolar disorder and anxiety.  She is status post tubal ligation.  She does not take any iron supplements.

@@ -1,0 +1,29 @@
+dialogue:
+Doctor: Good morning, ma'am. Did you have a good thirty-sixth birthday?
+Patient: Yes, thank you. It was a nice day, despite the knee pain. 
+Doctor: That's good, we'll get back to that knee in a moment. Just to confirm, you identify as white, correct? 
+Patient: Yes, I do. 
+Doctor: Thank you. I just needed to make sure my chart was correct. So, is this left knee still bothering you? 
+Patient: Yes, unfortunately, it still is.
+Doctor: You've had three Synvisc injections, correct? When was your last one?
+Patient: Yes, that was about five days ago, right before my birthday. 
+Doctor: Did that provide any relief at all?  
+Patient: Well, I'd say there's been, um, thirty-five or forty percent improvement. 
+Doctor: Are you still having the pinching pain?
+Patient: Yes, it's so bad when I try to put my full weight onto this knee. 
+Doctor: Can you bend this knee at all?
+Patient: Ow, no, please stop. I can't handle that bending, doctor. 
+Doctor: Can you straighten the knee out for me, please? 
+Patient: No, not all the way, look. 
+Doctor: Yes, that's not out all the way. 
+Patient: It hurts really bad, doctor. 
+Doctor: With ten being the worst pain ever, how would you rate your pain today out of ten?
+Patient: Oh, it's easily a ten out of ten. 
+Doctor: Have you used ice or heat? 
+Patient: Yes, I use both. I alternate the two. 
+Doctor: What medicines are you taking?
+Patient: I'm using that Tylenol with codeine you gave me and then some ibuprofen I got from the grocery store. 
+Doctor: Have those helped at all?
+Patient: I'd say they helped pretty minimally.
+
+Generate history of present illness section of the medical note from dialogue.The patient is a 34-year-old white female who presented to the office complaining of left knee pain.  She had her third Synvisc injection about 5 days prior to her presentation.  The patient states that her pain is still bothering her and that she has had three Synvisc injections.  The patient states that her pain is still bothering her and that she has had three Synvisc injections about 5 days prior to her presentation.  The patient states that her pain is still bothering her and that she has had three Synvisc injections about 5 days prior to her presentation.  The patient states that her pain is still bothering her and that she has had three Synvisc injections about 5 days prior to her presentation.  The patient states that her pain is still bothering her and that she has had three Synvisc injections about 5 days prior to her presentation.  The patient states that her pain is still bothering her and that she has had three Synvisc injections about 5 days prior to her presentation.  The patient states that her pain is still bothering her and that she has had three Synvisc injections about 5 days prior to her presentation.  The patient states that her pain is still bothering her and that she has had three Synvisc injections about 5 days prior to her presentation.  The patient states that her pain is still bothering her and that she has had three Synvisc injections about 5 days prior to her presentation.  The patient states that her pain is still bothering her and that she has had three Synvisc injections about 5 days prior to her presentation.  The patient states that her pain is still bothering her and that she has had three Synvisc injections about 5 days prior to her presentation.  The patient states that her pain is still bothering her and that she has had three Synvisc injections about 5 days prior to her presentation.  The patient states that her pain is still bothering her and that she has had three Synvisc injections about 5 days prior to her presentation.  The patient states that her pain is still bothering her and that she has had three Synvisc injections about 5 days prior to her presentation.  The patient states that her

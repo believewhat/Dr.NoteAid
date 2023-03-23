@@ -1,0 +1,34 @@
+dialogue:
+Doctor: How's he doing today? 
+Guest_family: I think he might have fifth disease with sinusitis. It's been running rampant at his school. 
+Doctor: Oh, wow. Let's see what we can do.
+
+Generate assessment section of the medical note from dialogue.Fifth disease with sinusitis.
+* Another example below *
+ dialogue:
+Patient: Doc what are you going to diagnose me as?
+Doctor: We are looking at blood born pathogen exposure secondary to needlestick. 
+Patient: Yes, I was also thinking around contamination.
+
+Generate assessment section of the medical note from dialogue.Blood-borne pathogen exposure secondary to contaminated needlestick.
+* Another example below *
+ dialogue:
+Doctor: Alright, I am looking at your urine report and it confirms what I was suspecting. You have a urinary tract infection.
+Patient: I kind of knew it was a U T I. I have had it before, but nothing this painful and severe. I feel like I am going to die!
+Doctor: Oh yes, it is because you got something called as acute cystitis and its usually very painful and can cause some serious complications. 
+Patient: Well, is it because of my diabetes?
+Doctor: I am afraid I don't have better news for you, but your diabetes is out of control. It's way too high and you must be really careful. Are you taking your medicines?
+Patient: Yes!
+Doctor: How bout diet?
+Patient: Yeah, sometimes I don't care about my diet.
+Doctor: Well, you must watch your diet, you can't just be careless. I am going to change your diabetes medication. And let's start you on the antibiotic that should give you relief. Also stay hydrated drink plenty of fluids it will help you flush the infection out.
+Patient: Alright, thank you!
+Doctor: Take care.
+
+Generate assessment section of the medical note from dialogue.Diabetes type II uncontrolled.  Acute cystitis.
+* Given example above, solve this below *
+dialogue:
+Doctor: I spoke with Poison Control regarding the possible ingestion of the liquid. They let me know that it is actually a relatively small amount and is likely to be a nontoxic ingestion of the liquid, if she did end up ingesting it. It is not likely to be the case as she is behaving as if she did not ingest any of the liquid.
+Guest_family: Thank god! Thank you.
+
+Generate assessment section of the medical note from dialogue.The patient was asked to come in if she ingested any liquid the next day.  She was not aware.

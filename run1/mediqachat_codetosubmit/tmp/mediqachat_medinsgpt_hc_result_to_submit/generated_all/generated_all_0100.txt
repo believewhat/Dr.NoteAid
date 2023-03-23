@@ -1,0 +1,30 @@
+dialogue:
+Doctor: Mister Sunil, your blood pressure is high, and I am noticing this from past two-three times you have been here. It's been constantly high, you are not taking it seriously. 
+Patient: No, nothing like that Doctor! It's been well under control. I have been monitoring at home.
+Doctor: Are you noting your readings? Did you bring it with you?
+Patient: No. I did not get the readings with me but I assure you I am taking care and my B P is normal.
+Doctor: Well, it's up and I am little bothered by it.
+
+Generate history of present illness section of the medical note from dialogue.His blood pressure up.  The last two to three times he has been in here, it has been up.  He has assured me before that his blood pressure is under good control at home, but he does not bring any blood pressures in with him this time, which bothers me.
+* Given example above, solve this below *
+dialogue:
+Doctor: I'm sorry to see that she's not doing well.  
+Guest_family: I can't even begin to tell you how hard this past week has been for us. She has had so much congestion. She's also coughed more than she ever has before. She is only two months old and it breaks my heart to see her like this.
+Doctor: Oh wow. We'll see what we can do for her. How's her breathing been? 
+Guest_family: She's had some irregular breathing where she would breathe very quickly and retract.  
+Doctor: Has she been running a fever? 
+Guest_family: She's been running in the hundreds between one O two and one O four. 
+Doctor: Has she been feeding well? 
+Guest_family: No, not at all. She's been feeding less and I notice she hasn't had as many wet diapers as a result. 
+Doctor: Is anyone else in the family sick? 
+Guest_family: My son has an upper respiratory infection.  
+Doctor: How long has he been sick? 
+Guest_family: A day or two before our two month old. 
+Doctor: You mentioned that she's been coughing a lot. Is she bringing anything up with her coughs?  
+Guest_family: Yeah, I think her coughs trigger some sort of reflex response, causing her to spit up or throw up a few times. It comes on so suddenly, it takes me by surprise. 
+Doctor: Does she happen to experience similar symptoms after her feedings? 
+Guest_family: Yeah, that's new too. 
+Doctor: Any diarrhea? 
+Guest_family: None.
+
+Generate history of present illness section of the medical note from dialogue.The patient is a two-month-old female who has been congested and has been coughing for about two weeks.  She has had some irregular breathing where she would breathe very quickly and retract.  She has had some decreased feeding and she has not had as many wet diapers as she has had.  Her son has had upper respiratory illness with cough and spitting up a few times.  She has not had diarrhea.  She has not had any diarrhea.  She has had no fever.  She has not had any vomiting.  She has not had a seizure.

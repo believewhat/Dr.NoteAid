@@ -1,0 +1,33 @@
+dialogue:
+Doctor: Mister Sunil, your blood pressure is high, and I am noticing this from past two-three times you have been here. It's been constantly high, you are not taking it seriously. 
+Patient: No, nothing like that Doctor! It's been well under control. I have been monitoring at home.
+Doctor: Are you noting your readings? Did you bring it with you?
+Patient: No. I did not get the readings with me but I assure you I am taking care and my B P is normal.
+Doctor: Well, it's up and I am little bothered by it.
+
+Generate history of present illness section of the medical note from dialogue.His blood pressure up.  The last two to three times he has been in here, it has been up.  He has assured me before that his blood pressure is under good control at home, but he does not bring any blood pressures in with him this time, which bothers me.
+* Given example above, solve this below *
+dialogue:
+Doctor: I hear someone just had a birthday! How young are you now, ma'am? 
+Patient: Hello, doctor. I just turned fifty eight. 
+Doctor: That's wonderful. You identify as white as well, correct? 
+Patient: Yes, that's correct. 
+Doctor: Is this right knee still bothering you?
+Patient: Yes, and it's been going on for years now. 
+Doctor: I've done two arthroscopies on this knee, right? 
+Patient: Yeah, that's right.
+Doctor: How have you handled conservative treatment? 
+Patient: What does that mean?
+Doctor: Well, that's the antiinflammatories, rest, and changes in activity you've been advised to do.
+Patient: Honestly, there's been no improvement. 
+Doctor: Okay, and I'm looking at your images, and they show collapsing type valgus degenerative osteoarthritis, and there's complete collapse and wear of the lateral compartment and degenerative changes noted to the femoral sulcus. 
+Patient: Okay, I need you to explain that for me, doctor. 
+Doctor: In summary, you have a pretty significant amount of arthritis in this knee. 
+Patient: Lateral compartment, that's the outside of the knee, right? 
+Doctor: Yes, that's correct. Your medial, or inside part of the knee, looks much better comparatively, but there's still some arthritis. 
+Patient: Okay, thank you. 
+Doctor: Are you able to flex and extend the knee all the way?
+Patient: Yes, look. 
+Doctor: Can I test your stability? Okay, yes, there's some laxity here on both sides of the knee.
+
+Generate history of present illness section of the medical note from dialogue.This is a 58-year-old white female who has had a history of bilateral knee degenerative arthritis for many years.  The patient presents now with bilateral knee pain and instability.  She has had conservative treatment without long-term improvement.  She has also had degenerative changes to the femoral condyle and medial tibial plateau.  The patient has significant degenerative joint disease of the knee joint bilaterally.  She has significant instability to the knee joint bilaterally.  She has decreased range of motion of the knee joint bilaterally.

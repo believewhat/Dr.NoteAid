@@ -1,0 +1,17 @@
+dialogue:
+Doctor: Any difficulty in hearing? 
+Patient: No.
+Doctor: Difficulty swallowing?
+Patient: Um no.
+Doctor: Any double vision or blurred vision or difficulty seeing things properly?
+Patient: No, no problem at all.
+Doctor: Okay.
+Doctor: How about headaches or migraine?
+Patient: No headache. 
+Doctor: Did you notice any change in your bowel moment? 
+Patient: No, it is the same.
+Doctor: Any pain while urinating or change in frequency? 
+Patient: No.
+Doctor: Okay.
+
+Generate review of systems section of the medical note from dialogue.Denies any headaches.  No visual, hearing, or swallowing difficulties.  No changes in bowel or urinary habits.

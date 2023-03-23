@@ -1,0 +1,26 @@
+dialogue:
+Doctor: Mister Sunil, your blood pressure is high, and I am noticing this from past two-three times you have been here. It's been constantly high, you are not taking it seriously. 
+Patient: No, nothing like that Doctor! It's been well under control. I have been monitoring at home.
+Doctor: Are you noting your readings? Did you bring it with you?
+Patient: No. I did not get the readings with me but I assure you I am taking care and my B P is normal.
+Doctor: Well, it's up and I am little bothered by it.
+
+Generate history of present illness section of the medical note from dialogue.His blood pressure up.  The last two to three times he has been in here, it has been up.  He has assured me before that his blood pressure is under good control at home, but he does not bring any blood pressures in with him this time, which bothers me.
+* Given example above, solve this below *
+dialogue:
+Doctor: Hi there, I love that dress, very pretty! 
+Patient: Thank you for complementing a seventy-two-year-old patient.
+Doctor: No, I mean it, seriously. Okay, so you were admitted here in May two thousand nine. You have a history of hypertension, and on June eighteenth two thousand nine you had bad abdominal pain diarrhea and cramps.
+Patient: Yes, they told me I might have C Diff? They did a CT of my abdomen and that is when they thought I got the infection.
+Doctor: Yes, it showed evidence of diffuse colitis, so I believe they gave you IV antibiotics?
+Patient: Yes they did. 
+Doctor: Yeah I see here, Flagyl and Levaquin. They started IV Reglan as well for your vomiting.
+Patient: Yes, I was very nauseous. Vomited as well.
+Doctor: After all this I still see your white blood cells high. Are you still nauseous? 
+Patient: No, I do not have any nausea or vomiting, but still have diarrhea. Due to all that diarrhea I feel very weak.
+Doctor: Okay. Anything else any other symptoms?
+Patient: Actually no. Everything's well.
+Doctor: Great.
+Patient: Yeah.
+
+Generate history of present illness section of the medical note from dialogue.The patient is a 62-year-old white female who was admitted in 06/09/09 with abdominal pain, diarrhea, and nausea.  She had a history of hypertension, and was found to have a history of C. difficile colitis on 06/18/09 and was treated with IV antibiotics Flagyl and Levaquin.  She continued to have diarrhea, nausea, and vomiting, and is still nauseous.  No other symptoms.

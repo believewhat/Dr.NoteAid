@@ -1,0 +1,23 @@
+dialogue:
+Doctor: Hello, ma'am. I see you brought your baby daughter in today. Is she a new patient? 
+Guest_family: Hello, I am her mother. She is a new patient. 
+Doctor: Before we begin, could you verify her age and ethnicity, please? 
+Guest_family: She is a little over one years old, and we identify as black. 
+Doctor: Thank you. How did you hear about our dermatology office? 
+Guest_family: Well, we just came from Tanzania, my birthplace. I have been seeing this odd skin issue with my baby, so I took her to the A B C Practice. After, they sent me here so that you can check her skin problem. 
+Doctor: I see. Do you have a report from the A B C Practice? 
+Guest_family: I do. Here you go. 
+Doctor: Thank you. It looks like she has a history of this atopic eczema, correct? 
+Guest_family: Yes, she has. 
+Doctor: Did they provide you with any medication? 
+Guest_family: I have the bottle with me. Here you go. 
+Doctor: It looks like they gave you an Elidel cream. How often do you apply it to her rashes? 
+Guest_family: I've been putting it on my daughter twice a day for six months now. 
+Doctor: Is it effective? 
+Guest_family: It was, but now it doesn't work. Her skin is just dry now. I've been putting this oil on her now.
+Doctor: Do you know the name of the oil? 
+Guest_family: No, I don't. It starts with a J. I can find a picture. 
+Guest_family: Here it is. It's this oil. 
+Doctor: Oh, I see. The Johnson's Baby oil. That's a good brand. Well, your daughter seems to be well-developed and has good health. She looks her age. We can see what else can help with her rashes.
+
+Generate history of present illness section of the medical note from dialogue.This is a 1-year-old black child who comes in today for a routine followup appointment.  She was brought in by a history of eczema.  I have seen her in the past multiple times from ABCania, where she was found to have a history of eczema.  She was treated with El pertussis cream, which did not help her.  She has been using it twice a day for the past six months.  It does not seem to be working.  Her skin is just dry now, and she has been putting some oil on her.  She is not able to find a good brand of oil that works for her.  She has been given a name for the oil, which is, "Johnson's Baby" and she seems to be doing well.  She is well-known to her age.

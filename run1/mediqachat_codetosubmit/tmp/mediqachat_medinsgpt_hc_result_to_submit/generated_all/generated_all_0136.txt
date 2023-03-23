@@ -1,0 +1,27 @@
+dialogue:
+Doctor: Can you tell me more about your son, ma'am? 
+Guest_family: Well, I have his reports from his school right here.
+Doctor: What do they say? 
+Guest_family: Well, in summary, he's having a lot of problems at school. 
+Doctor: What kind of problems is he having? 
+Guest_family: Well, he has been asking an unusual number of questions, and he's been obsessed with cleaning and cleanness. 
+Doctor: What about his interactions with his classmates? 
+Guest_family: According to the reports from his school, he doesn't relate well in the classroom. 
+Doctor: How is his mood? 
+Guest_family: Well, he seems to be confused and depressed sometimes. 
+Doctor: Is he still asking a lot of questions in class? 
+Guest_family: It's come down a little bit recently. 
+Doctor: Are there any other unusual behaviors you've seen? 
+Guest_family: Um, he used to collect old little toys when he was younger, and he's started doing that again. 
+Doctor: I see, what are his plans for the summer, will he be in classes? 
+Guest_family: He'll be in a social skills program this summer, doctor. 
+Doctor: I see here as well that A B C D has referred him to two psychologists for functional behavioral analysis, is that correct?
+Guest_family: Yes, doctor, that's correct. 
+Doctor: Good, be sure to follow up with them please. 
+Guest_family: Yes, we will, doctor. 
+Doctor: Has he been taking his Zoloft? 
+Guest_family: No, he's taking, um, seven point five M G of Abilify. 
+Doctor: I see, how has he responded to stopping taking the Zoloft? 
+Guest_family: Actually, the tremors in his hands have been a little better.
+
+Generate history of present illness section of the medical note from dialogue.The patient is in school.  She has been asking questions about herself in school.  She has been asking questions about herself in school.  She states that she has been cleaned up and cleaned her house, and that she has been obeyed with cleanliness.  She is confused and depressed sometimes.  She has not been doing well in school.  In the past, she has been referred to a psychologist.  She has been taking Zoloft 7.5 mg p.o. b.i.d. and Abilify 7.5 mg p.o. b.i.d.

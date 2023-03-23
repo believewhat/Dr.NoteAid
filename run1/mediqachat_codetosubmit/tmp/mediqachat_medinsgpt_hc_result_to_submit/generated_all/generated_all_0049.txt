@@ -1,0 +1,37 @@
+dialogue:
+Doctor: Good morning, ma'am. You're here for a follow up, correct? 
+Patient: Yes, doctor. Guess what, I just had my seventy seventh birthday. 
+Doctor: Happy birthday!
+Patient: Thank you, doctor. 
+Doctor:  Just to confirm, ma'am, you identify as White, correct? 
+Patient: Thank you. Yes, doctor. That's correct. 
+Doctor: Okay, walk me through this. So, you've seen doctor X Y Z before, correct? 
+Patient: Yes, that's right. I saw him for low back pain and lumbar scoliosis post laminectomy syndrome, lumbar spinal stenosis, and symptomatic right L two radiculopathy.
+Doctor: You were having right leg pain when you saw him? 
+Patient: Yes. 
+Doctor: Have you ever had surgery on your back? 
+Patient: Yes, I had spinal stenosis, so they did, um, a laminectomy. 
+Doctor: How did you respond to the procedure? 
+Patient: Well, I had lower back pain and some arthritis in my spine after. 
+Doctor: How have you been treated for these following the surgery? 
+Patient: Um, Doctor X Y Z did some injections into my lower back. 
+Doctor: Do you remember which side it was in?
+Patient: It was in the right side, L2-L3.
+Doctor: When was the last time you had these injections into the lower back?
+Patient: The last one was in March of two thousand five. 
+Doctor: How did your symptoms progress following the injections? 
+Patient: Well, I went back to Doctor X Y Z, and then he thought that the symptoms I was having were coming from my right hip. 
+Doctor: Did he do any imaging on this hip? 
+Patient: Yes, I had some done when I saw him on, um, August fourth two thousand four. 
+Doctor: Okay, the x rays we took today show marked degenerative changes, and a progression since the x rays taken back in August when you saw Doctor X Y Z. 
+Patient: Oh no. Oh, he also did the injections into my right hip. 
+Doctor: When was that?
+Patient: Um, it was on April seventh two thousand five, and the last time I saw him was April fifteenth. 
+Doctor: Is that when you had the last injections? 
+Patient: Correct. 
+Doctor: Has anyone talked to you about doing a hip replacement?
+Patient: Yes, but right now I'm not sure if I want to do it. 
+Doctor: Are you still having pain in that right hip today?
+Patient: Yes, it still hurts. 
+Doctor: What makes the pain worse? 
+Patient: Well, anything that puts weight on this hip hurThis 67 y/o RHF presented with a chief complaint of low back pain and lumbar scoliosis. She underwent laminectomy at L2-L3 and L3-L4. She continued to have low back pain and lumbar scoliosis. She was seen by Dr. XYZ in the past for low back pain and lumbar scoliosis. She had lumbar spinal stenosis and lumbar arthritis. She underwent laminectomy in the L2-L3 region. She continued to have low back pain and lumbar scoliosis. She was seen by Dr. XYZ in the past by Dr. XYZ in 04/07/2005. She had low back pain and arthritis in the right hip. She underwent L2-L3 laminectomy with discectomy and fusion to the L3-L4 disc. She continued to have low back pain and lumbar scoliosis. She did well with her last visit in 04/07/2005. She did well with her last visit in 04/07/2005. She did well with her last visit in 04/07/2005. She did well with her last visit in 04/07/2005. She did well with her last visit in 04/07/2005. She did well with her last visit in 04/07/2005. She did well with her last visit in 04/07/2005. She did well with her last visit in 04/07/2005. She did well with her last
