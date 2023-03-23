@@ -1,0 +1,23 @@
+Doctor: Hi there! It's good to see you today. Let's start by discussing your foot ulcer. I understand it's been bothering you for a while now and isn't healing. Can you tell me more about it?
+Patient: Yes, I've been experiencing some burning pain and decreased sensation in my foot. The wound has gotten bigger and redder over time, and sometimes it drains pus and blood. There's some swelling around the area too.
+Doctor: I see. Let's examine the wound more closely. Have you noticed any changes in the size or appearance of the ulcer?
+Patient: The wound has definitely gotten bigger, and the redness around it has increased.
+Doctor: Thank you for letting me know. And you mentioned there's sometimes pus and blood draining from the wound?
+Patient: Yes, that's correct.
+Doctor: Okay, let's discuss your medical history. I see that you have diabetes and neuropathy. What are your blood sugar levels usually like?
+Patient: They're usually in the 200's, and my last hemoglobin A1C was 10.
+Doctor: Got it. We'll need to monitor your blood sugar levels as well. Now, I also noticed in your notes that you've been experiencing fatigue. Can you tell me more about that?
+Patient: Yes, I feel tired pretty much all the time, and it's been hard to keep up with everything. Sometimes I even have trouble getting out of bed in the morning.
+Doctor: Thank you for sharing that with me. We'll want to investigate the cause of your fatigue further. For now, let's focus on treating the foot ulcer. I'm going to prescribe some antibiotics and suggest some lifestyle changes to help improve the healing process.
+Patient: That sounds good. Thank you, doctor.
+Doctor: Of course. And before you go, I also wanted to mention that your vitals are looking good today, so keep up the good work taking care of yourself. Now, can you describe the appearance of the wound on your right foot?
+Patient: There's a wound on the top side of my right foot, near the pinky toe. It's about an inch long and two inches wide.
+Doctor: Have you noticed any changes in the wound, such as size or depth? And have you experienced any increased pain or difficulty walking?
+Patient: No, it hasn't gotten bigger or deeper. The pain is still there but it's not worse than before. It doesn't affect my walking either.
+Doctor: Let's talk about the wound's appearance. Have you noticed any yellow slough or granulation tissue around the wound?
+Patient: Yes, there's some yellow stuff around it and a little bit of pinkish tissue, but not much.
+Doctor: Is there any redness or swelling around the wound, or signs of fluid or odor?
+Patient: No, there's no redness or swelling. I don't see any fluid or smell anything either.
+Doctor: Thank you for the information. We'll continue with the antibiotics and lifestyle changes, and monitor the wound closely. And I also have some good news - the X-ray of your right foot came back normal, with no signs of osteomyelitis.
+Patient: That's great to hear! So what do we do next?
+Doctor: We'll continue with the current treatment plan, and keep a close eye on the wound for any signs of progression or complications. If anything changes, don't hesitate to contact us.

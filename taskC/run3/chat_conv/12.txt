@@ -1,0 +1,36 @@
+Doctor: Hi there, Brittany. How have you been feeling recently?
+Patient: I've been having cramps and sharp pains in my belly a few times a day. Sometimes it feels like someone is twisting my insides, and it hurts a lot. Sometimes I feel really bloated too.
+Doctor: Can you tell me more about the location, frequency, and duration of these cramps and sharp pains in your abdomen?
+Patient: It's mostly in the lower part of my belly and it happens a few times a day. The pain usually lasts for a few minutes, but sometimes it can be longer.
+Doctor: Have you noticed any patterns or triggers for these cramps and sharp pains, such as after eating certain foods or during a specific time of day?
+Patient: No, I haven't really noticed any patterns or triggers. It just seems to happen randomly throughout the day.
+Doctor: And how's your IBS been since we last talked? Any discomfort or changes in your bowel movements?
+Patient: Yeah, my stomach still hurts sometimes and I still need to go to the bathroom a lot. But it's not as bad as before.
+Doctor: That's good to hear. Have you noticed any improvement in your symptoms like less pain or fewer bowel movements?
+Patient: A little bit, but it's still bothering me.
+Doctor: Alright. How about your sleep? Any difficulty falling or staying asleep?
+Patient: Sometimes I have trouble falling asleep, but once I'm out, it's okay. My sleep patterns haven't changed though.
+Doctor: Got it. And how are your joints feeling? Any stiffness or pain since we talked about your arthritis?
+Patient: Yeah, my joints hurt sometimes, especially after standing or walking for a while. And my hands are still stiff in the morning.
+Doctor: Based on your symptoms, have you experienced any other symptoms besides the cramps and sharp pains, such as nausea or changes in bowel habits?
+Patient: Yeah, sometimes I feel really nauseous and my stomach feels upset. And sometimes I have diarrhea or constipation too.
+Doctor: Have you been taking any medication or supplements for your symptoms?
+Patient: Yes, I've been taking Bentyl four times a day for intestinal cramping. I also used Reglan as needed for nausea, but you told me to stop taking that and use Zofran instead. I started taking Citrucel daily for fiber and probiotics to help with gas and bloating.
+Doctor: That's good to hear. Have you noticed any improvement in your symptoms since starting those medications and supplements?
+Patient: They do help sometimes, but I still have flare-ups of my symptoms.
+Doctor: I see. Have you noticed any particular foods or drinks that seem to make your symptoms worse?
+Patient: Well, I recently ate shrimp which caused both upper and lower abdominal pain and bloating. But I also notice episodes of diarrhea after eating chicken alfredo and drinking alcohol.
+Doctor: Okay, thank you for letting me know. How often do you drink alcohol and what types of drinks do you consume?
+Patient: I usually have two drinks when I'm out, either tequila or brown liquor, and occasionally a martini. I try to avoid heavy foods, but I ate fried chicken today without any symptoms.
+Doctor: Alright, thank you for all that information. We'll work together to find the best treatment plan for you. 
+Also, I heard you mentioned experiencing nausea and stomach pain. Have you noticed any changes in your appetite or bowel movements lately?
+Patient: My appetite has been pretty low and my bowel movements have been more frequent than usual. It's been about a few days now.
+Doctor: Have you traveled anywhere or tried any new foods or medications recently?
+Patient: No, nothing like that. But one of my coworkers was sick last week and I was around them a lot.
+Doctor: Alright, let's take a closer look at your symptoms and run some tests to determine the cause.
+And based on our previous conversation, can you tell me if you've experienced any abnormalities or concerns with your respiratory, cardiovascular, urinary, or musculoskeletal systems?
+Patient: No, everything seems fine in those areas.
+Doctor: I suggest discussing taking medication for irritable bowel syndrome with your primary care physician or gastroenterologist. It could help alleviate your symptoms.
+And just a reminder, we talked about starting Elavil 25 mg at bedtime for your IBS, and you can take Bentyl 20 mg 30-45 minutes before eating out at a restaurant. You can also use Zofran as needed for nausea, but try to reduce your intake of greasy, fatty foods and alcohol.
+So, based on our discussion today, I'd like you to send me a message in about a month's time to let me know if you've experienced any side effects or issues with Elavil. Also, please let me know if you need any dose adjustments. If you have any concerns before then, don't hesitate to come back in for another appointment sooner.
+Patient: Okay, sounds good. Thanks for checking in on me.

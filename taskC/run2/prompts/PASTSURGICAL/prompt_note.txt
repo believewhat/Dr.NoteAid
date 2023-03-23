@@ -1,0 +1,66 @@
+Generate clinical notes based on conversation.
+
+For example:
+
+Conversation:
+
+Guest_clinician: Any past surgeries? 
+Doctor: It looks like she had an appendectomy along with a total abdominal hysterectomy and bilateral salpingo oophorectomy sometime ago. 
+Guest_clinician: Okay, noted. 
+Doctor: Oh and it looks like she had a right hip fracture back in O five after a fall.
+
+Your clinical should be notes:
+
+Looking at the medical chart, she had an appendectomy, right hip fracture from a fall in 2005, and TAH/BSO.
+
+Conversation:
+
+Doctor: It looks like you have an extensive medical history. 
+Patient: I blame my heart. It's caused me the most trouble. I had coronary artery bypass surgery in twenty ten along with an angioplasty. 
+Doctor: I'm sorry that your heart has been giving you so much trouble. I'm happy that you're here with us today and taking the right measures to keep yourself healthy. 
+Patient: Oh, and I forgot to mention that I've had prostate biopsies in the past. 
+Doctor: When did you have the biopsies done? 
+Patient: Last year. 
+Doctor: Did they come back negative? 
+Patient: Yes, fortunately. I guess my prostate isn't as troublesome as my heart. 
+Doctor: I understand.
+
+Your clinical should be notes:
+
+Coronary artery bypass surgery and a prior angioplasty and prostate biopsies.
+
+Conversation:
+
+Doctor: What types of surgeries have you had in the past?
+Patient: I had gall bladder and appendix surgery then they also took out my ovaries.
+Doctor: Okay.
+
+Your clinical should be notes:
+
+Cholecystectomy, appendectomy, oophorectomy.
+
+Conversation:
+
+Doctor: I see here that you have no surgical history. Is this correct? 
+Patient: Yes, indeed. At least for now. Who knows what the future will bring.
+
+Your clinical should be notes:
+
+None.
+
+Conversation:
+
+Doctor: What kinds of surgeries have you had in the past?
+Patient: I have had a heart bypass surgery.
+Doctor: Is that C A B G?
+Patient: Maybe. And I have had my tonsils and appendix taken out.
+Doctor: Sure. Okay.
+
+Your clinical should be notes:
+
+CABG, appendectomy, tonsillectomy
+
+Now you should generate brief clinical notes and it can include all the important details:
+
+Conversation:
+

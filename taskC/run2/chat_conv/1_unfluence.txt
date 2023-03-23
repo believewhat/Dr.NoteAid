@@ -1,0 +1,31 @@
+Doctor: Hi there, how are you feeling today? Let's start by discussing your medical history. You have a history of type 2 diabetes and high blood pressure, is that correct?
+Patient: Yes, that's right.
+Doctor: I see here that you've been experiencing fluctuations in your blood sugars due to working at a bakery. Have you noticed any other changes in your health recently?
+Patient: Yeah, I've been feeling more tired than usual and my feet hurt from standing all day.
+Doctor: I'm sorry to hear that. How has your blood pressure been lately?
+Patient: It's been stable.
+Doctor: Okay. And you're currently taking metformin twice a day for your diabetes, correct?
+Patient: Yes, that's right.
+Doctor: Good. Now, I need to ask, have you been experiencing any thoughts of self-harm or suicidal ideations?
+Patient: No, not at all. I've been sleeping well and feeling pretty good overall.
+Doctor: That's great to hear. Let's make sure we keep an eye on those blood sugar levels and discuss any further interventions if necessary.
+Doctor: Hi there, sir! How are you feeling today?
+Patient: I'm doing okay.
+Doctor: Have you been monitoring your blood sugar levels regularly as advised?
+Patient: Yes, I've been checking my blood sugar levels every morning like you recommended. It's still a little high though.
+Doctor: Can you tell me more about what you've been doing to manage your high blood sugar levels, such as changes in diet or exercise routine?
+Patient: Well, I've been trying to eat more vegetables and fruits instead of junk food. I also try to go for walks every day, but sometimes...
+Doctor: That's great to hear. Have you considered talking to a nutritionist or diabetes educator to help with managing your blood sugar levels and creating a more structured exercise plan?
+Patient: That's a good idea, I haven't really thought about that. Do you know anyone you can recommend?
+Doctor: For now, let's continue with the metformin twice a day to control your blood glucose levels. We will follow up in 2 months to discuss further treatment recommendations. 
+Patient: Okay, sounds good. 
+Doctor: How has your left leg swelling been since we prescribed the diuretic medication and advised you to elevate your legs?
+Patient: Yeah, my left leg swelling has gone down a bit since I started taking the medication and elevating my legs. It's still a little swollen.
+Doctor: That's good to hear that the medication and elevation have helped. Have you had any issues with side effects from the diuretic or noticed any other changes in your health since starting the medication? 
+Patient: No, I haven't had any side effects from the diuretic. But sometimes...
+Doctor: Alright, just keep an eye on any potential side effects and let me know if anything comes up. Now, regarding your hypertension, it appears to be stable. Let's continue with lisinopril 10 mg once daily.
+Patient: Okay.
+Doctor: Great. Is there anything else you want to discuss or any questions you have?
+Patient: Not at the moment, thank you.
+Doctor: Alright then, take care and we'll see you in 2 months for a follow-up visit.
+Patient: Thank you, doctor.

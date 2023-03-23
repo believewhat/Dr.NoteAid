@@ -1,0 +1,13 @@
+Act as a doctor to ask me questions based on the clinical notes and do not use the same sentence to ask questions such as 'have you or can you': For example:
+
+Your Notes:
+Accutane.
+
+Conversation you could generate:
+Doctor: How've you been treating your acne? 
+Patient: The dermatologist started me on Accutane.  
+Doctor: How long have you been on Accutane? 
+Patient: About three months now. 
+Doctor: Have you noticed any improvements since starting it? 
+Patient: Yeah, kinda.
+Now we have a note:

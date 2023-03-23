@@ -1,0 +1,16 @@
+Doctor: Hey, how have you been feeling lately?
+Patient: I've been having some joint pain in my knees and hips. It's been happening for a few months now.
+Doctor: Okay, we need to rule out autoimmune diseases or disorders. Have you tried anything to alleviate the pain?
+Patient: Yes, I've taken some over-the-counter pain relievers and used a heating pad, but it hasn't helped much.
+Doctor: Based on your symptoms and medical history, I'd like to examine your knees and order some imaging tests. We can also discuss non-medical interventions such as rest or exercises to improve your symptoms. How does that sound?
+Patient: That sounds good to me. Thank you, doctor. 
+Doctor: Before we wrap up, did you have any other concerns or symptoms you wanted to discuss?
+Patient: Yes, Doc, my left knee has been swollen, red, and hurts when I try to move it too much.
+Doctor: Let me check your respiratory and cardiovascular systems. Take a deep breath for me. Your lungs sound clear without any wheezes, rales, or rhonchi. And your heart is beating regularly. It seems like you have a strain in your left knee. Can you tell me more about the pain and any movements that make it worse?
+Patient: The pain is really bad, almost a 9 out of 10. Walking or moving my leg hurts the most.
+Doctor: Have you noticed any swelling or stiffness? And have you tried anything at home to ease the pain?
+Patient: My knee is swollen and feels stiff. I haven't tried anything at home yet because I wasn't sure what to do.
+Doctor: Alright, we'll need to do some further testing with an autoimmune panel and refer you to physical therapy. I'm also going to prescribe meloxicam 15 mg once daily to help with the pain. Moving on, your blood pressure is elevated today, but has been well-controlled on Norvasc 5 mg according to your home monitoring. We'll continue with your current regimen and order a lipid profile. Your hemoglobin a1C is slightly elevated, but your blood glucose levels have been well-controlled. We'll continue with metformin 500 mg twice a day. Do you understand and agree with the recommended medical treatment plan?
+Patient: Yes, I understand and agree. Also, I snore loudly sometimes and wake up gasping for air. Is that concerning?
+Doctor: Based on your symptoms, I'm concerned about sleep apnea. We'll need to conduct a sleep study to confirm whether or not that's the case.
+Patient: Okay, thanks, doc.

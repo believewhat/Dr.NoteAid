@@ -1,0 +1,38 @@
+Doctor: Hey there, can you tell me about the medications you're currently taking?
+Patient: Yes, I'm taking metformin and Norvasc.
+Doctor: What dosage of metformin are you taking?
+Patient: I'm not sure about the dosage, but I take it three times a day with my meals.
+Doctor: Have you experienced any side effects from taking metformin, like an upset stomach or diarrhea?
+Patient: Yes, sometimes it upsets my stomach or gives me diarrhea after taking it with my meals.
+Doctor: How long have you been taking metformin?
+Patient: I've been taking it for a while now.
+Doctor: Have you noticed any improvements in your blood sugar levels or overall health since starting metformin?
+Patient: I haven't monitored my blood sugar levels, but I've been trying to eat healthier. No noticeable changes yet.
+Doctor: Are you experiencing any side effects from taking Norvasc?
+Patient: No, I haven't noticed any side effects from Norvasc.
+Doctor: You mentioned difficulty breathing and coughing up blood. Let's schedule a chest X-ray.
+Patient: Okay, I'll schedule that appointment.
+Doctor: And regarding your knee pain, we'll need to order some imaging tests. Can you schedule blood work as well?
+Patient: Sure, I'll schedule those appointments too.
+Doctor: You mentioned trouble sleeping and feeling tired. We'll include thyroid function in the blood work.
+Patient: Thanks for including that in the tests.
+Doctor: Is there anything else about your medical history we haven't covered?
+Patient: No, not really. Nothing comes to mind.
+Doctor: How long have you been diagnosed with diabetes, hypertension, and asthma?
+Patient: I was diagnosed with diabetes and hypertension 10 years ago. Asthma has been an issue since childhood.
+Doctor: Can you tell me more about your history of knee pain?
+Patient: My knees have been hurting for a long time. It's tough to do things like walk up stairs or stand.
+Doctor: Do any specific triggers or activities make your knee pain worse?
+Patient: It hurts more after walking or standing for too long.
+Doctor: Is your knee pain affecting your daily activities?
+Patient: It's constant and makes it harder to exercise or go on walks.
+Doctor: I recommend a physical therapy evaluation. Would you be open to that?
+Patient: Sure, I'm willing to try anything that might help.
+Doctor: Have you been experiencing any new symptoms since your last visit?
+Patient: My hives sometimes get really bad and itchy, but that's about it.
+Doctor: Let's schedule some lab work and imaging studies. And regarding your respiratory symptoms, we'll schedule a chest X-ray.
+Patient: No, I haven't been around anyone sick or traveled to an area with high infection rates.
+Doctor: Thank you for letting me know. We'll follow up after we receive the test results.
+Patient: Actually, I'm not experiencing any other symptoms besides photophobia and nausea.
+Doctor: Let's schedule a follow-up appointment in 3 weeks to see how you're doing.
+Patient: Sounds good, thank you.

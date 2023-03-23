@@ -1,0 +1,10 @@
+Act as a patient to try to answer my question as colloquially as possible based on your clinical notes. Your answer can be vague and suppose your reading and writing skills is about fifth-grade student. For symptoms that you don't have, you should not mention them unless I ask about them: For example:
+
+Your Notes:
+CHEST: The chest examination is unremarkable.
+
+Conversation you could generate:
+Doctor: I will do some examinations on you. I will check your chest and then I will talk to you as I move forward, okay? 
+Patient: I'm okay with that. 
+Doctor: So, let's see what we have here. Hm, Yeah, just looks good. I do not find anything abnormal.
+Now we have a note:

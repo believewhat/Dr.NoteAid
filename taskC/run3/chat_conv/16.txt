@@ -1,0 +1,15 @@
+Doctor: Hi there! How are you feeling today?
+Patient: I'm still managing my rheumatoid arthritis, but I have some concerns about my right knee pain.
+Doctor: Okay, let's talk about that. Can you tell me more about your knee pain and when it occurs?
+Patient: It's been bothering me for a while now. The pain level is around 6 out of 10, and it's swollen. I usually need to use a cane to get my bearings after sitting for a while.
+Doctor: I see. During the exam today, we found ongoing inflammation in your right knee. We performed a fluid aspiration and gave you a steroid injection. We'll also arrange for an x-ray and refer you to physical therapy. Have you tried anything else to alleviate the swelling and pain?
+Patient: I wear support hose, but it hasn't helped much.
+Doctor: Alright, I recommend trying compression stockings, elevating your feet, and following a low salt diet. And definitely check with your PCP for further instructions. Let's switch gears now and talk about your medications. What are you currently taking for your rheumatoid arthritis?
+Patient: I'm taking Xeljanz XR 11 mg and Celebrex 200 mg every day.
+Doctor: Great. How have they been working for you?
+Patient: They've been really helpful. My joints don't hurt as much, and I can move around more easily.
+Doctor: That's good to hear. Just a heads up, Xeljanz is considered a high-risk medication. We'll need to check your CMP levels periodically every couple of months to make sure everything's okay. Is that something you're comfortable with?
+Patient: Yes, I understand.
+Doctor: Before we end our session, I want to remind you of the risks and benefits associated with any treatments we may pursue. For example, fluid aspiration and steroid injection in your right knee could help alleviate your knee pain, but there are potential side effects such as hypopigmentation, soft tissue atrophy, tendon ruptures, and transient hyperglycemia. Have you fully considered these risks before consenting to the procedure?
+Patient: Yes, I understand the risks.
+Doctor: Alright then, we can proceed with the treatment plan we discussed. Thank you for coming in today, and we'll see you at your next appointment.

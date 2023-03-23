@@ -1,0 +1,52 @@
+Doctor: Hi, Ms. Garcia! How are you feeling today?
+Patient: Hello, doctor! I'm here for a follow-up on my chronic issues.
+Doctor: What specific issues are we discussing?
+Patient: My osteoarthritis in my elbows.
+Doctor: How has it been affecting you recently?
+Patient: It's been flaring up, especially in my right elbow.
+Doctor: Any other symptoms?
+Patient: Occasional numbness and tingling in my hands.
+Doctor: Do you have a history of other conditions?
+Patient: Yes, gout and psoriasis.
+Doctor: How long since your last gout episode?
+Patient: About three months ago.
+Doctor: And your psoriasis?
+Patient: It's under control.
+Doctor: Are you taking medication for your gout?
+Patient: Yes, colchicine 0.6 mg twice a day as needed.
+Doctor: Let's discuss the numbness and tingling. How often does it happen?
+Patient: Not all the time, just once in a while.
+Doctor: Can you describe the intensity?
+Patient: My hands feel tingly and numb, but it's not severe.
+Doctor: What worsens the pain in your right elbow?
+Patient: Lifting or carrying heavy things.
+Doctor: Does it hurt when you're not doing anything?
+Patient: Yes, sometimes it hurts even then.
+Doctor: Have you tried treatments for your osteoarthritis?
+Patient: Not yet. Any recommendations?
+Doctor: We can discuss pain relievers or physical therapy next time.
+Doctor: Can you tell me more about your right elbow pain?
+Patient: It's been hurting a lot lately, and I have trouble moving it.
+Doctor: How long has this flare-up been going on?
+Patient: A few weeks now.
+Doctor: Any swelling or redness?
+Patient: No, I haven't noticed any.
+Doctor: Have you experienced similar flare-ups before?
+Patient: Yes, but with gout in my feet.
+Doctor: What have you tried for your osteoarthritis?
+Patient: Painkillers and heat or cold packs.
+Doctor: Any medications or supplements that could interact with treatments?
+Patient: No, nothing that could interact.
+Doctor: How has the pain affected your daily activities?
+Patient: It's hard to cook or clean because of the pain.
+Doctor: And your sleep?
+Patient: I have trouble sleeping because of the pain.
+Doctor: Any specific triggers for worse symptoms?
+Patient: Using it too much, like doing chores.
+Doctor: Any previous injuries or surgeries on your right elbow?
+Patient: No, but I have osteoarthritis in other joints.
+Doctor: Rate your pain on a scale of 1 to 10.
+Patient: It's around a 7.
+Doctor: Have you noticed any weakness in your arm or hand?
+Patient: Yes, opening jars is difficult and my grip strength feels weaker.
+Doctor: We'll explore treatment options to help manage your symptoms.

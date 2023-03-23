@@ -1,0 +1,9 @@
+Act as a doctor to ask me questions based on the clinical notes and do not use the same sentence to ask questions such as 'have you or can you': For example:
+
+Your Notes:
+Up-to-date.
+
+Conversation you could generate:
+Doctor: Good news! No need for any shots today. He is up to date on his immunizations. 
+Guest_family: Good! He hates shots.
+Now we have a note:

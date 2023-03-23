@@ -1,0 +1,16 @@
+Doctor: Hi Jacqueline, how are you feeling today? Let's talk about your perioral dermatitis. Have you been using doxycycline as prescribed and have you noticed any changes in your symptoms?
+Patient: Yeah, I've been applying it twice daily like the doctor told me to. I haven't seen much change yet.
+Doctor: Alright, we want to make sure we reach full resolution before reducing the application to once a day for an additional week. Are you planning to resume using Elidel?
+Patient: No, I can't afford it without insurance.
+Doctor: Okay, no problem. I'll prescribe Tacrolimus instead. Just be aware of any possible side effects while using the medication. Also, continue with Sulfacetamide face wash once a day. How has it been working for you?
+Patient: It's been working well. I use it twice a day topically and my skin is not drying out.
+Doctor: That's good to hear. So let's switch to Tacrolimus and see if that helps you get rid of perioral dermatitis completely. We will also schedule a follow-up visit to check on your progress.
+Patient: Alright, thank you. Now, what about my rosacea, including ocular rosacea? 
+Doctor: You mentioned that MetroCream was helping you. Is that still the case?
+Patient: Yes, I apply it twice daily and it seems to be controlled.
+Doctor: Great! I recommend gently washing your eyelids once daily with a gentle cleanser and trying a gentle cream like Vanicream. Do you have any other concerns or questions?
+Patient: Actually, I've been having some stomach issues lately, and I feel nauseous and weak all the time.
+Doctor: Oh, I'm sorry to hear that. Have you had any headaches or blurred vision recently?
+Patient: Yeah, I've been getting these really bad headaches and sometimes my vision gets blurry.
+Doctor: Thanks for letting me know. Let's look into those symptoms during our follow-up visit next week. In the meantime, keep taking your medications as directed and don't hesitate to call us if anything worsens. See you next week!
+Patient: Sounds good, thanks.

@@ -1,0 +1,24 @@
+
+Doctor: Hey Amanda, how are you feeling today? I see that your BP is currently at 150/100, which is high. What medications are you taking for it?
+Patient: I've been prescribed hydrochlorothiazide and lisinopril. But I've been experiencing side effects from lisinopril such as headaches, "swooshing" in my left ear, and lethargy.
+Doctor: I'm sorry to hear that. Have you made any lifestyle changes since your last visit?
+Patient: No, but I do admit to consuming alcohol 4-5 times a week. I usually have about 2-3 drinks each time.
+Doctor: Okay, thank you for letting me know. It's important to monitor your alcohol consumption as it can affect your blood pressure. Have you considered Naltrexone injections for your alcohol use disorder?
+Patient: Yes, I am interested in that.
+Doctor: Great, we can discuss that further. Let's check your blood pressure in the morning and evening for the next few days and see if it averages around 135-145 or 150 over 95-110. We'll also run some tests to see if there are any underlying causes for your hypertension. Can you tell me about your blood pressure? Have you been diagnosed with hypertension?
+Patient: Yeah, I was diagnosed with hypertension before. It's been pretty stable, but still higher than it should be.
+Doctor: How often do you check your blood pressure at home, and have you noticed any significant changes in your readings lately?
+Patient: I haven't checked my blood pressure at home. But sometimes I get headaches and feel dizzy.
+Doctor: Is there anything that triggers these symptoms or makes them worse?
+Patient: Well, I used to drink a lot of alcohol. But I've cut back recently.
+Doctor: That's good to hear. How much were you drinking before, and how frequently?
+Patient: I used to drink every day, sometimes more than one drink. But now I only drink occasionally.
+Doctor: Have you noticed any improvements in your symptoms since cutting back on alcohol?
+Patient: Yes, I feel better overall. The headaches and dizziness aren't as frequent.
+Doctor: That's great to hear. It's important to continue monitoring your blood pressure and avoiding excessive alcohol use to manage your hypertension. Moving on, have you experienced any symptoms of the flu or shingles since deferring your recommended vaccinations?
+Patient: Nah, I haven't felt sick or anything like that. I just don't like getting shots, you know?
+Doctor: Well, I understand that nobody likes to get shots, but they can be really important for preventing serious illnesses. Would you like to schedule an appointment to get those taken care of? Also, let's work together to come up with a plan to reduce your alcohol consumption and manage your hypertension. It sounds like it's been tough to keep everything under control.
+Patient: Yeah, it has been a bit tough.
+Doctor: Don't worry, we're here to help. We can discuss the results of your tests next time and continue to monitor your blood pressure. Oh, and one more thing - I see here that you were started on naltrexone for alcohol use disorder. Just a quick check-in, how has that been going for you?
+Patient: It's been going pretty well actually. The injectable form makes it easier to stick to.
+Doctor: That's great to hear. Keep up the good work, and I'll see you soon.

@@ -1,0 +1,21 @@
+Doctor: Hi, how can I help you today?
+Patient: I came in for full-spectrum STD testing.
+Doctor: Alright, I understand. Have you had unprotected sex recently?
+Patient: Yes, my partner has been seeing other people so I want to make sure I'm okay.
+Doctor: It's good to be vigilant. Have you noticed any changes in your vaginal discharge or odor?
+Patient: Actually, yes. The right side of my vagina is painful and there are some changes in discharge and odor.
+Doctor: Thank you for sharing that. We'll need to run some tests to determine if you have any infections. Have you experienced any other physical symptoms?
+Patient: No fever or chills, but I've been having headaches and confusion sometimes.
+Doctor: It's important to keep track of any symptoms you experience. We'll keep that in mind as we run our tests. In the meantime, please remember to practice safe sex. Have you had a recent pelvic exam?
+Patient: Yeah, they checked everything down there and said it all looked normal. They did some swabs to test for diseases though.
+Doctor: I'm glad to hear everything looked normal. Did you experience any discomfort or pain during the exam?
+Patient: No, it didn't hurt or anything.
+Doctor: That's good. Did the healthcare provider mention anything specific about your cervix or vaginal wall?
+Patient: No, they said both were normal and there was no cervical motion tenderness or masses noted.
+Doctor: It's great to hear that everything appeared normal. Have you received the results of those swab tests yet?
+Patient: Not yet.
+Doctor: I see. Have you been sexually active recently?
+Patient: Yes, I have been sexually active recently.
+Doctor: We'll want to screen for various STDs. Due to your previous abnormal Pap Smear and your partner's multiple sexual encounters, you are considered high risk.
+Patient: Okay, I understand.
+Doctor: We will call you with the laboratory testing results as soon as we have them. Thank you for coming in today, and if you have any questions or concerns, please don't hesitate to reach out.

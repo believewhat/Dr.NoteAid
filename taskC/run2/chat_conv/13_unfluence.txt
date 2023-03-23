@@ -1,0 +1,49 @@
+Doctor: Hey there, it's good to see you again. How have you been feeling since your shunt surgery for hydrocephalus?
+Patient: I've been feeling okay since the surgery, thanks for asking.
+Doctor: That's good to hear. How about Mr. Watson, how has he been doing since his shunt surgery in August 2020?
+Patient: My dad has been doing pretty well too. He's been feeling better and his headaches have gone down a bit.
+Doctor: Great progress for both of you. Have you noticed any changes in your symptoms since the surgery?
+Patient: Well, I don't feel as much pressure in my head anymore and my headaches have decreased.
+Doctor: And how about Mr. Watson? Any changes in his symptoms or overall health since his surgery?
+Patient: My dad hasn't had any major issues since his surgery. We're just glad that it seems to have helped him.
+Doctor: That's reassuring. How is your recovery progressing after the shunt surgery?
+Patient: My recovery is going pretty well. I'm able to move around just fine.
+Doctor: Have you experienced any issues with wound healing or pain management?
+Patient: No, I haven't had any pain or complications.
+Doctor: How about your mobility? Have you had any difficulties?
+Patient: My mobility is fine, too.
+Doctor: I'm glad to hear that. Now, tell me about the trouble you're having walking and cognitive impairment.
+Patient: Yeah, I've been having trouble walking and my mind feels a bit foggy.
+Doctor: How long have you been experiencing these issues?
+Patient: It's been going on for a while now.
+Doctor: Are there any specific cognitive difficulties that you've been facing?
+Patient: Sometimes I forget things easily and have trouble concentrating on tasks for too long.
+Doctor: When did you first notice these symptoms?
+Patient: I can't remember exactly when it started.
+Doctor: Have they progressed over time?
+Patient: Yes, it's getting worse over time.
+Doctor: Can you tell me more about your walking difficulties? Are you stumbling or having trouble with balance?
+Patient: It's harder to walk without stumbling, and my thinking is slowing down too.
+Doctor: Have you experienced any other symptoms related to adult hydrocephalus?
+Patient: I've also been dealing with gait impairment and urinary incontinence and urgency.
+Doctor: It seems we should investigate further regarding your cognitive and walking issues. We will need to run some tests. I see you had a CT scan of the head. Can you tell me more about the tiny amount of blood in your right frontal region and small vessel ischemic change?
+Patient: Oh yeah, during the scan they found a little bit of blood in my right frontal region and some small vessel ischemic change.
+Doctor: Were you experiencing any symptoms before the scan?
+Patient: I was feeling dizzy and had a headache for a few days before the scan.
+Doctor: Have you noticed any changes in your vision or speech since the scan?
+Patient: No, my vision and speech are okay.
+Doctor: How about your balance? Are you still feeling off balance sometimes?
+Patient: Yes, sometimes I feel a little off balance, but nothing too bad.
+Doctor: Do you have any other symptoms besides dizziness, headache, and off-balance sensation?
+Patient: No, my memory and concentration are okay. It's just the dizziness and headache that bother me sometimes.
+Doctor: How have you been coping with your cognitive difficulties? Have they caused you any anxiety or stress?
+Patient: I've been feeling more anxious and stressed lately because of my cognitive difficulties.
+Doctor: I understand. We will schedule some tests and appointments to investigate your cognitive and walking issues, as well as the small vessel ischemic change seen on your CT scan. In the meantime, I can prescribe some medication to help manage your symptoms. Can you tell me about the CT scan of the head you had on 10/15/2020?
+Patient: Oh yeah, I had been having really bad headaches and my doctor wanted to make sure everything was okay. So they ordered a CT scan of the head on that date.
+Doctor: Are you currently taking any medications?
+Patient: Yes, I'm taking some meds.
+Doctor: Can you please tell me more about what medications you are taking and why you are taking them?
+Patient: Sure. I'm taking Xanax for anxiety and lisinopril for high blood pressure.
+Doctor: Thank you for sharing that information. Based on your symptoms, we will investigate further with more tests and potential referrals to specialists who can help manage your hydrocephalus-related concerns. By the way, do you have any other symptoms you'd like to discuss?
+Patient: Yes, I've been having a rash on my upper arms and torso. It hasn't spread anywhere else, though.
+Doctor: Thanks for letting me know. Based on our last visit, I recommend a follow-up in 3 months. Would you like to schedule an appointment now or later?

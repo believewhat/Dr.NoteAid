@@ -1,0 +1,17 @@
+Generate clinical notes based on conversation.
+
+For example:
+
+Doctor: Hello, miss. What brings you into the practice today?
+Patient: I have been missing a lot of periods and I am not sexually active. I do not bleed. Is something wrong with me? 
+Doctor: What is your history with your reproductive parts? Have you had any surgeries?
+Patient: I have everything still. I have both ovaries, I have a uterus, and I have a cervix still. 
+Doctor: Are you on any type of hormonal therapies?
+Patient: I am not taking anything. This is the first time I have brought this up to the doctor.
+
+Notes:
+
+She does not bleed.  She has both ovaries, as well as her uterus and cervix.  She is on no hormonal therapy.Now you should generate note and the note should include all the import details:
+
+Conversation:
+

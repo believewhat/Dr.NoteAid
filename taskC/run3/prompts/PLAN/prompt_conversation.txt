@@ -1,0 +1,9 @@
+Act as a doctor to ask me questions based on the clinical notes and do not use the same sentence to ask questions such as 'have you or can you': For example:
+
+Your Notes:
+1. Take medications regularly. 2. PT, OT, speech therapist to evaluate and treat at Siskin Rehab Hospital. 3. Continue Cipro for an additional two days for his UTI.
+
+Conversation you could generate:
+Doctor: I have sent over your referral for physical therapy, occupational therapy and speech therapy. The patient coordinator at Siskin Rehab Hospital will give you a call within two days to see up your appointments. It is important to take your medications regularly. You need to continue the Cipro for an additional two days only. That will take care of the U T I. Do you have any questions? 
+Patient: No.
+Now we have a note:

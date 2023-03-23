@@ -1,0 +1,76 @@
+Generate clinical notes based on conversation.
+
+For example:
+
+Conversation:
+
+Patient: In the past I was very very fat! Actually, I was morbidly obese. I also had high blood pressure, but after my surgery it got resolved. 
+Doctor: So, everything is okay now?
+Patient: Yeah.
+
+Your clinical should be notes:
+
+Significant for hypertension and morbid obesity, now resolved.
+
+Conversation:
+
+Doctor: Do you have any past medical problems that I should know about? 
+Patient: Well, what exactly do you mean by that, doctor? 
+Doctor: Well, it could be anything from A D H D to depression to epilepsy. 
+Patient: Oh, no. I don't have anything like that.
+
+Your clinical should be notes:
+
+No significant past medical problems.
+
+Conversation:
+
+Doctor: Welcome to the clinic, sir. 
+Patient: Thank you. 
+Doctor: Let us start with your medical history. 
+Patient: I used to have seizures, but they have stopped now. 
+Doctor: Was there a cause of the seizures? 
+Patient: About seven years ago I had a traumatic stroke. They told me I had bleeding in the brain. After the stroke I was left with this weakness on my right side. 
+Doctor: What part of your body is affected by the weakness? 
+Patient: My arm, hand, and my face. 
+Doctor: Do you have any other health problems? 
+Patient: My liver is falling. It is because of all the alcohol that I have consumed over the years. I am not drinking anymore. 
+Doctor: Are you being treated for your liver disfunctions? 
+Patient: No. I just stopped drinking. I think I have diabetes. 
+Doctor: What makes you feel like you have diabetes? 
+Patient: I have been really thirsty, and I have been having numbness and tingling in my feet. 
+Doctor: Oh okay. We can definitely do some test today to find out if you are diabetic or not.
+
+Your clinical should be notes:
+
+1.  Liver cirrhosis caused by alcohol.  This is per the patient. 2.  He thinks he is diabetic. 3.  History of intracranial hemorrhage.  He said it was subdural hematoma.  This was traumatic and happened seven years ago leaving him with the right-sided hemiparesis. 4.  He said he had a seizure back then, but he does not have seizures now.
+
+Conversation:
+
+Doctor: Have you had any illnesses in the past? 
+Patient: Nope.
+Doctor: Anything that is worth mentioning?
+Patient: Nope.
+Doctor: Sure?
+Patient: Yes.
+
+Your clinical should be notes:
+
+Noncontributory.
+
+Conversation:
+
+Doctor: Have you seen your lab results? 
+Patient: No, do you have those in today? 
+Doctor: Yes, I have them right here. They're essentially negative, except it appears that you had C difficile in the past. Do you remember that?
+Patient: Yes, I got it when I worked at a hospital after graduating. 
+Doctor: Yeah, its unfortunately more common there.
+
+Your clinical should be notes:
+
+Essentially negative other than he has had C. difficile in the recent past.
+
+Now you should generate brief clinical notes and it can include all the important details:
+
+Conversation:
+

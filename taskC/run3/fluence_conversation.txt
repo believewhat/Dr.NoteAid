@@ -1,0 +1,19 @@
+The conversations:
+
+Doctor: Hi there, sir! How are you today? 
+Patient: Hello! I am good.
+Doctor: I would like to start with your family medical history today. What do you know about their medical history? 
+Patient: My mother and father both had heart disease. Well, my mother had complication from her heart disease and that is how she passed.  My father was only in his forty's when he died. 
+Doctor: I am so sorry the hear that. 
+Patient: Thank you. I have two brothers, one whom I don't speak to very much anymore. I don't know if he has any health problems. My other brother is healthy with no issues. Both my uncles on my mother's side had polio, I think. 
+Doctor: Tell me more about your uncles with polio. They both had polio? 
+Patient: One of them had to wear crutches due to how bad his leg deformans were and then the other had leg deformities in only one leg.  I am fairly certain that they had polio.  
+Doctor: Do you know of any other family member with neurological conditions?
+Patient: No. None that I know of. 
+Doctor: Do you have any children? 
+Patient: Yes. I have one child. 
+Doctor: Is your child healthy and well? 
+Patient: Yes.
+
+Notes:
+His mother died of complications from heart disease.  His father died of heart disease in his 40s.  He has two living brothers.  One of them he does not speak too much with and does not know about his medical history.  The other is apparently healthy.  He has one healthy child.  His maternal uncles apparently had polio.  When I asked him to tell me further details about this, he states that one of them had to wear crutches due to severe leg deformans and then the other had leg deformities in only one leg.  He is fairly certain that they had polio.  He is unaware of any other family members with neurological conditions.

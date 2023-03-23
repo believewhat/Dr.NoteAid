@@ -1,0 +1,15 @@
+Doctor: Hi there, Alexis! How are you feeling today?
+Patient: Hello, Doctor. I'm doing okay.
+Doctor: Can you tell me more about the pain in your right hand? When did it start and how would you describe it?
+Patient: It started about six months ago with occasional numbness and tingling in my first three fingers on the right hand. But now the pain is constant and feels sharp when typing or using a mouse. Sometimes I wake up at night because of the pain too.
+Doctor: That's tough to deal with. Have you noticed any changes in your daily activities or quality of life due to the pain and numbness in your fingers?
+Patient: Yeah, it's been hard to do things that require fine motor skills like typing, writing, or even cooking. And I feel frustrated when I can't hold onto objects properly.
+Doctor: I understand. Have you tried anything other than ibuprofen and rest for relief?
+Patient: No, not really. Sometimes I try to shake out my hand or stretch it, but it doesn't help much.
+Doctor: I see. Let's take a closer look at your symptoms. Have you experienced any weakness or loss of grip strength in your affected hand, and has the numbness and tingling spread to other areas?
+Patient: No, I haven't noticed any weakness or loss of grip strength. The numbness and tingling have only been in my first three fingers on my right hand.
+Doctor: Okay, thanks for letting me know. During our physical exam, I noticed some decreased grip strength on your right compared to your left side. I also performed a Tinel's sign test to check for nerve irritation, which was positive. Based on your symptoms and findings, it's possible that you have carpal tunnel syndrome. I want to order an EMG/Nerve conduction study to confirm the diagnosis and assess the severity of it.
+Patient: Okay, what kind of treatment options are available if it is carpal tunnel syndrome?
+Doctor: If we confirm the diagnosis, we can start with nighttime wrist splinting and increasing your dose of ibuprofen to 600 mg four times daily for symptomatic relief. Physical therapy may be recommended as well. In severe cases, surgical intervention with carpal tunnel release may be necessary. 
+Patient: Alright, thank you. Is there anything else I should be doing to manage my symptoms?
+Doctor: While we investigate further, try to avoid activities that aggravate your symptoms and take frequent breaks when using your hands for extended periods of time. We'll discuss more once we get your test results back.

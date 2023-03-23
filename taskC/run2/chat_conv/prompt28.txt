@@ -1,0 +1,15 @@
+Doctor: Hi there! It's great to see you again. How have you been feeling since our last visit?
+Patient: I've been doing okay, thanks.
+Doctor: Can you remind me of the instructions given for your follow-up?
+Patient: I was told to come back for another appointment, but I don't remember when or where.
+Doctor: No problem, we'll get that sorted out. Let's discuss your current symptoms. Have you noticed any improvement in your leg swelling since our last visit?
+Patient: No, unfortunately not. My legs are still swollen.
+Doctor: Based on your symptoms and medical history, we'll need to monitor your coronary artery disease, reduced left ventricular dysfunction, acute heart failure, hypertension, and type 2 diabetes. Have you been taking your medications as prescribed?
+Patient: Yes, I've been taking all my medications regularly.
+Doctor: Good to hear. We'll continue with your current medication regimen and add Lasix 40 mg once a day and Aldactone 12.5 mg daily to address your acute heart failure. We'll also order lab work and schedule a repeat echo in approximately 2 months.
+Patient: Alright, thank you.
+Doctor: Have you been experiencing any chest pain or shortness of breath recently?
+Patient: No, I haven't experienced any chest pain or shortness of breath.
+Doctor: That's good to know. I'm going to refer you to cardiac rehab for education and to help you resume exercising regularly. It's important to monitor your blood glucose levels, exercise, and maintain a healthy diet to manage your type 2 diabetes and hypertension. We'll also provide a referral to nutrition counseling to explore healthier diet options. Do you have any questions about the treatment plan?
+Patient: No, I think I understand everything. Thank you for your help, doctor.
+Doctor: You're welcome! Remember, managing your health is a team effort, and we're here to support you every step of the way. Please follow up as instructed and don't hesitate to contact us if you have any concerns or questions.

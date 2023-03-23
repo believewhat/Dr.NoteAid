@@ -279,13 +279,13 @@ def main():
           continue
     chat = tf.map(divide_chat, remain)
     ipdb.set_trace()
-  data['our'] = np.zeros(data.shape[0])
-  for i in range(data.shape[0]):
-    #with open(f'./chat_conv/{i}_fluence.txt', 'r') as f:
-    #with open(f'./chat_conv/prompt{i}.txt', 'r') as f:
-    #with open(f'./chat_conv/{i}_unfluence.txt', 'r') as f:
-    with open(f'./chat_conv/prompt{i}.txt', 'r') as f:
-      file = f.read()
-      data['our'].loc[i] = file
+  except:
+    data['our'] = np.zeros(data.shape[0])
+    for i in range(data.shape[0]):
+      #with open(f'./chat_conv/{i}_unfluence.txt', 'r') as f:
+      #with open(f'./chat_conv/prompt{i}.txt', 'r') as f:
+      with open(f'./chat_conv/{i}_fluence.txt', 'r') as f:
+        file = f.read()
+        data['our'].loc[i] = file
   data.to_csv('taskC_UMASS_BioNLP_run1.csv',index=False)
 main()

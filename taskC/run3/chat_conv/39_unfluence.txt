@@ -1,0 +1,38 @@
+Doctor: Hey there, Angela! How are you feeling today?
+Patient: Hello, Doctor. I am not doing so well. I have knee pain.
+Doctor: Can you tell me which knee is hurting?
+Patient: It's my left knee, and it's been hurting for a week.
+Doctor: How did your knee pain start?
+Patient: I fell and twisted my knee.
+Doctor: Can you rate the pain on a scale of 1 to 10?
+Patient: It's about a 4 out of 10 on the pain scale.
+Doctor: Is the pain getting worse or staying the same?
+Patient: It's been getting worse. It's throbbing and hurts.
+Doctor: Are you experiencing any swelling in your knee joint?
+Patient: Yes, my knee is swollen.
+Doctor: How about stiffness in your knee joint?
+Patient: It feels really stiff.
+Doctor: How has the stiffness affected your mobility?
+Patient: I can't bend it all the way and it's hard to walk or climb stairs.
+Doctor: Have you taken anything for the pain yet?
+Patient: Yes, I've been taking Tylenol and using kinesiology tape.
+Doctor: Is it okay if I take a look at your left knee?
+Patient: Sure.
+Doctor: Are you experiencing pain when you move your knee?
+Patient: Yes, it hurts when I bend or straighten it.
+Doctor: Can you let me know if you experience discomfort during some tests I'll perform?
+Patient: Okay.
+Doctor: Based on my examination, it seems like you have edema and effusion in your left knee. Are you open to scheduling an imaging test like an X-ray or MRI?
+Patient: Yes, I would be open to that.
+Doctor: Great. In the meantime, try some rest and ice therapy to reduce the swelling and pain. How does that sound?
+Patient: Sounds good to me. Thank you, doctor.
+Doctor: I recommend using a knee immobilizer for support. Is that okay with you?
+Patient: Yes, that's fine.
+Doctor: I'll also prescribe Tramadol 50 mg for pain, and Tylenol for breakthrough pain. Does that work for you?
+Patient: Thank you, doctor. That works for me.
+Doctor: You should also ice your left knee 3-4 times a day for 20-30 minutes. Can you do that?
+Patient: Yes, I can do that.
+Doctor: For the next 3 weeks, avoid running or high-intensity activities that may aggravate your knee. Is that okay?
+Patient: Okay, thank you.
+Doctor: If your knee pain doesn't improve with the immobilizer, we may consider an MRI. How does that sound?
+Patient: Sounds good. Thank you, doctor.

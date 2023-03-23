@@ -1,0 +1,104 @@
+Generate clinical notes based on conversation.
+
+For example:
+
+Conversation:
+
+Doctor: Hello again, how are you doing, miss? 
+Patient: I'm good. Thank you. How about you? 
+Doctor: All good here too. I know you are an established patient of dermatology here and was last seen in our office on July thirteenth, two thousand and four.  I will be asking you a few questions just to check whether the entry in our record is updated or not.
+Doctor: How old are you now? 
+Patient: Twenty nine. 
+Doctor: Where are you from originally? 
+Patient: I'm from Vietnam. 
+Doctor: I am seeing you today as a referral from A B C for reevaluation. 
+Patient: Yes, for my hand eczema. 
+Doctor: So, let's see what you have been treated with. Your record here says with Aristocort cream, Cetaphil cream, increased moisturizing cream and lotion. Does this sound right to you? 
+Patient: Yes, that's correct. 
+Doctor: Are you washing your hands in Cetaphil cleansing lotion? 
+Patient: Yes, I'm doing all that. 
+Doctor: What brings you here today? 
+Patient: I'm having this flaring. My hands are all dry. I have these like cracks in my hands. I have been washing with the soap and the lotions that you prescribed, but still, it is happening. Maybe because of cracks or what, I don't know, but the Cetaphil cleansing lotion, whenever I'm applying that it is causing me a lot of burning pain. I have been wearing gloves though. 
+Doctor: Are you married? 
+Patient: Still, a single. I'm not even looking for a husband yet. 
+Doctor: Are you working somewhere? 
+Patient: Not currently.
+
+Your clinical should be notes:
+
+This is a 29-year-old Vietnamese female, established patient of dermatology, last seen in our office on 07/13/04.  She comes in today as a referral from ABC, D.O. for a reevaluation of her hand eczema.  I have treated her with Aristocort cream, Cetaphil cream, increased moisturizing cream and lotion, and wash her hands in Cetaphil cleansing lotion.  She comes in today for reevaluation because she is flaring.  Her hands are very dry, they are cracked, she has been washing with soap.  She states that the Cetaphil cleansing lotion apparently is causing some burning and pain because of the fissures in her skin.  She has been wearing some gloves also apparently.  The patient is single.  She is unemployed.
+
+Conversation:
+
+Doctor: Hello, miss. It looks like you are here for your yearly physical. How is everything going? 
+Patient: Great, I think. I just got a mammogram and nothing showed up. I still am taking my multivitamin and low dose aspirin. 
+Doctor: Great to hear. Has there been any changes in drinking and smoking?
+Patient: No changes. Check the chart, I answered that last time. 
+Doctor: Great. Looks like drinking and smoking is off the menu. In regard to the mammogram, do you make sure to do self breast examinations? I believe I showed you how to do this last time. 
+Patient: No, I do not. I don't see a point if I come and do the mammogram. 
+Doctor: I highly suggest you start doing so. Sometimes people do not get mammograms for a few years and it is important to make sure nothing is growing. 
+Patient: Yeah, I know. I am just lazy. Recently it has been hard to do a lot of my selfcare routines. I do not even exercise anymore.
+
+Your clinical should be notes:
+
+She is not exercising.  She does not do self breast examinations.  She has recently had her mammogram and it was unremarkable.  She does take her low-dose aspirin daily as well as her multivitamin.  She does wear her seatbelt.  As previously noted, she does not smoke or drink alcohol.
+
+Conversation:
+
+Doctor: Can you confirm your age for me, ma'am? 
+Patient: Sure, I'm fifty six years old. 
+Doctor: Great, so what brings you in to see me today? 
+Patient: Um, I'm peeing a lot, and I'm having  a little bit blood in that urine as well. 
+Doctor: Have you ever had a cystoscopy? 
+Patient: Yes, it was unremarkable, that's what they told me. 
+Doctor: When are your episodes for the most part? 
+Patient: Um, usually during the day. I don't usually have them at night.
+Doctor: Are you having any pain with urination? 
+Patient: No, no pain. 
+Doctor: Aside from the little bit of blood, can you tell if there's any pus in your urine? 
+Patient: No, I don't have any of that, it's just the little bit of blood. 
+Doctor: Have you taken any medications for this? 
+Patient: Um, I had Ditropan, and it didn't do very well. 
+Doctor: Well, this ultrasound of the kidney is also unremarkable, so at this time I think we should try a different medication.
+
+Your clinical should be notes:
+
+The patient is a 56-year-old noted to have microscopic hematuria with overactive bladder.  Her cystoscopy performed was unremarkable.  She continues to have some episodes of frequency and urgency mostly with episodes during the day and rare at night.  No gross hematuria, dysuria, pyuria, no other outlet obstructive and/or irritative voiding symptoms.  The patient had been previously on Ditropan and did not do nearly as well.  At this point, what we will try is a different medication.  Renal ultrasound is otherwise unremarkable, notes no evidence of any other disease.
+
+Conversation:
+
+Doctor: How old are you, sir? 
+Patient: I'm sixty five years old. 
+Doctor: Are you right handed or left handed? 
+Patient: I'm right handed. 
+Doctor: When was your last stroke? 
+Patient: Well, it was on January seventeenth. I had these episodes where I was like always so confused and looks like I lost everything. All my memory and everything. And then they did a scan. It was verified that I was having a stroke on the same day. 
+Doctor: Did they put you on some medications? 
+Patient: They gave me an anticonvulsant and aspirin. 
+Doctor: Are you taking them regularly? 
+Patient: There have a few times like one or two days that I forgot to take my, uh, dyphenhydramine, but even when I'm taking it regularly, I'm still having all those symptoms or forgetfulness, confusion, and everything. 
+Doctor: Do you feel anything else along with these episodes like a urine urgency, tendency to bite your tongue, headaches, any visual change, or your heart is beating very fast? Any kind of weakness or numbness or shortness of breath? 
+Patient: No nothing else, just the confusion and forgetfulness. 
+Doctor: How frequent are these episodes? 
+Patient: Well, they occur like two or three times in a week. Each one of the episodes lasts for like one or two minutes.
+
+Your clinical should be notes:
+
+This 65 y/o RHM reportedly suffered a stroke on 1/17/92. He presented locally at that time with complaint of episodic confusion and memory loss lasting several minutes per episode. The "stroke" was reportedly verified on MRI scan dated 1/17/92. He was subsequently placed on ASA and DPH. He admitted that there had been short periods (1-2 days duration) since then, during which he had forgotten to take his DPH. However, even when he had been taking his DPH regularly, he continued to experience the spells mentioned above. He denied any associated tonic/clonic movement, incontinence, tongue-biting, HA, visual change, SOB, palpitation, weakness or numbness. The episodes of confusion and memory loss last 1-2 minutes in duration, and have been occurring 2-3 times per week.
+
+Conversation:
+
+Doctor: Mister Sunil, your blood pressure is high, and I am noticing this from past two-three times you have been here. It's been constantly high, you are not taking it seriously. 
+Patient: No, nothing like that Doctor! It's been well under control. I have been monitoring at home.
+Doctor: Are you noting your readings? Did you bring it with you?
+Patient: No. I did not get the readings with me but I assure you I am taking care and my B P is normal.
+Doctor: Well, it's up and I am little bothered by it.
+
+Your clinical should be notes:
+
+His blood pressure up.  The last two to three times he has been in here, it has been up.  He has assured me before that his blood pressure is under good control at home, but he does not bring any blood pressures in with him this time, which bothers me.
+
+Now you should generate brief clinical notes and it can include all the important details:
+
+Conversation:
+

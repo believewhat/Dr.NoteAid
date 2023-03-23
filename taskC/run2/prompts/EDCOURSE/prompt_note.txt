@@ -1,0 +1,76 @@
+Generate clinical notes based on conversation.
+
+For example:
+
+Conversation:
+
+Doctor: They took some fluid out of your back remember? 
+Patient: Yes actually.
+Doctor: We got the results back for that and it looks like it was clear then it turned bloody. 
+Patient: They checked my urine and blood too.
+Doctor: Yes, they did. I see the orders for urine culture, B M P, C B C, C R P, and blood culture as well.
+Patient: I got albuterol nebulizer treatment too.
+Doctor: That is good. but did that help you?
+Patient: No, it did not.
+Doctor: Oh I am sorry.
+Patient: It is okay.
+Doctor: I see that they gave you some antibiotics in E R?
+Patient: Yes, Ampicillin and Cefotaxime.
+
+Your clinical should be notes:
+
+In the ER, the patient received a lumbar puncture with CSF fluid sent off for culture and cell count.  This tap was reported as clear, then turning bloody in nature.  The patient also received labs including a urinalysis and urine culture, BMP, CBC, CRP, blood culture.  This patient also received as previously noted, 1 albuterol treatment, which did not help his respiratory status.  Finally, the patient received 1 dose of ampicillin and cefotaxime respectively each.
+
+Conversation:
+
+Doctor: Well, I don't think you need any restraints as you are doing fine. I do want to make sure you have a chair and bed monitor since you have a history of multiple falls. They can help detect fall. 
+Patient: I don't want that, I will manage. 
+Doctor: Are you sure?
+Patient: Yes!
+
+Your clinical should be notes:
+
+RESTRAINTS: None.  The patient has declined use of chair check and bed check.
+
+Conversation:
+
+Doctor: Hi!
+Patient: Hello!
+Doctor: How are you feeling now?
+Patient: I am feeling okay.
+Doctor: Yeah, looks like your condition is improving.
+Patient: Yes, I think so too.
+
+Your clinical should be notes:
+
+PROGNOSIS: Improved.
+
+Conversation:
+
+Guest_clinician: What was he given in the E R? 
+Doctor: Epi one M G, zero point three M L subcutaneously along with fifty M G of Benadryl intramuscularly. In about fifteen to twenty minutes, he reported his itching had improved. The rash itself faded a little bit and he began to feel a lot more comfortable.
+
+Your clinical should be notes:
+
+The patient was treated with epinephrine 1:1000, 0.3 mL subcutaneously along with 50 mg of Benadryl intramuscularly.  After about 15-20 minutes he states that itching started to feel better.  The rash has started to fade a little bit and feeling a lot more comfortable.
+
+Conversation:
+
+Doctor: How are you feeling after that insulin drip, Miss A B C? 
+Patient: I am feeling much better. My sugar levels are normal.
+Doctor: Yes, between one hundred fifteen and one thirty four. So, on the second day after your admission they did laparoscopic removal of your gallstones. You were very difficult to intubate. But everything went well with surgery. There was some swelling and adhesions around your gallbladder, but all is well that ends well.
+Patient: What was my blood sugar during surgery?
+Doctor: Great question. After surgery they were around two thirty three. 
+Patient: I am getting a special insulin?
+Doctor: Yes, sliding scale insulin. 
+Patient: Can I go home?
+Doctor: Yes, you are all set to go home, everything is stable.
+
+Your clinical should be notes:
+
+Ms. ABC was admitted to the hospital.  She was seen by Dr. A.  He put her on an insulin drip.  Her sugars slowly did come down to normal down to between 115 and 134.  On the next day, she was then taken to the operating room, where she underwent her laparoscopic cholecystectomy.  She was noted to be a difficult intubation for the procedure.  There were some indications of chronic cholecystitis, a little bit of edema, mild edema and adhesions of omentum around the gallbladder.  She underwent the procedure.  She tolerated without difficulty.  She was recovered in the Postoperative Care Unit and then returned to the floor.  Her blood sugar postprocedure was noted to be 233.  She was started back on a sliding scale insulin.  She continued to do well and was felt to be stable for discharge following the procedure.
+
+Now you should generate brief clinical notes and it can include all the important details:
+
+Conversation:
+

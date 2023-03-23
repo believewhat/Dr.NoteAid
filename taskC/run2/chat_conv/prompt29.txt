@@ -1,0 +1,95 @@
+Doctor: Hi there! Good to see you again. How have you been since our last meeting? I know you have coronary artery disease and stage 3 chronic kidney disease. Are you taking your medications as prescribed?
+
+Patient: Yes, I've been following the prescription and my conditions are under control.
+
+Doctor: Great to hear. Now, let's discuss your diabetes. Your recent hemoglobin A1c was 16. What actions have you taken to manage your diabetes since learning this?
+
+Patient: To be honest, I haven't done much. I haven't seen a specialist or educator, but I've tried to eat more vegetables and less sugar.
+
+Doctor: It's crucial to manage your diabetes. Have you been checking your blood sugar levels and taking diabetes medications?
+
+Patient: I've been taking my medications, but I should check my blood sugar levels more often.
+
+Doctor: What about increasing physical activity or exercise?
+
+Patient: I haven't exercised much, but I'm trying to walk more and use the stairs.
+
+Doctor: Let's discuss your heart attack. What treatments have you received and why are you taking these medications?
+
+Patient: I take aspirin for my heart, Brilinta for blood clot prevention, fish oil and Crestor to lower cholesterol, and Metoprolol for blood pressure.
+
+Doctor: Why both aspirin and Brilinta?
+
+Patient: Aspirin is for my heart, and Brilinta prevents blood clots.
+
+Doctor: What's the reason for fish oil and Crestor?
+
+Patient: They help lower my cholesterol levels.
+
+Doctor: Any side effects from these medications?
+
+Patient: No, I haven't noticed any.
+
+Doctor: I see you've experienced mild depression since your heart attack. Can you share more about your feelings and support system?
+
+Patient: I feel depressed and lonely. I don't have anyone to talk to about it.
+
+Doctor: I'm sorry to hear that. We can discuss therapy options and the importance of support during heart attack recovery.
+
+Doctor: How are you today? What medications are you taking for your coronary artery disease? Any side effects?
+
+Patient: I'm taking metoprolol and Crestor daily without side effects. The doctor told me to continue.
+
+Doctor: Good, keep following the prescription. Have you attended cardiac rehab sessions?
+
+Patient: Yes, rehab has helped me become more active and confident in exercising.
+
+Doctor: Excellent. Watch for chest pain or shortness of breath during exertion. Also, dizziness when standing quickly should resolve as you adjust to the medications.
+
+Patient: Thanks for the advice.
+
+Doctor: Remember to follow up with Dr. Miller about your stage 3 chronic kidney disease.
+
+Patient: I'll schedule an appointment with him.
+
+Doctor: Your diabetes management is also essential. Your hemoglobin A1c goal is 6. We've ordered a repeat test and referred you to a dietitian. We'll contact your primary care physician about your insulin regimen.
+
+Patient: Thank you for the information and referrals.
+
+Doctor: Lastly, you were referred for psychiatry due to mild depression. Let us know if you have questions or concerns about that referral.
+
+Patient: No questions for now, but I appreciate the referral.
+
+Doctor: I also wanted to ask you about your surgical history. You mentioned that you had a stent placement at the left anterior descending artery, correct?
+
+Patient: Yes, that's correct.
+
+Doctor: Good. How has your living situation been? Do you have any support at home?
+
+Patient: I live with my dog and I'm a San Francisco 49ers fan.
+
+Doctor: It's great to have a pet for companionship. Have you experienced any other symptoms recently, such as lower extremity edema, dizziness, or headaches?
+
+Patient: I've had some non-pitting lower extremity edema, and I sometimes feel dizzy and have headaches.
+
+Doctor: Thank you for sharing that information. It's important to monitor these symptoms, as they can be related to your conditions and medications. Keep an eye on the edema and let us know if it worsens. The dizziness and headaches should improve as you adjust to your medications.
+
+Patient: Alright, I'll keep that in mind.
+
+Doctor: Your vital signs look good today, with a blood pressure of 127/80. During the physical exam, I noticed a slight 3/6 systolic ejection murmur at the left base, which has been stable in the past. Do you have any concerns about that?
+
+Patient: No, I'm aware of the murmur, and it doesn't bother me.
+
+Doctor: That's good to hear. We'll continue to monitor it. Regarding your stage 3 chronic kidney disease, your most recent creatinine levels are stable, which is a positive sign. It's important to keep following up with your nephrologist, Dr. Miller, to manage this condition.
+
+Patient: I understand. I'll make sure to keep my appointments with him.
+
+Doctor: For your coronary artery disease, we've provided a referral to cardiac rehab and refilled your medications. Remember to continue taking aspirin and Brilinta, as well as Metoprolol and Crestor as prescribed. If you experience any new or worsening symptoms, such as chest pain, shortness of breath, or increased edema, please contact us immediately.
+
+Patient: Thank you, Doctor. I appreciate all the advice and guidance.
+
+Doctor: You're welcome. It's important to stay proactive about your health, and we're here to help. Don't hesitate to reach out if you have any questions or concerns in the future. Take care!
+
+Patient: Thank you. I'll be in touch if I need anything. Goodbye!
+
+Doctor: Goodbye and take care!

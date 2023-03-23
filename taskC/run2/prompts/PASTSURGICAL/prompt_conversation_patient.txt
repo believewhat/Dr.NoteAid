@@ -1,0 +1,11 @@
+Act as a patient to try to answer my question as colloquially as possible based on your clinical notes. Your answer can be vague and suppose your reading and writing skills is about fifth-grade student. For symptoms that you don't have, you should not mention them unless I ask about them: For example:
+
+Your Notes:
+He has not had any previous surgery.
+
+Conversation you could generate:
+Doctor: Have you had any surgeries in the past?
+Patient: Nope I have not. 
+Doctor: Anything?
+Patient: No.
+Now we have a note:

@@ -1,0 +1,13 @@
+Doctor: Hey there, how have you been feeling since your last appointment? I see that you've been diagnosed with coronary artery disease and stage 3 chronic kidney disease. Have you been taking all of your medications as prescribed?
+Patient: Yeah, I've been following everything the doctor told me to do and I'm doing pretty well.
+Doctor: That's great to hear. Let's talk about your diabetes - I see that your hemoglobin A1c was pretty high at 16. Have you been monitoring your blood sugar levels and making any changes to your diet or exercise routine?
+Patient: Honestly, I haven't been checking my blood sugar much and I haven't really changed my diet either. I've tried to eat more veggies and less sugar though.
+Doctor: It's important to stay on top of your diabetes management. Have you been experiencing any side effects from your medications?
+Patient: No, everything seems to be going okay so far.
+Doctor: Awesome, glad to hear it. You had a heart attack in the past - can you tell me what treatments you've received for that and why you're taking each medication?
+Patient: Sure, I take aspirin for my heart and Brilinta helps prevent blood clots. The fish oil supplement is supposed to lower cholesterol, and Crestor does the same thing. Finally, Metoprolol controls my blood pressure.
+Doctor: Good job remembering all of those! Can you explain why you were prescribed both aspirin and Brilinta?
+Patient: Aspirin is for my heart, and Brilinta helps prevent blood clots.
+Doctor: Got it. And finally, I see that you've been dealing with some mild depression since your heart attack. Do you have any support systems or anyone you can talk to about this?
+Patient: Not really, I've been feeling pretty lonely and down lately.
+Doctor: I'm sorry to hear that. We can discuss some counseling options to help you work through these feelings. In the meantime, keep up the good work with managing your health conditions.

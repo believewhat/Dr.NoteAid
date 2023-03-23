@@ -1,0 +1,11 @@
+Doctor: Hi there, how are you doing today? How is the pain in your right knee?
+Patient: Hi doctor, the pain is still there, but it's not as bad as before. I've been taking the medication and doing the physical therapy exercises you prescribed.
+Doctor: That's great to hear. Are you experiencing any side effects from the medication?
+Patient: Just some stomach upset sometimes, but nothing major.
+Doctor: Okay, good to know. Have you noticed any improvement in your ability to do daily activities without pain?
+Patient: Yes, I can walk and stand for longer periods of time now without much difficulty.
+Doctor: That's a positive sign. On a scale of 1-10, with 10 being the worst pain imaginable, how would you rate your pain currently?
+Patient: It's around a 5, but it varies depending on the activity I'm doing.
+Doctor: I see. Let's continue with the conservative treatment for now and monitor your progress. If the pain doesn't improve with physical therapy and medication, we may need to do an MRI to get a better understanding of what's going on inside your knee joint. In the meantime, make sure to avoid any activities that aggravate the pain and wear proper footwear.
+Patient: Okay, I'll keep that in mind. Thanks, doctor.
+Doctor: No problem. Keep up with the physical therapy exercises and let me know if anything changes or if you have any questions.

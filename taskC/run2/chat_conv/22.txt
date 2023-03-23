@@ -1,0 +1,19 @@
+
+Doctor: Hey there, how are you feeling today? I see that your chief complaint is a knee injury. Can you tell me more about what happened and how it's been feeling lately?
+Patient: Yeah, I twisted my right knee while playing basketball with friends about two weeks ago. It's been swelling and hurting since then. And just three days ago, I felt a pop in my knee while playing soccer. The pain is still around 6-7 out of 10 currently.
+Doctor: That sounds painful. Have you tried anything to help alleviate the pain and swelling?
+Patient: I've been using ibuprofen for some relief. But I'm still having trouble bending my knee or putting weight on it.
+Doctor: Okay, we'll need to evaluate your knee to determine the extent of the injury. How has your knee been affecting your daily activities and work?
+Patient: It's been difficult to walk or stand for long periods of time, which makes it hard to focus at work.
+Doctor: I understand. Based on our physical examination, I noticed some effusion and slight bruising around the joint. Did you experience any pain during palpation or difficulty moving your leg in certain ways?
+Patient: Yes, it was quite painful when you pressed on the medial joint line. And I can't fully extend or flex my leg because of the pain.
+Doctor: Thank you for letting me know. I also performed a Lachman's test, which came back positive for instability. Based on these findings, it's possible that you may have an anterior cruciate ligament tear. We will need to get an MRI to confirm this diagnosis.
+Patient: Alright, what should I do until the MRI results come back?
+Doctor: I recommend utilizing ice and activity modification to reduce swelling and pain. You should also wear a knee immobilizer and use crutches when ambulating to take pressure off your knee. And avoid jogging until we receive the MRI results.
+Patient: Okay, got it.
+Doctor: Additionally, I noticed that you spend a lot of time using a mouse or typing on a keyboard for work. Have you experienced any discomfort or pain in your hands or arms from doing those activities?
+Patient: Yes, I've been experiencing some pain and stiffness in my hands and wrists.
+Doctor: Alright, we can discuss some treatment options for carpal tunnel syndrome during your examination as well. Lastly, have you noticed any changes in your health recently, since your last visit?
+Patient: No, everything has been pretty much the same.
+Doctor: Alright. Let's schedule an appointment for your examination and MRI. In the meantime, I'll prescribe meloxicam 15 mg a day to reduce swelling and pain. Sound good?
+Patient: Sounds great. Thanks, Doctor.

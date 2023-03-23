@@ -1,0 +1,29 @@
+Doctor: Hey there, how are you feeling today? I see you've been experiencing right elbow pain. Can you describe it?
+Patient: It hurts when I move my arm or lift things. It feels like a sharp pain sometimes and a dull ache at other times.
+Doctor: It could be medial epicondylitis, also known as golfer's elbow. Have you had any recent elbow injuries?
+Patient: No, I haven't had any recent injuries or accidents.
+Doctor: I'll recommend rest, ice, and physical therapy for your elbow pain. Does that sound good?
+Patient: Yes, that sounds good. Thanks for your help. How's my blood pressure and diabetes type 2?
+Doctor: My blood pressure has been high and fluctuating. I'm on Lisinopril 10 mg, and Metformin 500 mg twice daily for diabetes. Any blood pressure-related symptoms?
+Patient: I get headaches when my blood pressure spikes.
+Doctor: We'll monitor your blood pressure closely and adjust medication if necessary. Let's schedule physical therapy for your elbow pain. When did you start experiencing pain in your right forearm and wrist?
+Patient: A few days ago, it just came out of nowhere.
+Doctor: Have you had any recent trauma or injury to your right forearm and wrist?
+Patient: No, I haven't had any recent injuries or accidents.
+Doctor: We'll try rest, ice, and physical therapy exercises for your forearm and wrist. Any sinus tachycardia symptoms?
+Patient: No, just a faster heart rate.
+Doctor: Have you made any changes to your daily routine, diet, or stress levels?
+Patient: I've been eating healthier and managing stress better, but I don't think those changes would cause this.
+Doctor: We'll keep monitoring your heart rate, blood pressure, and diabetes. How's the treatment for your medial epicondylitis going?
+Patient: It's okay. I wear the sling, ice my elbow twice a day, and take ibuprofen.
+Doctor: Have you noticed any improvements in pain or range of motion?
+Patient: The pain is not as bad, and I can move my arm more easily now.
+Doctor: Any side effects from the ibuprofen or other medications?
+Patient: No, I haven't noticed anything.
+Doctor: Have you scheduled appointments with Siskin Rehab Hospital yet?
+Patient: No, the patient coordinator is supposed to call me within two days.
+Doctor: Make sure to schedule those appointments. We'll also increase your metformin dosage. How do you feel about that?
+Patient: I'll do whatever it takes to manage my diabetes.
+Doctor: We'll follow up in two weeks to review your hemoglobin A1c test and progress. Keep up with the prescribed treatment plan.
+Patient: Will do, thanks for all your help.
+Doctor: You're welcome. If you have concerns or questions before our follow-up, reach out. Take care!

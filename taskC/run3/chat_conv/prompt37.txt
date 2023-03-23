@@ -1,0 +1,34 @@
+Doctor: Hi there! So, I see in your notes that you've been experiencing bilateral knee pain for about 6 months without any specific injury. Can you tell me more about what activities or movements seem to aggravate the pain?
+Patient: Yeah, it's mostly when I walk or stand for too long, and going up and down stairs can be especially bad. Even just bending my knees or squatting can hurt too.
+Doctor: I see. And how severe is the pain during these activities? Does it last after you stop?
+Patient: The pain can be pretty bad, like a sharp ache that makes it hard to keep going. Sometimes it feels like my knees are creaking. The pain gets worse when I transition from sitting to standing or when I go up or down stairs.
+Doctor: Okay, I understand. Thank you for explaining that. I noticed that you've been taking ibuprofen or Aleve occasionally for pain and have tried icing your knees and wrapping them with an ACE bandage. How effective have these measures been?
+Patient: The ibuprofen and Aleve didn't really help much, and the icing and wrapping provided some relief, but the pain still persists.
+
+Doctor: How would you describe the pain in your knees?
+Patient: It's like a deep, achy pain in the back of my knees. Sometimes they feel like they're "creaking." The pain gets worse when I transition from sitting to standing or when I go up or down stairs.
+Doctor: Alright, based on your symptoms, I'll write down "bilateral knee pain and crepitus" in your chart. We'll need to take a closer look at what might be causing your pain.
+Doctor: Have you had any previous injuries to your knees?
+Patient: No, I haven't had any previous injuries to my knees.
+
+Doctor: I see that you used to run 5 to 6 miles per day but can't even go 0.5 miles now due to the pain. Are you currently working from home?
+Patient: Yes, I'm working from home now.
+Doctor: Okay. Now, do you happen to know if anyone in your family has a history of kidney disease or thyroid disorders? We noticed some abnormal levels in your recent labs.
+Patient: Honestly, I'm not sure about that. My mom has high blood pressure but I don't know if that's related to those things.
+Doctor: Okay, thanks for letting me know. Have you noticed any changes in your appetite, weight, or energy levels lately? These could be related to the abnormal thyroid levels we saw.
+Patient: Not really, I feel pretty normal overall. My appetite and energy levels seem to be about the same as usual.
+Doctor: Understood. Finally, do you know if heart disease runs in your family at all? We noticed some sinus tachycardia on your EKG.
+Patient: Hmm, I'm not really sure. I know my grandma had high blood pressure, but I don't know if that means there's a history of heart disease too.
+Doctor: Okay, no problem. And have you noticed any symptoms such as muscle weakness, tremors, or difficulty sleeping related to your abnormal thyroid levels?
+Patient: Nope, none of those things. I've been sleeping well and my muscles feel normal.
+Doctor: Can you describe the location and severity of the pain in your knees when you experience tenderness on palpation or a positive patellar grind test?
+Patient: The pain is in my knees and it hurts when you press on them or when you do that patellar grind thing. It's been hard to squat because of the pain.
+Doctor: I see. Have you noticed any deformity in your legs or any issues with your walking or gait?
+Patient: No, everything seems normal in terms of my walking and there are no deformities that I know of.
+Doctor: That's good to hear. On another note, during our examination, we checked for any cardiovascular issues and found that your heart rate and rhythm are regular with no murmurs. We also did some neurological testing and found symmetrical reflexes.
+Doctor: Additionally, we didn't notice any swelling in your legs or feet. Lastly, our musculoskeletal examination revealed some tenderness to palpation in your bilateral retinaculum, as well as a positive patellar grind test. We also noticed some knee pain when you were squatting. However, all other tests, such as the Lachman test, anterior and posterior drawer tests, and McMurray test, were negative bilaterally.
+Patient: What recommendations do you have for managing my fatigue and low iron levels, and how will physical therapy help with my mobility and running mechanics?
+Doctor: We can start with some conservative treatments such as iron supplements to help improve your iron levels and combat fatigue.
+Doctor: For your mobility and running mechanics, we'll focus on formal physical therapy sessions that include exercises to increase lower extremity strength and mobility, as well as drills to correct your running form.
+Doctor: It's important to take it easy for now and not push yourself too hard during exercise. You can also continue taking ibuprofen or anti-inflammatories as needed for pain.
+Doctor: Let's schedule a follow-up appointment to monitor your progress.

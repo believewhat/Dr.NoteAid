@@ -1,0 +1,69 @@
+Generate clinical notes based on conversation.
+
+For example:
+
+Conversation:
+
+Doctor: Hello! What brings you into the office today?
+Patient: Hi! I have not been able to go pee, and I have had this sharp pain in my left side. 
+Doctor: Have you recently had any surgical procedures?
+Patient: No. 
+Doctor: Do you have a history of an enlarged prostate or kidney stones? 
+Patient: No. 
+Doctor: I would like to get some imaging done. 
+Patient: Okay.
+
+Your clinical should be notes:
+
+Left flank pain and unable to urinate.
+
+Conversation:
+
+Doctor: What brings you back into the clinic today?
+Patient: I have been having some severe bruising. I have been taking Coumadin for three months now. Am I taking to much Coumadin? 
+Doctor: You are taking a normal start dose. Some people do not metabolize the medication as well as others. I would like to get you tested for hypersensitivity. After we get the test results back, we will be able to adjust your dosage accordingly.  
+Patient: Okay.
+
+Your clinical should be notes:
+
+Probable Coumadin hypersensitivity.
+
+Conversation:
+
+Doctor: Hi there, what's going on with you? 
+Patient: Well, I am having this weird jerky movement in my arm and leg. 
+Doctor: Oh okay, let me take a look.
+
+Your clinical should be notes:
+
+Arm and leg jerking.
+
+Conversation:
+
+Doctor: Is everything fine?
+Guest_family: My mom is not well.
+Doctor: When did this start?
+Guest_family: I don't know but she is not in her correct state of mind.
+Doctor: Okay let's see what we can do, how old is she?
+Guest_family: She is around seventy four years old.
+Doctor: Okay. Don't worry, we will see what we can do.
+Guest_family: Thanks!
+Doctor: Of Course.
+
+Your clinical should be notes:
+
+A 74-year-old female patient admitted here with altered mental status.
+
+Conversation:
+
+Guest_clinician: She was in a car crash, correct? 
+Doctor: Correct. About two days ago. I believe it was a head on collision.
+
+Your clinical should be notes:
+
+Motor vehicle accident.
+
+Now you should generate brief clinical notes and it can include all the important details:
+
+Conversation:
+

@@ -1,0 +1,25 @@
+Generate clinical notes based on conversation.
+
+For example:
+
+Doctor: Hey, bud. What brings you in today? 
+Patient: A rash on my upper arms and torso. 
+Doctor: When did it start? 
+Patient: Bout a day or two ago. 
+Doctor: Any itchiness to the area? 
+Patient: Yes, a lot actually. 
+Doctor: Have you had episodes of shortness of breath or wheezing? 
+Patient: No. 
+Doctor: How about swelling to your lips, tongue, or throat? 
+Patient: No. 
+Doctor: And no nausea or headaches? 
+Patient: No. 
+Doctor: Have you applied anything to the rash? 
+Patient: No, I thought it'd go away on its own.
+
+Notes:
+
+As mentioned denies any oropharyngeal swelling.  No lip or tongue swelling.  No wheezing or shortness of breath.  No headache.  No nausea.  Notes itchy rash, especially on his torso and upper arms.Now you should generate note and the note should include all the import details:
+
+Conversation:
+

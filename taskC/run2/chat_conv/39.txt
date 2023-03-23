@@ -1,0 +1,23 @@
+Doctor: Hey there, Angela! How are you feeling today?
+Patient: Hello, Doctor. I'm not doing so well. I've been having some serious left knee pain for the past week.
+Doctor: Oh no! That's terrible. Can you tell me more about your pain? When did it start and how severe is it?
+Patient: It started a week ago when I fell and twisted my knee. The pain is about a 4 out of 10 on the pain scale, but it's getting worse. My knee is really sore and throbbing.
+Doctor: Okay, that sounds painful. Have you noticed any swelling, redness or stiffness in the joint?
+Patient: Yes, my knee is swollen and feels stiff. It's hard to walk, climb stairs or bend my knee all the way.
+Doctor: Alright, thanks for letting me know. We need to be cautious with medication due to your medical history. Have you taken anything for the pain yet?
+Patient: Yes, I've been using Tylenol and kinesiology tape.
+Doctor: Good, but please avoid ibuprofen because of your ulcer. We'll work together to find a treatment plan that works best for you. Based on your symptoms and medical history, may I examine your left knee?
+Patient: Sure.
+Doctor: (examines patient's left knee) I see some fluid buildup and swelling in the joint. Do you experience pain when you move your knee?
+Patient: Yes, it hurts when I try to bend or straighten it.
+Doctor: I will perform a few tests to check for any ligament tears or meniscus injuries. Please let me know if you feel any discomfort during these tests. (performs Lachman's test) Okay, that was negative. Let's try a valgus and varus stress test. (performs test) That's also negative.
+Patient: Okay.
+Doctor: After examining you, it seems like you have edema and effusion in your left knee, with moderate range of motion and pain during flexion and extension. There is no evidence of ligament tears or meniscus injuries, which is good news. However, we still need to determine the underlying cause of your knee pain and stiffness. Would you consider scheduling an imaging test such as an X-ray or MRI?
+Patient: Yes, I would definitely consider it.
+Doctor: Excellent. In the meantime, I suggest rest and ice therapy to reduce the swelling and pain. Once we have a clear diagnosis, we can explore options such as physical therapy or pain medication. How do you feel about that?
+Patient: Sounds like a plan. Thank you, doctor.
+Doctor: Given your current condition, I recommend conservative treatment for your knee. For the next week, use a knee immobilizer for increased support. Additionally, I have prescribed Tramadol 50 mg for your pain, and Tylenol for any breakthrough pain that may occur.
+Patient: Thank you, doctor. Is there anything else I can do to manage my knee pain?
+Doctor: Yes, apply ice to your left knee 3-4 times a day for 20-30 minutes. And for the next 3 weeks, don't run or engage in high-intensity activities that could irritate your knee.
+Patient: Alright, thank you. What should I do if the immobilizer doesn't help with the pain?
+Doctor: If the knee pain persists despite wearing the immobilizer, then we may need to conduct an MRI to further investigate the issue.

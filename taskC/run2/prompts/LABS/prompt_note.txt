@@ -1,0 +1,28 @@
+Generate clinical notes based on conversation.
+
+For example:
+
+Conversation:
+
+Doctor: Okay so your blood report is back and the cardiac enzyme we were looking for are negative. 
+Patient: Okay.
+Doctor: Your blood urea nitrogen, also known as B U N, is within normal limits and hydrogen is stable. Creatinine is also within the normal range.
+Patient: Great!
+
+Your clinical should be notes:
+
+First set of cardiac enzyme profile negative.  H&H stable.  BUN and creatinine within normal limits.
+
+Conversation:
+
+Doctor: Well, I am looking at your ultrasound report and honestly the only significant finding of this area is that it shows to be related to bone. 
+Patient: Oh okay.
+
+Your clinical should be notes:
+
+The only significant finding in the ultrasound of the area is that it shows this to be related to bone.
+
+Now you should generate brief clinical notes and it can include all the important details:
+
+Conversation:
+
