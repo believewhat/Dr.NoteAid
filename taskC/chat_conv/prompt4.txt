@@ -1,0 +1,45 @@
+Doctor: Hey Ms. Lee, how are you feeling today? I wanted to ask you about the back pain you mentioned previously, but first can you tell me more about your lumbar fusion procedure?
+
+Patient: Sure, it was a surgery to fix my lower back. They fused two of my vertebrae together to make my spine more stable. It was a few months ago, and I do feel like I can move around better now and do more things without experiencing as much pain.
+
+Doctor: That's great to hear! Have you experienced any side effects or complications from the surgery, such as numbness, tingling, or weakness in your legs?
+
+Patient: No, luckily I haven't had any of those. Overall, I feel like the surgery has helped me a lot and I'm glad I went through with it.
+
+Doctor: Alright, that's good news. Now, back to your current issue - can you tell me more about your back pain? How did it start and where exactly is the pain located?
+
+Patient: Well, I was at a birthday party and I twisted my back while dancing. Since then, the pain has been pretty bad. The pain is mostly in the middle of my back, and it's around a 6 or 7 on a scale of 1 to 10.
+
+Doctor: I see. Does the pain radiate down your legs at all, or is it concentrated in your back?
+
+Patient: No, it's just in my back.
+
+Doctor: Have you noticed any positions or movements that seem to aggravate the pain, or anything that helps relieve it?
+
+Patient: Lying flat seems to make it worse, and twisting motions definitely hurt. I haven't found anything that really helps yet.
+
+Doctor: Thank you for letting me know. Based on your symptoms, it's possible that you may have strained a muscle or ligament in your back. I'll recommend some pain relief options and we can discuss further treatment if needed. By any chance, have you noticed any changes in your sodium or creatinine levels since the last time they were measured?
+
+Patient: I don't know much about those levels, but I don't think I've had any problems with them.
+
+Doctor: Okay, thank you for letting me know. Let's move on to your exam. Your range of motion was without pain, and your straight leg raise was negative. Your sensation is intact. I would like to know if you have had any recent follow-up appointments with your surgeon or doctor to evaluate the stability of your lumbar fusion?
+
+Patient: No, I haven't seen my surgeon in a while. Should I make an appointment?
+
+Doctor: Yes, it would be a good idea to schedule an appointment with your surgeon to assess the stability of the hardware and fusion site, given your recent symptoms. We want to make sure that everything is progressing well and that there aren't any new issues that need to be addressed. Your X-rays show no obvious signs of acute fracture and the hardware is in good position. You mentioned you are taking ibuprofen for your back pain. Are you taking it as prescribed, 800 mg three times a day with food?
+
+Patient: No, I haven't been taking the Motrin. I didn't realize it needed to be taken with food.
+
+Doctor: It's important to take the Motrin with food to prevent stomach upset. Please start taking it as directed and let me know if there is any improvement in your pain. And have you tried any other treatments besides ice and heat therapy to manage your lower back pain?
+
+Patient: No, I haven't tried anything else.
+
+Doctor: If the Motrin and ice/heat therapy aren't effective in relieving your pain, we can explore other treatment options at your follow-up appointment. Lastly, I wanted Doctor: Lastly, I wanted to ask you about the anxiety you mentioned in your medical history. Can you tell me more about the symptoms you experience related to your anxiety? Have you tried any relaxation techniques or coping strategies to help manage it?
+
+Patient: Yeah, I feel really nervous and worried all the time. Sometimes my heart races and I have trouble sleeping because I can't stop thinking about things. It happens a lot, like almost every night. And during the day too, especially when I have to do something that makes me nervous or scared. I've tried deep breathing exercises and meditation, but they don't always work.
+
+Doctor: I understand. There are other options we can explore to help manage your anxiety, such as therapy or medication. Would you be open to discussing these options further?
+
+Patient: Yes, I would be willing to try whatever might help. Thank you, doctor.
+
+Doctor: You're welcome, Ms. Lee. For now, please start taking the Motrin as prescribed and continue with the ice and heat therapy for your back pain. We'll schedule a follow-up appointment to discuss your anxiety and any additional treatment options if your back pain does not improve. Don't hesitate to reach out if you have any further concerns or questions.

@@ -1,0 +1,9 @@
+Act as a doctor to ask me questions based on the clinical notes and do not use the same sentence to ask questions such as 'have you or can you': For example:
+
+Your Notes:
+To home with his son.
+
+Conversation you could generate:
+Doctor: Who are going to stay with? 
+Patient: I am going home with my son. I will stay with him.
+Now we have a note:

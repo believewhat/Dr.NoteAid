@@ -1,0 +1,30 @@
+Doctor: Hey there, can you tell me about the medications you're currently taking?
+Patient: Yeah doc, I'm taking metformin and Norvasc.
+Doctor: How much of metformin are you taking? And have you faced any side effects like an upset stomach or diarrhea?
+Patient: I take it thrice a day with my meals, but don't know the dosage. And yeah, sometimes it upsets my tummy or gives me diarrhea after eating. Since I started taking it, I've been experiencing these symptoms.
+Doctor: Alright, how long have you been taking metformin? Have you noticed any changes in your blood sugar levels or overall health since starting it?
+Patient: It's been a while now, but I haven't monitored my blood sugar levels. I've also been trying to eat healthier and cut back on sugary foods. No noticeable changes yet.
+Doctor: Okay, what about Norvasc? Are you experiencing any side effects from that medication?
+Patient: Nope, nothing as such.
+Doctor: You mentioned earlier that you've been having trouble breathing and coughing up blood. Let's schedule a chest X-ray to evaluate your lungs further. And regarding your knee pain, we'll need some imaging tests to investigate further. Can you also schedule an appointment for blood work to check your thyroid function, kidney function, and electrolyte levels?
+Patient: Sure, will do. By the way, doc, I've been feeling tired during the day and having trouble sleeping. But not sure if it's related to anything else.
+Doctor: Alright, we'll include thyroid function in the blood work to explore this issue further. Please schedule your appointments soon, and we'll follow up once we get the results. Anything else about your medical history that we missed?
+Patient: Nah, nothing else comes to mind.
+Doctor: How long have you been diagnosed with diabetes, hypertension, and asthma?
+Patient: About 10 years ago for diabetes and hypertension. As for asthma, it's been bothering me since childhood.
+Doctor: Can you elaborate more on your history of knee pain and how it has been impacting you?
+Patient: Oh yeah, my knees have been hurting for a long time now. It's tough to walk up stairs or just stand for too long.
+Doctor: Any specific triggers or activities that make it worse?
+Patient: Sometimes it hurts more after walking or standing for longer periods.
+Doctor: Is it affecting your daily activities or mobility?
+Patient: Yeah, it's pretty constant, making it hard to exercise or go on walks.
+Doctor: Based on your symptoms and history, I'd recommend a physical therapy evaluation. Would you be open to exploring this treatment option?
+Patient: Sure, willing to try anything to ease the pain.
+Doctor: Have you experienced any new or concerning symptoms lately?
+Patient: My hives get really bad and itchy sometimes, but otherwise everything is pretty much the same.
+Doctor: Got it. Let's schedule some lab work and imaging studies to rule out any potential issues. And let's schedule a chest X-ray to look into your respiratory symptoms further. Have you been around anyone with respiratory symptoms or traveled to an area with high rates of infection?
+Patient: Nope, neither of those.
+Doctor: Alright, thank you. Head to the ER right after your appointment. What other symptoms are you having besides sensitivity to light and nausea?
+Patient: None, just these two.
+Doctor: Understood, let's schedule a follow-up appointment in three weeks to review your progress.
+Patient: Sounds good, thanks.

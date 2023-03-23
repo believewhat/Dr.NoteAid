@@ -1,0 +1,81 @@
+Generate clinical notes based on conversation.
+
+For example:
+
+Conversation:
+
+Doctor: Hi there! I am Doctor Smith. 
+Patient: Hello! It is nice to meet you. 
+Doctor: Let's start with your family medical history. 
+Patient: My mother had breast cancer. My father had lung cancer that ended up taking his life. He was seventy nine when he passed. My mother also passed but not from an illness but from an infection she got after having an elective surgery.  
+Doctor: I am so sorry for your loss. How old was your mother when she passed? 
+Patient: Thank you. She was eighty one when she passed. I am an orphan now. My only living sibling died at forty. He had a hard life. He struggled with mental illness. 
+Doctor: How did your brother pass away? 
+Patient: He had pancreatitis. Oh, my dad had glaucoma. 
+Doctor: You have had a lot of loss.
+Patient: Yes, I have. My good friend passed away a year and a half ago. It has been a lot.  
+Doctor: I have a support group I can refer you to for people to have been through loss. Would you be interested a referral, sir? 
+Patient: Yes. I would like that. Thank you.
+
+Your clinical should be notes:
+
+Father died from CA at the age of 79.  Mother died from postoperative infection at the age of 81.  Brother died from pancreatitis at the age of 40 and had a prior history of mental illness.  Father also had a prior history of lung cancer.  Mother had a history of breast cancer.  Father also had glaucoma.  He does not have any living siblings.  Friend died a year and half ago.
+
+Conversation:
+
+Doctor: Do you have any medical conditions that run in your family that I should know about, ma'am? 
+Patient: Um, yeah, my dad had prostate cancer. 
+Doctor: What about your mother, or the rest of your family? 
+Patient: Um, my mom's brother had Hodgkin's disease, melanoma, and prostate cancer.
+
+Your clinical should be notes:
+
+Her father had prostate cancer.  Her maternal uncle had Hodgkin's disease, melanoma, and prostate cancer.
+
+Conversation:
+
+Doctor: Is there any family medical history? 
+Patient: I have a whole list. See, my grand aunt had a stroke. My M G had heart issues same as my mom, who died of a heart attack at sixty three. My father had some sort of cancer. I don't know what exactly. And my sisters have blood pressure issues. 
+Doctor: Wow, that sure is a list. Anyone with diabetes? 
+Patient: No. Well, that is one thing that skipped my family.
+
+Your clinical should be notes:
+
+Grand Aunt (stroke), MG (CAD), Mother (CAD, died MI age 63), Father (with unknown CA), Sisters (HTN), No DM in relatives.
+
+Conversation:
+
+Doctor: Is there anyone that lives with you at home? You are going to need someone to help you care for your wound. 
+Patient: My wife lives at home with me.  She can help me change my bandages.
+
+Your clinical should be notes:
+
+The patient lives with his wife.
+
+Conversation:
+
+Doctor: Hello, I am Doctor Rez. I will ask you a few questions about your personal and family history, okay?
+Patient: Yes, that's okay.
+Doctor: Did any one in your family get diagnosed with any medical conditions? 
+Patient: My mom has lumps in her breast but it is benign, however my granny on my father side had cancer. 
+Doctor: What kind of cancer, do you know?
+Patient: Well, it was breast cancer don't know if there are types for it. 
+Doctor: No, that's fine. Did you ever have palpitations?
+Patient: What do you mean by that?
+Doctor: Um, Palpitations means the sensation when you feel that your heart is racing or pounding really fast even without doing any strenuous exercise or anything. 
+Patient: Oh, got it. No, I never had that. 
+Doctor: What about any uncontrolled urine leakage? Any accidents?
+Patient: No.
+Doctor: What about any recent sudden hair loss or any other concerns?
+Patient: No, nothing like that. 
+Doctor: Any other treatments in the past?
+Patient: Yeah, I recently got treatment for my sinus.
+
+Your clinical should be notes:
+
+Benign breast lump in her mother; however, her paternal grandmother had breast cancer.  The patient denies any palpitations, urinary incontinence, hair loss, or other concerns.  She was recently treated for sinusitis.
+
+Now you should generate brief clinical notes and it can include all the important details:
+
+Conversation:
+

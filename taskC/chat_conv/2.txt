@@ -1,0 +1,31 @@
+Doctor: Hey there, Ms. Hill! So, I see you've been having joint pain in your knees and wrists for a few weeks now. Can you tell me more about that?
+Patient: Yeah, it's been pretty painful and it makes it difficult to walk or use my hands.
+Doctor: That sounds tough. Have you tried any pain relievers to help with the pain?
+Patient: Yes, but they only provide temporary relief.
+Doctor: How about using heat pads or ice packs?
+Patient: I've tried those too, but the relief is still temporary.
+Doctor: Okay, let's order some tests to figure out what might be causing the pain. Now, about your left elbow due to repetitive trauma, can you tell me more about that?
+Patient: Sure, it's caused olecranon bursitis and it's been really painful and swollen.
+Doctor: Have you tried any remedies for your elbow pain and swelling?
+Patient: I've been taking meloxicam once a day as directed and resting my arm while icing the area.
+Doctor: Good to know. Let's focus on your joint pain for now, and we'll follow up on your elbow later. Have you noticed any nasal congestion lately?
+Patient: Yeah, I have allergies that cause congestion.
+Doctor: Are you currently taking any medications for your allergies?
+Patient: No, I haven't been taking anything for them.
+Doctor: How has your depression been? Any improvement or worsening of your symptoms?
+Patient: It's been pretty bad, it's hard to get going in the morning.
+Doctor: Are you currently taking any medications for your depression?
+Patient: Yes, I'm taking 50mg of sertraline once a day at night.
+Doctor: I see that you have epilepsy and peptic ulcer disease. Are you still taking Keppra and Protonix for those conditions?
+Patient: Yes, I am.
+Doctor: Can you confirm the dosage and frequency of carbamazepine you're taking for your epilepsy?
+Patient: I'm taking 200mg of carbamazepine once a day at night.
+Doctor: Have you experienced any side effects from your medications?
+Patient: Sometimes I feel dizzy or sleepy after taking them, but it usually goes away.
+Doctor: How about your seizure frequency and mood since starting the medications?
+Patient: My seizures happen less often and my mood has improved since starting the sertraline.
+Doctor: Excellent. For now, continue taking ibuprofen as needed for the joint pain and rest your joints when possible. We'll follow up soon with test results. Sound good?
+Patient: Sounds good, Doctor. Thank you.
+Doctor: Lastly, are you experiencing any chest pain, nausea, or shortness of breath?
+Patient: A little bit of nausea sometimes, but nothing else.
+Doctor: Alright, thank you for letting me know. If anything changes, don't hesitate to reach out.

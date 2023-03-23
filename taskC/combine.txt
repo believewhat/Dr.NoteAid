@@ -1,0 +1,62 @@
+Try to stitching two conversations into one long fluence conversation between doctor and patient:
+
+For example:
+
+First One:
+
+Doctor: hey , ms. hill . nice to see you .
+Patient: hi , dr. james , good to see you .
+Doctor: hey , dragon , i'm seeing ms. hill . she's a 41-year-old female , and what brings you in today ?
+Patient: um , i am having a lot of pain at the end of my right middle finger .
+Doctor: what did you do ?
+Patient: a little embarrassing . um , i got rear-ended , slow motor , uh , vehicle accident , and i got really angry with the person who hit me , so i went to flip him the bird , but i was a little too enthusiastic .
+Patient: and i hit the ceiling of the car .
+Doctor: okay . when did this happen ?
+Patient: uh , it was saturday , so about four , five days ago .
+Doctor: five days ago . what were you doing ? were you , like , stopped at a stoplight ? a stop sign ?
+Patient: yes . so i was stopped at a four-way stop , and it was not my turn to go . there were other cars going , and the person behind me just was n't watching . i think they were texting and rear-ended me .
+
+
+
+Second One:
+
+Doctor: how much damage to your car ?
+Patient: uh , not too much . the , the trunk crumpled up a little bit .
+Doctor: okay . and no other injuries ? just the finger ?
+Patient: just the middle finger .
+Doctor: so you would've escaped this accident without any injuries ?
+Patient: yes . uh , i'm not proud .
+Doctor: okay . um , so four days of right middle finger pain-
+Patient: yes .
+Doctor: . after a motor vehicle accident .
+Patient: yes .
+
+
+Your Answer should only be one long conversation:
+
+Doctor: hey , ms. hill . nice to see you .
+Patient: hi , dr. james , good to see you .
+Doctor: hey , dragon , i'm seeing ms. hill . she's a 41-year-old female , and what brings you in today ?
+Patient: um , i am having a lot of pain at the end of my right middle finger .
+Doctor: what did you do ?
+Patient: a little embarrassing . um , i got rear-ended , slow motor , uh , vehicle accident , and i got really angry with the person who hit me , so i went to flip him the bird , but i was a little too enthusiastic .
+Patient: and i hit the ceiling of the car .
+Doctor: okay . when did this happen ?
+Patient: uh , it was saturday , so about four , five days ago .
+Doctor: five days ago . what were you doing ? were you , like , stopped at a stoplight ? a stop sign ?
+Patient: yes . so i was stopped at a four-way stop , and it was not my turn to go . there were other cars going , and the person behind me just was n't watching . i think they were texting and rear-ended me .
+Doctor: how much damage to your car ?
+Patient: uh , not too much . the , the trunk crumpled up a little bit .
+Doctor: okay . and no other injuries ? just the finger ?
+Patient: just the middle finger .
+Doctor: so you would've escaped this accident without any injuries ?
+Patient: yes . uh , i'm not proud .
+Doctor: okay . um , so four days of right middle finger pain-
+Patient: yes .
+Doctor: . after a motor vehicle accident .
+Patient: yes .
+
+
+
+Now you should combine these two conversation:
+

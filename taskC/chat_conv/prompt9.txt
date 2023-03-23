@@ -1,0 +1,17 @@
+Doctor: Hi Christine, how have you been feeling lately? I see from your medical history that you have a history of high blood pressure and depression. How have those been recently?
+Patient: My depression has been under control, I'm taking my medication as prescribed and going to therapy every week. My blood pressure has been fluctuating but I'm using my medications as recommended.
+Doctor: That's great to hear. Have you noticed any headaches or vision changes lately?
+Patient: Yes, I've been having some headaches quite frequently.
+Doctor: Let's schedule a follow-up appointment to monitor your blood pressure more closely and discuss any further concerns you have. Also, it's important to have an annual exam. Would you like to schedule one now?
+Patient: Sure, let's do that.
+Doctor: During our last visit, we noted that your mood and affect were appropriate. Have you noticed any changes in your emotional state since then?
+Patient: No, everything has been fine on that front.
+Doctor: Great to hear. Let's move on to your physical exam. Your neck appears supple without any signs of thyromegaly or cervical lymphadenopathy. Did you notice any discomfort or swelling in this area?
+Patient: No, I haven't experienced any issues with my neck recently.
+Doctor: Okay, let's monitor your blood pressure more closely and make sure it stays within a healthy range. You mentioned that your diet has been a little all over the place due to increased workload. Have you tried meal prepping on the weekends or utilizing healthy food delivery services to make eating healthier more convenient for your busy schedule?
+Patient: No, I haven't tried that yet. That could be a good idea though!
+Doctor: Okay, we'll increase your lisinopril to 10 mg once daily and continue to monitor at home. Let's follow up in 1 month. Switching gears, how is your carpal tunnel release doing? It's been 2 years since the surgery, right?
+Patient: Yeah, everything has been fine. I haven't had any symptoms.
+Doctor: Great to hear. Just remember to contact us if any symptoms return. Lastly, just to confirm, you understand and agree with the recommended medical treatment plan?
+Patient: Yes, I do.
+Doctor: Alright then. Take care and we'll see you next month.

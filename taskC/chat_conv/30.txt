@@ -1,0 +1,43 @@
+Doctor: Hey there, Ms. Hill. Good to see you again. I noticed in your records that you've been experiencing some abdominal pain lately. Can you tell me more about that?
+Patient: Yeah, it's been a dull ache in my stomach for the past few days.
+Doctor: Okay, can you describe the nature of your abdominal pain? Is it sharp or dull?
+Patient: It's more like a dull ache. It hurts in my stomach.
+Doctor: When did you start experiencing the abdominal pain and is it constant or does it come and go?
+Patient: It started a few days ago and comes and goes.
+Doctor: Have you noticed any patterns or triggers for your abdominal pain, such as after eating certain foods or during specific activities?
+Patient: No, it just happens randomly.
+Doctor: On a scale of 1-10, how would you rate the severity of your abdominal pain and is it getting worse or staying the same?
+Patient: I'd say it's around a 6 or 7 when it hurts. It's been pretty consistent over the past few days. Thank you for letting me know. Based on your medical history, have you been experiencing any symptoms related to your diabetes or asthma lately?
+Patient: Yeah, sometimes I have trouble breathing and need my inhaler. As for my diabetes, I've been feeling thirsty more often than usual-
+Doctor: It's best to monitor your blood sugar levels regularly, especially since you're experiencing increased thirst. Have you noticed any other changes in your health besides the breathing difficulties and thirst, such as fatigue, dizziness, or vision changes?
+Patient: No, not really. Just those two things.
+Doctor: Are you still taking Metformin twice daily for your diabetes?
+Patient: Yes, I take it in the morning and at night.
+Doctor: What is the reason for taking Metformin and how has it been affecting your blood sugar levels?
+Patient: I take Metformin for my diabetes. It helps keep my blood sugar levels under control. Sometimes it's good, sometimes it's bad.
+Doctor: Have you experienced any side effects from taking Metformin, such as nausea or diarrhea?
+Patient: Yeah, sometimes I get an upset stomach and have to go to the bathroom more often. But it's not too bad most of the time.
+Doctor: Okay, let's move on to your asthma. Are you still using Flovent twice daily and Albuterol as-needed?
+Patient: Yes, I use them both as prescribed.
+Doctor: How has your experience been with Flovent in terms of managing your asthma symptoms?
+Patient: It's been okay, I guess. I don't have as many flare-ups when I'm using it regularly.
+Doctor: And how about Albuterol? Do you find that it provides quick relief during asthma attacks?
+Patient: Yes, it works pretty well. I try not to use it too often though.
+Doctor: That's good to hear. Overall, how would you say your experience has been with these medications in terms of consistency, symptom management, and side effects?
+Patient: It's been mostly positive. I try to take everything as prescribed and they do help me manage my conditions. The side effects are minimal and manageable.
+Doctor: I see. Now, I also noticed that you recently experienced a sharp pain in your stomach area. Can you tell me more about that?
+Patient: Yes, it's been constant and nothing seems to make it better. I've been feeling nauseous and don't feel like eating anything either.
+Doctor: Have you taken any medication for your bipolar disorder, anxiety, or anemia recently?
+Patient: Yes, I take them every day as prescribed. But I don't think they're the cause of my stomach problems.
+Doctor: Based on your symptoms, it sounds like we should run some tests to rule out any serious conditions. I'll order some blood work and schedule you for an imaging test. In the meantime, I can prescribe you some medication to help alleviate the pain and nausea.
+Patient: Okay, thank you Doctor.
+Doctor: Also, have you noticed any changes in your appetite or bowel movements recently?
+Patient: Actually, now that you mention it, my appetite has decreased and my bowel movements have been a bit different than usual. Is that important?
+Doctor: Yes, changes in appetite and bowel movements can give us important clues about what might be causing your symptoms. Can you describe the changes in your bowel movements? Are they more or less frequent than usual, and what is the consistency like?
+Patient: They're less frequent and the consistency is different than usual.
+Doctor: Have you had any fever or chills in addition to the abdominal pain, nausea, and vomiting?
+Patient: No, I haven't had a fever or chills. Just the nausea, vomiting, and abdominal pain.
+Doctor: Have you noticed any headaches or sensitivity to light during this time?
+Patient: No, I haven't had any headaches or sensitivity to light. Just the nausea and abdominal pain.
+Doctor: Based on your symptoms and physical exam, I think you may have acute gastritis. We'll run some tests to confirm this diagnosis, but in the meantime, we can start treatment to help alleviate your discomfort.
+Doctor: Great! So, I have you scheduled for a follow-up in 4 weeks. We'll see you then!

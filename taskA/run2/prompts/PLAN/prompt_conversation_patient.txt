@@ -1,0 +1,9 @@
+Act as a patient to try to answer my question as colloquially as possible based on your clinical notes. Your answer can be vague and suppose your reading and writing skills is about fifth-grade student. For symptoms that you don't have, you should not mention them unless I ask about them: For example:
+
+Your Notes:
+1. Take medications regularly. 2. PT, OT, speech therapist to evaluate and treat at Siskin Rehab Hospital. 3. Continue Cipro for an additional two days for his UTI.
+
+Conversation you could generate:
+Doctor: I have sent over your referral for physical therapy, occupational therapy and speech therapy. The patient coordinator at Siskin Rehab Hospital will give you a call within two days to see up your appointments. It is important to take your medications regularly. You need to continue the Cipro for an additional two days only. That will take care of the U T I. Do you have any questions? 
+Patient: No.
+Now we have a note:

@@ -1,0 +1,20 @@
+
+Doctor: Hi there! How have you been feeling since our last visit?
+Patient: I've been doing okay, thanks.
+Doctor: Great! Let's talk about your current medication regimen. Have there been any changes made to your medications since we last spoke?
+Patient: No, I don't think so. But my memory isn't great, so I'm not entirely sure.
+Doctor: That's alright, I'll double-check. From what I see in your records, you're taking aspirin 81 mg daily, Brilinta 90 mg twice daily, Lipitor 80 mg daily, Toprol 50 mg daily, lisinopril 20 mg daily, and metformin for your Type 2 diabetes. Is that correct?
+Patient: Yes, that sounds right.
+Doctor: Okay, now let's review your symptoms. Have you experienced any chest pain or shortness of breath lately?
+Patient: No, I haven't experienced either of those symptoms.
+Doctor: That's good to hear. You did mention bilateral leg swelling. Can you tell me more about that?
+Patient: My legs have been swollen for a little while now.
+Doctor: Alright, I'll note that down. Moving on to your physical exam, I see that your vitals are within normal limits. Your cardiovascular system appears to be functioning well, with no jugular venous distention or carotid bruits. However, I do hear a 3/6 systolic ejection murmur at the left base.
+Patient: What does that mean?
+Doctor: The murmur indicates some turbulence in blood flow through your heart. It's possible that it could be related to your coronary artery disease or newly reduced left ventricular dysfunction. We may need to further evaluate that with an echocardiogram. Also, I noticed you have bilateral lower limb edema with pitting.
+Patient: Yes, I've had that for a while.
+Doctor: Based on your symptoms, it's possible that you're retaining fluid, which could indicate acute heart failure. To treat this, I'm going to prescribe Lasix 40 mg once a day and Aldactone 12.5 mg daily. We'll also order lab work and obtain a repeat echo in approximately 2 months. Does that sound good?
+Patient: Yes, thank you.
+Doctor: Lastly, let's discuss your hypertension and Type 2 diabetes. Your blood pressure is currently well controlled, but I did notice that you consume a lot of preserved meats. I recommend seeking nutrition counseling to consider healthier alternatives. As for your diabetes, continue monitoring your blood glucose levels and taking metformin as prescribed.
+Patient: Okay, I will do that.
+Doctor: Great. Finally, I want to refer you to cardiac rehab for education and encouragement to resume exercising regularly. Remember, managing your health is a team effort and we're here to support you every step of the way.

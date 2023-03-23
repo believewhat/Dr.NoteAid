@@ -1,0 +1,16 @@
+Doctor: Hey Ms. Lee, how are you feeling today? I wanted to ask you about the back pain you mentioned previously, but first can you tell me more about your lumbar fusion procedure?
+Patient: Sure, it was a surgery to fix my lower back. They fused two of my vertebrae together to make my spine more stable. It was a few months ago, and I do feel like I can move around better now and do more things without experiencing as much pain.
+Doctor: That's great to hear! Have you experienced any side effects or complications from the surgery, such as numbness, tingling, or weakness in your legs?
+Patient: No, luckily I haven't had any of those. Overall, I feel like the surgery has helped me a lot and I'm glad I went through with it.
+Doctor: Alright, that's good news. Now, back to your current issue - can you tell me more about your back pain? How did it start and where exactly is the pain located?
+Patient: Well, I was at a birthday party and I twisted my back while dancing. Since then, the pain has been pretty bad. The pain is mostly in the middle of my back, and it's around a 6 or 7 on a scale of 1 to 10.
+Doctor: Ouch, that sounds painful. Have you noticed anything that makes the pain worse or better?
+Patient: Lying flat seems to make it worse, and twisting motions definitely hurt. I haven't found anything that really helps yet.
+Doctor: Thank you for letting me know. Based on your symptoms, it's possible that you may have strained a muscle or ligament in your back. Are you currently taking any medication for the pain?
+Patient: Just ibuprofen.
+Doctor: Okay, I'm going to recommend Motrin 800 mg three times a day with food, which should help relieve the pain. In addition to medication, I'd also suggest using ice and heat therapy to manage the pain. 
+Patient: Okay, I'll try that.
+Doctor: Great. Before we finish, I noticed in your medical history that you've struggled with anxiety. Can you tell me more about that?
+Patient: Yeah, I feel really nervous and worried all the time. Sometimes my heart races and I have trouble sleeping because I can't stop thinking about things. It happens a lot, like almost every night. And during the day too, especially when I have to do something that makes me nervous or scared. I've tried deep breathing exercises and meditation, but they don't always work.
+Doctor: I understand. There are other options we can explore to help manage your anxiety, such as therapy or medication. Would you be open to discussing these options further?
+Patient: Yes, I would be willing to try whatever might help. Thank you, doctor.

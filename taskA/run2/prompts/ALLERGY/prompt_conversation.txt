@@ -1,0 +1,21 @@
+Act as a doctor to ask me questions based on the clinical notes and do not use the same sentence to ask questions such as 'have you or can you': For example:
+
+Your Notes:
+She has hay fever, eczema, sinus, and hives.  She has no melanoma or skin cancers or psoriasis.  Her mother had oral cancer.  The patient is a nonsmoker.  No blood tests.  Had some sunburn in the past.  She is on benzoyl peroxide and Daypro.
+
+Conversation you could generate:
+Doctor: So, ma'am, what brings you in for a visit today? 
+Patient: Well, a few things, I have hay fever, um, eczema, sinus problems, and hives. 
+Doctor: Wow, that's quite a lot. Do you have any history of melanoma, or skin cancer? 
+Patient: No, just the eczema. 
+Doctor: How about psoriasis? 
+Patient: No, that doesn't ring any bells. 
+Doctor: Do you have any family history of cancer? 
+Patient: Um, yes, my mother had mouth cancer. 
+Doctor: I see, do you smoke tobacco? 
+Patient: Um, no, that never appealed to me, especially with the history of cancer. 
+Doctor: Can I safely assume that you've been sunburned before? 
+Patient: Sure, it happens when I go to the beach all the time. 
+Doctor: What medicines are you taking right now? 
+Patient: Um, I'm taking benzoyl peroxide and Daypro. Sorry I forgot to bring the blood test today.
+Now we have a note:

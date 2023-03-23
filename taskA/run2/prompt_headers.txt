@@ -1,0 +1,271 @@
+Determine which of the following categories the content of the following conversation is about:
+
+Category:ALLERGY,ASSESSMENT,CC,DIAGNOSIS,DISPOSITION,EDCOURSE,EXAMFAM/SOCHX,GENHX,GYNHX,IMAGING,IMMUNIZATIONS,LABSMEDICATIONS,OTHER_HISTORY,PASTMEDICALHX,PASTSURGICAL,PLANPROCEDURES,ROS
+
+For Example:
+
+Conversation:
+
+Doctor: Hello! What brings you into the office today?
+Patient: Hi! I have not been able to go pee, and I have had this sharp pain in my left side. 
+Doctor: Have you recently had any surgical procedures?
+Patient: No. 
+Doctor: Do you have a history of an enlarged prostate or kidney stones? 
+Patient: No. 
+Doctor: I would like to get some imaging done. 
+Patient: Okay.
+
+Your Answer:
+
+CC
+
+Conversation:
+
+Doctor: Have you had any procedures in the past?
+Patient: No.
+
+Your Answer:
+
+PROCEDURES
+
+Conversation:
+
+Doctor: They took some fluid out of your back remember? 
+Patient: Yes actually.
+Doctor: We got the results back for that and it looks like it was clear then it turned bloody. 
+Patient: They checked my urine and blood too.
+Doctor: Yes, they did. I see the orders for urine culture, B M P, C B C, C R P, and blood culture as well.
+Patient: I got albuterol nebulizer treatment too.
+Doctor: That is good. but did that help you?
+Patient: No, it did not.
+Doctor: Oh I am sorry.
+Patient: It is okay.
+Doctor: I see that they gave you some antibiotics in E R?
+Patient: Yes, Ampicillin and Cefotaxime.
+
+Your Answer:
+
+EDCOURSE
+
+Conversation:
+
+Guest_clinician: How's the patient? 
+Doctor: He's stable. Heart rate sixty five. Normal rhythm. Oxygen ninety seven percent on room air.
+
+Your Answer:
+
+DISPOSITION
+
+Conversation:
+
+Doctor: Can you tell me about your Immunizations?
+Patient: Yeah, I had them all. 
+Doctor: Good, looks like you are up to date.
+
+Your Answer:
+
+IMMUNIZATIONS
+
+Conversation:
+
+Patient: In the past I was very very fat! Actually, I was morbidly obese. I also had high blood pressure, but after my surgery it got resolved. 
+Doctor: So, everything is okay now?
+Patient: Yeah.
+
+Your Answer:
+
+PASTMEDICALHX
+
+Conversation:
+
+Guest_clinician: Any past surgeries? 
+Doctor: It looks like she had an appendectomy along with a total abdominal hysterectomy and bilateral salpingo oophorectomy sometime ago. 
+Guest_clinician: Okay, noted. 
+Doctor: Oh and it looks like she had a right hip fracture back in O five after a fall.
+
+Your Answer:
+
+PASTSURGICAL
+
+Conversation:
+
+Doctor: Are you taking any medications for your pain?
+Patient: Yeah, occasionally.
+Doctor: Which one?
+Patient: Just a regular pain medicine.
+
+Your Answer:
+
+MEDICATIONS
+
+Conversation:
+
+Doctor: Is this baby number two? 
+Patient: Yes, this is baby number two. 
+Doctor: How many times have you been pregnant, including miscarriages or abortions if any? 
+Patient: I've been pregnant two times in total. No miscarriages or abortions. 
+Doctor: When was your last period? 
+Patient: About a month ago. 
+Doctor: And how would you describe your periods? Light, normal, heavy? 
+Patient: Pretty normal. 
+Doctor: Any abnormal pap smears? 
+Patient: No, fortunately they've all been normal. 
+Doctor: That's wonderful to hear. And my last question for you is if you've ever gotten a mammogram? 
+Patient: I haven't gotten one before. Do I need to get one? I just turned thirty nine. What's the recommended age again? 
+Doctor: It depends. For example, the recommended age would be younger for someone who has a family history of breast cancer. Given that you don't have a positive family history of breast cancer, I'd advise getting one in a few years at the age of forty five.
+
+Your Answer:
+
+GYNHX
+
+Conversation:
+
+Doctor: Do you know about any medical traits in your family? 
+Patient: No, everyone in my family is quite healthy. I'm not aware of any medical problems. 
+Doctor: Are you sexually active? 
+Patient: Yes, I am with my boyfriend. 
+Doctor: Do you take any drugs or alcohol or smoke? 
+Patient: No, none of them.
+
+Your Answer:
+
+OTHER_HISTORY
+
+Conversation:
+
+Doctor: Hi!
+Patient: Hello, how are you?
+Doctor: I am good.
+Patient: I think I am all well now.
+Doctor: Yes, looking at your results I think your kidney failure is resolved too.
+
+Your Answer:
+
+ASSESSMENT
+
+Conversation:
+
+Doctor: Hello again, how are you doing, miss? 
+Patient: I'm good. Thank you. How about you? 
+Doctor: All good here too. I know you are an established patient of dermatology here and was last seen in our office on July thirteenth, two thousand and four.  I will be asking you a few questions just to check whether the entry in our record is updated or not.
+Doctor: How old are you now? 
+Patient: Twenty nine. 
+Doctor: Where are you from originally? 
+Patient: I'm from Vietnam. 
+Doctor: I am seeing you today as a referral from A B C for reevaluation. 
+Patient: Yes, for my hand eczema. 
+Doctor: So, let's see what you have been treated with. Your record here says with Aristocort cream, Cetaphil cream, increased moisturizing cream and lotion. Does this sound right to you? 
+Patient: Yes, that's correct. 
+Doctor: Are you washing your hands in Cetaphil cleansing lotion? 
+Patient: Yes, I'm doing all that. 
+Doctor: What brings you here today? 
+Patient: I'm having this flaring. My hands are all dry. I have these like cracks in my hands. I have been washing with the soap and the lotions that you prescribed, but still, it is happening. Maybe because of cracks or what, I don't know, but the Cetaphil cleansing lotion, whenever I'm applying that it is causing me a lot of burning pain. I have been wearing gloves though. 
+Doctor: Are you married? 
+Patient: Still, a single. I'm not even looking for a husband yet. 
+Doctor: Are you working somewhere? 
+Patient: Not currently.
+
+Your Answer:
+
+GENHX
+
+Conversation:
+
+Doctor: Anything else that is going on?
+Patient: Just some pain in the buttock.
+Doctor: Okay.
+Patient: I do not have anything else.
+Doctor: Okay no fever, nausea, anything of that sort?
+Patient: Nope.
+
+Your Answer:
+
+ROS
+
+Conversation:
+
+Doctor: Hi there! I am Doctor Smith. 
+Patient: Hello! It is nice to meet you. 
+Doctor: Let's start with your family medical history. 
+Patient: My mother had breast cancer. My father had lung cancer that ended up taking his life. He was seventy nine when he passed. My mother also passed but not from an illness but from an infection she got after having an elective surgery.  
+Doctor: I am so sorry for your loss. How old was your mother when she passed? 
+Patient: Thank you. She was eighty one when she passed. I am an orphan now. My only living sibling died at forty. He had a hard life. He struggled with mental illness. 
+Doctor: How did your brother pass away? 
+Patient: He had pancreatitis. Oh, my dad had glaucoma. 
+Doctor: You have had a lot of loss.
+Patient: Yes, I have. My good friend passed away a year and a half ago. It has been a lot.  
+Doctor: I have a support group I can refer you to for people to have been through loss. Would you be interested a referral, sir? 
+Patient: Yes. I would like that. Thank you.
+
+Your Answer:
+
+FAM/SOCHX
+
+Conversation:
+
+Doctor: As per your chart I am going to put some of the following things in your diagnosis.
+Patient: Yes, I have diabetes, hypertension and gallstones.
+Doctor: Yes I can see that in your chart over here.
+Patient: What are the new things?
+Doctor: We now have added hyperglycemia and obstructive sleep apnea.
+
+Your Answer:
+
+DIAGNOSIS
+
+Conversation:
+
+Doctor: I am looking at her x ray report and she had a sternotomy in the past.
+Guest_clinician: Yes, and we placed an I C D implant and an aortic valve mechanical implant. Her pleural effusion was really worrisome causing left sided opacification of her diaphragm.
+Doctor: Oh I see!
+
+Your Answer:
+
+IMAGING
+
+Conversation:
+
+Doctor: Any know drug allergies? 
+Patient: No.
+
+Your Answer:
+
+ALLERGY
+
+Conversation:
+
+Doctor: Okay so your blood report is back and the cardiac enzyme we were looking for are negative. 
+Patient: Okay.
+Doctor: Your blood urea nitrogen, also known as B U N, is within normal limits and hydrogen is stable. Creatinine is also within the normal range.
+Patient: Great!
+
+Your Answer:
+
+LABS
+
+Conversation:
+
+Patient: Um, do I have to follow some special or soft diet?
+Doctor: No, nothing like that. You can have a normal diet. Whatever you like to eat. 
+Patient: At this age, my diet is very limited. I am going to be eighty-two next month.
+Doctor: Well, I don't think you need to restrict your diet. You can follow your regular diet.
+Patient: Alright, thank you.
+
+Your Answer:
+
+PLAN
+
+Conversation:
+
+Doctor: Well, looking at your hand x ray, the bone looks in alignment, and I don't see any effusion.
+Doctor: Any tenderness or pain?
+Patient: Ah, not really!
+Doctor: There is no asymmetry. Can you move your hand up and down? Now rotate it. Can you move your fingers? 
+Patient: Yes, I can do all of that, no problem at all.
+Doctor: Can you bend your hand?
+Patient: Yes.
+Doctor: Perfect.
+
+Your Answer:
+
+EXAM

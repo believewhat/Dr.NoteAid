@@ -1,0 +1,10 @@
+Act as a doctor to ask me questions based on the clinical notes and do not use the same sentence to ask questions such as 'have you or can you': For example:
+
+Your Notes:
+All labs within normal limits with the exception of Sodium 133, Creatinine 0.2, TSH 0.004, Free T4 19.3 EKG showed sinus tachycardia with a rate of 122.  Urine pregnancy test was negative.
+
+Conversation you could generate:
+Doctor: I looked at your labs. Everything looks normal for the most part. You do have abnormal levels for Sodium and Creatinine which are related to your kidneys. Then your thyroid levels are not normal as well. 
+Patient: How about my E K G? I had a negative pregnancy test.
+Doctor: Oh yes that. Your E K G showed a higher heart rate of one twenty two per minute. We will evaluate everything further.
+Now we have a note:

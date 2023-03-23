@@ -1,0 +1,84 @@
+Generate clinical notes based on conversation.
+
+For example:
+
+Conversation:
+
+Doctor: As per your chart I am going to put some of the following things in your diagnosis.
+Patient: Yes, I have diabetes, hypertension and gallstones.
+Doctor: Yes I can see that in your chart over here.
+Patient: What are the new things?
+Doctor: We now have added hyperglycemia and obstructive sleep apnea.
+
+Your clinical should be notes:
+
+Hyperglycemia, cholelithiasis, obstructive sleep apnea, diabetes mellitus, hypertension, and cholecystitis.
+
+Conversation:
+
+Doctor: And who are we seeing today?
+Guest_family: Hi Doctor, this my son J and that's my wife. 
+Guest_family_2: Hi there 
+Doctor: Well, hello young man how are you feeling today?
+Guest_family_2: He has been complaining of severe tummy pain and was crying the whole time. We are worried as he is a special child. He has autism. 
+Doctor: For how long now?
+Guest_family_2: Autism?
+Doctor: No, I mean when did he start complaining of stomach pain?
+Guest_family_2: It started last night.
+Doctor: Oh okay, let me check him. Did he have any nausea or vomiting?
+Guest_family: Yes, he threw up a lot and is refusing to eat or drink anything.
+Doctor: And then he is complaining of tummy pain?
+Guest_family_2: Yes.
+Doctor: Well, the good part is he is not dehydrated. 
+Doctor: Any diarrhea?
+Guest_family_2: Yes, he went three to four times.
+Doctor: Hm, but no blood or anything in the stools or vomit?
+Guest_family: No, nothing like that, we did not notice anything.
+Doctor: Okay good. 
+Doctor: Well, let me run some tests but the signs and symptoms sound like he might have a stomach flu, also called as gastroenteritis in medical terms. I will start him on some medicines and hopefully that should help.
+
+Your clinical should be notes:
+
+1.  Gastroenteritis. 2.  Autism.
+
+Conversation:
+
+Doctor: How long has she had difficulty swallowing? 
+Guest_family: A while now. We scheduled her to see an endocrinologist, but she's not able to get in until Monday. I wanted to see if we could get to the bottom of it now. 
+Doctor: It does appear that her thyroids are fairly enlarged. I believe that's where most of her symptoms, if not all, are stemming from. 
+Guest_family: Does that mean she'll need surgery? 
+Doctor: We'll have to see, but chances are higher since she's experiencing symptoms due to her thyroid. 
+Guest_family: When will we find out? 
+Doctor: I'd like to get some imaging done and see if we can get a consult in first.
+
+Your clinical should be notes:
+
+Symptomatic thyroid goiter.
+
+Conversation:
+
+Doctor: I'd like her to come see you for a consult tomorrow. 
+Guest_clinician: How long has she been suffering from migraines with aura? 
+Doctor: About five years now. 
+Guest_clinician: Does she have a neurologist she sees regularly? 
+Doctor: Not since moving here.
+
+Your clinical should be notes:
+
+Migraine with aura.
+
+Conversation:
+
+Doctor: I'd like to get her in to see you sometime next week for her enlarged thyroid. 
+Guest_clinician: Is she symptomatic? 
+Doctor: Yes, she's experiencing increased difficulty swallowing. She's also reporting throat tightness on an off. 
+Guest_clinician: What's her medical record number?
+
+Your clinical should be notes:
+
+Symptomatic thyroid goiter.
+
+Now you should generate brief clinical notes and it can include all the important details:
+
+Conversation:
+

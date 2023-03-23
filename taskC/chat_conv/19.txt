@@ -1,0 +1,40 @@
+Doctor: Hi there! How are you doing today? I see in your notes that you injured your right shoulder playing football a few days ago. Can you tell me more about how it happened?
+Patient: Yeah, it was during a pick-up game. I fell and landed on my shoulder.
+Doctor: Ouch, that sounds painful. Where is the pain located exactly?
+Patient: It's in the back of my shoulder.
+Doctor: Okay, thanks for letting me know. Have you noticed any numbness or tingling sensations in your fingers?
+Patient: No, not at all.
+Doctor: That's good to hear. Are you having trouble lifting things with that arm?
+Patient: It's okay, but I've been avoiding anything too heavy.
+Doctor: Got it. Have you tried taking anything for the pain?
+Patient: Just some Tylenol, but it hasn't really helped.
+Doctor: Alright, we'll take a closer look at other options then. Have you had any previous injuries or joint problems before this incident?
+Patient: No, just this shoulder injury.
+Doctor: Okay, thanks for letting me know. Have you experienced any fever or chills since the injury?
+Patient: No fever or chills, but I do have a headache.
+Doctor: I see. Did you hit your head during the fall?
+Patient: Yeah, I did, but I didn't pass out or anything.
+Doctor: Alright, we'll keep an eye on that. On another note, can you tell me when you had your appendix removed?
+Patient: It was around 3 to 4 years ago during middle school.
+Doctor: Okay, thanks for letting me know. Have you had any issues or discomfort in that area since the surgery?
+Patient: No, everything has been normal.
+Doctor: Good to hear. You also mentioned having a headache. Can you describe what kind of headache it is?
+Patient: It's a throbbing pain on one side of my head.
+Doctor: Okay, thanks for letting me know. Have you experienced any other symptoms like numbness or tingling during these headaches or at any other time?
+Patient: No, I haven't had any other symptoms.
+Doctor: Alright, thanks for answering my questions. Let's take a look at your physical exam now. 
+PHYSICAL EXAM
+NECK
+- No tenderness upon palpation.
+SHOULDER
+- There is tenderness upon palpation of the posterior aspect of the right acromioclavicular joint.
+- No evidence of trauma, ecchymosis, or bruising noted.
+- Decreased range of motion due to pain.
+- Pain with shoulder abduction and adduction, as well as horizontal adduction.
+ASSESSMENT
+- Right shoulder acute acromioclavicular joint fracture.
+PLAN
+- We will need to prescribe meloxicam 15 mg once a day to help with the pain.
+- Additionally, we will obtain a CT scan of your right shoulder to evaluate it further.
+- Formal physical therapy could be helpful to strengthen your shoulder and avoid future injuries.
+- Please try to avoid any activities that involve overhead motions as well.

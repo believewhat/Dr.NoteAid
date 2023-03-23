@@ -1,0 +1,44 @@
+Doctor: Hi there, Alexis! How are you feeling today?
+Patient: Hello, Doctor. I'm doing okay.
+Doctor: Can you describe the onset of your symptoms in more detail?
+Patient: Yeah, sure. It started about six months ago with just occasional numbness and tingling in my first three fingers on the right hand. But now it has become constant over the past month or so, and is accompanied by pain when typing and using a mouse, which I do all day at work.
+Doctor: I'm sorry to hear that. Have you noticed any patterns or triggers for your numbness and tingling, such as certain activities or positions?
+Patient: Not really, it seems to happen randomly.
+Doctor: Have you tried any treatments or remedies to alleviate your symptoms?
+Patient: I've tried shaking my hand and rubbing it, but that doesn't really help. Sometimes I try to stretch my hand out or move my fingers around. Rest and ibuprofen have been the most helpful at providing symptomatic relief.
+Doctor: How often and in what dose have you been taking the ibuprofen?
+Patient: I'm not sure, the bottle just says to take it every 6 hours. I usually take two pills each time.
+Doctor: How has the numbness and tingling affected your daily activities and quality of life?
+Patient: It's been hard to do things that require fine motor skills, like typing or writing. And it's frustrating when I can't feel things properly.
+Doctor: Can you tell me if the numbness and tingling in your fingers has been progressively getting worse over time or has it stayed the same?
+Patient: It's been getting worse over the past few months, and now it's happening more frequently and lasting longer.
+Doctor: Have you noticed any weakness or loss of grip strength in your affected hand, and has the numbness and tingling spread to other areas?
+Patient: No, I haven't noticed any weakness or loss of grip strength, and the numbness and tingling has only been in my first three fingers on my right hand.
+Doctor: Have you experienced any new symptoms such as pain or itching in the affected hand?
+Patient: No, just the numbness and tingling.
+Doctor: Have you tried any other treatments to alleviate your symptoms?
+Patient: Rest and ibuprofen have been the most helpful at providing symptomatic relief.
+Doctor: Can you describe the pain in your right hand?
+Patient: It's like an ache and feels sharp in my first, second, and third fingers on the right hand. My fingers are swollen and they look a little red. Sometimes it feels like my fingers are numb or tingly, and it hurts more when I try to grip things or type on my computer.
+Doctor: Have you been exposed to cold temperatures or repetitive motion that could be causing the pain in your right hand and fingers?
+Patient: Yeah, I work on a computer all day and have been typing a lot lately. Plus it's been pretty cold outside too.
+Doctor: Do you think it's possible that you have carpal tunnel syndrome?
+Patient: I don't really know what that is, but maybe?
+Doctor: How does your hand feel when you flex and extend your wrist?
+Patient: It hurts when I move my wrist up and down. The pain is not too severe, but it's definitely noticeable. And my grip strength on the right side is weaker than my left side.
+Doctor: On a scale of 1 to 10, how would you rate the pain in your right hand when flexing and extending your wrist?
+Patient: I would say it's around a 4 or 5.
+Doctor: Based on your symptoms, it sounds like you may have a wrist sprain. I'm going to perform a Tinel's sign test to check for nerve irritation. I will refer you to a specialist who can take a closer look and give you the best treatment options. How are you feeling today?
+Patient: Hi doc, I'm not feeling well. My wrist has been hurting a lot lately.
+Doctor: I see, after reviewing your symptoms and exam findings, I believe that it might be carpal tunnel syndrome. Have you heard of it before?
+Patient: No, what is it?
+Doctor: It's a condition where the nerve in your wrist gets compressed due to swelling, causing pain and numbness in your hand.
+Patient: Oh no, that sounds terrible! What can we do about it?
+Doctor: We can start by treating it conservatively with nighttime wrist splinting and ibuprofen. I'm also going to increase your dose to 600 mg 4 times daily. Additionally, I want to order an EMG/Nerve conduction study for further evaluation.
+Patient: Okay, that sounds like a good plan. Will I need to make any major lifestyle changes to manage my symptoms?
+Doctor: While there aren't any specific lifestyle changes necessary, it may be helpful to take frequent breaks when using your hands for extended periods of time and avoid activities that exacerbate your symptoms.
+Doctor: Have you noticed any changes in your appetite or weight?
+Patient: Doctor, you asked about my appetite and weight. I haven't noticed any major changes in either of them recently.
+especially when managing any medical condition. Remember to eat a balanced diet and get regular exercise, as this can help improve your overall health.
+Patient: Thank you for the advice, Doctor. I'll try to be more mindful of that.
+Doctor: You're welcome. If your symptoms worsen or don't improve with the conservative treatment we've discussed, please don't hesitate to reach out to me. We can consider other treatment options, such as physical therapy or even surgery if necessary.

@@ -1,0 +1,14 @@
+Generate clinical notes based on conversation.
+
+For example:
+
+Doctor: I looked at your labs. Everything looks normal for the most part. You do have abnormal levels for Sodium and Creatinine which are related to your kidneys. Then your thyroid levels are not normal as well. 
+Patient: How about my E K G? I had a negative pregnancy test.
+Doctor: Oh yes that. Your E K G showed a higher heart rate of one twenty two per minute. We will evaluate everything further.
+
+Notes:
+
+All labs within normal limits with the exception of Sodium 133, Creatinine 0.2, TSH 0.004, Free T4 19.3 EKG showed sinus tachycardia with a rate of 122.  Urine pregnancy test was negative.Now you should generate note and the note should include all the import details:
+
+Conversation:
+

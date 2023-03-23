@@ -1,0 +1,15 @@
+Generate clinical notes based on conversation.
+
+For example:
+
+Doctor: I'd like to know more about your family's medical history. 
+Patient: Buckle up. This is a long one. My son is fifty eight and he suffers from glaucoma, high cholesterol, high blood pressure, and R A. My eldest brother passed away at ninety two due to old age and my two younger brothers followed in their seventies after a long battle with Parkinson disease. 
+Doctor: I'm incredibly sorry to hear that. 
+Patient: It's alright. Both my mom and dad died in their mid eighties from old age. I think my dad was eighty five and my mom eighty nine.
+
+Notes:
+
+Father died at age 85 of "old age," mother died at age 89 of "old age."  Brother died at age 92 of old age, 2 brothers died in their 70s of Parkinson disease.  Son is at age 58 and has a history of hypertension, hypercholesterolemia, rheumatoid arthritis, and glaucoma.Now you should generate note and the note should include all the import details:
+
+Conversation:
+

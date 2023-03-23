@@ -1,0 +1,36 @@
+Doctor: Hi there! How have your asthma and allergies been since our last appointment?
+Patient: I've been struggling with them recently. My asthma has been causing me to have more attacks, and my allergies have been bothering me almost every day.
+Doctor: That's not good to hear. Have you been taking your inhaler as prescribed and avoiding triggers for your allergies?
+Patient: I try to take my inhaler as prescribed, but sometimes I forget. And for my allergies, I make sure to avoid peanuts and tree nuts as much as possible.
+Doctor: Okay, we need to work on being consistent with your medication and continuing to avoid triggers. Have you noticed any other triggers besides peanuts that cause a reaction?
+Patient: No, they seem to happen randomly. But peanuts always cause a reaction for me.
+Doctor: That's concerning. Have you ever been prescribed Montelukast sodium for your allergies?
+Patient: Yes, I have. But I had a "seizure-like" reaction to it and had to stop taking it.
+Doctor: Have you ever been hospitalized for your peanut allergy before?
+Patient: Yes, I've been to the hospital a few times because of my peanut allergy. It's really scary when it happens.
+Doctor: Do you always carry an epinephrine auto-injector with you in case of a severe reaction?
+Patient: Yes, I always carry an epinephrine auto-injector with me in case of a severe reaction to peanuts. My doctor told me to.
+Doctor: Let's make sure you're carrying it with you at all times. On another note, I see you have a rash on your arm. Is there anything different that might have caused it?
+Patient: No, nothing out of the ordinary. I haven't changed my routine or used any new products.
+Doctor: Based on what you've told me, I don't see any significant findings for the rash. However, let's focus on managing your asthma and allergies. Speaking of which, how have you been feeling lately? Have you experienced any breathing difficulties or chest tightness?
+Patient: Yeah, I still feel a bit of difficulty breathing sometimes, but it's not as bad as before.
+Doctor: That's good to hear. Have you been taking your medications as prescribed, including the Wixela Inhub and Alvesco?
+Patient: Yes, I've been taking them every day like you told me to.
+Doctor: Great. Have you noticed any triggers or patterns that seem to worsen your breathing difficulties?
+Patient: It seems to get worse when I'm doing intense exercise or around smoke or strong smells.
+Doctor: Okay, we can try to avoid those triggers as much as possible. Keep up with taking your medications as prescribed and avoiding any triggers that worsen your symptoms. Let me know if anything changes or if you have any concerns. So I see from your medical history that you have moderate persistent asthma. Have you noticed any triggers for your asthma symptoms?
+Patient: Yeah, whenever I'm around smoke or dust, my breathing gets really bad. It's hard for me to catch my breath.
+Doctor: That's understandable. Have you been avoiding smoke and dust as much as possible to help manage your asthma symptoms?
+Patient: Yeah, I try to stay away from them as much as I can. But sometimes it's hard, especially when I'm outside or around other people who smoke.
+Doctor: I understand. Have you tried using a rescue inhaler during these episodes of breathing difficulty?
+Patient: Yeah, I have. It helps a little bit, but I still feel like I'm struggling to breathe.
+Doctor: Okay, well another option we could consider is using a daily maintenance inhaler to help prevent asthma symptoms from occurring in the first place. What do you think about that?
+Patient: No, I haven't thought about that. What does it do?
+Doctor: It helps to reduce inflammation in your airways over time, which can make your asthma symptoms less severe and frequent. Given your history of moderate persistent asthma, it may be worth considering. Also, I see that you had an anaphylactic reaction due to peanuts at some point. Have you been avoiding peanuts since then?
+Patient: Yes, I have. I've been really careful to read food labels and avoid anything with peanuts in it.
+Doctor: That's great to hear. Do you also experience allergic rhinitis, or nasal allergies?
+Patient: Yes, I do. My nose gets really stuffy and runny, especially in the spring and fall.
+Doctor: Okay, we'll definitely want to keep an eye on that as well. In the meantime, let's talk more about the possibility of starting a maintenance inhaler for your asthma. Additionally, I understand you have aspirations to join the military. Can you tell me more about that and how your asthma may affect that goal?
+Patient: Yeah, I really want to join the military but I heard they have physical fitness requirements that I need to meet without using my inhaler. So that's been on my mind.
+Doctor: I understand. Have you discussed your aspirations to join the military with your primary care physician? It may be a good idea to schedule an appointment with them to discuss this further and undergo pulmonary function tests to assess your lung function. This can help determine whether alternative treatment options or accommodations may be necessary to help you achieve your goals while still managing your asthma effectively.
+Patient: No, I haven't talked to my doctor about it yet. But I'll definitely do that. Thanks for the advice, doc. And thank you for checking out my rash too.
