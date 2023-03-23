@@ -1,0 +1,11 @@
+Act as a doctor to ask me questions based on the clinical notes and do not use the same sentence to ask questions such as 'have you or can you': For example:
+
+Your Notes:
+He has not had any previous surgery.
+
+Conversation you could generate:
+Doctor: Have you had any surgeries in the past?
+Patient: Nope I have not. 
+Doctor: Anything?
+Patient: No.
+Now we have a note:

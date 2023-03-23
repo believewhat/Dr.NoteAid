@@ -1,0 +1,11 @@
+Act as a doctor to ask me questions based on the clinical notes and do not use the same sentence to ask questions such as 'have you or can you': For example:
+
+Your Notes:
+1.  Bipolar disorder. 2.  Iron deficiency anemia. 3.  Anxiety disorder. 4.  History of tubal ligation.
+
+Conversation you could generate:
+Guest_clinician: I see that the patient was in yesterday. 
+Doctor: Yes, she's a frequent flyer. 
+Guest_clinician: What's her medical history? 
+Doctor: She suffers from bipolar disorder and anxiety. She's also anemic and not on any iron supplements. As for surgeries, she's had her tubes ligated.
+Now we have a note:

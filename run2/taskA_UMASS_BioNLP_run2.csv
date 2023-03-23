@@ -1,0 +1,326 @@
+TestID,SystemOutput1,SystemOutput2
+0,DIAGNOSIS,"This is a 55-year-old African American male who recently had his birthday. The patient's last visit was on July 29, 2008, where he was experiencing new seizures. Upon reviewing the MRI results, it demonstrated a right contrast temporal mass which could potentially be a high-grade glioma. Further tests will need to be done."
+1,GENHX,The patient reports a family history of stroke and sleep apnea.
+2,ROS,"MUSCULOSKELETAL: No pain, joint pain, stiffness, or weakness. No back pain."
+3,GENHX,No family history of blood or heart issues. No family history of diabetes or other medical conditions.
+4,GENHX,Father died of thoracic aortic aneurysm at 71. Mother died of stroke at 81.
+5,OTHER_HISTORY,No significant changes to medical or social history since last visit.
+6,GENHX,"
+
+This is a 77-year-old female who was sedated with Ativan due to shortness of breath upon arrival. X-ray was performed, which revealed free air under her right diaphragm."
+7,GENHX,"
+
+Patient's parents and half brothers do not have any health conditions. Grandmother on mother's side had DVT in her 40s. Aunt from father's side and cousins on mother's side have diabetes. Great grandfather had bone cancer at 80. Mother's brother recently diagnosed with leukemia at 50. Father's father had colon cancer at 73, diagnosed at 68."
+8,GENHX,Patient is retired after working for 20 years in social security administration. He enjoys an active lifestyle and travels frequently with his wife. He drinks socially but denies smoking or drug use.
+9,GENHX,No known drug allergies.
+10,GENHX,"
+
+Your clinical notes should be:
+
+1. African American female, 79 years old, height 5'3"", weight 197 lbs.
+2. History of type 2 diabetes since 1983.
+3. No known allergies to medications."
+11,IMMUNIZATIONS,"
+
+IMMUNIZATION: Patient received BCG vaccine in the Philippines before starting elementary school. GASTROINTESTINAL: Patient complaining of uneasiness in stomach for a few days. No history of liver problems, gallbladder stones or ulcers. No fever or chills reported."
+12,GENHX,The patient lives alone but has a good support system from family and friends. He smokes but does not drink. Has been advised to quit smoking.
+13,OTHER_HISTORY,"1. Patient is managing anxiety with therapy and scheduled to see a psychiatrist next week. 
+2. Blood pressure is stable while taking medication."
+14,GENHX,Patient has concerns about potential liver issues due to regular use of Tylenol for pain. Denies excessive alcohol consumption and smoking.
+15,ROS,"
+
+Patient reports no headaches, breathlessness, skin problems, chest pain, or other issues."
+16,ASSESSMENT,No cyanosis or edema noted.
+17,PASTMEDICALHX,"
+
+No significant past medical problems or surgeries."
+18,OTHER_HISTORY,"Significant for hypertension, high cholesterol, and osteoarthritis. Presenting with fatigue."
+19,SKINCARE,"
+
+This is a white female patient who was last seen on August 10, 2004. She reports that her acne has been improving, but she has developed a rash on her chest, stomach, neck, and back. On examination, small folliculitis lesions were noted, which are pus-filled bumps centered on the hair. The patient had been prescribed Amoxicillin and Tazorac cream, which have been effective, but she stopped taking them for three days. She also started going to Healing Waters for photofacials, which have helped but she wants faster results. The patient is currently working as a secretary, and her job has been very stressful."
+20,OTHER_HISTORY,"
+
+This patient reports long-standing leg swelling and numbness in toes, as well as chronic pain and sores on legs that ooze. They are unable to walk due to their weight and shortness of breath from COPD. Reports taking OxyContin for back pain, but denies any gastrointestinal symptoms. No chest pain or visual problems with ambulation. Further examination is needed to assess the cause of leg swelling and sores."
+21,GENHX,"New onset chest pain, described as gnawing sensation, lasting a few seconds, rated 5-6/10. No other associated symptoms reported."
+22,GENHX,The patient has been happily married for 45 years and lives in a waterfront house near the doctor's office. He quit smoking in 1997 but occasionally enjoys a glass of wine or beer.
+23,MEDICAL HISTORY,"1. History of stroke two years ago.
+2. No history of smoking or alcohol use.
+3. No known allergies."
+24,OTHER_HISTORY,"Doctor advised patient to follow a low salt diet and avoid foods like chips, junk food, and pickles. Patient agreed to cut out these foods from their diet."
+25,GENHX,Grandmother had arthritis. Patient denies any medical history as a child. Father has psoriasis.
+26,GENHX,"The patient is a 68-year-old male with a history of ischemic cardiac disease. He was previously evaluated in February 2004 by doctor X Y Z who performed a treadmill test that showed wall scarring but normal blood flow from the heart. The patient denies experiencing any chest pain, palpitations, difficulty sleeping at night, leg or arm swelling, or shortness of breath while lying flat."
+27,ROS,"Patient reports experiencing nausea, vomiting, diarrhea, and fever."
+28,OTHER_HISTORY,"Patient discharged home, stable condition."
+29,DIAGNOSIS,History of metastatic prostate cancer.
+30,GENHX,The patient's father has arthritis in both hips. No other major medical conditions reported.
+31,GENHX,"
+
+This is a 55-year-old male who presents with weakness in his right leg for the past six months. He reports tingling and numbness in his toes on the same leg, as well as mild back pain that has been present for several years. He denies any pain or weakness in his left leg or any bowel or bladder incontinence. He had an elevated CK level prior to taking Lipitor and recently started Zetia without any adverse effects. CT scan showed degenerative changes, and EMG and nerve conduction studies were done. The patient cannot have an MRI due to his ear implant."
+32,GENHX,"Possible nontoxic ingestion of liquid, no symptoms present. Consulted Poison Control for advice."
+33,OTHER_HISTORY,Patient denies smoking and alcohol use.
+34,GENHX,"
+
+Significant for well-controlled diabetes. Also has coexisting hepatitis C and HIV."
+35,ALLERGY,Bactrim and adhesive tape allergies. Bactrim causes nausea and vomiting. Skin rash with adhesive tape use.
+36,GENHX,"This is a 56-year-old female who presents with a foot injury. She reports that her foot twisted and she experienced immediate pain, but cannot recall the exact cause of the injury. The incident occurred on November 26, 2007, around 11:30 am. No other injuries are reported."
+37,GENHX,"Patient is a heavy smoker, consuming one pack per day for fifteen years. Patient is also an addict and consumes narcotics obtained from the street and alcohol. Patient expresses a need for help."
+38,PAIN MANAGEMENT,"
+
+This 36-year-old white female presents with ongoing knee pain despite three Synvisc injections, the most recent being five days ago. She reports 35-40% improvement but still experiences pinching pain and is unable to fully bend or straighten her knee without significant pain. Pain is rated as 10/10 and she is using Tylenol with codeine and ibuprofen with minimal relief. Ice and heat have been used."
+39,OTHER_HISTORY,"No significant medical or social history. Non smoker, non drinker, and no past surgeries or medical conditions."
+40,DIAGNOSIS,Recent resolved C. difficile colitis infection. Hypertension and high cholesterol also present.
+41,CC,Patient presenting with congestion and possible fever.
+42,GENHX,"
+
+The patient is a 68-year-old male presenting to the ED with a bad cough and green/grey sputum for the past three days. No shortness of breath, fever or chills reported. Further evaluation and treatment needed."
+43,IMAGING,ABDOMINAL: No notable pathology.
+44,PASTMEDICALHX,"Obesity, hypertension, right knee fracture with pin fixation in 1990, history of blood clots."
+45,PLANPROCEDURES,"Nasogastric tube for decompression, patient reports feeling improved."
+46,GENHX,"Chronic congestion, possible enlarged adenoids. Ingrown toenail, improving on its own. No current plans to see ENT."
+47,GENHX,Two-month-old baby girl presenting with congestion and fever for the past two days. Anal thermometer used to monitor temperature. No difficulty breathing or wheezing reported. Decreased intake of milk. Diaper changes not tracked accurately.
+48,CC,Patient reports headache starting earlier today due to stress from husband and children. Denies smoking.
+49,DIAGNOSIS,"
+
+This is a 77-year-old white female presenting for follow-up. She has a history of low back pain, lumbar scoliosis post laminectomy syndrome, lumbar spinal stenosis, and symptomatic right L2 radiculopathy. She underwent a laminectomy for spinal stenosis and had injections into her lower back and right hip by Doctor X Y Z. She reports having significant pain in her right hip that worsens with weight-bearing activities. She uses a cane and takes the generic for Ultracet up to four times a day, but still experiences significant pain. The x-rays taken today show marked degenerative changes and progression since August 2004 when she last saw Doctor X Y Z. She has an upcoming appointment with an orthopedist in Newton."
+50,DIAGNOSIS,"The patient has a history of multiple wrist injuries, with the most recent one occurring while lifting things out of his car trunk. He reports feeling pain near the ulnar side and has chronic scapholunate problems along with other ligament damage in his wrist. The doctor will assess how to manage the pain and improve the patient's wrist function."
+51,MEDICATIONS,No current medications.
+52,ALLERGY,No known drug allergies.
+53,GENHX,"
+
+The patient is widowed and lives alone. He denies smoking, drinking, or drug use. He is retired but remains very active, walking four miles daily."
+54,GENHX,Patient with well-managed blood sugar levels and high cholesterol. Z Pak has improved sinus symptoms. Follow-up appointment scheduled for cholesterol monitoring.
+55,CC,"Patient presenting with diarrhea for several weeks, experiencing five to six episodes per day."
+56,ROS,"HEENT: No visual changes reported, no loss of vision or blind spots noted."
+57,ASSESSMENT,"
+
+Episodes of disorientation while driving, history of previous similar episodes. Referral to specialist for cognitive testing."
+58,DIAGNOSIS,"URINARY: Occasional overactive bladder, but no pain or other urinary symptoms. GASTROINTESTINAL: No abdominal pain, excessive thirst or eating, constipation, diarrhea, or heartburn. CARDIOVASCULAR/RESPIRATORY: No chest pain or tightness, shortness of breath, or headaches. SKIN/MUSCULOSKELETAL: No problems. DIAGNOSTICS: Ordered ultrasound of kidneys and urine test."
+59,GENHX,"
+
+Family history significant for long term asthma in mother and two aunts. No personal history of kidney problems or rheumatological disorders."
+60,ASSESSMENT,"CARDIOVASCULAR: EKG shows normal rhythm with leftward axis variation. CBC, BMP and cardiac enzymes are all within normal limits. Patient able to understand test results."
+61,MEDICATIONS,"
+
+Amoxil and Aldex started on Monday. No other medications."
+62,PLANPROCEDURES,Seventeen-year-old patient with an obstructed airway due to a fishbone. Intubated and taken to OR.
+63,DIET,"
+
+This patient has high lipid levels, high blood pressure, and a possibility for metabolic syndrome. They have been struggling with their diet and have tried to follow the meal plan given to them but felt like they were still gaining weight. They are doing some physical activity through gardening and yard work. The patient has gone back to their old South Beach Diet but knows it is not healthy and is seeking recommendations for a low-fat diet to lose extra weight. A plan will be set for the patient."
+64,GENHX,"
+
+This patient reports experiencing shortness of breath for the past three days, particularly when exerting themselves. They deny any leg pain or swelling, chest pain, or history of asthma. Pulse ox is in the high nineties and a CT scan of the chest has been ordered to investigate further."
+65,MEDICATIONS,"Patient receiving cycle seven of ifosphamide, mesna, and VP 16 chemotherapy. Unclear on treatment details."
+66,ROS,"
+
+The patient has a history of hypothyroidism and IBS with bowel abnormalities. Recently had bouts of diarrhea likely due to C diff, which have improved. No fever, chills, night sweats, weight changes, visual or hearing changes, chest pain, heart problems, urinary problems, abnormal vaginal bleeding or discharge, seizures, paralysis, or headaches reported. Anemia has not been present in recent labs. Overall, the patient reports a stable condition with no significant symptoms."
+67,GENHX,"
+
+This is a 56-year-old right-handed male with long-standing on-and-off lower back pain on the right side following a motor vehicle accident in September 2005. Pain moves from lower back to buttocks, posterior thigh, and outside of calf. Pain worsens with prolonged sitting or walking but improves with lying down or standing. No weakness or pain in legs or change in bowel movement or urine function. Symptoms increased gradually despite treatment with painkillers and Medrol. Had an injection in his back four and a half weeks ago which helped for a few hours. Straight leg raising is normal."
+68,GENHX,"The patient is married and works part-time in farming. He denies any history of alcohol, tobacco, or drug use."
+69,PASTSURGICAL,"No history of surgery, natural childbirth for all children."
+70,MEDICATIONS,"
+
+Morphine, Darvocet, Flomax, Avodart, Ibuprofen."
+71,EXAM,GENERAL: Patient is well developed and well nourished with no acute distress noted.
+72,GENHX,Patient denies any known family medical history.
+73,CC,"
+
+CARDIOVASCULAR: Patient reports pain on the upper right side of chest with associated nausea and reduced appetite. No fever, diarrhea, headache or joint pain reported. No history of seizure, loss of consciousness or stroke-like symptoms. No family history of similar chest pain."
+74,GENHX,"The patient is a 68-year-old female with a history of knee pain for 13 years. She previously had a knee replacement at another facility and is now experiencing pain, snapping, and trouble walking. X-rays show malalignment of the hardware from her previous surgery. Further evaluation and treatment may be necessary."
+75,GENHX,"This is a follow-up visit for a patient who reports doing quite well since his last visit. He denies symptoms of heart disease or failure and has had no falls. His blood sugar is in the normal range, and he reports no incontinence or memory issues. He does have some pain in his right knee, which he manages with Tylenol as needed. A knee brace may be considered."
+76,GENHX,Significant for normal male breast tissue.
+77,GENHX,Patient is on a protein-rich diet with whey protein and increased intake of greens. Doctor notes improvement in patient's appearance and encourages continuation of current diet.
+78,GENHX,"
+
+URINARY: No current symptoms of UTI.  Patient is taking preventative measures.  WEIGHT: Stable. RESPIRATORY: No coughing, chest congestion or chest pain. GASTROINTESTINAL: No constipation, stomach pain, nausea, or vomiting."
+79,PASTMEDICALHX,"
+
+Significant for prostate cancer and urinary incontinence. Past history of left hip replacement surgery."
+80,PLAN,"Patient not restrained, but has palm protector in right hand."
+81,GENHX,"
+
+The patient smokes less than a pack of cigarettes per day and lives with his wife. He is currently unemployed but previously worked as an IT software developer. Denies alcohol or drug use."
+82,GENHX,Patient reports a family history of hypertension and diabetes.
+83,ROS,ROS is normal except for mild soreness in left arm due to vaccine. No other concerns noted.
+84,IMMUNIZATIONS,"Patient experienced redness and swelling after wasp sting, improved with Prednisone. No history of previous wasp stings."
+85,PASTSURGICAL,No surgical history.
+86,OTHER_HISTORY,PSYCHOLOGICAL: No history of psychiatric disorders reported.
+87,OTHER_HISTORY,"Patient's family members (mother and sister) present. Suspected history of drug use (smoking/weed), but specific drug unknown. Doctor encouraged family to reach out with any questions."
+88,ROS,"
+
+Your clinical notes:
+
+GASTROINTESTINAL: No issues reported. CARDIOVASCULAR: No history of heart issues. UROGENITAL: No urinary or genital tract issues. MUSCULOSKELETAL: Normal range of motion, no muscle or movement issues reported."
+89,OTHER_HISTORY,"
+
+The patient is currently on disability and does not drink or smoke. He lives with his girlfriend and has minimal activity level, requiring assistance with activities of daily living. He cannot recall when he last had a drug test."
+90,GENHX,"
+
+Significant for a past skateboarding accident two years ago, no hospitalization required. No other significant medical history reported."
+91,GENHX,"CONSTITUTIONAL: Weakness and shakiness. RESPIRATORY: Dyspnea on exertion. No cough, wheezing or bloody sputum. CARDIOVASCULAR: No chest pain or palpitations. NEUROLOGICAL: No syncope or presyncope."
+92,GENHX,"Patient reports occasional migraine headaches, worsened by weather changes. Referral for neurologist recommended for further evaluation and possible brain scan."
+93,ROS,No chest pain or shortness of breath reported. No bleeding disorders or prolonged bleeding. G I and urinary tract reports already reviewed. No other significant symptoms or concerns mentioned.
+94,PASTSURGICAL,Patient had a repair of the right intertrochanteric femur due to a fracture.
+95,GENHX,"The patient is an 85-year-old with muscle pain in the right buttocks region that may be radiating from the lower back or spine area. Blood pressure is well-controlled with current medication and no side effects noted. No other symptoms reported except for the hip pain. The patient has tried Tylenol, which helps a bit. A prescription for a stronger pain medication was given, and if the pain does not improve, x-rays will be taken. Overall, the patient looks better today."
+96,GENHX,No known drug allergies.
+97,OTHER_HISTORY,Patient reports back pain after attending a party where she consumed alcohol. She describes herself as an occasional drinker.
+98,GENHX,"1. Patient has a personal history of hypertension and borderline elevated cholesterol levels.
+2. No significant family history of heart disease, diabetes, or hypertension. 
+3. Follow-up appointment scheduled in one month to monitor cholesterol levels."
+99,ROS,No current symptoms reported by patient.
+100,GENHX,"The 2-month-old patient is presenting with congestion, coughing, irregular breathing, feeding difficulties, and fever ranging from 102-104 degrees Fahrenheit. The patient's coughs trigger a reflex response causing her to spit up or throw up. There are no signs of diarrhea. The patient's older sibling has an upper respiratory infection. Further evaluation and treatment are necessary."
+101,MEDICATIONS,Multivitamins and calcium supplements.
+102,GENHX,Boil on buttocks.
+103,GENHX,"
+
+The patient reports experiencing a weird feeling where they feel their face is going to twitch and they start doing grimacing actions on their face and mouth, but then it suppresses. They also report having a fear of pressure in the backside of their head about once a week, which feels like pins and needles in their head and water running down their hair. The patient takes Aleve for relief. Additionally, the patient experiences daydreaming at work and falls asleep in non-stimulating environments. They work from 4 PM to midnight and only get around five hours of sleep each night. The quality of their sleep is good, but they wake up to use the bathroom, and they may snore. The patient denies any history of losing sleep to catch their breath."
+104,PASTSURGICAL,"Patient has a history of foot and knee surgery, as well as a tummy surgery."
+105,OTHER_HISTORY,Patient presents for annual physical. No changes in medical history or social history since last visit.
+106,GENHX,No known drug allergies.
+107,GENHX,"A 56-year-old white male patient with a lump in his left chest that has been present for at least a year, causing tenderness and pain when taking deep breaths. The lump has grown in size. Further evaluation is needed."
+108,GENHX,Sinusitis with middle ear fluid buildup and green snot. Prescribed antibiotics and follow-up appointment recommended.
+109,ALLERGY,"
+
+No known drug allergies."
+110,DIAGNOSIS,"
+
+The patient is a 2.5-year-old girl with a history of seizures who was previously on Keppra solution 150 mg twice a day. Recently, she has been experiencing episodes where she stops and stares blankly for 10-15 seconds without any jerky motions or loss of control of her body. Her mother reports that these episodes can last up to 3-4 minutes and that one time her skin around her mouth turned blue. The patient's medication has not been changed, and the current dose is 20 mg/kg/day, which the doctor notes may be too low for her. Further evaluation and adjustment of the medication will be necessary."
+111,GENHX,Patient reports a family history of alcoholism in their grandfather. No other major medical conditions mentioned.
+112,MEDICATIONS,"
+
+Anxiety medication and estrogen."
+113,GENHX,Sulfa drug allergy - dizziness and vomiting.
+114,GENHX,Patient reports being the only one in their family with heart problems.
+115,GENHX,"Joint pain for 2 weeks, seeking checkup. Advil provides minimal relief."
+116,MEDICATIONS,"Excedrin and ibuprofen for headaches, no relief."
+117,GYNHX,"First-time pregnancy, patient excited for baby's arrival."
+118,GENHX,The patient denies smoking and alcohol use.
+119,GENHX,"The patient has three healthy children who live with her and her boyfriend. She does not smoke or use drugs, and only drinks on rare occasions."
+120,GENHX,"
+
+This is a patient with right hand numbness and tingling, mostly in the middle finger but also affecting the first and second fingers as well as the thumb. Symptoms have been present for several weeks and are worse at night, affecting sleep and mental health. The patient works in an office job for eight hours a day, primarily using a keyboard. No significant changes in daily routine except for adjusting the keyboard after symptoms started. No history of arthritis. Further testing may be needed to determine the cause of symptoms."
+121,MEDICATIONS,"
+
+Stopped Prevacid due to diarrhea."
+122,IMAGING,"
+
+URINARY: P bag was changed and urine was straight catheterized. No leukocytes seen, but blood present during catheterization. STOOL: X-ray showed stool in the colon. Otherwise, patient is active and appears fine."
+123,GENHX,No relevant medical history or issues in family. Patient denies smoking and drinking.
+124,GENHX,"Patient in stable condition, unable to obtain history at this time. Guest clinician notified and available on eighth floor."
+125,DIAGNOSIS,"
+
+The patient presents with symptoms of restlessness, agitation, and diarrhea, which are consistent with serotonin syndrome. Elevated white blood cell count and CPK levels confirmed the diagnosis. IV fluids were administered, and Prozac was discontinued. The patient's CPK and white blood cell counts improved, and she reported feeling normal. The patient has a history of panic attacks, depression, and anxiety and is scheduled to see a psychiatrist for a medication change. She has a friend who will help her get home and will continue taking medications for high blood pressure and diabetes."
+126,DIAGNOSIS,"
+
+This is a 46-year-old female with a history of epilepsy and non-epileptic events. She presents today with concerns about having small seizures again, reporting strange body aches and confusion upon waking up in the morning and while working alone at her desk. A video EEG is recommended to determine whether she is experiencing epileptic seizures or non-epileptic events. The patient has taken the day off work and is available for testing today."
+127,PLANPROCEDURES,Nasogastric tube placed for decompression. Patient reports feeling better.
+128,DIAGNOSIS,"
+
+This patient has metastatic prostate cancer to the bladder, spine, and shoulder. He reports blood in his urine, which has recently increased. He denies any new onset of back pain, incontinence, fever, belly pain, nausea, vomiting, or blood in stools. He is able to pass urine normally and is not retaining. He has completed chemotherapy and is now undergoing radiation therapy targeted to the bones for comfort management. There is no hospice care facility listed at this time."
+129,PASTMEDICALHX,"Clinical notes:
+1. Patient reports pain on right side under ribs.
+2. History of hives and dialysis for two years.
+3. Known diagnosis of hypertension. 
+4. Possible association between kidney problems and high blood pressure to be investigated."
+130,OTHER_HISTORY,"Foreign body in left eye, referral to eye doctor recommended."
+131,ASSESSMENT,Febrile seizure.
+132,OTHER_HISTORY,The patient denies any history of tobacco or drug use. She reports occasional alcohol consumption with a glass of wine at dinner.
+133,OTHER_HISTORY,No history of alcohol or drug abuse. Patient does not smoke.
+134,MEDICATIONS,"
+
+Reviewed medication list with patient. Not taking any blood thinners."
+135,GENHX,The patient is a 26-year-old African American male who experienced a pop in the back of his left leg after stepping off a hilo at work. He was placed in a splint and referred to ABC orthopedics for further evaluation and treatment.
+136,OTHER_HISTORY,"
+
+The patient's son is having problems at school, including asking an unusual number of questions, being obsessed with cleaning, and not relating well in the classroom. He has also been confused and depressed at times and has started collecting old toys again. He will be attending a social skills program this summer and has been referred to two psychologists for functional behavioral analysis. He is currently taking 7.5mg of Abilify and has responded well to stopping Zoloft, with tremors in his hands improving."
+137,GENHX,Patient underwent bypass surgery a few months ago and had a follow-up visit with cardiologist last week. No family history of heart disease. EKG results normal.
+138,MEDICATIONS,No medications reported.
+139,DERMATOLOGY,"
+
+This is a new patient, a little over one year old and identified as black. She was referred from A B C Practice for atopic eczema. The patient has been using Elidel cream twice daily for six months and now it is not effective. The patient's mother has been using Johnson's Baby oil on her daughter's skin. The patient appears to be well-developed and in good health otherwise. Further management will be discussed."
+140,ALLERGY,No known drug allergies.
+141,GENHX,"
+
+This patient accidentally stuck himself with a needle while working with a patient. The patient he was working with tested positive for hepatitis C but is only a carrier and will not show symptoms. The patient has received three shots of hep B and his tetanus shot is up to date. His liver function tests were normal and hepatitis C and H I V were negative when taken on February seventh. He is experiencing intestinal issues but has no local signs of infection. On examination, his abdomen is fine with no fever or swelling."
+142,GENHX,Chief complaint: Weakness and shakiness.
+143,GENHX,Patient reports a family history of cancer in two brothers and father. Seeking treatment for cancer.
+144,GENHX,"The patient lives with her husband, and her daughter and son-in-law live next door and check on her daily. She denies any use of ethanol, tobacco, or illicits."
+145,GENHX,Patient's mother had metastatic breast cancer and her mother's sister had bone cancer. Both sides of the family have a history of adult onset diabetes mellitus.
+146,PLANPROCEDURES,"
+
+This is a 5.5-year-old male who had a forearm fracture in September 2007, which subsequently rebroke about a month ago. He underwent surgery and has an ulnar nail visible under the skin. The decision has been made to remove the nail, followed by casting for three weeks. The risks of infection are low, and he will be under general anesthesia for the procedure."
+147,MEDICATIONS,"Aspirin, blood pressure medicine, diabetes medicine."
+148,GYNHX,"GENERAL: Two week old newborn in good health. No apparent distress, appropriate for age.
+
+GENITALIA: Foreskin appears normal upon examination. No other abnormalities noted."
+149,GENHX,"Mother died of stroke in her late fifties. Father had heart issues and hypertension. Patient was a heavy smoker, but quit in 1990 after smoking two to three packs per day. Patient worked as a feed salesman."
+150,IMMUNIZATIONS,"This is an 18-month-old Swedish American male with a fever for five days. He recently finished Amoxil for sinus infection and takes Zyrtec for allergies. Fever is higher at night, but has not been checked in the past few days. No diarrhea or vomiting, no coughing, but discolored snots in the morning. Fussy and drooling due to a tooth coming out. Eating well and seems hungry."
+151,PASTSURGICAL,Patient had back surgery for a disc issue approximately 7-8 years ago. No other surgeries reported.
+152,OTHER_HISTORY,"The patient has F C R tendinitis and has previously received two cortisone shots for treatment. She plays instruments as a hobby, which occasionally exacerbates the pain. She takes anti-inflammatories when the pain gets bad and is considering surgery but would like the doctor's opinion on whether it is necessary."
+153,GENHX,Patient's father had diabetes.
+154,GENHX,Chronic pain and history of heroin use.
+155,GENHX,"
+
+The patient is a 47-year-old white female who presents with concern for a spider bite on the back left side of her shoulder. She reports noticing a bump two days ago which has become tender and red, and appears to be increasing in size. Additionally, she is concerned about red streaks going up her neck. The area is slightly painful but there is no fever reported."
+156,PASTSURGICAL,"No surgical history of gallbladder or appendix removal, or joint replacements."
+157,GENHX,The patient lives with his parents and two younger sisters. No known contact with sick individuals.
+158,IMAGING,SHOULDER: Normal x-ray with no bone abnormalities or degenerative changes. No wear and tear observed.
+159,PLANPROCEDURES,"The patient is a 51-year-old male with degenerative joint disease of the big toe, specifically in the M P J. The pain has been progressively worsening and surgical options are being considered."
+160,PASTMEDICALHX,"Significant for Parkinson disease, diagnosed by Dr. Johnson five years ago."
+161,PASTMEDICALHX,Significant for tonsillectomy due to recurrent infections.
+162,PLANPROCEDURES,"Patient is a 57-year-old female seeking treatment for wrinkles on her face. She denies smoking and any history of skin disease. On examination, the submandibular region and mid-face region are predominantly full, and nasolabial folds are prominent."
+163,PLANPROCEDURES,"This is a 38-year-old female presenting with hip pain. The pain has been present for two years on the right side and recently started on the left side. The pain is located in the groin and on the side, and walking exacerbates it. The patient reports popping and clicking sensations. This is her first visit to a doctor for this issue."
+164,GENHX,"The patient is a 53-year-old female with a herniated disc at T8-T9 causing rib pain. She has tried anti-inflammatories and rest, but has not found relief. She is interested in surgery to alleviate the pain."
+165,PASTMEDICALHX,Significant for hypertension.
+166,DIAGNOSIS,"
+
+This is a 58-year-old female who suddenly became blind at 4:00 PM on January 8, 1993, with associated tongue numbness and slurred speech. She had no previous history of these symptoms. Upon evaluation, she became unresponsive and was transferred to U I H C where her symptoms improved markedly."
+167,GENHX,Patient's second cousin had a history of depression and nervous breakdown. No immediate family members have a history of depression.
+168,DIAGNOSIS,"
+
+The patient reports improvement in her E coli symptoms, but discontinued Macrobid due to skin rash and hives. She denies pain with urination, blood in urine, fever, or chills. She reports urinating every 2-3 hours during the day and once at night. The patient is controlling her urine well and has been doing pelvic exercises and rehab. Renal ultrasound from August 5, 2008, was normal. The patient has had E coli a few times in the past."
+169,MEDICATIONS,P M for sleeplessness; water pill; blood thinner; multivitamins; folic; Norvasc; Lanoxin; Diovan; Atenolol.
+170,GENHX,"
+
+This is a 37-year-old left-handed male who presents with worsening headaches, blurry vision, difficulty concentrating, and nausea/vomiting. The headache is described as dull and constant, starting on the forehead and moving to the back of the head, occurring six times a day. The patient reports sensitivity to bright light and loud sounds. He denies any weakness, numbness, tingling, double vision, or speech disorder. His weight has been fluctuating over the past three months, and he has lost his appetite. Previous exam showed no evidence of bowel obstruction."
+171,GENHX,Patient is married and lives in a single level home. Denies smoking but drinks occasionally. Used to exercise daily for an hour or more until experiencing back pain in June 2008. Currently works as a project manager and walks extensively throughout the day.
+172,OTHER_HISTORY,Patient has a history of international travel to more than six countries. No recent international travel.
+173,ROS,RESPIRATORY: Shortness of breath with exertion. GI: No bowel or bladder issues. HEMATOLOGICAL: No excessive or unstoppable bleeding.
+174,GENHX,Patient's mother passed away from stomach cancer. Patient's sister had Alzheimer's and passed away due to pneumonia complications. Patient's father died in a car accident. Patient's brother died from mesothelioma due to asbestos exposure while working in the shipyards.
+175,ALLERGY,Patient is allergic to Cephalexin.
+176,OTHER_HISTORY,The patient denies smoking and alcohol use.
+177,DIAGNOSIS,"
+
+This is a 55-year-old female with a history of stroke and urinary incontinence. She reports having the urge to use the bathroom all the time and has had episodes of peeing on herself. She has tried VESIcare and Enablex, but has not seen any improvement. She wears several pairs of Depends a day. She denies any blood in urine, pain with urination, fever or chills, or bowel issues. Urodynamics from April 2008 showed significant detrusor instability with involuntary urinary incontinence and low bladder volumes, while cystoscopy was unremarkable. The nursing home has not done a voiding diary. The patient's power of attorney is present at the visit."
+178,IMMUNIZATIONS,Significant for asthma.
+179,GENHX,"This is a 41-year-old white male with a history of HIV. His CD4 count was 425 and viral load was less than 50 in August 2007. He recently had surgery to remove an abscess in his left glute and is following up with the surgeon. He has a medical history of high blood pressure and high triglyceride levels, and has been newly diagnosed with diabetes. He is currently taking Glucophage and glyburide for his diabetes and reports feeling better overall."
+180,PASTMEDICALHX,Noncontributory medical history.
+181,GENHX,"Strong family history of Huntington disease - mother, grandmother, and two younger brothers affected. Patient's mother and grandmother died from the disease. One brother currently undergoing neurological treatment, details unknown."
+182,ALLERGY,No known drug allergies.
+183,ALLERGY,No known drug allergies.
+184,SOCIAL_HISTORY,"The patient is married for ten years and denies any smoking, alcohol consumption, or recreational drug use."
+185,GENHX,"
+
+Father died from lung cancer and ischemic cardiac disease at the age of 84. Mother died from congestive heart failure in her eighties. Patient has six sisters and two brothers, some of whom live nearby and are reportedly in good health. Here for a regular physical."
+186,HYPERTENSION,"78-year-old female with hypertension, currently controlled with hydrochlorothiazide and potassium chloride. No reported symptoms of chest pain, shortness of breath, dizziness, ankle swelling, or sleep apnea. Negative intercranial lab work."
+187,ASSESSMENT,"The patient is a 66-year-old female who presented to the emergency room feeling dizzy. Her husband brought her in and is currently looking for parking. Upon examination, her blood pressure and heartbeat were found to be high. No further medical history was obtained at this time."
+188,DIABETES,"
+
+Patient with diabetes and kidney disease, experiencing variability in glucose control and recent upper and lower respiratory illnesses. Infusion set problems causing high blood sugar, corrected with a bolus and glucose intake. No other significant medical problems reported, recent diet changes due to travel."
+189,MEDICATIONS,"
+
+Synthroid for low thyroid; stopped Aspirin 1 week ago; no longer taking Terazosin, Lisinopril, or Atenolol as advised by cardiologist."
+190,EXAM,"EYES, NOSE, EARS, AND MOUTH: Eyes without any abnormality. No ocular discharge or swelling. Sclerae clear. Pupils normal and reactive. Ears without any abnormalities or hearing problems. Tympanic membrane normal. Mouth without any lesions or abnormalities. No cough, cold, or sinus congestion reported."
+191,GENHX,Patient stopped drug use at 25 with one relapse over 10 years ago. Heavy smoker with chronic bronchitis.
+192,GENHX,"The patient is in good spirits and has a lot of energy. She has been experiencing constipation issues, but her breathing remains unchanged. She has not gained any weight since her last visit, so the doctor recommends focusing on increasing protein intake and maintaining consistent meal times. The doctor provided a handout with meal suggestions and tips for the family."
+193,GENHX,"
+
+The patient is married and lives with his wife. He does not smoke. No additional medical history was discussed during the conversation."
+194,GENHX,Patient is divorced and a homemaker. Denies smoking or drinking.
+195,DIAGNOSIS,"
+
+This is a 72-year-old female with a history of hypertension. She was admitted in May 2009 with abdominal pain, diarrhea, and cramps. CT abdomen showed evidence of diffuse colitis, and she was treated with IV antibiotics (Flagyl and Levaquin) and Reglan for vomiting. Her white blood cells remain high, and she still has diarrhea, but no nausea or vomiting. She reports feeling weak due to the diarrhea. No other symptoms reported."
+196,GENHX,No symptoms of excess mucous accumulation or soreness in the throat reported.
+197,PLAN,"The patient is postoperative and doing well. She reports tenderness at the incision site but no new symptoms since her surgery on June 10, 2009. The patient remains NPO per physician instructions. Doctor confirms that the procedure went well and expects the patient to resume normal eating soon."
+198,PASTMEDICALHX,No significant past medical history.
+199,IMMUNIZATIONS,Flu vaccine received this year. No Pneumonia vaccine received.

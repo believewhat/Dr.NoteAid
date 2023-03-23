@@ -1,0 +1,60 @@
+Generate clinical notes based on conversation.
+
+For example:
+
+Conversation:
+
+Doctor: I am looking at her x ray report and she had a sternotomy in the past.
+Guest_clinician: Yes, and we placed an I C D implant and an aortic valve mechanical implant. Her pleural effusion was really worrisome causing left sided opacification of her diaphragm.
+Doctor: Oh I see!
+
+Your clinical should be notes:
+
+Chest x-ray shows previous sternotomy with ICD implantation and aortic valve mechanical implant with left-sided opacification of the diaphragm worrisome for pleural effusion.
+
+Conversation:
+
+Doctor: Are you finished with your cancer treatments? 
+Patient: Yes.  I am in remission now.  
+Doctor: That is great! When was your last radiation treatment?
+Patient: It has been over two years since my last treatment.
+
+Your clinical should be notes:
+
+She has had no recent radiological procedures.
+
+Conversation:
+
+Doctor: I have reviewed your x rays from your emergency room visit. I agree with Doctor Jones that your lungs show no signs of infection or decreased lung capacity. 
+Patient: Okay.
+
+Your clinical should be notes:
+
+Chest x-ray ordered by ER physician is unremarkable, but to me also.
+
+Conversation:
+
+Doctor: Your chest x ray showed diffuse pulmonary edema. This means that you have fluid in your lungs. That would explain your chest pain and the difficulies with your breathing. I would like to start you off with a course of antibiotics to prevent any possible infection. I will also send in a prescription for Furosemide. It will reduce the fluid accumulation in your lungs. Do you have any questions? 
+Patient: When should I start to feel better? 
+Doctor: You should start to feel better within three to five days.
+
+Your clinical should be notes:
+
+Chest x-ray revealed a diffuse pulmonary edema.
+
+Conversation:
+
+Doctor: So, we looked at your previous blood work results, now let me see what these reports say from today's C B C exam.
+Patient: Sure.
+Doctor: Okay so your hemoglobin levels look within range, white counts are thirteen point three, then seven point six lymphocytes and twenty six thousand platelets.
+Doctor: Okay?
+Patient: Okay.
+
+Your clinical should be notes:
+
+The patient's CBC results from before were reviewed.  Her CBC performed in the office today showed hemoglobin of 13.7, white count of 13.3, lymphocyte count of 7.6, and platelet count of 26,000.
+
+Now you should generate brief clinical notes and it can include all the important details:
+
+Conversation:
+

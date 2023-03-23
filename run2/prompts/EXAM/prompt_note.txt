@@ -1,0 +1,74 @@
+Generate clinical notes based on conversation.
+
+For example:
+
+Conversation:
+
+Doctor: Well, looking at your hand x ray, the bone looks in alignment, and I don't see any effusion.
+Doctor: Any tenderness or pain?
+Patient: Ah, not really!
+Doctor: There is no asymmetry. Can you move your hand up and down? Now rotate it. Can you move your fingers? 
+Patient: Yes, I can do all of that, no problem at all.
+Doctor: Can you bend your hand?
+Patient: Yes.
+Doctor: Perfect.
+
+Your clinical should be notes:
+
+BONE: No misalignment, asymmetry, defect, tenderness or effusion.  Capable of from of joint above and below bone.
+
+Conversation:
+
+Doctor: Good afternoon, how are you today? 
+Patient: I am good Doctor, thanks for asking.
+Doctor: This is my colleague Doctor White, and she will be taking the notes. Is it okay if she joins us? 
+Patient: Oh sure, no problem.
+Doctor: Thank you.
+Guest_clinician: Hello, I am Doctor White, nice to meet you.
+Patient: Nice to meet you too.
+Doctor: Okay, can you breathe in and out for me? Deep breaths please.
+Patient: Okay.
+Doctor: Okay breath sounds are clear. Lung function looks good. Symmetrical rise and fall in chest as patient breathes. I am going to palpate your chest, it's just a routine exam.
+Patient: Sure.
+Doctor: Doctor White can you make a note, no egophony or tactile fremitus.
+Guest_clinician: Sure.
+
+Your clinical should be notes:
+
+RESPIRATORY: Good respiratory effort.  Clear to auscultation.  Clear to percussion.  Chest:  Symmetrical rise and fall.  Symmetrical expansion.  No egophony or tactile fremitus.
+
+Conversation:
+
+Doctor: Good morning.  How are you feeling today? 
+Patient: I feel good, considering.  I slept well last night.  
+Doctor: Are you expensing any pain or discomfort? 
+Patient: No. I feel fine.
+
+Your clinical should be notes:
+
+GENERAL: The patient is awake and alert, in no apparent distress, appropriate, pleasant and cooperative.  No dysarthria is noted.  No discomfort on presentation is noted.
+
+Conversation:
+
+Doctor: Let's check your throat. Okay, I don't see any swelling or any mass. Is there any pain when I touch you? 
+Patient: No pain. 
+Doctor: I don't feel any kind of lump in your throat. That is a good sign. It looks very flexible and symmetric.
+
+Your clinical should be notes:
+
+NECK: Supple and symmetric.  There was no thyroid enlargement, and no tenderness, or masses were felt.
+
+Conversation:
+
+Doctor: Okay, let me quickly examine him. Mom do you give the permission? I will quickly check his genitalia. Can you pull his pants down?
+Guest_family: Sure, you can check. 
+Doctor: Well, everything looks fine, his penis and testes are normal shape and size for his age. No fluid accumulation or swelling in the scrotum area, no evidence of herniation there.
+
+Your clinical should be notes:
+
+EXTERNAL GENITALIA: Normal for age.  Normal penis with bilaterally descended testes that are normal in size, shape, and contour, and without evidence of hernia or hydrocele.
+
+Now you should generate brief clinical notes and it can include all the important details:
+
+Conversation:
+
