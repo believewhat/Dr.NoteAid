@@ -274,24 +274,22 @@ def divide_chat(text):
   return chat_combine
 
 def main():
-  while True:
-    try:
-      data = pd.read_csv('TaskC-ValidationSet.csv')
-      tf = Pool()
-      remain = []
-      for i in range(data.shape[0]):
-          #if os.path.exists(f"./chat_conv/{i}.txt"):
-          #  continue
-          remain.append((i, data['note'].loc[i]))
-      ipdb.set_trace()
-      test = (1, data['note'].loc[1])
-      chat = divide_chat(test)
-      ipdb.set_trace()
-      chat = tf.map(divide_chat, remain)
-      ipdb.set_trace()
-      break
-    except:
-      continue
-  data['our'] = chat
+  data = pd.read_csv('taskC_UMASS_BioNLP_run3.csv')
+  try:
+    tf = Pool()
+    remain = []
+    for i in range(data.shape[0]):
+        #if os.path.exists(f"./chat_conv/{i}.txt"):
+        #  continue
+        remain.append((i, data['note'].loc[i]))
+    test = (1, data['note'].loc[1])
+    chat = divide_chat(test)
+    ipdb.set_trace()
+    chat = tf.map(divide_chat, remain)
+  except:
+    data['our'] = np.zeros(data.shape[0])
+    for i in range(data.shape[0]):
+      with open(f'./chat_conv/prompt{i}.txt', 'r') as f:
+        data['our'].loc[i] = f.read()
   data.to_csv('taskC_Vlidation_UMASS_BioNLP_run1.csv',index=False)
 main()
