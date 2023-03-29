@@ -27,7 +27,6 @@ def apply_chatgpt(messages, temperature=0.7, max_tokens=2000, presence_penalty=1
   )
   content = completion.choices[0].message.content
   return content
-df = pd.read_csv('TaskA-ValidationSet.csv')
 
 """
 sectionhead2indexs = {'GENHX': 0, 
@@ -86,49 +85,19 @@ for key, value in short2full.items():
   header = re.sub("/", "_", key)
   header_index[header.upper()] = sectionhead2indexs[value.lower()]
 
-df = pd.read_csv('TaskA-TrainingSet.csv')
-prompt_base = "Generate clinical notes based on conversation.\n\nFor example:\n\nConversation:\n\n"
-for header in set(df['section_header']):
-  header = re.sub("/","_", header)
-  prompt = prompt_base + df['dialogue'].loc[header_index[header][0]] + "\n\nYour clinical should be notes:\n\n" + df['section_text'].loc[header_index[header][0]] 
-  prompt += "\n\nConversation:\n\n" + df['dialogue'].loc[header_index[header][1]] + "\n\nYour clinical should be notes:\n\n" + df['section_text'].loc[header_index[header][1]]
-  if len(header_index[header]) > 2:
-    prompt += "\n\nConversation:\n\n" + df['dialogue'].loc[header_index[header][2]] + "\n\nYour clinical should be notes:\n\n" + df['section_text'].loc[header_index[header][2]]
-  if len(header_index[header]) > 3:
-    prompt += "\n\nConversation:\n\n" + df['dialogue'].loc[header_index[header][3]] + "\n\nYour clinical should be notes:\n\n" + df['section_text'].loc[header_index[header][3]]
-  if len(header_index[header]) > 4:
-    prompt += "\n\nConversation:\n\n" + df['dialogue'].loc[header_index[header][4]] + "\n\nYour clinical should be notes:\n\n" + df['section_text'].loc[header_index[header][4]]
-  prompt += "\n\nNow you should generate brief clinical notes and it can include all the important details:\n\nConversation:\n\n"
-  file = open(f'prompts/{header}/prompt_note.txt', 'w')
-  file.write(prompt)
-  file.close()
-
-
-prompt_base = "Determine which of the following categories the content of the following conversation is about:\n\nCategory:\
-ALLERGY,ASSESSMENT,CC,DIAGNOSIS,DISPOSITION,EDCOURSE,EXAMFAM/SOCHX,GENHX,GYNHX,IMAGING,IMMUNIZATIONS,LABSMEDICATIONS,OTHER_HISTORY,PASTMEDICALHX,PASTSURGICAL,PLANPROCEDURES,ROS\
-\n\nFor Example:"
-for header in set(df['section_header']):
-  header = re.sub("/","_", header)
-  for i in range(1):
-    if len(header_index[header]) > i:
-      prompt_base += "\n\nConversation:\n\n" + df['dialogue'].loc[header_index[header][i]] + "\n\nYour Answer:\n\n" + df['section_header'].loc[header_index[header][i]]
-file = open('prompt_headers.txt', 'w')
-file.write(prompt_base)
-file.close()
-
 with open('prompt_headers.txt','r',encoding='utf-8') as f:
     header_prompt = f.read()
 
 
 def main():
     df = pd.read_csv('taskA_testset4participants_inputConversations.csv')
-    header_predict = pd.read_csv('taskA_teamName_run1.csv')
+    header_predict = pd.read_csv('taskA_UMASS_BioNLP_run1.csv')
     df['section_header_chat'] = np.zeros(df.shape[0])
-    df['section_text_chat'] = np.zeros(df.shape[0])
-    df['section_header'] = header_predict['SystemOutput1']
+    df['SystemOutput2'] = np.zeros(df.shape[0])
+    df['SystemOutput1'] = header_predict['SystemOutput1']
     for i in range(df.shape[0]):
       try:
-        header = df['section_header'].loc[i]
+        header = df['SystemOutput1'].loc[i]
         header = re.sub("/","_", header)
         with open(f'./prompts/{header}/prompt_note.txt','r',encoding='utf-8') as f:
           prompt = f.read()
@@ -140,11 +109,11 @@ def main():
           df['section_header_chat'].loc[i] = re.findall(r'\n([A-Z_\x20]+)\n',chat_header)[-1]
         else:
           df['section_header_chat'].loc[i] = 'GENHX'
-        df['section_text_chat'].loc[i] = apply_chatgpt(messages, temperature=0.5,presence_penalty=1,max_tokens=1000)
+        df['SystemOutput2'].loc[i] = apply_chatgpt(messages, temperature=0.5,presence_penalty=1,max_tokens=1000)
         df.to_csv('taskA_UMASS_BioNLP_run2.csv', index=False)
       except:
         ipdb.set_trace()
 main()
-ipdb.set_trace()
+
 
 

@@ -19,13 +19,12 @@ if 'medspacy_quickumls' not in medspacy_pipes:
     medspacy_pipes.add('medspacy_quickumls')
 nlp = medspacy.load(enable = medspacy_pipes, quickumls_path='/home/zhichaoyang/medspacy_test/')
 
-tret_sem_ids = ['T059', 'T060', 'T061', 'T058', 'T056','T033'] #test and treatment
+tret_sem_ids = ['T059', 'T060', 'T061', 'T058', 'T056'] #test and treatment
 symp_sem_ids = ['T184', 'T034', 'T037', 'T033'] # symptom
 dise_sem_ids = ['T020', 'T019','T046', 'T047', 'T048', 'T191', 'T049', 'T050'] #disease
 drug_sem_ids = ['T073', 'T074', 'T203', 'T075', 'T200', 'T192'] #drug
 sust_sem_ids = ['T120', 'T121', 'T195', 'T122', 'T123', 'T125', 'T126', 'T127', 'T129', 'T130', 'T131', 'T104', 'T109', 'T114', 'T116', 'T197', 'T196', 'T168'] # substance
 cuitypes_toinclude = tret_sem_ids + symp_sem_ids + dise_sem_ids + drug_sem_ids + sust_sem_ids
-
 
 def cui_code(text):
   doc = nlp(text)
@@ -68,11 +67,9 @@ def apply_chatgpt(messages, temperature=0.7, max_tokens=32, presence_penalty=1.5
     content = completion.choices[0].message.content
     return content
 
-def main():
-    data = pd.read_csv('taskC_testset4participants_inputNotes.csv')
-    #prompt_check_base = "Check whether the following conversation include the key words:"
-    prompt_check_base = "Check whether the following conversation include the importan information from clinical note:\n\nConversation:\n\n"
-    topics = ['family history/social history',
+prompt_check_base = "Check whether the following conversation include all the information from clinical note:\n\nConversation:\n\n"
+    
+topics = ['family history/social history',
         'history of present illness',
         'past medical history', 
         'chief complaint', 
@@ -92,9 +89,67 @@ def main():
         'procedures', 
         'gynecologic history', 
         'other_history']
-    name_topics = ','.join(topics).upper()
+name_topics = ','.join(topics).upper()
+prompt_divide = open('./prompts/divide_prompt.txt', 'r').read()
+
+def generate(content):
+    i, text = content
+    with open(f"./chat_conv/{i}_unfluence.txt", 'r') as file:
+        conversation = file.read()
+    convs = re.findall(r'Doctor:[\s\S]+?[Patient:.*]+?\n', conversation)
+    divided_conv = []
+    for conv in convs:
+        messages = [{"role": "user", "content": prompt_divide + conv}]
+        result = apply_chatgpt(messages, temperature=0.7, max_tokens=2000, presence_penalty=0)
+        if 'Doctor:' in result:
+            divided_conv.append(result)
+        else:
+            divided_conv.append(conv)
+    conversation = ''.join(divided_conv)
+    temp_prompt = prompt_check_base + conversation + "\n\nClinical Note:\n\n" + text + "\n\nIf you find some information that is mentioned in clinical note\
+            but it is not mentioned in conversation, please expand and the conversation to include all the important information.\
+            Don't revise too many parts, just add the QA you think which are missing, and don't shorten text length or delete QA.\
+             If you want to expand the conversation, please just increase the number of turn of QA.\
+            You only need to return the revised conversation please not return any other information such as clinical note and original conversation, only return the conversation'\n\n"
+    messages_check = [{"role": "user", "content": temp_prompt}]
+    try:
+        conversation_revised = apply_chatgpt(messages_check, temperature=0.6, max_tokens=2000, presence_penalty=0)
+    except:
+        try:
+            conversation_revised = apply_chatgpt(messages_check, temperature=0.6, max_tokens=1500, presence_penalty=0)
+        except:
+            conversation_revised = apply_chatgpt(messages_check, temperature=0.6, max_tokens=1200, presence_penalty=0)
+
+    prompt_key_word = f"Check whether the following conversation include all the key words from clinical note. \n\nKey Words:\n {cui_code(text)}\n\nConversation:\n\n"
+    temp_prompt = prompt_key_word + conversation_revised + "\n\nClinical Note:\n\n" + "\n\nIf you find some information that is mentioned in clinical note\
+            but it is not mentioned in conversation, please expand and the conversation to include all the important information.\
+            Don't revise too many parts, just add the QA you think which are missing, and don't shorten text length or delete QA.\
+             If you want to expand the conversation, please just increase the number of turn of QA.\
+            You only need to return the revised conversation please not return any other information such as clinical note and original conversation, only return the conversation'\n\n"
+    
+    messages_check = [{"role": "user", "content": temp_prompt}]
+    try:
+        conversation_revised_checked = apply_chatgpt(messages_check, temperature=0.6, max_tokens=2000, presence_penalty=0)
+    except:
+        try:
+            conversation_revised_checked = apply_chatgpt(messages_check, temperature=0.6, max_tokens=1500, presence_penalty=0)
+        except:
+            conversation_revised_checked = apply_chatgpt(messages_check, temperature=0.6, max_tokens=1200, presence_penalty=0)
+    with open(f'./chat_conv/divided_{i}.txt', 'w') as f:
+        f.write(conversation_revised_checked)
+
+
+def main():
+    data = pd.read_csv('TaskC-ValidationSet.csv')
+    #prompt_check_base = "Check whether the following conversation include the key words:"
+    
+
+    content = []
     for i in range(data.shape[0]):
-        ipdb.set_trace()
+        content.append((i, data['note'].loc[i]))
+    tf = Pool()
+    tf.map(generate, content)
+    """
         text = data['note'].loc[i]
         prompt = f"Divide the notes into different parts based on the following topics and all the letters of topic name you generate should be in caps\
             and your topic name should be the same with the following list: \
@@ -105,8 +160,7 @@ def main():
         result = apply_chatgpt(messages, temperature=0.7, max_tokens=2000, presence_penalty=0)
         results_raw = re.split(r'\n[A-Z:_/\x20]+\n',result)
         topic_names_raw = re.findall(r'\n([A-Z:_\x20]+)\n',result)
-        with open(f"./chat_conv/{i}_unfluence.txt", 'r') as file:
-            conversation = file.read()
+        
         for sentence in results_raw:
             if len(sentence.split()) > 3:
                 temp_prompt = prompt_check_base + conversation + "\n\nClinical Note:\n\n" + sentence + "\n\nIf you find some information that is very important in clinical note\
@@ -138,15 +192,17 @@ def main():
                 prompt_middle = "\n\nIf there are some key words that conversation doesn't mention, please expand the conversation based on the key words and the following information:\n\n"\
                 + sent + "\n\nYour answer should only return the revised conversation, if you think the conversation have mentioned all the words, just return the \
                 original conversation:\n\n"
-                
-#main()
+        """
+main()
 """
-data = pd.read_csv('taskc_our.csv')
+import numpy as np
+data = pd.read_csv('TaskC-ValidationSet.csv')
+data['our'] = np.zeros(data.shape[0])
 for i in range(data.shape[0]):
-    with open(f'./chat_conv/prompt{i}.txt', 'r') as f:
+    with open(f'./chat_conv/divided_{i}.txt', 'r') as f:
         dialogue = f.read()
     data['our'].loc[i] = dialogue
-data.to_csv('taskc_unfluence.csv',index=False)
+data.to_csv('taskc_divided.csv',index=False)
 """
 """
 data = pd.read_csv('taskc_our.csv')

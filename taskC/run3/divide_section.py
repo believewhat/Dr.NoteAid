@@ -15,6 +15,7 @@ from medspacy.util import DEFAULT_PIPENAMES
 import openai
 import re
 import numpy as np
+
 medspacy_pipes = DEFAULT_PIPENAMES.copy()
 if 'medspacy_quickumls' not in medspacy_pipes: 
     medspacy_pipes.add('medspacy_quickumls')
@@ -55,9 +56,10 @@ def apply_chatgpt(messages, temperature=0.7, max_tokens=32, presence_penalty=1.5
         presence_penalty=presence_penalty
       )
       content = completion.choices[0].message.content
-      return content
+      break
     except:
       cnt += 1
+  return content
 def conversation(doctor_prompt, patient_prompt, conv):
   messages_doctor = [{"role": "user", "content": doctor_prompt}]
   try:
@@ -72,7 +74,7 @@ def conversation(doctor_prompt, patient_prompt, conv):
     ipdb.set_trace()
   return conv, flag
   
-def chat(text, max_epochs=15):
+def chat(text, max_epochs=20):
   id, header, text = text
   cui_word = cui_code(text)
   conv = ""
@@ -97,7 +99,7 @@ def chat(text, max_epochs=15):
       all the important points you should check whether the whole conversation include the following list if not please talk about it:" +  ','.join(word_list)
     """
     doctor_prompt = prompt + "\n" + "Please act as a doctor and ask me one question following up the chat history:" + conv + "\n" + \
-    "Your question should be around at most four key points"
+    "Your question should be around at most four key points for each round"
     doctor_prompt = prompt + doctor_prompt
     patient_prompt = prompt_patient + "\n" + "Please act as a patient whose reading and writing skills is about fifth-grade student \
      and try to answer my question as colloquially as possible or follow up the conversation:\n"
@@ -109,7 +111,11 @@ def chat(text, max_epochs=15):
     messages_check = [{"role": "user", "content": check_finish}]
     content = apply_chatgpt(messages_check)
     if "Yes." in content or "yes" in content:
-      break
+      prompt_key_word = f"Check whether the following conversation include all the information from clinical note, just say yes or no. \n\nClinical Notes:\n {text}\n\nConversation:\n\n{conv}"
+      messages_check = [{"role": "user", "content": prompt_key_word}]
+      content = apply_chatgpt(messages_check)
+      if "Yes." in content or "yes" in content:
+        break
     if Flag:
       break
   with open('fluence_conversation.txt','r',encoding='utf-8') as f:
@@ -117,7 +123,7 @@ def chat(text, max_epochs=15):
   fluence_prompt = "Please rewrite all the conversations based on the notes to become fluence and more colloquial, \
     like a normal conversation between the doctor and patient based on the clinical notes, just like this:\n" + \
     prompt_fluence + "\n" + "Now you should rewrite the following conversations and your conversation should include the following key words:\n" + ','.join(list(cui_word.keys())) + "\n \
-  you should only return the conversation:\n" + conv + "\n" + "The note:\n" + text + "\n"
+  you should only return the conversation and there are only one patient and one doctor:\n" + conv + "\n" + "The note:\n" + text + "\n"
   messages_fluence = [{"role": "user", "content": fluence_prompt}]
   fluence_conv = apply_chatgpt(messages_fluence, max_tokens=2000)
   fluence_conv = re.sub('\n\n', '\n', fluence_conv)
@@ -158,6 +164,10 @@ for key, value in short2full.items():
 
 
 topic_map['ASSESSMENT AND PLAN'] = topic_map['ASSESSMENT']
+topic_map['EXAM'] = 'EXAM'
+topic_map['FAMILY HISTORY'] = "FAMILY HISTORY/SOCIAL HISTORY"
+topic_map['SOCIAL HISTORY'] = "FAMILY HISTORY/SOCIAL HISTORY"
+topic_map['INSTRUCTIONS'] = "PLAN"
 def divide_chat(text):
   id, text = text
   topics = ['family history/social history',
@@ -181,16 +191,19 @@ def divide_chat(text):
     'gynecologic history', 
     'other_history']
   name_topics = ','.join(topics).upper()
+  cui = cui_code(text)
   prompt = f"Divide the notes into different parts based on the following topics and all the letters of topic name you generate should be in caps\
             and your topic name should be the same with the following list: \
             {name_topics}.\n If the clinical notes I give didn't mention the topic, your answer should not include them and also don't say none mention just ignore them.\
-            Your answer should include all the details of each topic and don't combine the different topics such as: combine and assessment\
+            Your answer should include all the details of each topic and all the key words:{cui}. You should a longer clinical note than original clinical notes\
+             \n\nDon't combine the different topics such as: combine and assessment\
             and don't answer which topics are in the clinical note. Here is your clinical your answer should not include the topics that is not mentioned in the note:\n"
   messages = [{"role": "user", "content": prompt + text}]
-  result = apply_chatgpt(messages, temperature=0.7, max_tokens=2000, presence_penalty=0)
-
-  results_raw = re.split(r'\n[A-Z:_/\x20]+\n',result)
-  topic_names_raw = re.findall(r'\n([A-Z:_/\x20]+)\n',result)
+  #result = '\n' + apply_chatgpt(messages, temperature=0, max_tokens=2000, presence_penalty=0)
+  result = '\n' + text
+  results_raw = re.split(r'\n[A-Z_/\x20]{3,100}[:\n-]+', result)
+  topic_names_raw = re.findall(r'\n([A-Z_/\x20]{3,100}[:\n-]+)',result)
+  ipdb.set_trace()
   index = 0
   flag_index = 0
   while len(results_raw[index]) <= 10 and index < len(results_raw): 
@@ -201,13 +214,14 @@ def divide_chat(text):
     if 'None mentioned' in results_raw[i]:
       continue
     results.append(results_raw[i])
-    topic_names.append(topic_names_raw[flag_index])
+    topic_names.append(re.findall(r'[A-Z/\x20]+',topic_names_raw[flag_index])[0])
     flag_index += 1
   headers = []
   for topic in topic_names:
     if topic in topic_map:
         headers.append(topic_map[topic])
     else:
+        print(topic)
         headers.append('LABS')
   index = 0
   flag_index = 0
@@ -220,7 +234,6 @@ def divide_chat(text):
   with open('combine.txt','r',encoding='utf-8') as f:
     prompt_combine_base = f.read()
   print(results)
-  
   for i in range(index, len(results)):
     flag_index += 1
     if len(results[i]) < 1:
@@ -242,6 +255,7 @@ def divide_chat(text):
   file = open(f'./chat_conv/{id}_unfluence.txt', 'w')
   file.write(chat_combine)
   file.close()
+  """
   fluence_prompt = "Please rewrite and expand the conversations based on the notes to become fluence and more colloquial, \
     like a normal conversation between the doctor and patient based on the clinical notes,\
     your conversation should include the following key words:\n" + ','.join(list(cui_word.keys())) + "\n \
@@ -256,36 +270,28 @@ def divide_chat(text):
   file = open(f'./chat_conv/{id}.txt', 'w')
   file.write(fluence_conv)
   file.close()
-  return fluence_conv
+  """
+  return chat_combine
 
 def main():
-  try:
-    data = pd.read_csv('taskC_testset4participants_inputNotes.csv')
-    tf = Pool()
-    remain = []
-    for i in range(data.shape[0]):
-        if os.path.exists(f"./chat_conv/{i}.txt"):
-          continue
-        remain.append((i, data['note'].loc[i]))
-    test = (1, data['note'].loc[1])
-    #chat = divide_chat(test)
-    #ipdb.set_trace()
-    for i in range(len(remain)):
-      for k in range(2):
-        try:
-          chat = divide_chat(remain[i])
-          break
-        except:
-          continue
-    chat = tf.map(divide_chat, remain)
-    ipdb.set_trace()
-  except:
-    data['our'] = np.zeros(data.shape[0])
-    for i in range(data.shape[0]):
-      #with open(f'./chat_conv/{i}_fluence.txt', 'r') as f:
-      #with open(f'./chat_conv/prompt{i}.txt', 'r') as f:
-      with open(f'./chat_conv/{i}_unfluence.txt', 'r') as f:
-        file = f.read()
-        data['our'].loc[i] = file
-  data.to_csv('taskC_UMASS_BioNLP_run1.csv',index=False)
+  while True:
+    try:
+      data = pd.read_csv('TaskC-ValidationSet.csv')
+      tf = Pool()
+      remain = []
+      for i in range(data.shape[0]):
+          #if os.path.exists(f"./chat_conv/{i}.txt"):
+          #  continue
+          remain.append((i, data['note'].loc[i]))
+      ipdb.set_trace()
+      test = (1, data['note'].loc[1])
+      chat = divide_chat(test)
+      ipdb.set_trace()
+      chat = tf.map(divide_chat, remain)
+      ipdb.set_trace()
+      break
+    except:
+      continue
+  data['our'] = chat
+  data.to_csv('taskC_Vlidation_UMASS_BioNLP_run1.csv',index=False)
 main()
