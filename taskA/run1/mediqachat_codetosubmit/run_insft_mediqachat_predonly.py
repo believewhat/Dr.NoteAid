@@ -339,10 +339,10 @@ def main():
     # task_names = ["cosmos_qa", "dart"]
     datasets_bytask = {}
     data_files = {}
-    # data_files["train"] = f"./tmp/mediqachat_medinsgpt_hc_result_to_submit/test.json"
-    # data_files["test"] = f"./tmp/mediqachat_medinsgpt_hc_result_to_submit/test.json"
-    data_files["train"] = f"./tmp/mediqachat_medinsgpt_hc_result_to_submit/valid.json"
-    data_files["test"] = f"./tmp/mediqachat_medinsgpt_hc_result_to_submit/valid.json"
+    data_files["train"] = f"./tmp/mediqachat_medinsgpt_hc_result_to_submit/test.json"
+    data_files["test"] = f"./tmp/mediqachat_medinsgpt_hc_result_to_submit/test.json"
+    # data_files["train"] = f"./tmp/mediqachat_medinsgpt_hc_result_to_submit/valid.json"
+    # data_files["test"] = f"./tmp/mediqachat_medinsgpt_hc_result_to_submit/valid.json"
     datasets_bytask["mediqa_predict"] = load_dataset("json", data_files=data_files, use_auth_token=True if model_args.use_auth_token else None)
     data_files = {}
     data_files["train"] = f"./tmp/mediqachat_medinsgpt_hc_result_to_submit/train.json"

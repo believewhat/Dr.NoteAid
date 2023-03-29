@@ -336,10 +336,10 @@ def main():
     datasets_bytask = {}
     for task in task_names:
         data_files = {}
-        # data_files["train"] = f"/data/home1/zhichao/pubmedgpt/data_cl/data_processed/{task}/test.json"
-        # data_files["test"] = f"/data/home1/zhichao/pubmedgpt/data_cl/data_processed/{task}/test.json"
-        data_files["train"] = f"/data/home1/zhichao/pubmedgpt/data_cl/data_processed/{task}/valid.json"
-        data_files["test"] = f"/data/home1/zhichao/pubmedgpt/data_cl/data_processed/{task}/valid.json"
+        data_files["train"] = f"./tmp/preprocessed_data/test.json"
+        data_files["test"] = f"./tmp/preprocessed_data/test.json"
+        # data_files["train"] = f"./tmp/preprocessed_data/valid.json"
+        # data_files["test"] = f"./tmp/preprocessed_data/valid.json"
         datasets_bytask["mediqa_finetune"] = load_dataset("json", data_files=data_files, use_auth_token=True if model_args.use_auth_token else None)
 
     task = "mediqa_finetune"
