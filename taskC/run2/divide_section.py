@@ -274,7 +274,7 @@ def divide_chat(text):
   return chat_combine
 
 def main():
-  data = pd.read_csv('taskC_UMASS_BioNLP_run2.csv')
+  data = pd.read_csv('taskC_UMASS_BioNLP_run3.csv')
   try:
     tf = Pool()
     remain = []
@@ -289,7 +289,7 @@ def main():
   except:
     data['our'] = np.zeros(data.shape[0])
     for i in range(data.shape[0]):
-      with open(f'./chat_conv/{i}.txt', 'r') as f:
+      with open(f'./chat_conv/prompt{i}.txt', 'r') as f:
         data['our'].loc[i] = f.read()
   data.to_csv('taskC_Vlidation_UMASS_BioNLP_run1.csv',index=False)
 main()

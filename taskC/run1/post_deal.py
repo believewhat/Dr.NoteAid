@@ -1,7 +1,6 @@
 import pandas as pd
 import ipdb
 import openai
-from chatgpt_conv import chat
 from multiprocessing.pool import ThreadPool as Pool
 openai.api_key = ""
 from datasets import load_dataset
