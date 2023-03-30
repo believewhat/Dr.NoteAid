@@ -3,7 +3,7 @@ import ipdb
 import openai
 from chatgpt_conv import chat
 from multiprocessing.pool import ThreadPool as Pool
-openai.api_key = "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"
+openai.api_key = ""
 from datasets import load_dataset
 import ipdb
 import os
@@ -90,40 +90,64 @@ topics = ['family history/social history',
         'gynecologic history', 
         'other_history']
 name_topics = ','.join(topics).upper()
-prompt_divide = open('./prompts/divide_prompt.txt', 'r').read()
+
 
 def generate(content):
-    i, text = content
-    with open(f"./chat_conv/{i}_unfluence.txt", 'r') as file:
+    id, text = content
+    prompt_divide = open('./prompts/divide_prompt.txt', 'r').read()
+    with open(f"./chat_conv/{id}_unfluence.txt", 'r') as file:
         conversation = file.read()
+    conversation = re.sub('Doctor:', '\nDoctor:', conversation)
     convs = re.findall(r'Doctor:[\s\S]+?[Patient:.*]+?\n', conversation)
     divided_conv = []
     for conv in convs:
         messages = [{"role": "user", "content": prompt_divide + conv}]
-        result = apply_chatgpt(messages, temperature=0.7, max_tokens=2000, presence_penalty=0)
+        result = apply_chatgpt(messages, temperature=0.7, max_tokens=500, presence_penalty=0)
         if 'Doctor:' in result:
             divided_conv.append(result)
         else:
             divided_conv.append(conv)
-    conversation = ''.join(divided_conv)
+    QAs = []
+    history = divided_conv[0]
+    history = re.sub('\n\n', '\n', history)
+    with open('connect.txt', 'r') as f:
+        prompt_fluence_base = f.read()
+    QAs.append(history)
+    lastindex = 0
+    for i in range(1,len(divided_conv)):
+        conv = divided_conv[i]
+        conv = re.sub('\n\n', '\n', conv)
+        prompt_fluence = prompt_fluence_base + f"\\n\nConversation:\n\n{conv}\n\n\
+        Your Answer:\n\n"
+        messages = [{"role": "user", "content": prompt_fluence}]
+        result = apply_chatgpt(messages, temperature=0, max_tokens=200, presence_penalty=0)
+        history = result
+        history = re.sub('\n\n', '\n', history)
+        if 'Doctor:' not in history:
+            history = conv
+        QAs.append(history)
+    conversation = '\n'.join(QAs)
+    conversation = re.sub('\n\n','\n',conversation)
+    """
     temp_prompt = prompt_check_base + conversation + "\n\nClinical Note:\n\n" + text + "\n\nIf you find some information that is mentioned in clinical note\
             but it is not mentioned in conversation, please expand and the conversation to include all the important information.\
-            Don't revise too many parts, just add the QA you think which are missing, and don't shorten text length or delete QA.\
+            Don't shorten conversation length or delete QA. Your conversation should be longer than the conversation I gave you\
              If you want to expand the conversation, please just increase the number of turn of QA.\
-            You only need to return the revised conversation please not return any other information such as clinical note and original conversation, only return the conversation'\n\n"
+            You only need to return your conversation please not return any other information such as clinical note and original conversation, only return the conversation'\n\n"
     messages_check = [{"role": "user", "content": temp_prompt}]
     try:
-        conversation_revised = apply_chatgpt(messages_check, temperature=0.6, max_tokens=2000, presence_penalty=0)
+        conversation_revised = apply_chatgpt(messages_check, temperature=0.7, max_tokens=1800, presence_penalty=0)
     except:
         try:
-            conversation_revised = apply_chatgpt(messages_check, temperature=0.6, max_tokens=1500, presence_penalty=0)
+            conversation_revised = apply_chatgpt(messages_check, temperature=0.2, max_tokens=1500, presence_penalty=0)
         except:
             conversation_revised = apply_chatgpt(messages_check, temperature=0.6, max_tokens=1200, presence_penalty=0)
-
+    """
+    """
     prompt_key_word = f"Check whether the following conversation include all the key words from clinical note. \n\nKey Words:\n {cui_code(text)}\n\nConversation:\n\n"
-    temp_prompt = prompt_key_word + conversation_revised + "\n\nClinical Note:\n\n" + "\n\nIf you find some information that is mentioned in clinical note\
+    temp_prompt = prompt_key_word + conversation + "\n\nClinical Note:\n\n" + "\n\nIf you find some information that is mentioned in clinical note\
             but it is not mentioned in conversation, please expand and the conversation to include all the important information.\
-            Don't revise too many parts, just add the QA you think which are missing, and don't shorten text length or delete QA.\
+            Don't shorten text length or delete QA and add these key words into the conversation.\
              If you want to expand the conversation, please just increase the number of turn of QA.\
             You only need to return the revised conversation please not return any other information such as clinical note and original conversation, only return the conversation'\n\n"
     
@@ -135,12 +159,13 @@ def generate(content):
             conversation_revised_checked = apply_chatgpt(messages_check, temperature=0.6, max_tokens=1500, presence_penalty=0)
         except:
             conversation_revised_checked = apply_chatgpt(messages_check, temperature=0.6, max_tokens=1200, presence_penalty=0)
-    with open(f'./chat_conv/divided_{i}.txt', 'w') as f:
-        f.write(conversation_revised_checked)
+    """
+    with open(f'./chat_conv/divided_{id}.txt', 'w') as f:
+        f.write(conversation)
 
 
 def main():
-    data = pd.read_csv('TaskC-ValidationSet.csv')
+    data = pd.read_csv('taskC_testset4participants_inputNotes.csv')
     #prompt_check_base = "Check whether the following conversation include the key words:"
     
 
@@ -193,17 +218,49 @@ def main():
                 + sent + "\n\nYour answer should only return the revised conversation, if you think the conversation have mentioned all the words, just return the \
                 original conversation:\n\n"
         """
+
+
+def main2():
+    import numpy as np
+    data = pd.read_csv('taskC_testset4participants_inputNotes.csv')
+    data['SystemOutput'] = np.zeros(data.shape[0])
+    for i in range(data.shape[0]):
+        with open(f'./chat_conv/{i}_unfluence.txt', 'r') as f:
+            dialogue = f.read()
+        data['SystemOutput'].loc[i] = dialogue
+    data['SystemOutput'].to_csv('taskC_UMASS_BioNLP_run1.csv',index=False)
+    for i in range(data.shape[0]):
+        with open(f'./chat_conv/divided_{i}.txt', 'r') as f:
+            dialogue = f.read()
+        data['taskC_UMASS_BioNLP_run2.csv'].loc[i] = dialogue
+    data['SystemOutput'].to_csv('taskC_UMASS_BioNLP_run2.csv',index=False)
+
+def convert(content):
+    i, conv = content
+    prompt = f"Rewrite the following conversations to be one fluence conversation and keep all the information as possible. You should generate a longer conversation\
+    ran I gave you\n\nConversation:\n\n{conv}"
+    messages = [{"role": "user", "content": prompt}]
+    try:
+        result = apply_chatgpt(messages, temperature=0, max_tokens=2500, presence_penalty=0)
+    except:
+        result = apply_chatgpt(messages, temperature=0, max_tokens=1800, presence_penalty=0)
+    file = open(f'./chat_conv/{i}_unfluence.txt', 'w')
+    file.write(result)
+    file.close()
+def main3():
+    data = pd.read_csv('TaskC-ValidationSet.csv')
+    #prompt_check_base = "Check whether the following conversation include the key words:"
+    content = []
+    for i in range(data.shape[0]):
+        with open(f'./chat_conv/divided_{i}.txt', 'r') as f:
+            text = f.read()
+        content.append((i, text))
+    tf = Pool()
+    tf.map(convert, content)
+
 main()
-"""
-import numpy as np
-data = pd.read_csv('TaskC-ValidationSet.csv')
-data['our'] = np.zeros(data.shape[0])
-for i in range(data.shape[0]):
-    with open(f'./chat_conv/divided_{i}.txt', 'r') as f:
-        dialogue = f.read()
-    data['our'].loc[i] = dialogue
-data.to_csv('taskc_divided.csv',index=False)
-"""
+main2()
+#main3()
 """
 data = pd.read_csv('taskc_our.csv')
 for i in range(data.shape[0]):
