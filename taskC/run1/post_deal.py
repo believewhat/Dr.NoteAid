@@ -231,8 +231,13 @@ def main2():
     for i in range(data.shape[0]):
         with open(f'./chat_conv/divided_{i}.txt', 'r') as f:
             dialogue = f.read()
-        data['taskC_UMASS_BioNLP_run2.csv'].loc[i] = dialogue
+        data['SystemOutput'].loc[i] = dialogue
     data['SystemOutput'].to_csv('taskC_UMASS_BioNLP_run2.csv',index=False)
+    for i in range(data.shape[0]):
+        with open(f'./chat_conv/prompt{i}.txt', 'r') as f:
+            dialogue = f.read()
+        data['SystemOutput'].loc[i] = dialogue
+    data['SystemOutput'].to_csv('taskC_UMASS_BioNLP_run3.csv',index=False)
 
 def convert(content):
     i, conv = content
