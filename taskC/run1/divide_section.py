@@ -45,7 +45,7 @@ def cui_code(text):
 
 def apply_chatgpt(messages, temperature=0.7, max_tokens=20, presence_penalty=1.5):
   cnt = 0
-  while cnt < 4:
+  while cnt < 5:
     try:
       completion = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
@@ -58,16 +58,9 @@ def apply_chatgpt(messages, temperature=0.7, max_tokens=20, presence_penalty=1.5
       break
     except:
       cnt += 1
-  try:
-    completion = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        messages=messages,
-        max_tokens=max_tokens, 
-        temperature=temperature,
-        presence_penalty=presence_penalty
-      )
-    content = completion.choices[0].message.content
-  except:
+      if max_tokens>100:
+        max_tokens -= 100
+  if cnt == 5:
     ipdb.set_trace()
   return content
 def conversation(doctor_prompt, patient_prompt, conv):
@@ -81,13 +74,16 @@ def conversation(doctor_prompt, patient_prompt, conv):
   conv += patient
   return conv, flag
   
-def chat(text, max_epochs=30):
+def chat(text, history='', max_epochs=30):
   id, header, text = text
   cui_word = cui_code(text)
   conv = ""
   with open(f'./prompts/{header}/prompt_conversation.txt','r',encoding='utf-8') as f:
       prompt = f.read()
-  doctor_prompt = prompt + text + "\n" + "Please act as a doctor and ask me one question:\n"
+  if len(history) > 0:
+    doctor_prompt = prompt + text + "\n" + f"Please act as a doctor and ask me one question to continue the conversation generated above.:\n\n Previous Conversation:{history}\n\n"
+  else:
+    doctor_prompt = prompt + text + "\n" + f"Please act as a doctor and ask me one question\n"
   
   with open(f'./prompts/{header}/prompt_conversation_patient.txt','r',encoding='utf-8') as f:
     prompt_patient = f.read()
@@ -105,14 +101,13 @@ def chat(text, max_epochs=30):
     "Your question should be around at most four key points which you think is important or if you think you have included \
       all the important points you should check whether the whole conversation include the following list if not please talk about it:" +  ','.join(word_list)
     """
-    doctor_prompt = prompt + "\n" + "Please act as a doctor and ask me one question following up the chat history:" + conv + "\n" + \
+    doctor_prompt = prompt + "\n" + "Please act as a doctor and ask me one question following up the chat history:" + history + conv + "\n" + \
     f"Your question should be around at most four key words for each round:\n Key Words:{','.join(word_list)}\n"
     doctor_prompt = prompt + doctor_prompt
     patient_prompt = prompt_patient + "\n" + "Please act as a patient whose reading and writing skills is about fifth-grade student \
      and try to answer my question as colloquially as possible or follow up the conversation:\n"
     print(round)
     conv, Flag = conversation(doctor_prompt, patient_prompt, conv)
-    print(conv)
     check_finish = "Do you think the following conversation have included all the key words from the list?\n \
     The conversation:\n" + conv + "\n" + "The list:\n" + ','.join(word_list) + "\n" + "Just say yes or no"
     messages_check = [{"role": "user", "content": check_finish}]
@@ -236,11 +231,11 @@ def divide_chat(text):
   header = headers[flag_index]
   header = re.sub("/", "_", header)
   content = (flag_index, header, results[index])
-  chat_combine = chat(content)
+  chat_combine = chat(content, '')
   index += 1
   with open('combine.txt','r',encoding='utf-8') as f:
     prompt_combine_base = f.read()
-  print(results)
+  history = chat_combine
   for i in range(index, len(results)):
     flag_index += 1
     if len(results[i]) < 1:
@@ -250,7 +245,8 @@ def divide_chat(text):
     header = headers[flag_index]
     header = re.sub("/", "_", header)
     content = (flag_index, header, results[i])
-    chat_topic_temp = chat(content)
+    chat_topic_temp = chat(content, history)
+    history = chat_topic_temp
     prompt_combine = prompt_combine_base + "\n\nFirst one:\n\n" + chat_combine + "\n\nSecond one:\n\n" + chat_topic_temp + "\n\nYour answer should only be one conversation:\n\n"
     messages_combine = [{"role": "user", "content": prompt_combine}]
     chat_combine = chat_combine + chat_topic_temp

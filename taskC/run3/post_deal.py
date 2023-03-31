@@ -1,6 +1,7 @@
 import pandas as pd
 import ipdb
 import openai
+from chatgpt_conv import chat
 from multiprocessing.pool import ThreadPool as Pool
 openai.api_key = ""
 from datasets import load_dataset
@@ -97,7 +98,7 @@ def generate(content):
     with open(f"./chat_conv/{id}_unfluence.txt", 'r') as file:
         conversation = file.read()
     conversation = re.sub('Doctor:', '\nDoctor:', conversation)
-    convs = re.findall(r'Doctor:[\s\S]+?[Patient:.*]+?\n', conversation)
+    convs = re.findall(r'Doctor:+[\s\S]+?Patient:+[\s\S]+?\n', conversation)
     divided_conv = []
     for conv in convs:
         messages = [{"role": "user", "content": prompt_divide + conv}]
@@ -109,22 +110,28 @@ def generate(content):
     QAs = []
     history = divided_conv[0]
     history = re.sub('\n\n', '\n', history)
-    with open('connect.txt', 'r') as f:
-        prompt_fluence_base = f.read()
     QAs.append(history)
-    lastindex = 0
     for i in range(1,len(divided_conv)):
         conv = divided_conv[i]
         conv = re.sub('\n\n', '\n', conv)
-        prompt_fluence = prompt_fluence_base + f"\\n\nConversation:\n\n{conv}\n\n\
+        prompt_fluence = "Check whether the conversation include the greeting words such as hey, hi" + f"\\n\nConversation:\n\n{conv}\n\n\
         Your Answer:\n\n"
         messages = [{"role": "user", "content": prompt_fluence}]
-        result = apply_chatgpt(messages, temperature=0, max_tokens=200, presence_penalty=0)
-        history = result
-        history = re.sub('\n\n', '\n', history)
-        if 'Doctor:' not in history:
-            history = conv
-        QAs.append(history)
+        result = apply_chatgpt(messages, temperature=0, max_tokens=10, presence_penalty=0)
+        if 'Yes' in result or 'yes' in result:
+            prompt_check = f"Judge whether this conversation is totally greeting part just answer yes or no:\n\n{conv}"
+            messages = [{"role": "user", "content": prompt_check}]
+            result = apply_chatgpt(messages, temperature=0, max_tokens=10, presence_penalty=0)
+            if 'Yes' in result or 'yes' in result:
+                continue
+            patient_conv = re.findall(r'Patient:.*', conv)
+            prompt_rewrite = f"Generate the patient's answer based on the doctor's question and clinical note:\n\nDoctor's Question:\n\n Any other symptons?\n\nClinical Note:\n\n{patient_conv}"
+            messages = [{"role": "user", "content": prompt_rewrite}]
+            result = apply_chatgpt(messages, temperature=0, max_tokens=100, presence_penalty=0)
+            result = re.sub('\n', '', result)
+            QAs.append("Doctor: Any other symptons?\n" + result)
+        else:
+            QAs.append(conv)
     conversation = '\n'.join(QAs)
     conversation = re.sub('\n\n','\n',conversation)
     """
@@ -231,18 +238,13 @@ def main2():
     for i in range(data.shape[0]):
         with open(f'./chat_conv/divided_{i}.txt', 'r') as f:
             dialogue = f.read()
+        dialogue = re.sub("Patient's Answer", 'Patient', dialogue)
         data['SystemOutput'].loc[i] = dialogue
     data['SystemOutput'].to_csv('taskC_UMASS_BioNLP_run2.csv',index=False)
-    for i in range(data.shape[0]):
-        with open(f'./chat_conv/prompt{i}.txt', 'r') as f:
-            dialogue = f.read()
-        data['SystemOutput'].loc[i] = dialogue
-    data['SystemOutput'].to_csv('taskC_UMASS_BioNLP_run3.csv',index=False)
 
 def convert(content):
     i, conv = content
-    prompt = f"Rewrite the following conversations to be one fluence conversation and keep all the information as possible. You should generate a longer conversation\
-    ran I gave you\n\nConversation:\n\n{conv}"
+    prompt = f"Please reduce repeated dialogues and do not make any changes to the parts that are not repeated: \n\nConversation:\n\n{conv}"
     messages = [{"role": "user", "content": prompt}]
     try:
         result = apply_chatgpt(messages, temperature=0, max_tokens=2500, presence_penalty=0)
@@ -252,19 +254,20 @@ def convert(content):
     file.write(result)
     file.close()
 def main3():
-    data = pd.read_csv('TaskC-ValidationSet.csv')
+    data = pd.read_csv('taskC_testset4participants_inputNotes.csv')
     #prompt_check_base = "Check whether the following conversation include the key words:"
     content = []
-    for i in range(data.shape[0]):
-        with open(f'./chat_conv/divided_{i}.txt', 'r') as f:
+    for i in range(10):
+        with open(f'./chat_conv/{i}_unfluence.txt', 'r') as f:
             text = f.read()
         content.append((i, text))
     tf = Pool()
     tf.map(convert, content)
 
 main()
-main2()
 #main3()
+main2()
+
 """
 data = pd.read_csv('taskc_our.csv')
 for i in range(data.shape[0]):
