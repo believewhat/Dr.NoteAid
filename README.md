@@ -7,14 +7,14 @@ For taskB, we apply GPT4 to get the result
 For taskC, we combine chatgpt api and chatgpt website to get the result.
 
 # Citation
-@inproceedings{mediqa-chat-2023,\\
-  author    = {Junda Wang and\\
-               Zonghai Yao and\\
-               Avijit Mitra and\\
-               Samuel Osebe and\\
-               Zhichao Yang and\\
-               Hong Yu}, \\
-  title     = {Can LLMs generate high-quality synthetic note-oriented doctor-patient conversations?},\\
-  booktitle = {ACL-ClinicalNLP 2023},\\
-  year      = {2023}\\
+@inproceedings{mediqa-chat-2023,
+  author    = {Junda Wang and
+               Zonghai Yao and
+               Avijit Mitra and
+               Samuel Osebe and
+               Zhichao Yang and
+               Hong Yu}, 
+  title     = {Can LLMs generate high-quality synthetic note-oriented doctor-patient conversations?},
+  booktitle = {ACL-ClinicalNLP 2023},
+  year      = {2023}
 }
