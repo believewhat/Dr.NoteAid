@@ -15,3 +15,11 @@ This paper presents UMASS\_BioNLP team participation in the MEDIQA-Chat 2023 sha
   booktitle = {ACL-ClinicalNLP 2023},
   year      = {2023}
 }
+The whole process is shown in the figure
+![Image text](https://github.com/believewhat/MEDIQA-Chat-2023-UMASS_BioNLP/figures/sample.jpg)
+# Plan
+1. Expand the GPT-4 dataset.
+2. Expand the ChtaGPT dataset.
+3. Expand our data sets.
+4. Finetune LLama to get DoctorRobot based on these data sets.
+5. Compare our model with chatdoctor model.
