@@ -34,5 +34,4 @@ This paper presents UMASS\_BioNLP team participation in the MEDIQA-Chat 2023 sha
   year      = {2023}
 }
 The whole process is shown in the figure
-![Image text](https://github.com/believewhat/MEDIQA-Chat-2023-UMASS_BioNLP/figures/sample.jpg)
-
+![Image text](https://github.com/believewhat/MEDIQA-Chat-2023-UMASS_BioNLP/blob/main/figure/sample.jpg)
