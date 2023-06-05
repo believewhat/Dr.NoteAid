@@ -1,3 +1,5 @@
+# Can LLMs generate high-quality synthetic note-oriented doctor-patient conversations?
+
 ![Image text](https://github.com/believewhat/MEDIQA-Chat-2023-UMASS_BioNLP/blob/main/figure/sample.png)
 
 # Introduction
@@ -22,6 +24,7 @@ This project presents UMASS\_BioNLP team participation in the MEDIQA-Chat 2023 s
 # Experiment
 
 # Citation
+```
 @inproceedings{mediqa-chat-2023,
   author    = {Junda Wang and
                Zonghai Yao and
@@ -33,5 +36,5 @@ This project presents UMASS\_BioNLP team participation in the MEDIQA-Chat 2023 s
   booktitle = {ACL-ClinicalNLP 2023},
   year      = {2023}
 }
-The whole process is shown in the figure
+```
 
