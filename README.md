@@ -1,4 +1,4 @@
-# MEDIQA-Chat-2023-UMASS_BioNLP
+# Doctor NoteAid
 
 # Can LLMs generate high-quality synthetic note-oriented doctor-patient conversations?
 # Introduction
