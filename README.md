@@ -25,16 +25,13 @@ This project presents UMASS\_BioNLP team participation in the MEDIQA-Chat 2023 s
 
 # Citation
 ```
-@inproceedings{mediqa-chat-2023,
-  author    = {Junda Wang and
-               Zonghai Yao and
-               Avijit Mitra and
-               Samuel Osebe and
-               Zhichao Yang and
-               Hong Yu}, 
+@inproceedings{mediqa-chat-2023-umass-bionlp,
+  author={Junda Wang* and Zonghai Yao* and Avijit Mitra and Samuel Osebe and Zhichao Yang and Hong Yu},
   title     = {Can LLMs generate high-quality synthetic note-oriented doctor-patient conversations?},
   booktitle = {ACL-ClinicalNLP 2023},
   year      = {2023}
 }
 ```
+
+
 
