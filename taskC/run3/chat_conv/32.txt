@@ -1,9 +1,0 @@
-
-Doctor: Hi there! How are you today? I see that your blood pressure is elevated. Have you noticed any symptoms related to high blood pressure, such as headaches or chest pain?
-Patient: No, I haven't had those symptoms, but my head has been feeling a bit heavy.
-Doctor: Okay, have you been feeling fatigued, dizzy, or having trouble concentrating lately?
-Patient: Not really, although sometimes I do feel tired, but that's normal, right?
-Doctor: Yes, it can be normal to feel tired sometimes. Have you noticed any swelling in your legs, feet, or ankles recently?
-Patient: No, I haven't noticed any swelling, but my ankles do get sore after standing for a long time.
-Doctor: That's understandable. We will keep an eye on your blood pressure levels and make sure they don't increase further. As for your diabetes, it seems to be well-controlled at the moment with metformin. We will evaluate if any adjustments need to be made based on your hemoglobin A1c results. Is there anything else you'd like to discuss today?
-Patient: No, that covers everything for now. Thank you, doctor.

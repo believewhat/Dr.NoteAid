@@ -1,8 +1,0 @@
-dialogue:
-Doctor: Your E K G looks good. Rhythm is normal. Your axis is somewhat leftward, but this is a normal variation. It is not an abnormal finding and in most cases does not need any further treatment.
-Patient: How about blood tests?
-Doctor: Your CBC and BMP came back normal and your cardiac enzymes were negative x1.
-Doctor: Do you know what they are?
-Patient: Yes, I can understand.
-
-Generate review of systems section of the medical note from dialogue.Essentially unremarkable.
