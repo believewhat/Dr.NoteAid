@@ -8,13 +8,14 @@ This project presents UMASS\_BioNLP team participation in the MEDIQA-Chat 2023 s
 # Datsets Links (10k version):
 1. ChatGPT Dataset
 2. GPT-4 Dataset
-3. Our NoteChat Dataset
+3. NoteChat Dataset
 
 # Plan
-- [ ] Expand the ChatGPT dataset(about 100k).
+- [ ] Expand the ChatGPT dataset(about 167k).
 - [ ] Expand the GPT-4 dataset.
-- [ ] Expand our NoteChat dataset.
-- [ ] Finetune LLama to get Dr.Noteaid model based on these data sets.
+- [ ] Expand our NoteChat-ChatGPT dataset.
+- [ ] Expand our NoteChat-GPT4 dataset.
+- [ ] Finetune chatbot models.
 
 # LLM Model
 1. Demo
