@@ -23,9 +23,6 @@ This project presents UMASS\_BioNLP team participation in the MEDIQA-Chat 2023 s
 
 # Experiment
 
-
-  year      = {2023}
-}
 ```
 
 
