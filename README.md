@@ -8,7 +8,7 @@ In the MEDIQA-Chat 2023, we focus especially on Task-C and propose a novel LLMs 
 # Datsets Links (10k version):
 1. [ChatGPT Dataset](https://drive.google.com/file/d/1wwXYF9ictgZQ0DyxRsbkP5M6tXHxExsC/view?usp=sharing)
 2. [GPT-4 Dataset](https://drive.google.com/file/d/17r34QBMq45Ykmc-fkcMEva4zN3hT6Tft/view?usp=sharing)
-3. NoteChat Dataset
+3. [NoteChat Dataset](https://drive.google.com/file/d/1ZJ3hTCZ6TyJ5sUhkKy80rah0KthwwpX5/view?usp=drive_link)
 
 # Plan
 - [ ] Expand the ChatGPT dataset(about 167k).
