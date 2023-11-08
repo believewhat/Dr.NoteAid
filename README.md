@@ -23,7 +23,21 @@ In the MEDIQA-Chat 2023, we focus especially on Task-C and propose a novel LLMs 
 
 # Experiment
 
-```
 
+```
+@article{wang2023notechat,
+  title={NoteChat: A Dataset of Synthetic Doctor-Patient Conversations Conditioned on Clinical Notes},
+  author={Wang, Junda and Yao, Zonghai and Yang, Zhichao and Zhou, Huixue and Li, Rumeng and Wang, Xun and Xu, Yucheng and Yu, Hong},
+  journal={arXiv preprint arXiv:2310.15959},
+  year={2023}
+}
+
+@article{wang2023umass_bionlp,
+  title={UMASS\_BioNLP at MEDIQA-Chat 2023: Can LLMs generate high-quality synthetic note-oriented doctor-patient conversations?},
+  author={Wang, Junda and Yao, Zonghai and Mitra, Avijit and Osebe, Samuel and Yang, Zhichao and Yu, Hong},
+  journal={arXiv preprint arXiv:2306.16931},
+  year={2023}
+}
+```
 
 
