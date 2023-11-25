@@ -32,12 +32,30 @@ We have now uploaded all versions of the datasets to Hugging Face: [link](https:
   year={2023}
 }
 
-@article{wang2023umass_bionlp,
-  title={UMASS\_BioNLP at MEDIQA-Chat 2023: Can LLMs generate high-quality synthetic note-oriented doctor-patient conversations?},
-  author={Wang, Junda and Yao, Zonghai and Mitra, Avijit and Osebe, Samuel and Yang, Zhichao and Yu, Hong},
-  journal={arXiv preprint arXiv:2306.16931},
-  year={2023}
+@inproceedings{wang-etal-2023-umass,
+    title = "{UMASS}{\_}{B}io{NLP} at {MEDIQA}-Chat 2023: Can {LLM}s generate high-quality synthetic note-oriented doctor-patient conversations?",
+    author = "Wang, Junda  and
+      Yao, Zonghai  and
+      Mitra, Avijit  and
+      Osebe, Samuel  and
+      Yang, Zhichao  and
+      Yu, Hong",
+    editor = "Naumann, Tristan  and
+      Ben Abacha, Asma  and
+      Bethard, Steven  and
+      Roberts, Kirk  and
+      Rumshisky, Anna",
+    booktitle = "Proceedings of the 5th Clinical Natural Language Processing Workshop",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.clinicalnlp-1.49",
+    doi = "10.18653/v1/2023.clinicalnlp-1.49",
+    pages = "460--471",
+    abstract = "This paper presents UMASS{\_}BioNLP team participation in the MEDIQA-Chat 2023 shared task for Task-A and Task-C. We focus especially on Task-C and propose a novel LLMs cooperation system named a doctor-patient loop to generate high-quality conversation data sets. The experiment results demonstrate that our approaches yield reasonable performance as evaluated by automatic metrics such as ROUGE, medical concept recall, BLEU, and Self-BLEU. Furthermore, we conducted a comparative analysis between our proposed method and ChatGPT and GPT-4. This analysis also investigates the potential of utilizing cooperation LLMs to generate high-quality datasets.",
 }
+
 ```
 
 
