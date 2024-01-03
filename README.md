@@ -13,6 +13,7 @@ In the MEDIQA-Chat 2023, we focus especially on Task-C and propose a novel LLMs 
 
 We have now uploaded all versions of the datasets to Hugging Face: [link](https://huggingface.co/datasets/akemiH/NoteChat)
 
+We update our codes which is based on gpt-4 module version. Some prompt details or parameters should be adjusted based on different task or note.
 
 # Plan
 - [x] Expand the ChatGPT dataset(about 167k).
